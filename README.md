@@ -2,7 +2,7 @@
 ![License: GPL v3][license-image]
 
 # Wp-Bench
-WP-Bench is a package for Sublime Text 3(ST3) which provides function auto-completion, snippets and Codex tooltips. All this information is readly available offline.
+WP-Bench is a package for Sublime Text 3(ST3) which provides an integration with Wordpress core functions based on the Codex reference website. All this information is readly available offline.
 
 Screenshots not available for the moment.
 
@@ -17,7 +17,9 @@ Lately most of my work consists on working with Wordpress CMS so I thought about
 
 - Functions auto-complete;
 - Functions snippets;
-- Popup with function documentation based on WP Codex.
+- Popup with function documentation based on WP Codex;
+- Basic folder and files generation for themes, plugins:
+  - Structure customizable by JSON.
 
 # Documentation
 
