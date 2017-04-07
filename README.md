@@ -19,7 +19,7 @@ Lately most of my work consists on working with Wordpress CMS so I thought about
 - Functions snippets;
 - Popup with function documentation based on WP Codex;
 - Basic folder and files generation for themes, plugins:
-  - Structure customizable by JSON.
+  - Customizable structure by JSON.
 
 # Documentation
 
