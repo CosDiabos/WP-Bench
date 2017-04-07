@@ -4,8 +4,6 @@
 # Wp-Bench
 WP-Bench is a package for Sublime Text 3(ST3) which provides function auto-completion, snippets and Codex tooltips. All this information is readly available offline.
 
-The popups are archieved using [sublime-markdown-popups](https://raw.githubusercontent.com/facelessuser/sublime-markdown-popups) by [facelessuser](https://raw.githubusercontent.com/facelessuser)
-
 Screenshots not available for the moment.
 
 **Still in development.**
