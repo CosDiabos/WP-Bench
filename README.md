@@ -6,6 +6,10 @@ WP-Bench is a package for Sublime Text 3(ST3) which provides an integration with
 
 
 
+https://github.com/psiico/WP-Bench/assets/14842802/8c189fbd-2f59-471d-90a9-7f0e65ed08a2
+
+
+
 **Still in development.**
 
 ## Motivation
