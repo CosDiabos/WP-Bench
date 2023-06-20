@@ -37,17 +37,11 @@ Clone the repository into your Package folder inside ST3 folder. To find your ST
 ## Folder Structure
 .
 ├── Snippets/
-
 │   └── [...].sublime-snippet      # All generated snippets
-
 ├── Scrapper/
-
 │   ├── scrapper_funcs.py      # Scrapper for all functions generates 'wp_all_funcs.txt'
-
 │   ├── scrapper.py      # Info scrapper for each function, generates each 'function.sublime-snippet'
-
 │   └── wp_all_funcs.txt      # Collection of all codex functions, CSV style.
-
 └── WP--bench.py
 
 ## Settings
