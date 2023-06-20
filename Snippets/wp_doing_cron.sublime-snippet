@@ -1,0 +1,33 @@
+
+<snippet>
+	<content><![CDATA[wp_doing_cron();
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>wp_doing_cron</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Determines whether the current request is a WordPress cron request.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Determines whether the current request is a WordPress cron request.</p>
+
+
+------------<br>
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+
+			File: wp-includes/load.php		
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/wp_doing_cron'/>See more</a></p>]]>
+	</description_html>
+</snippet>

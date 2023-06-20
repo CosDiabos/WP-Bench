@@ -1,0 +1,32 @@
+
+<snippet>
+	<content><![CDATA[_cleanup_image_add_caption();
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>_cleanup_image_add_caption</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Private preg_replace callback used in image_add_caption()]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Private preg_replace callback used in image_add_caption()</p>
+
+
+------------<br>
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+None
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/_cleanup_image_add_caption'/>See more</a></p>]]>
+	</description_html>
+</snippet>

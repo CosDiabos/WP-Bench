@@ -1,0 +1,44 @@
+
+<snippet>
+	<content><![CDATA[rest_send_allow_header(${1:\$response}, ${2:\$server}, ${3:\$request});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>rest_send_allow_header</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Sends the “Allow” header to state all methods that can be sent to the current route.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Sends the “Allow” header to state all methods that can be sent to the current route.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$response</p>
+(<b>WP_REST_Response</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$server</p>
+(<b>WP_REST_Server</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$request</p>
+(<b>WP_REST_Request</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(WP_REST_Response) Response to be served, with "Allow" header if route has allowed methods.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/rest_send_allow_header'/>See more</a></p>]]>
+	</description_html>
+</snippet>

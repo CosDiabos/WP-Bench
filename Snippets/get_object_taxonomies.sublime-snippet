@@ -1,0 +1,40 @@
+
+<snippet>
+	<content><![CDATA[get_object_taxonomies(${1:\$object}, ${2:\$output});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>get_object_taxonomies</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Return the names or objects of the taxonomies which are registered for the requested object or object type, such as a post object or post type name.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Return the names or objects of the taxonomies which are registered for the requested object or object type, such as a post object or post type name.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$object</p>
+(<b>array</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$output</p>
+(<b>string</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(array) The names of all taxonomy of $object_type.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/get_object_taxonomies'/>See more</a></p>]]>
+	</description_html>
+</snippet>

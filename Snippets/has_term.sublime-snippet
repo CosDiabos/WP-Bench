@@ -1,0 +1,44 @@
+
+<snippet>
+	<content><![CDATA[has_term(${1:\$term}, ${2:\$taxonomy}, ${3:\$post});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>has_term</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Check if the current post has any of given terms.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Check if the current post has any of given terms.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$term</p>
+(<b>string</b>) <i>(Optional)</i><br>
+
+
+<p style='color:__sett-att-color__'>$taxonomy</p>
+(<b>string</b>) <i>(Optional)</i><br>
+
+
+<p style='color:__sett-att-color__'>$post</p>
+(<b>int</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(bool) True if the current post has any of the given tags (or any tag, if no tag specified).
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/has_term'/>See more</a></p>]]>
+	</description_html>
+</snippet>

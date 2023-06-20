@@ -1,0 +1,40 @@
+
+<snippet>
+	<content><![CDATA[wp_authenticate(${1:\$username}, ${2:\$password});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>wp_authenticate</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Authenticate a user, confirming the login credentials are valid.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Authenticate a user, confirming the login credentials are valid.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$username</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$password</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(WP_User|WP_Error) WP_User object if the credentials are valid,                          otherwise WP_Error.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/wp_authenticate'/>See more</a></p>]]>
+	</description_html>
+</snippet>

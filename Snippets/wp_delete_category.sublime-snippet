@@ -1,0 +1,36 @@
+
+<snippet>
+	<content><![CDATA[wp_delete_category(${1:\$cat_ID});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>wp_delete_category</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Deletes one existing category.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Deletes one existing category.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$cat_ID</p>
+(<b>int</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(bool|int|WP_Error) Returns true if completes delete action; false if term doesn't exist; 	Zero on attempted deletion of default Category; WP_Error object is also a possibility.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/wp_delete_category'/>See more</a></p>]]>
+	</description_html>
+</snippet>

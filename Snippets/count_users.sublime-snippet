@@ -1,0 +1,40 @@
+
+<snippet>
+	<content><![CDATA[count_users(${1:\$strategy}, ${2:\$site_id});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>count_users</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Count number of users who have each of the user roles.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Count number of users who have each of the user roles.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$strategy</p>
+(<b>string</b>) <i>(Optional)</i><br>
+
+
+<p style='color:__sett-att-color__'>$site_id</p>
+(<b>int</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(array) Includes a grand total and an array of counts indexed by role strings.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/count_users'/>See more</a></p>]]>
+	</description_html>
+</snippet>

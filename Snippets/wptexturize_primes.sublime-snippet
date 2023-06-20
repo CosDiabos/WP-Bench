@@ -1,0 +1,52 @@
+
+<snippet>
+	<content><![CDATA[wptexturize_primes(${1:\$haystack}, ${2:\$needle}, ${3:\$prime}, ${4:\$open_quote}, ${5:\$close_quote});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>wptexturize_primes</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Implements a logic tree to determine whether or not “7′.” represents seven feet, then converts the special char into either a prime char or a closing quote char.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Implements a logic tree to determine whether or not “7′.” represents seven feet, then converts the special char into either a prime char or a closing quote char.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$haystack</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$needle</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$prime</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$open_quote</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$close_quote</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(string) The $haystack value after primes and quotes replacements.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/wptexturize_primes'/>See more</a></p>]]>
+	</description_html>
+</snippet>

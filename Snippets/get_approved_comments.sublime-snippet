@@ -1,0 +1,40 @@
+
+<snippet>
+	<content><![CDATA[get_approved_comments(${1:\$post_id}, ${2:\$args});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>get_approved_comments</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Retrieve the approved comments for post $post_id.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Retrieve the approved comments for post $post_id.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$post_id</p>
+(<b>int</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$args</p>
+(<b>array</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(int|array) $comments The approved comments, or number of comments if $count                             argument is true.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/get_approved_comments'/>See more</a></p>]]>
+	</description_html>
+</snippet>

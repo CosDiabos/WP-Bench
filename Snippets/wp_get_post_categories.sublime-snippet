@@ -1,0 +1,40 @@
+
+<snippet>
+	<content><![CDATA[wp_get_post_categories(${1:\$post_id}, ${2:\$args});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>wp_get_post_categories</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Retrieve the list of categories for a post.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Retrieve the list of categories for a post.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$post_id</p>
+(<b>int</b>) <i>(Optional)</i><br>
+
+
+<p style='color:__sett-att-color__'>$args</p>
+(<b>array</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(array|WP_Error) List of categories. If the $fields argument passed via $args is 'all' or                        'all_with_object_id', an array of WP_Term objects will be returned. If $fields                        is 'ids', an array of category ids. If $fields is 'names', an array of category names.                        WP_Error object if 'category' taxonomy doesn't exist.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/wp_get_post_categories'/>See more</a></p>]]>
+	</description_html>
+</snippet>

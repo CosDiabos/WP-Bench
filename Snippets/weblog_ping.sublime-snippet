@@ -1,0 +1,41 @@
+
+<snippet>
+	<content><![CDATA[weblog_ping(${1:\$server}, ${2:\$path});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>weblog_ping</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Send a pingback.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Send a pingback.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$server</p>
+(<b>string</b>) <i>(Optional)</i><br>
+
+
+<p style='color:__sett-att-color__'>$path</p>
+(<b>string</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+
+			File: wp-includes/comment.php		
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/weblog_ping'/>See more</a></p>]]>
+	</description_html>
+</snippet>

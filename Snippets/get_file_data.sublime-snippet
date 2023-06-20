@@ -1,0 +1,44 @@
+
+<snippet>
+	<content><![CDATA[get_file_data(${1:\$file}, ${2:\$default_headers}, ${3:\$context});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>get_file_data</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Retrieve metadata from a file.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Retrieve metadata from a file.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$file</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$default_headers</p>
+(<b>array</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$context</p>
+(<b>string</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(array) Array of file headers in HeaderKey => Header Value format.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/get_file_data'/>See more</a></p>]]>
+	</description_html>
+</snippet>

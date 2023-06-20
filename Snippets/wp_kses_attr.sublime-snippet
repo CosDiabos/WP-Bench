@@ -1,0 +1,48 @@
+
+<snippet>
+	<content><![CDATA[wp_kses_attr(${1:\$element}, ${2:\$attr}, ${3:\$allowed_html}, ${4:\$allowed_protocols});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>wp_kses_attr</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Removes all attributes, if none are allowed for this element.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Removes all attributes, if none are allowed for this element.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$element</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$attr</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$allowed_html</p>
+(<b>array</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$allowed_protocols</p>
+(<b>array</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(string) Sanitized HTML element
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/wp_kses_attr'/>See more</a></p>]]>
+	</description_html>
+</snippet>

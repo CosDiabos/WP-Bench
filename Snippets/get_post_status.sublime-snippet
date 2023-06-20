@@ -1,0 +1,36 @@
+
+<snippet>
+	<content><![CDATA[get_post_status(${1:\$ID});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>get_post_status</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Retrieve the post status based on the Post ID.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Retrieve the post status based on the Post ID.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$ID</p>
+(<b>int</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(string|false) Post status on success, false on failure.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/get_post_status'/>See more</a></p>]]>
+	</description_html>
+</snippet>

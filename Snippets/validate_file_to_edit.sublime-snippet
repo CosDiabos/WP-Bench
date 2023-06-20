@@ -1,0 +1,40 @@
+
+<snippet>
+	<content><![CDATA[validate_file_to_edit(${1:\$file}, ${2:\$allowed_files});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>validate_file_to_edit</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Makes sure that the file that was requested to be edited is allowed to be edited.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Makes sure that the file that was requested to be edited is allowed to be edited.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$file</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$allowed_files</p>
+(<b>array</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(string|null) 
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/validate_file_to_edit'/>See more</a></p>]]>
+	</description_html>
+</snippet>

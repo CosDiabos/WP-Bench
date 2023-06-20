@@ -1,0 +1,36 @@
+
+<snippet>
+	<content><![CDATA[rest_sanitize_boolean(${1:\$value});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>rest_sanitize_boolean</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Changes a boolean-like value into the proper boolean value.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Changes a boolean-like value into the proper boolean value.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$value</p>
+(<b>bool</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(boolean) Returns the proper associated boolean value.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/rest_sanitize_boolean'/>See more</a></p>]]>
+	</description_html>
+</snippet>

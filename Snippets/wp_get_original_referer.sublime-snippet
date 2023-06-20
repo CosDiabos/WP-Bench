@@ -1,0 +1,33 @@
+
+<snippet>
+	<content><![CDATA[wp_get_original_referer();
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>wp_get_original_referer</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Retrieve original referer that was posted, if it exists.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Retrieve original referer that was posted, if it exists.</p>
+
+
+------------<br>
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+
+			File: wp-includes/functions.php		
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/wp_get_original_referer'/>See more</a></p>]]>
+	</description_html>
+</snippet>

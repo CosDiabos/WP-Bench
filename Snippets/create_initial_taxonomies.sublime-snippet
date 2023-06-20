@@ -1,0 +1,32 @@
+
+<snippet>
+	<content><![CDATA[create_initial_taxonomies();
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>create_initial_taxonomies</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Creates the initial taxonomies.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Creates the initial taxonomies.</p>
+
+
+------------<br>
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+None
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/create_initial_taxonomies'/>See more</a></p>]]>
+	</description_html>
+</snippet>

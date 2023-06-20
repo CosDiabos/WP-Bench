@@ -1,0 +1,36 @@
+
+<snippet>
+	<content><![CDATA[wp_set_all_user_settings(${1:\$user_settings});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>wp_set_all_user_settings</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Private. Set all user interface settings.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Private. Set all user interface settings.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$user_settings</p>
+(<b>array</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(bool|null) False if the current user can't be found, null if the current                   user is not a super admin or a member of the site, otherwise true.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/wp_set_all_user_settings'/>See more</a></p>]]>
+	</description_html>
+</snippet>

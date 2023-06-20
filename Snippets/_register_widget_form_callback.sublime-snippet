@@ -1,0 +1,51 @@
+
+<snippet>
+	<content><![CDATA[_register_widget_form_callback(${1:\$id}, ${2:\$name}, ${3:\$form_callback}, ${4:\$options});
+
+function ${3:a} (${14:$$var=''}) {
+	${15:#Code...}
+}
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>_register_widget_form_callback</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Registers the form callback for a widget.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Registers the form callback for a widget.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$id</p>
+(<b>int</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$name</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$form_callback</p>
+(<b>callable</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$options</p>
+(<b>array</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+
+			File: wp-includes/widgets.php		
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/_register_widget_form_callback'/>See more</a></p>]]>
+	</description_html>
+</snippet>

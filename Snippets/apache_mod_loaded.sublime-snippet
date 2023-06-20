@@ -1,0 +1,40 @@
+
+<snippet>
+	<content><![CDATA[apache_mod_loaded(${1:\$mod}, ${2:\$default});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>apache_mod_loaded</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Does the specified module exist in the Apache config?]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Does the specified module exist in the Apache config?</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$mod</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$default</p>
+(<b>bool</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(bool) Whether the specified module is loaded.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/apache_mod_loaded'/>See more</a></p>]]>
+	</description_html>
+</snippet>

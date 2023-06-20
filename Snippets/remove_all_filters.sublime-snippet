@@ -1,0 +1,40 @@
+
+<snippet>
+	<content><![CDATA[remove_all_filters(${1:\$tag}, ${2:\$priority});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>remove_all_filters</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Remove all of the hooks from a filter.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Remove all of the hooks from a filter.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$tag</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$priority</p>
+(<b>int</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(true) True when finished.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/remove_all_filters'/>See more</a></p>]]>
+	</description_html>
+</snippet>

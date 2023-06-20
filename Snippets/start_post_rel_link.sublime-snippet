@@ -1,0 +1,45 @@
+
+<snippet>
+	<content><![CDATA[start_post_rel_link(${1:\$title}, ${2:\$in_same_cat}, ${3:\$excluded_categories});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>start_post_rel_link</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Display relational link for the first post.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Display relational link for the first post.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$title</p>
+(<b>string</b>) <i>(Optional)</i><br>
+
+
+<p style='color:__sett-att-color__'>$in_same_cat</p>
+(<b>bool</b>) <i>(Optional)</i><br>
+
+
+<p style='color:__sett-att-color__'>$excluded_categories</p>
+(<b>string</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+
+			File: wp-includes/deprecated.php		
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/start_post_rel_link'/>See more</a></p>]]>
+	</description_html>
+</snippet>

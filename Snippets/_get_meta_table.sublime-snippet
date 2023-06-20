@@ -1,0 +1,36 @@
+
+<snippet>
+	<content><![CDATA[_get_meta_table(${1:\$type});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>_get_meta_table</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Retrieve the name of the metadata table for the specified object type.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Retrieve the name of the metadata table for the specified object type.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$type</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(string|false) Metadata table name, or false if no metadata table exists
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/_get_meta_table'/>See more</a></p>]]>
+	</description_html>
+</snippet>

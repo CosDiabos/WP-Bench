@@ -1,0 +1,40 @@
+
+<snippet>
+	<content><![CDATA[_close_comments_for_old_post(${1:\$open}, ${2:\$post_id});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>_close_comments_for_old_post</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Close comments on an old post. Hooked to comments_open and pings_open.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Close comments on an old post. Hooked to comments_open and pings_open.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$open</p>
+(<b>bool</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$post_id</p>
+(<b>int</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(bool) $open
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/_close_comments_for_old_post'/>See more</a></p>]]>
+	</description_html>
+</snippet>

@@ -1,0 +1,36 @@
+
+<snippet>
+	<content><![CDATA[format_code_lang(${1:\$code});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>format_code_lang</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Returns the language for a language code.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Returns the language for a language code.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$code</p>
+(<b>string</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(string) The language corresponding to $code if it exists. If it does not exist,                then the first two letters of $code is returned.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/format_code_lang'/>See more</a></p>]]>
+	</description_html>
+</snippet>

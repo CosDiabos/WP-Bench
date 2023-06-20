@@ -1,0 +1,40 @@
+
+<snippet>
+	<content><![CDATA[wp_get_theme(${1:\$stylesheet}, ${2:\$theme_root});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>wp_get_theme</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Gets a WP_Theme object for a theme.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Gets a WP_Theme object for a theme.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$stylesheet</p>
+(<b>string</b>) <i>(Optional)</i><br>
+
+
+<p style='color:__sett-att-color__'>$theme_root</p>
+(<b>string</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(WP_Theme) Theme object. Be sure to check the object's exists() method if you need to confirm the theme's existence.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/wp_get_theme'/>See more</a></p>]]>
+	</description_html>
+</snippet>

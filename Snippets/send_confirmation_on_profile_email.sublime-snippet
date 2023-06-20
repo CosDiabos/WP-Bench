@@ -1,0 +1,32 @@
+
+<snippet>
+	<content><![CDATA[send_confirmation_on_profile_email();
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>send_confirmation_on_profile_email</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Send a confirmation request email when a change of user email address is attempted.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Send a confirmation request email when a change of user email address is attempted.</p>
+
+
+------------<br>
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+None
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/send_confirmation_on_profile_email'/>See more</a></p>]]>
+	</description_html>
+</snippet>

@@ -1,0 +1,40 @@
+
+<snippet>
+	<content><![CDATA[wp_insert_category(${1:\$catarr}, ${2:\$wp_error});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>wp_insert_category</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Updates an existing Category or creates a new Category.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Updates an existing Category or creates a new Category.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$catarr</p>
+(<b>array</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$wp_error</p>
+(<b>bool</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(int|object) The ID number of the new or updated Category on success. Zero or a WP_Error on failure,                    depending on param $wp_error.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/wp_insert_category'/>See more</a></p>]]>
+	</description_html>
+</snippet>

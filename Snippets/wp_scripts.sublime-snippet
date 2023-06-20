@@ -1,0 +1,33 @@
+
+<snippet>
+	<content><![CDATA[wp_scripts();
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>wp_scripts</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Initialize $wp_scripts if it has not been set.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Initialize $wp_scripts if it has not been set.</p>
+
+
+------------<br>
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+
+			File: wp-includes/functions.wp-scripts.php		
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/wp_scripts'/>See more</a></p>]]>
+	</description_html>
+</snippet>

@@ -1,0 +1,36 @@
+
+<snippet>
+	<content><![CDATA[delete_transient(${1:\$transient});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>delete_transient</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Delete a transient.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Delete a transient.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$transient</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(bool) true if successful, false otherwise
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/delete_transient'/>See more</a></p>]]>
+	</description_html>
+</snippet>

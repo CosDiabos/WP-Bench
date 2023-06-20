@@ -1,0 +1,32 @@
+
+<snippet>
+	<content><![CDATA[twentyfourteen_switch_theme();
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>twentyfourteen_switch_theme</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Prevent switching to Twenty Fourteen on old versions of WordPress.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Prevent switching to Twenty Fourteen on old versions of WordPress.</p>
+
+
+------------<br>
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+None
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/twentyfourteen_switch_theme'/>See more</a></p>]]>
+	</description_html>
+</snippet>

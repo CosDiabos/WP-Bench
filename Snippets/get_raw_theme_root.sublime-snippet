@@ -1,0 +1,40 @@
+
+<snippet>
+	<content><![CDATA[get_raw_theme_root(${1:\$stylesheet_or_template}, ${2:\$skip_cache});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>get_raw_theme_root</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Get the raw theme root relative to the content directory with no filters applied.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Get the raw theme root relative to the content directory with no filters applied.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$stylesheet_or_template</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$skip_cache</p>
+(<b>bool</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(string) Theme root
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/get_raw_theme_root'/>See more</a></p>]]>
+	</description_html>
+</snippet>

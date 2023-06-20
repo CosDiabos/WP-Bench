@@ -1,0 +1,37 @@
+
+<snippet>
+	<content><![CDATA[_wp_menu_item_classes_by_context(${1:\$menu_items});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>_wp_menu_item_classes_by_context</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Add the class property classes for the current context, if applicable.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Add the class property classes for the current context, if applicable.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$menu_items</p>
+(<b>array</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+
+			File: wp-includes/nav-menu-template.php		
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/_wp_menu_item_classes_by_context'/>See more</a></p>]]>
+	</description_html>
+</snippet>

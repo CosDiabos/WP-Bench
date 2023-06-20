@@ -1,0 +1,37 @@
+
+<snippet>
+	<content><![CDATA[clean_bookmark_cache(${1:\$bookmark_id});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>clean_bookmark_cache</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Deletes the bookmark cache.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Deletes the bookmark cache.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$bookmark_id</p>
+(<b>int</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+
+			File: wp-includes/bookmark.php		
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/clean_bookmark_cache'/>See more</a></p>]]>
+	</description_html>
+</snippet>

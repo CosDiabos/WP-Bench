@@ -1,0 +1,40 @@
+
+<snippet>
+	<content><![CDATA[redirect_canonical(${1:\$requested_url}, ${2:\$do_redirect});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>redirect_canonical</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Redirects incoming links to the proper URL based on the site url.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Redirects incoming links to the proper URL based on the site url.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$requested_url</p>
+(<b>string</b>) <i>(Optional)</i><br>
+
+
+<p style='color:__sett-att-color__'>$do_redirect</p>
+(<b>bool</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(string|void) The string of the URL, if redirect needed.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/redirect_canonical'/>See more</a></p>]]>
+	</description_html>
+</snippet>

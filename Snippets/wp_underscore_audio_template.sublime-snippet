@@ -1,0 +1,32 @@
+
+<snippet>
+	<content><![CDATA[wp_underscore_audio_template();
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>wp_underscore_audio_template</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Output the markup for a audio tag to be used in an Underscore template when data.model is passed.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Output the markup for a audio tag to be used in an Underscore template when data.model is passed.</p>
+
+
+------------<br>
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+None
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/wp_underscore_audio_template'/>See more</a></p>]]>
+	</description_html>
+</snippet>

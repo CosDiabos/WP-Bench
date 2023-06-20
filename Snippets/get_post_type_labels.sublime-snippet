@@ -1,0 +1,36 @@
+
+<snippet>
+	<content><![CDATA[get_post_type_labels(${1:\$post_type_object});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>get_post_type_labels</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Builds an object with all post type labels out of a post type object.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Builds an object with all post type labels out of a post type object.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$post_type_object</p>
+(<b>object</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(object) Object with all the labels as member variables.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/get_post_type_labels'/>See more</a></p>]]>
+	</description_html>
+</snippet>

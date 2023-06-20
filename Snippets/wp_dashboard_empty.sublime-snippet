@@ -1,0 +1,32 @@
+
+<snippet>
+	<content><![CDATA[wp_dashboard_empty();
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>wp_dashboard_empty</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Empty function usable by plugins to output empty dashboard widget (to be populated later by JS).]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Empty function usable by plugins to output empty dashboard widget (to be populated later by JS).</p>
+
+
+------------<br>
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+None
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/wp_dashboard_empty'/>See more</a></p>]]>
+	</description_html>
+</snippet>

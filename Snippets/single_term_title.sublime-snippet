@@ -1,0 +1,40 @@
+
+<snippet>
+	<content><![CDATA[single_term_title(${1:\$prefix}, ${2:\$display});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>single_term_title</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Display or retrieve page title for taxonomy term archive.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Display or retrieve page title for taxonomy term archive.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$prefix</p>
+(<b>string</b>) <i>(Optional)</i><br>
+
+
+<p style='color:__sett-att-color__'>$display</p>
+(<b>bool</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(string|void) Title when retrieving.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/single_term_title'/>See more</a></p>]]>
+	</description_html>
+</snippet>

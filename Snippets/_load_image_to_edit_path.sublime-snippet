@@ -1,0 +1,40 @@
+
+<snippet>
+	<content><![CDATA[_load_image_to_edit_path(${1:\$attachment_id}, ${2:\$size});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>_load_image_to_edit_path</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Retrieve the path or url of an attachment’s attached file.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Retrieve the path or url of an attachment’s attached file.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$attachment_id</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$size</p>
+(<b>string</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(string|false) File path or url on success, false on failure.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/_load_image_to_edit_path'/>See more</a></p>]]>
+	</description_html>
+</snippet>

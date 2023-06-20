@@ -1,0 +1,37 @@
+
+<snippet>
+	<content><![CDATA[wp_cache_switch_to_blog(${1:\$blog_id});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>wp_cache_switch_to_blog</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Switches the internal blog ID.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Switches the internal blog ID.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$blog_id</p>
+(<b>int</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+
+			File: wp-includes/cache.php		
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/wp_cache_switch_to_blog'/>See more</a></p>]]>
+	</description_html>
+</snippet>

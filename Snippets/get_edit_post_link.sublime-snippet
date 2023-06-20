@@ -1,0 +1,40 @@
+
+<snippet>
+	<content><![CDATA[get_edit_post_link(${1:\$id}, ${2:\$context});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>get_edit_post_link</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Retrieves the edit post link for post.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Retrieves the edit post link for post.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$id</p>
+(<b>int</b>) <i>(Optional)</i><br>
+
+
+<p style='color:__sett-att-color__'>$context</p>
+(<b>string</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(string|null) The edit post link for the given post. null if the post type is invalid or does                     not allow an editing UI.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/get_edit_post_link'/>See more</a></p>]]>
+	</description_html>
+</snippet>

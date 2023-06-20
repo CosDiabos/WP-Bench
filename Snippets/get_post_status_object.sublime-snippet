@@ -1,0 +1,36 @@
+
+<snippet>
+	<content><![CDATA[get_post_status_object(${1:\$post_status});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>get_post_status_object</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Retrieve a post status object by name.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Retrieve a post status object by name.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$post_status</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(object|null) A post status object.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/get_post_status_object'/>See more</a></p>]]>
+	</description_html>
+</snippet>

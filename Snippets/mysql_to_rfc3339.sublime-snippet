@@ -1,0 +1,36 @@
+
+<snippet>
+	<content><![CDATA[mysql_to_rfc3339(${1:\$date_string});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>mysql_to_rfc3339</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Parses and formats a MySQL datetime (Y-m-d H:i:s) for ISO8601/RFC3339.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Parses and formats a MySQL datetime (Y-m-d H:i:s) for ISO8601/RFC3339.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$date_string</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(string) Date formatted for ISO8601/RFC3339.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/mysql_to_rfc3339'/>See more</a></p>]]>
+	</description_html>
+</snippet>

@@ -1,0 +1,32 @@
+
+<snippet>
+	<content><![CDATA[wp_fix_server_vars();
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>wp_fix_server_vars</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Fix $_SERVER variables for various setups.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Fix $_SERVER variables for various setups.</p>
+
+
+------------<br>
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+None
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/wp_fix_server_vars'/>See more</a></p>]]>
+	</description_html>
+</snippet>

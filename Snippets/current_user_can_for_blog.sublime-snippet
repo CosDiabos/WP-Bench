@@ -1,0 +1,40 @@
+
+<snippet>
+	<content><![CDATA[current_user_can_for_blog(${1:\$blog_id}, ${2:\$capability});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>current_user_can_for_blog</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Whether the current user has a specific capability for a given site.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Whether the current user has a specific capability for a given site.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$blog_id</p>
+(<b>int</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$capability</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(bool) Whether the user has the given capability.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/current_user_can_for_blog'/>See more</a></p>]]>
+	</description_html>
+</snippet>

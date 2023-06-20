@@ -1,0 +1,40 @@
+
+<snippet>
+	<content><![CDATA[require_if_theme_supports(${1:\$feature}, ${2:\$include});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>require_if_theme_supports</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Checks a theme’s support for a given feature before loading the functions which implement it.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Checks a theme’s support for a given feature before loading the functions which implement it.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$feature</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$include</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(bool) True if the current theme supports the supplied feature, false otherwise.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/require_if_theme_supports'/>See more</a></p>]]>
+	</description_html>
+</snippet>

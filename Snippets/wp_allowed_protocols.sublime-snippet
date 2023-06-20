@@ -1,0 +1,33 @@
+
+<snippet>
+	<content><![CDATA[wp_allowed_protocols();
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>wp_allowed_protocols</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Retrieve a list of protocols to allow in HTML attributes.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Retrieve a list of protocols to allow in HTML attributes.</p>
+
+
+------------<br>
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+
+			File: wp-includes/functions.php		
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/wp_allowed_protocols'/>See more</a></p>]]>
+	</description_html>
+</snippet>

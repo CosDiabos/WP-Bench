@@ -1,0 +1,60 @@
+
+<snippet>
+	<content><![CDATA[wp_install(${1:\$blog_title}, ${2:\$user_name}, ${3:\$user_email}, ${4:\$public}, ${5:\$deprecated}, ${6:\$user_password}, ${7:\$language});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>wp_install</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Installs the site.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Installs the site.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$blog_title</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$user_name</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$user_email</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$public</p>
+(<b>bool</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$deprecated</p>
+(<b>string</b>) <i>(Optional)</i><br>
+
+
+<p style='color:__sett-att-color__'>$user_password</p>
+(<b>string</b>) <i>(Optional)</i><br>
+
+
+<p style='color:__sett-att-color__'>$language</p>
+(<b>string</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(array) Array keys 'url', 'user_id', 'password', and 'password_message'.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/wp_install'/>See more</a></p>]]>
+	</description_html>
+</snippet>

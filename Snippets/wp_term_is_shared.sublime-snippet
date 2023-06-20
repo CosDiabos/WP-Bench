@@ -1,0 +1,36 @@
+
+<snippet>
+	<content><![CDATA[wp_term_is_shared(${1:\$term_id});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>wp_term_is_shared</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Determine whether a term is shared between multiple taxonomies.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Determine whether a term is shared between multiple taxonomies.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$term_id</p>
+(<b>int</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(bool) Returns false if a term is not shared between multiple taxonomies or              if splittng shared taxonomy terms is finished.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/wp_term_is_shared'/>See more</a></p>]]>
+	</description_html>
+</snippet>

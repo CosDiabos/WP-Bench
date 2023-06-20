@@ -1,0 +1,32 @@
+
+<snippet>
+	<content><![CDATA[wxr_nav_menu_terms();
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>wxr_nav_menu_terms</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Output all navigation menu terms]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Output all navigation menu terms</p>
+
+
+------------<br>
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+None
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/wxr_nav_menu_terms'/>See more</a></p>]]>
+	</description_html>
+</snippet>

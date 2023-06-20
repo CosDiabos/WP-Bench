@@ -1,0 +1,44 @@
+
+<snippet>
+	<content><![CDATA[count_many_users_posts(${1:\$users}, ${2:\$post_type}, ${3:\$public_only});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>count_many_users_posts</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Number of posts written by a list of users.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Number of posts written by a list of users.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$users</p>
+(<b>array</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$post_type</p>
+(<b>string</b>) <i>(Optional)</i><br>
+
+
+<p style='color:__sett-att-color__'>$public_only</p>
+(<b>bool</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(array) Amount of posts each user has written.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/count_many_users_posts'/>See more</a></p>]]>
+	</description_html>
+</snippet>

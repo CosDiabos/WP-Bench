@@ -1,0 +1,44 @@
+
+<snippet>
+	<content><![CDATA[wp_set_comment_status(${1:\$comment_id}, ${2:\$comment_status}, ${3:\$wp_error});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>wp_set_comment_status</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Sets the status of a comment.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Sets the status of a comment.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$comment_id</p>
+(<b>int</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$comment_status</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$wp_error</p>
+(<b>bool</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(bool|WP_Error) True on success, false or WP_Error on failure.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/wp_set_comment_status'/>See more</a></p>]]>
+	</description_html>
+</snippet>

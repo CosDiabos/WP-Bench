@@ -1,0 +1,42 @@
+
+<snippet>
+	<content><![CDATA[has_filter(${1:\$tag}, ${2:\$function_to_check});
+
+function ${2:a} (${13:$$var=''}) {
+	${14:#Code...}
+}
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>has_filter</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Check if any filter has been registered for a hook.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Check if any filter has been registered for a hook.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$tag</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$function_to_check</p>
+(<b>callable</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(false|int) If $function_to_check is omitted, returns boolean for whether the hook has                   anything registered. When checking a specific function, the priority of that                   hook is returned, or false if the function is not attached. When using the                   $function_to_check argument, this function may return a non-boolean value                   that evaluates to false (e.g.) 0, so use the === operator for testing the                   return value.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/has_filter'/>See more</a></p>]]>
+	</description_html>
+</snippet>

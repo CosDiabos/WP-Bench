@@ -1,0 +1,68 @@
+
+<snippet>
+	<content><![CDATA[wp_crop_image(${1:\$src}, ${2:\$src_x}, ${3:\$src_y}, ${4:\$src_w}, ${5:\$src_h}, ${6:\$dst_w}, ${7:\$dst_h}, ${8:\$src_abs}, ${9:\$dst_file});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>wp_crop_image</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Crop an Image to a given size.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Crop an Image to a given size.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$src</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$src_x</p>
+(<b>int</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$src_y</p>
+(<b>int</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$src_w</p>
+(<b>int</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$src_h</p>
+(<b>int</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$dst_w</p>
+(<b>int</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$dst_h</p>
+(<b>int</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$src_abs</p>
+(<b>int</b>) <i>(Optional)</i><br>
+
+
+<p style='color:__sett-att-color__'>$dst_file</p>
+(<b>string</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(string|WP_Error) New filepath on success, WP_Error on failure.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/wp_crop_image'/>See more</a></p>]]>
+	</description_html>
+</snippet>

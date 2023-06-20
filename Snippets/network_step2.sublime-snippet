@@ -1,0 +1,37 @@
+
+<snippet>
+	<content><![CDATA[network_step2(${1:\$errors});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>network_step2</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Prints step 2 for Network installation process.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Prints step 2 for Network installation process.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$errors</p>
+(<b>WP_Error</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+
+			File: wp-admin/includes/network.php		
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/network_step2'/>See more</a></p>]]>
+	</description_html>
+</snippet>

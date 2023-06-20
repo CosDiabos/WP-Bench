@@ -1,0 +1,36 @@
+
+<snippet>
+	<content><![CDATA[get_user_id_from_string(${1:\$string});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>get_user_id_from_string</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Get a numeric user ID from either an email address or a login.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Get a numeric user ID from either an email address or a login.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$string</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(int) 
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/get_user_id_from_string'/>See more</a></p>]]>
+	</description_html>
+</snippet>

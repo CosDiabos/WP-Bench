@@ -1,0 +1,32 @@
+
+<snippet>
+	<content><![CDATA[favorite_actions();
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>favorite_actions</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Favorite actions were deprecated in version 3.2. Use the admin bar instead.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Favorite actions were deprecated in version 3.2. Use the admin bar instead.</p>
+
+
+------------<br>
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+None
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/favorite_actions'/>See more</a></p>]]>
+	</description_html>
+</snippet>

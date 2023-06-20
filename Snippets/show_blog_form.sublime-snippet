@@ -1,0 +1,45 @@
+
+<snippet>
+	<content><![CDATA[show_blog_form(${1:\$blogname}, ${2:\$blog_title}, ${3:\$errors});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>show_blog_form</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Generates and displays the Signup and Create Site forms]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Generates and displays the Signup and Create Site forms</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$blogname</p>
+(<b>string</b>) <i>(Optional)</i><br>
+
+
+<p style='color:__sett-att-color__'>$blog_title</p>
+(<b>string</b>) <i>(Optional)</i><br>
+
+
+<p style='color:__sett-att-color__'>$errors</p>
+(<b>WP_Error</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+
+			File: wp-signup.php		
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/show_blog_form'/>See more</a></p>]]>
+	</description_html>
+</snippet>

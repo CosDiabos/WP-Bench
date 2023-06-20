@@ -1,0 +1,52 @@
+
+<snippet>
+	<content><![CDATA[update_metadata(${1:\$meta_type}, ${2:\$object_id}, ${3:\$meta_key}, ${4:\$meta_value}, ${5:\$prev_value});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>update_metadata</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Update metadata for the specified object. If no value already exists for the specified object ID and metadata key, the metadata will be added.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Update metadata for the specified object. If no value already exists for the specified object ID and metadata key, the metadata will be added.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$meta_type</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$object_id</p>
+(<b>int</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$meta_key</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$meta_value</p>
+(<b>mixed</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$prev_value</p>
+(<b>mixed</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(int|bool) Meta ID if the key didn't exist, true on successful update, false on failure.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/update_metadata'/>See more</a></p>]]>
+	</description_html>
+</snippet>

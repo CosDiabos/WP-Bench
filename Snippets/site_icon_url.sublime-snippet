@@ -1,0 +1,45 @@
+
+<snippet>
+	<content><![CDATA[site_icon_url(${1:\$size}, ${2:\$url}, ${3:\$blog_id});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>site_icon_url</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Displays the Site Icon URL.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Displays the Site Icon URL.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$size</p>
+(<b>int</b>) <i>(Optional)</i><br>
+
+
+<p style='color:__sett-att-color__'>$url</p>
+(<b>string</b>) <i>(Optional)</i><br>
+
+
+<p style='color:__sett-att-color__'>$blog_id</p>
+(<b>int</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+
+			File: wp-includes/general-template.php		
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/site_icon_url'/>See more</a></p>]]>
+	</description_html>
+</snippet>

@@ -1,0 +1,40 @@
+
+<snippet>
+	<content><![CDATA[translations_api(${1:\$type}, ${2:\$args});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>translations_api</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Retrieve translations from WordPress Translation API.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Retrieve translations from WordPress Translation API.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$type</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$args</p>
+(<b>array</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(object|WP_Error) On success an object of translations, WP_Error on failure.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/translations_api'/>See more</a></p>]]>
+	</description_html>
+</snippet>

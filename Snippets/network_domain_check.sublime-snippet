@@ -1,0 +1,33 @@
+
+<snippet>
+	<content><![CDATA[network_domain_check();
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>network_domain_check</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Check for an existing network.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Check for an existing network.</p>
+
+
+------------<br>
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+
+			File: wp-admin/includes/network.php		
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/network_domain_check'/>See more</a></p>]]>
+	</description_html>
+</snippet>

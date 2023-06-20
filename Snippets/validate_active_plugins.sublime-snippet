@@ -1,0 +1,33 @@
+
+<snippet>
+	<content><![CDATA[validate_active_plugins();
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>validate_active_plugins</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Validate active plugins]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Validate active plugins</p>
+
+
+------------<br>
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+
+			File: wp-admin/includes/plugin.php		
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/validate_active_plugins'/>See more</a></p>]]>
+	</description_html>
+</snippet>

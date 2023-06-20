@@ -1,0 +1,57 @@
+
+<snippet>
+	<content><![CDATA[wp_add_dashboard_widget(${1:\$widget_id}, ${2:\$widget_name}, ${3:\$callback}, ${4:\$control_callback}, ${5:\$callback_args});
+
+function ${3:a} (${14:$$var=''}) {
+	${15:#Code...}
+}function ${4:a} (${15:$$var=''}) {
+	${16:#Code...}
+}
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>wp_add_dashboard_widget</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Adds a new dashboard widget.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Adds a new dashboard widget.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$widget_id</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$widget_name</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$callback</p>
+(<b>callable</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$control_callback</p>
+(<b>callable</b>) <i>(Optional)</i><br>
+
+
+<p style='color:__sett-att-color__'>$callback_args</p>
+(<b>array</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+
+			File: wp-admin/includes/dashboard.php		
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/wp_add_dashboard_widget'/>See more</a></p>]]>
+	</description_html>
+</snippet>

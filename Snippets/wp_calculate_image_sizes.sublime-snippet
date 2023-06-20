@@ -1,0 +1,48 @@
+
+<snippet>
+	<content><![CDATA[wp_calculate_image_sizes(${1:\$size}, ${2:\$image_src}, ${3:\$image_meta}, ${4:\$attachment_id});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>wp_calculate_image_sizes</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Creates a ‘sizes’ attribute value for an image.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Creates a ‘sizes’ attribute value for an image.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$size</p>
+(<b>array</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$image_src</p>
+(<b>string</b>) <i>(Optional)</i><br>
+
+
+<p style='color:__sett-att-color__'>$image_meta</p>
+(<b>array</b>) <i>(Optional)</i><br>
+
+
+<p style='color:__sett-att-color__'>$attachment_id</p>
+(<b>int</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(string|bool) A valid source size value for use in a 'sizes' attribute or false.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/wp_calculate_image_sizes'/>See more</a></p>]]>
+	</description_html>
+</snippet>

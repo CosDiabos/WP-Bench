@@ -1,0 +1,44 @@
+
+<snippet>
+	<content><![CDATA[get_comment_time(${1:\$d}, ${2:\$gmt}, ${3:\$translate});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>get_comment_time</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Retrieve the comment time of the current comment.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Retrieve the comment time of the current comment.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$d</p>
+(<b>string</b>) <i>(Optional)</i><br>
+
+
+<p style='color:__sett-att-color__'>$gmt</p>
+(<b>bool</b>) <i>(Optional)</i><br>
+
+
+<p style='color:__sett-att-color__'>$translate</p>
+(<b>bool</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(string) The formatted time.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/get_comment_time'/>See more</a></p>]]>
+	</description_html>
+</snippet>

@@ -1,0 +1,48 @@
+
+<snippet>
+	<content><![CDATA[update_user_status(${1:\$id}, ${2:\$pref}, ${3:\$value}, ${4:\$deprecated});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>update_user_status</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Update the status of a user in the database.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Update the status of a user in the database.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$id</p>
+(<b>int</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$pref</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$value</p>
+(<b>int</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$deprecated</p>
+(<b>null</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(int) The initially passed $value.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/update_user_status'/>See more</a></p>]]>
+	</description_html>
+</snippet>

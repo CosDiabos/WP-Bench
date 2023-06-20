@@ -1,0 +1,40 @@
+
+<snippet>
+	<content><![CDATA[has_shortcode(${1:\$content}, ${2:\$tag});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>has_shortcode</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Whether the passed content contains the specified shortcode]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Whether the passed content contains the specified shortcode</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$content</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$tag</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(bool) Whether the passed content contains the given shortcode.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/has_shortcode'/>See more</a></p>]]>
+	</description_html>
+</snippet>

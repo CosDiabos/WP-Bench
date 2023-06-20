@@ -1,0 +1,40 @@
+
+<snippet>
+	<content><![CDATA[update_archived(${1:\$id}, ${2:\$archived});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>update_archived</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Update the ‘archived’ status of a particular blog.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Update the ‘archived’ status of a particular blog.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$id</p>
+(<b>int</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$archived</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(string) $archived
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/update_archived'/>See more</a></p>]]>
+	</description_html>
+</snippet>

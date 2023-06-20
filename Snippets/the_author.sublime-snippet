@@ -1,0 +1,40 @@
+
+<snippet>
+	<content><![CDATA[the_author(${1:\$deprecated}, ${2:\$deprecated_echo});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>the_author</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Display the name of the author of the current post.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Display the name of the author of the current post.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$deprecated</p>
+(<b>string</b>) <i>(Optional)</i><br>
+
+
+<p style='color:__sett-att-color__'>$deprecated_echo</p>
+(<b>string</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(string|null) The author's display name, from get_the_author().
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/the_author'/>See more</a></p>]]>
+	</description_html>
+</snippet>

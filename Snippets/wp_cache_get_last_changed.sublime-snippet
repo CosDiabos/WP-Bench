@@ -1,0 +1,36 @@
+
+<snippet>
+	<content><![CDATA[wp_cache_get_last_changed(${1:\$group});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>wp_cache_get_last_changed</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Get last changed date for the specified cache group.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Get last changed date for the specified cache group.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$group</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(string) $last_changed UNIX timestamp with microseconds representing when the group was last changed.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/wp_cache_get_last_changed'/>See more</a></p>]]>
+	</description_html>
+</snippet>

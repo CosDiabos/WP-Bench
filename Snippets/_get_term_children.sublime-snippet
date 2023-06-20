@@ -1,0 +1,48 @@
+
+<snippet>
+	<content><![CDATA[_get_term_children(${1:\$term_id}, ${2:\$terms}, ${3:\$taxonomy}, ${4:\$ancestors});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>_get_term_children</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Get the subset of $terms that are descendants of $term_id.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Get the subset of $terms that are descendants of $term_id.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$term_id</p>
+(<b>int</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$terms</p>
+(<b>array</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$taxonomy</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$ancestors</p>
+(<b>array</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(array|WP_Error) The subset of $terms that are descendants of $term_id.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/_get_term_children'/>See more</a></p>]]>
+	</description_html>
+</snippet>

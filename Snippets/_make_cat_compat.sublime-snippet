@@ -1,0 +1,37 @@
+
+<snippet>
+	<content><![CDATA[_make_cat_compat(${1:\$category});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>_make_cat_compat</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Update category structure to old pre 2.3 from new taxonomy structure.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Update category structure to old pre 2.3 from new taxonomy structure.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$category</p>
+(<b>array</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+
+			File: wp-includes/category.php		
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/_make_cat_compat'/>See more</a></p>]]>
+	</description_html>
+</snippet>

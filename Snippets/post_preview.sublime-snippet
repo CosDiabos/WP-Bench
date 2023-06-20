@@ -1,0 +1,33 @@
+
+<snippet>
+	<content><![CDATA[post_preview();
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>post_preview</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Saves a draft or manually autosaves for the purpose of showing a post preview.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Saves a draft or manually autosaves for the purpose of showing a post preview.</p>
+
+
+------------<br>
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+
+			File: wp-admin/includes/post.php		
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/post_preview'/>See more</a></p>]]>
+	</description_html>
+</snippet>

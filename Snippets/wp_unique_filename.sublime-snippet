@@ -1,0 +1,46 @@
+
+<snippet>
+	<content><![CDATA[wp_unique_filename(${1:\$dir}, ${2:\$filename}, ${3:\$unique_filename_callback});
+
+function ${3:a} (${14:$$var=''}) {
+	${15:#Code...}
+}
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>wp_unique_filename</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Get a filename that is sanitized and unique for the given directory.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Get a filename that is sanitized and unique for the given directory.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$dir</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$filename</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$unique_filename_callback</p>
+(<b>callable</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(string) New filename, if given wasn't unique.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/wp_unique_filename'/>See more</a></p>]]>
+	</description_html>
+</snippet>

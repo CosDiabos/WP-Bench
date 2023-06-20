@@ -1,0 +1,36 @@
+
+<snippet>
+	<content><![CDATA[revoke_super_admin(${1:\$user_id});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>revoke_super_admin</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Revokes Super Admin privileges.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Revokes Super Admin privileges.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$user_id</p>
+(<b>int</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(bool) True on success, false on failure. This can fail when the user's email              is the network admin email or when the $super_admins global is defined.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/revoke_super_admin'/>See more</a></p>]]>
+	</description_html>
+</snippet>

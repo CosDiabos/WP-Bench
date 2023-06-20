@@ -1,0 +1,36 @@
+
+<snippet>
+	<content><![CDATA[path_is_absolute(${1:\$path});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>path_is_absolute</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Test if a given filesystem path is absolute.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Test if a given filesystem path is absolute.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$path</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(bool) True if path is absolute, false is not absolute.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/path_is_absolute'/>See more</a></p>]]>
+	</description_html>
+</snippet>

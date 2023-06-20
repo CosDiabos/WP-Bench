@@ -1,0 +1,32 @@
+
+<snippet>
+	<content><![CDATA[auth_redirect();
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>auth_redirect</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Checks if a user is logged in, if not it redirects them to the login page.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Checks if a user is logged in, if not it redirects them to the login page.</p>
+
+
+------------<br>
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+None
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/auth_redirect'/>See more</a></p>]]>
+	</description_html>
+</snippet>

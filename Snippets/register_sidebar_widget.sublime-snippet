@@ -1,0 +1,51 @@
+
+<snippet>
+	<content><![CDATA[register_sidebar_widget(${1:\$name}, ${2:\$output_callback}, ${3:\$classname}, ${4:\$params});
+
+function ${2:a} (${13:$$var=''}) {
+	${14:#Code...}
+}
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>register_sidebar_widget</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Register widget for sidebar with backward compatibility.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Register widget for sidebar with backward compatibility.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$name</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$output_callback</p>
+(<b>callable</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$classname</p>
+(<b>string</b>) <i>(Optional)</i><br>
+
+
+<p style='color:__sett-att-color__'>$params</p>
+(<b>mixed</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+
+			File: wp-includes/deprecated.php		
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/register_sidebar_widget'/>See more</a></p>]]>
+	</description_html>
+</snippet>

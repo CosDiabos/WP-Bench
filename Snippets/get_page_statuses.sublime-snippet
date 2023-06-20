@@ -1,0 +1,33 @@
+
+<snippet>
+	<content><![CDATA[get_page_statuses();
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>get_page_statuses</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Retrieve all of the WordPress support page statuses.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Retrieve all of the WordPress support page statuses.</p>
+
+
+------------<br>
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+
+			File: wp-includes/post.php		
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/get_page_statuses'/>See more</a></p>]]>
+	</description_html>
+</snippet>

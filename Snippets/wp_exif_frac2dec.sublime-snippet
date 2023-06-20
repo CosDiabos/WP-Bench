@@ -1,0 +1,36 @@
+
+<snippet>
+	<content><![CDATA[wp_exif_frac2dec(${1:\$str});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>wp_exif_frac2dec</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Convert a fraction string to a decimal.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Convert a fraction string to a decimal.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$str</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(int|float) 
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/wp_exif_frac2dec'/>See more</a></p>]]>
+	</description_html>
+</snippet>

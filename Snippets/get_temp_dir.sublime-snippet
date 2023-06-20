@@ -1,0 +1,33 @@
+
+<snippet>
+	<content><![CDATA[get_temp_dir();
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>get_temp_dir</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Determine a writable directory for temporary files.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Determine a writable directory for temporary files.</p>
+
+
+------------<br>
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+
+			File: wp-includes/functions.php		
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/get_temp_dir'/>See more</a></p>]]>
+	</description_html>
+</snippet>

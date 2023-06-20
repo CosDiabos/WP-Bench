@@ -1,0 +1,36 @@
+
+<snippet>
+	<content><![CDATA[_filter_query_attachment_filenames(${1:\$clauses});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>_filter_query_attachment_filenames</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Filter the SQL clauses of an attachment query to include filenames.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Filter the SQL clauses of an attachment query to include filenames.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$clauses</p>
+(<b>array</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(array) The modified clauses.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/_filter_query_attachment_filenames'/>See more</a></p>]]>
+	</description_html>
+</snippet>

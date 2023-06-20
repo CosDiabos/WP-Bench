@@ -1,0 +1,40 @@
+
+<snippet>
+	<content><![CDATA[_get_non_cached_ids(${1:\$object_ids}, ${2:\$cache_key});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>_get_non_cached_ids</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Retrieve ids that are not already present in the cache.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Retrieve ids that are not already present in the cache.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$object_ids</p>
+(<b>array</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$cache_key</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(array) List of ids not present in the cache.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/_get_non_cached_ids'/>See more</a></p>]]>
+	</description_html>
+</snippet>

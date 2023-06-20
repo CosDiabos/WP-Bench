@@ -1,0 +1,44 @@
+
+<snippet>
+	<content><![CDATA[ms_load_current_site_and_network(${1:\$domain}, ${2:\$path}, ${3:\$subdomain});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>ms_load_current_site_and_network</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Identifies the network and site of a requested domain and path and populates the corresponding network and site global objects as part of the multisite bootstrap process.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Identifies the network and site of a requested domain and path and populates the corresponding network and site global objects as part of the multisite bootstrap process.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$domain</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$path</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$subdomain</p>
+(<b>bool</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(bool|string) True if bootstrap successfully populated $current_blog and $current_site.                     False if bootstrap could not be properly completed.                     Redirect URL if parts exist, but the request as a whole can not be fulfilled.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/ms_load_current_site_and_network'/>See more</a></p>]]>
+	</description_html>
+</snippet>

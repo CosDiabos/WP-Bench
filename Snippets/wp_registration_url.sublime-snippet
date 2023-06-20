@@ -1,0 +1,33 @@
+
+<snippet>
+	<content><![CDATA[wp_registration_url();
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>wp_registration_url</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Returns the URL that allows the user to register on the site.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Returns the URL that allows the user to register on the site.</p>
+
+
+------------<br>
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+
+			File: wp-includes/general-template.php		
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/wp_registration_url'/>See more</a></p>]]>
+	</description_html>
+</snippet>

@@ -1,0 +1,45 @@
+
+<snippet>
+	<content><![CDATA[rest_handle_deprecated_argument(${1:\$function}, ${2:\$message}, ${3:\$version});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>rest_handle_deprecated_argument</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Handles _deprecated_argument() errors.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Handles _deprecated_argument() errors.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$function</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$message</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$version</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+
+			File: wp-includes/rest-api.php		
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/rest_handle_deprecated_argument'/>See more</a></p>]]>
+	</description_html>
+</snippet>

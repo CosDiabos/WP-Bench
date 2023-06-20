@@ -1,0 +1,72 @@
+
+<snippet>
+	<content><![CDATA[dropdown_cats(${1:\$optionall}, ${2:\$all}, ${3:\$orderby}, ${4:\$order}, ${5:\$show_last_update}, ${6:\$show_count}, ${7:\$hide_empty}, ${8:\$optionnone}, ${9:\$selected}, ${10:\$exclude});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>dropdown_cats</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Deprecated method for generating a drop-down of categories.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Deprecated method for generating a drop-down of categories.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$optionall</p>
+(<b>int</b>) <i>(Optional)</i><br>
+
+
+<p style='color:__sett-att-color__'>$all</p>
+(<b>string</b>) <i>(Optional)</i><br>
+
+
+<p style='color:__sett-att-color__'>$orderby</p>
+(<b>string</b>) <i>(Optional)</i><br>
+
+
+<p style='color:__sett-att-color__'>$order</p>
+(<b>string</b>) <i>(Optional)</i><br>
+
+
+<p style='color:__sett-att-color__'>$show_last_update</p>
+(<b>int</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$show_count</p>
+(<b>int</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$hide_empty</p>
+(<b>int</b>) <i>(Optional)</i><br>
+
+
+<p style='color:__sett-att-color__'>$optionnone</p>
+(<b>bool</b>) <i>(Optional)</i><br>
+
+
+<p style='color:__sett-att-color__'>$selected</p>
+(<b>int</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$exclude</p>
+(<b>int</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(string) 
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/dropdown_cats'/>See more</a></p>]]>
+	</description_html>
+</snippet>

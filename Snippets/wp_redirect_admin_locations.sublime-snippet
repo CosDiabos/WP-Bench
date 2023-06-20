@@ -1,0 +1,32 @@
+
+<snippet>
+	<content><![CDATA[wp_redirect_admin_locations();
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>wp_redirect_admin_locations</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Redirects a variety of shorthand URLs to the admin.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Redirects a variety of shorthand URLs to the admin.</p>
+
+
+------------<br>
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+None
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/wp_redirect_admin_locations'/>See more</a></p>]]>
+	</description_html>
+</snippet>

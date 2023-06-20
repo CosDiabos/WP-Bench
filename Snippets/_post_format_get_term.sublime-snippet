@@ -1,0 +1,36 @@
+
+<snippet>
+	<content><![CDATA[_post_format_get_term(${1:\$term});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>_post_format_get_term</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Remove the post format prefix from the name property of the term object created by get_term().]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Remove the post format prefix from the name property of the term object created by get_term().</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$term</p>
+(<b>object</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(object) 
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/_post_format_get_term'/>See more</a></p>]]>
+	</description_html>
+</snippet>

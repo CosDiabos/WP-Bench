@@ -1,0 +1,40 @@
+
+<snippet>
+	<content><![CDATA[get_permalink(${1:\$post}, ${2:\$leavename});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>get_permalink</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Retrieves the full permalink for the current post or post ID.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Retrieves the full permalink for the current post or post ID.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$post</p>
+(<b>int</b>) <i>(Optional)</i><br>
+
+
+<p style='color:__sett-att-color__'>$leavename</p>
+(<b>bool</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(string|false) The permalink URL or false if post does not exist.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/get_permalink'/>See more</a></p>]]>
+	</description_html>
+</snippet>

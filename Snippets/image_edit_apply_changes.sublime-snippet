@@ -1,0 +1,40 @@
+
+<snippet>
+	<content><![CDATA[image_edit_apply_changes(${1:\$image}, ${2:\$changes});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>image_edit_apply_changes</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Performs group of changes on Editor specified.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Performs group of changes on Editor specified.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$image</p>
+(<b>WP_Image_Editor</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$changes</p>
+(<b>array</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(WP_Image_Editor) WP_Image_Editor instance with changes applied.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/image_edit_apply_changes'/>See more</a></p>]]>
+	</description_html>
+</snippet>

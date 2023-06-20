@@ -1,0 +1,40 @@
+
+<snippet>
+	<content><![CDATA[allowed_http_request_hosts(${1:\$is_external}, ${2:\$host});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>allowed_http_request_hosts</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Whitelists allowed redirect hosts for safe HTTP requests as well.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Whitelists allowed redirect hosts for safe HTTP requests as well.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$is_external</p>
+(<b>bool</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$host</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(bool) 
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/allowed_http_request_hosts'/>See more</a></p>]]>
+	</description_html>
+</snippet>

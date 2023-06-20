@@ -1,0 +1,45 @@
+
+<snippet>
+	<content><![CDATA[_xmlrpc_wp_die_handler(${1:\$message}, ${2:\$title}, ${3:\$args});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>_xmlrpc_wp_die_handler</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Kill WordPress execution and display XML message with error message.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Kill WordPress execution and display XML message with error message.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$message</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$title</p>
+(<b>string</b>) <i>(Optional)</i><br>
+
+
+<p style='color:__sett-att-color__'>$args</p>
+(<b>string</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+
+			File: wp-includes/functions.php		
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/_xmlrpc_wp_die_handler'/>See more</a></p>]]>
+	</description_html>
+</snippet>

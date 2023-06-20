@@ -1,0 +1,40 @@
+
+<snippet>
+	<content><![CDATA[delete_blog_option(${1:\$id}, ${2:\$option});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>delete_blog_option</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Removes option by name for a given blog id. Prevents removal of protected WordPress options.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Removes option by name for a given blog id. Prevents removal of protected WordPress options.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$id</p>
+(<b>int</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$option</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(bool) True, if option is successfully deleted. False on failure.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/delete_blog_option'/>See more</a></p>]]>
+	</description_html>
+</snippet>

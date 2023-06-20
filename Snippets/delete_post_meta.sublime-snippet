@@ -1,0 +1,44 @@
+
+<snippet>
+	<content><![CDATA[delete_post_meta(${1:\$post_id}, ${2:\$meta_key}, ${3:\$meta_value});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>delete_post_meta</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Remove metadata matching criteria from a post.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Remove metadata matching criteria from a post.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$post_id</p>
+(<b>int</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$meta_key</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$meta_value</p>
+(<b>mixed</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(bool) True on success, false on failure.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/delete_post_meta'/>See more</a></p>]]>
+	</description_html>
+</snippet>

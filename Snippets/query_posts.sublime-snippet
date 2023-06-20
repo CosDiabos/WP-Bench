@@ -1,0 +1,36 @@
+
+<snippet>
+	<content><![CDATA[query_posts(${1:\$query});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>query_posts</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Sets up The Loop with query parameters.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Sets up The Loop with query parameters.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$query</p>
+(<b>array</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(array) List of post objects.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/query_posts'/>See more</a></p>]]>
+	</description_html>
+</snippet>

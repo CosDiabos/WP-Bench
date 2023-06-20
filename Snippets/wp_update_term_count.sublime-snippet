@@ -1,0 +1,44 @@
+
+<snippet>
+	<content><![CDATA[wp_update_term_count(${1:\$terms}, ${2:\$taxonomy}, ${3:\$do_deferred});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>wp_update_term_count</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Updates the amount of terms in taxonomy.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Updates the amount of terms in taxonomy.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$terms</p>
+(<b>int</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$taxonomy</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$do_deferred</p>
+(<b>bool</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(bool) If no terms will return false, and if successful will return true.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/wp_update_term_count'/>See more</a></p>]]>
+	</description_html>
+</snippet>

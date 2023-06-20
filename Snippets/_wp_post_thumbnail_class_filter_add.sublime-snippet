@@ -1,0 +1,32 @@
+
+<snippet>
+	<content><![CDATA[_wp_post_thumbnail_class_filter_add();
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>_wp_post_thumbnail_class_filter_add</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Adds _wp_post_thumbnail_class_filter to the wp_get_attachment_image_attributes filter]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Adds _wp_post_thumbnail_class_filter to the wp_get_attachment_image_attributes filter</p>
+
+
+------------<br>
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+None
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/_wp_post_thumbnail_class_filter_add'/>See more</a></p>]]>
+	</description_html>
+</snippet>

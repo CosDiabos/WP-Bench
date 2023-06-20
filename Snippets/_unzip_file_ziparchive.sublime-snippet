@@ -1,0 +1,44 @@
+
+<snippet>
+	<content><![CDATA[_unzip_file_ziparchive(${1:\$file}, ${2:\$to}, ${3:\$needed_dirs});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>_unzip_file_ziparchive</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[This function should not be called directly, use unzip_file instead. Attempts to unzip an archive using the ZipArchive class.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>This function should not be called directly, use unzip_file instead. Attempts to unzip an archive using the ZipArchive class.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$file</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$to</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$needed_dirs</p>
+(<b>array</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(mixed) WP_Error on failure, True on success
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/_unzip_file_ziparchive'/>See more</a></p>]]>
+	</description_html>
+</snippet>

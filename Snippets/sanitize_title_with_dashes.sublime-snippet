@@ -1,0 +1,44 @@
+
+<snippet>
+	<content><![CDATA[sanitize_title_with_dashes(${1:\$title}, ${2:\$raw_title}, ${3:\$context});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>sanitize_title_with_dashes</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Sanitizes a title, replacing whitespace and a few other characters with dashes.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Sanitizes a title, replacing whitespace and a few other characters with dashes.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$title</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$raw_title</p>
+(<b>string</b>) <i>(Optional)</i><br>
+
+
+<p style='color:__sett-att-color__'>$context</p>
+(<b>string</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(string) The sanitized title.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/sanitize_title_with_dashes'/>See more</a></p>]]>
+	</description_html>
+</snippet>

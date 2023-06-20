@@ -1,0 +1,36 @@
+
+<snippet>
+	<content><![CDATA[validate_plugin(${1:\$plugin});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>validate_plugin</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Validate the plugin path.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Validate the plugin path.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$plugin</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(WP_Error|int) 0 on success, WP_Error on failure.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/validate_plugin'/>See more</a></p>]]>
+	</description_html>
+</snippet>

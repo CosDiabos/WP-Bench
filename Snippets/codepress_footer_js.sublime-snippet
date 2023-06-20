@@ -1,0 +1,32 @@
+
+<snippet>
+	<content><![CDATA[codepress_footer_js();
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>codepress_footer_js</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Adds JavaScript required to make CodePress work on the theme/plugin editors.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Adds JavaScript required to make CodePress work on the theme/plugin editors.</p>
+
+
+------------<br>
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+None
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/codepress_footer_js'/>See more</a></p>]]>
+	</description_html>
+</snippet>

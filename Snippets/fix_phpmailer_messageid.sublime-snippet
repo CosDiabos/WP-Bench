@@ -1,0 +1,37 @@
+
+<snippet>
+	<content><![CDATA[fix_phpmailer_messageid(${1:\$phpmailer});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>fix_phpmailer_messageid</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Correct From host on outgoing mail to match the site domain]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Correct From host on outgoing mail to match the site domain</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$phpmailer</p>
+(<b>PHPMailer</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+
+			File: wp-includes/ms-functions.php		
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/fix_phpmailer_messageid'/>See more</a></p>]]>
+	</description_html>
+</snippet>

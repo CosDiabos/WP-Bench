@@ -1,0 +1,36 @@
+
+<snippet>
+	<content><![CDATA[get_blogaddress_by_name(${1:\$blogname});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>get_blogaddress_by_name</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Get a full blog URL, given a blog name.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Get a full blog URL, given a blog name.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$blogname</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(string) 
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/get_blogaddress_by_name'/>See more</a></p>]]>
+	</description_html>
+</snippet>

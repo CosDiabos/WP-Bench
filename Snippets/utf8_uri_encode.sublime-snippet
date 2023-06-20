@@ -1,0 +1,40 @@
+
+<snippet>
+	<content><![CDATA[utf8_uri_encode(${1:\$utf8_string}, ${2:\$length});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>utf8_uri_encode</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Encode the Unicode values to be used in the URI.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Encode the Unicode values to be used in the URI.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$utf8_string</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$length</p>
+(<b>int</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(string) String with Unicode encoded for URI.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/utf8_uri_encode'/>See more</a></p>]]>
+	</description_html>
+</snippet>

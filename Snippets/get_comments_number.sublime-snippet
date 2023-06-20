@@ -1,0 +1,36 @@
+
+<snippet>
+	<content><![CDATA[get_comments_number(${1:\$post_id});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>get_comments_number</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Retrieves the amount of comments a post has.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Retrieves the amount of comments a post has.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$post_id</p>
+(<b>int</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(string|int) If the post exists, a numeric string representing the number of comments                    the post has, otherwise 0.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/get_comments_number'/>See more</a></p>]]>
+	</description_html>
+</snippet>

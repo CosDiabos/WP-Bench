@@ -1,0 +1,60 @@
+
+<snippet>
+	<content><![CDATA[wpmu_signup_blog_notification(${1:\$domain}, ${2:\$path}, ${3:\$title}, ${4:\$user_login}, ${5:\$user_email}, ${6:\$key}, ${7:\$meta});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>wpmu_signup_blog_notification</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Send a confirmation request email to a user when they sign up for a new site. The new site will not become active until the confirmation link is clicked.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Send a confirmation request email to a user when they sign up for a new site. The new site will not become active until the confirmation link is clicked.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$domain</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$path</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$title</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$user_login</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$user_email</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$key</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$meta</p>
+(<b>array</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(bool) 
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/wpmu_signup_blog_notification'/>See more</a></p>]]>
+	</description_html>
+</snippet>

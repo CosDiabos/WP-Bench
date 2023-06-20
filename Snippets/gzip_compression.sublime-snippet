@@ -1,0 +1,32 @@
+
+<snippet>
+	<content><![CDATA[gzip_compression();
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>gzip_compression</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Unused function.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Unused function.</p>
+
+
+------------<br>
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+None
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/gzip_compression'/>See more</a></p>]]>
+	</description_html>
+</snippet>

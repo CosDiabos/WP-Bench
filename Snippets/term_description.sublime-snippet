@@ -1,0 +1,40 @@
+
+<snippet>
+	<content><![CDATA[term_description(${1:\$term}, ${2:\$taxonomy});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>term_description</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Retrieve term description.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Retrieve term description.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$term</p>
+(<b>int</b>) <i>(Optional)</i><br>
+
+
+<p style='color:__sett-att-color__'>$taxonomy</p>
+(<b>string</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(string) Term description, available.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/term_description'/>See more</a></p>]]>
+	</description_html>
+</snippet>

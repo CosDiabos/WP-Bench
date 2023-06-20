@@ -1,0 +1,53 @@
+
+<snippet>
+	<content><![CDATA[submit_button(${1:\$text}, ${2:\$type}, ${3:\$name}, ${4:\$wrap}, ${5:\$other_attributes});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>submit_button</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Echoes a submit button, with provided text and appropriate class(es).]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Echoes a submit button, with provided text and appropriate class(es).</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$text</p>
+(<b>string</b>) <i>(Optional)</i><br>
+
+
+<p style='color:__sett-att-color__'>$type</p>
+(<b>string</b>) <i>(Optional)</i><br>
+
+
+<p style='color:__sett-att-color__'>$name</p>
+(<b>string</b>) <i>(Optional)</i><br>
+
+
+<p style='color:__sett-att-color__'>$wrap</p>
+(<b>bool</b>) <i>(Optional)</i><br>
+
+
+<p style='color:__sett-att-color__'>$other_attributes</p>
+(<b>array</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+
+			File: wp-admin/includes/template.php		
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/submit_button'/>See more</a></p>]]>
+	</description_html>
+</snippet>

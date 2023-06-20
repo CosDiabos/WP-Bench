@@ -1,0 +1,32 @@
+
+<snippet>
+	<content><![CDATA[check_comment_flood_db();
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>check_comment_flood_db</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Hooks WP’s native database-based comment-flood check.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Hooks WP’s native database-based comment-flood check.</p>
+
+
+------------<br>
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+None
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/check_comment_flood_db'/>See more</a></p>]]>
+	</description_html>
+</snippet>

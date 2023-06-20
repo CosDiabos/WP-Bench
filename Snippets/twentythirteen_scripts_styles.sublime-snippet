@@ -1,0 +1,32 @@
+
+<snippet>
+	<content><![CDATA[twentythirteen_scripts_styles();
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>twentythirteen_scripts_styles</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Enqueue scripts and styles for the front end.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Enqueue scripts and styles for the front end.</p>
+
+
+------------<br>
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+None
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/twentythirteen_scripts_styles'/>See more</a></p>]]>
+	</description_html>
+</snippet>

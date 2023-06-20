@@ -1,0 +1,32 @@
+
+<snippet>
+	<content><![CDATA[start_wp();
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>start_wp</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Sets up the WordPress Loop.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Sets up the WordPress Loop.</p>
+
+
+------------<br>
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+None
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/start_wp'/>See more</a></p>]]>
+	</description_html>
+</snippet>

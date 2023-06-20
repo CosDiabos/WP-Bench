@@ -1,0 +1,32 @@
+
+<snippet>
+	<content><![CDATA[_wp_delete_orphaned_draft_menu_items();
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>_wp_delete_orphaned_draft_menu_items</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Deletes orphaned draft menu items]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Deletes orphaned draft menu items</p>
+
+
+------------<br>
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+None
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/_wp_delete_orphaned_draft_menu_items'/>See more</a></p>]]>
+	</description_html>
+</snippet>

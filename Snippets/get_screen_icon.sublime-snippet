@@ -1,0 +1,33 @@
+
+<snippet>
+	<content><![CDATA[get_screen_icon();
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>get_screen_icon</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Retrieves the screen icon (no longer used in 3.8+).]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Retrieves the screen icon (no longer used in 3.8+).</p>
+
+
+------------<br>
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+
+			File: wp-admin/includes/deprecated.php		
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/get_screen_icon'/>See more</a></p>]]>
+	</description_html>
+</snippet>

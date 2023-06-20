@@ -1,0 +1,33 @@
+
+<snippet>
+	<content><![CDATA[_wp_admin_bar_init();
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>_wp_admin_bar_init</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Instantiate the admin bar object and set it up as a global for access elsewhere.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Instantiate the admin bar object and set it up as a global for access elsewhere.</p>
+
+
+------------<br>
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+
+			File: wp-includes/admin-bar.php		
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/_wp_admin_bar_init'/>See more</a></p>]]>
+	</description_html>
+</snippet>

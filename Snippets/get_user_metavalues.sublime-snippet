@@ -1,0 +1,36 @@
+
+<snippet>
+	<content><![CDATA[get_user_metavalues(${1:\$ids});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>get_user_metavalues</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Perform the query to get the $metavalues array(s) needed by _fill_user and _fill_many_users]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Perform the query to get the $metavalues array(s) needed by _fill_user and _fill_many_users</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$ids</p>
+(<b>array</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(array) of arrays. The array is indexed by user_id, containing $metavalues object arrays.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/get_user_metavalues'/>See more</a></p>]]>
+	</description_html>
+</snippet>

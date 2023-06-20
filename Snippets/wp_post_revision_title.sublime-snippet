@@ -1,0 +1,40 @@
+
+<snippet>
+	<content><![CDATA[wp_post_revision_title(${1:\$revision}, ${2:\$link});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>wp_post_revision_title</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Retrieve formatted date timestamp of a revision (linked to that revisions’s page).]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Retrieve formatted date timestamp of a revision (linked to that revisions’s page).</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$revision</p>
+(<b>int</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$link</p>
+(<b>bool</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(string|false) i18n formatted datetimestamp or localized 'Current Revision'.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/wp_post_revision_title'/>See more</a></p>]]>
+	</description_html>
+</snippet>

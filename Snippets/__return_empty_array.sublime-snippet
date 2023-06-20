@@ -1,0 +1,33 @@
+
+<snippet>
+	<content><![CDATA[__return_empty_array();
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>__return_empty_array</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Returns an empty array.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Returns an empty array.</p>
+
+
+------------<br>
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+
+			File: wp-includes/functions.php		
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/__return_empty_array'/>See more</a></p>]]>
+	</description_html>
+</snippet>

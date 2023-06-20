@@ -1,0 +1,33 @@
+
+<snippet>
+	<content><![CDATA[get_trackback_url();
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>get_trackback_url</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Retrieve The current post’s trackback URL.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Retrieve The current post’s trackback URL.</p>
+
+
+------------<br>
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+
+			File: wp-includes/comment-template.php		
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/get_trackback_url'/>See more</a></p>]]>
+	</description_html>
+</snippet>

@@ -1,0 +1,41 @@
+
+<snippet>
+	<content><![CDATA[register_column_headers(${1:\$screen}, ${2:\$columns});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>register_column_headers</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Register column headers for a particular screen.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Register column headers for a particular screen.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$screen</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$columns</p>
+(<b>array</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+
+			File: wp-admin/includes/list-table.php		
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/register_column_headers'/>See more</a></p>]]>
+	</description_html>
+</snippet>

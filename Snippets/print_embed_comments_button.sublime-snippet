@@ -1,0 +1,32 @@
+
+<snippet>
+	<content><![CDATA[print_embed_comments_button();
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>print_embed_comments_button</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Prints the necessary markup for the embed comments button.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Prints the necessary markup for the embed comments button.</p>
+
+
+------------<br>
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+None
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/print_embed_comments_button'/>See more</a></p>]]>
+	</description_html>
+</snippet>

@@ -1,0 +1,32 @@
+
+<snippet>
+	<content><![CDATA[rsd_link();
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>rsd_link</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Display the link to the Really Simple Discovery service endpoint.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Display the link to the Really Simple Discovery service endpoint.</p>
+
+
+------------<br>
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+None
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/rsd_link'/>See more</a></p>]]>
+	</description_html>
+</snippet>

@@ -1,0 +1,44 @@
+
+<snippet>
+	<content><![CDATA[wp_image_add_srcset_and_sizes(${1:\$image}, ${2:\$image_meta}, ${3:\$attachment_id});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>wp_image_add_srcset_and_sizes</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Adds ‘srcset’ and ‘sizes’ attributes to an existing ‘img’ element.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Adds ‘srcset’ and ‘sizes’ attributes to an existing ‘img’ element.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$image</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$image_meta</p>
+(<b>array</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$attachment_id</p>
+(<b>int</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(string) Converted 'img' element with 'srcset' and 'sizes' attributes added.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/wp_image_add_srcset_and_sizes'/>See more</a></p>]]>
+	</description_html>
+</snippet>

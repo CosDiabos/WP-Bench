@@ -1,0 +1,36 @@
+
+<snippet>
+	<content><![CDATA[sanitize_trackback_urls(${1:\$to_ping});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>sanitize_trackback_urls</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Sanitize space or carriage return separated URLs that are used to send trackbacks.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Sanitize space or carriage return separated URLs that are used to send trackbacks.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$to_ping</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(string) URLs starting with the http or https protocol, separated by a carriage return.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/sanitize_trackback_urls'/>See more</a></p>]]>
+	</description_html>
+</snippet>

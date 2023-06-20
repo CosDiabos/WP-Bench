@@ -1,0 +1,45 @@
+
+<snippet>
+	<content><![CDATA[posts_nav_link(${1:\$sep}, ${2:\$prelabel}, ${3:\$nxtlabel});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>posts_nav_link</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Displays the post pages link navigation for previous and next pages.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Displays the post pages link navigation for previous and next pages.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$sep</p>
+(<b>string</b>) <i>(Optional)</i><br>
+
+
+<p style='color:__sett-att-color__'>$prelabel</p>
+(<b>string</b>) <i>(Optional)</i><br>
+
+
+<p style='color:__sett-att-color__'>$nxtlabel</p>
+(<b>string</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+
+			File: wp-includes/link-template.php		
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/posts_nav_link'/>See more</a></p>]]>
+	</description_html>
+</snippet>

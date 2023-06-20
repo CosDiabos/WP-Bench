@@ -1,0 +1,56 @@
+
+<snippet>
+	<content><![CDATA[wp_blacklist_check(${1:\$author}, ${2:\$email}, ${3:\$url}, ${4:\$comment}, ${5:\$user_ip}, ${6:\$user_agent});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>wp_blacklist_check</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Does comment contain blacklisted characters or words.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Does comment contain blacklisted characters or words.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$author</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$email</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$url</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$comment</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$user_ip</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$user_agent</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(bool) True if comment contains blacklisted content, false if comment does not
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/wp_blacklist_check'/>See more</a></p>]]>
+	</description_html>
+</snippet>

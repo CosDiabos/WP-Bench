@@ -1,0 +1,32 @@
+
+<snippet>
+	<content><![CDATA[noindex();
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>noindex</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Displays a noindex meta tag if required by the blog configuration.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Displays a noindex meta tag if required by the blog configuration.</p>
+
+
+------------<br>
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+None
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/noindex'/>See more</a></p>]]>
+	</description_html>
+</snippet>

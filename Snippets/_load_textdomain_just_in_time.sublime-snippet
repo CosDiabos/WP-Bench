@@ -1,0 +1,36 @@
+
+<snippet>
+	<content><![CDATA[_load_textdomain_just_in_time(${1:\$domain});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>_load_textdomain_just_in_time</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Loads plugin and theme textdomains just-in-time.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Loads plugin and theme textdomains just-in-time.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$domain</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(bool) True when the textdomain is successfully loaded, false otherwise.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/_load_textdomain_just_in_time'/>See more</a></p>]]>
+	</description_html>
+</snippet>

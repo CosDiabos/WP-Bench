@@ -1,0 +1,40 @@
+
+<snippet>
+	<content><![CDATA[post_type_archive_title(${1:\$prefix}, ${2:\$display});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>post_type_archive_title</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Display or retrieve title for a post type archive.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Display or retrieve title for a post type archive.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$prefix</p>
+(<b>string</b>) <i>(Optional)</i><br>
+
+
+<p style='color:__sett-att-color__'>$display</p>
+(<b>bool</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(string|void) Title when retrieving, null when displaying or failure.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/post_type_archive_title'/>See more</a></p>]]>
+	</description_html>
+</snippet>

@@ -1,0 +1,36 @@
+
+<snippet>
+	<content><![CDATA[delete_post_meta_by_key(${1:\$post_meta_key});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>delete_post_meta_by_key</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Delete everything from post meta matching meta key.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Delete everything from post meta matching meta key.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$post_meta_key</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(bool) Whether the post meta key was deleted from the database.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/delete_post_meta_by_key'/>See more</a></p>]]>
+	</description_html>
+</snippet>

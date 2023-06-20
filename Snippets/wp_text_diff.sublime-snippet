@@ -1,0 +1,44 @@
+
+<snippet>
+	<content><![CDATA[wp_text_diff(${1:\$left_string}, ${2:\$right_string}, ${3:\$args});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>wp_text_diff</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Displays a human readable HTML representation of the difference between two strings.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Displays a human readable HTML representation of the difference between two strings.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$left_string</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$right_string</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$args</p>
+(<b>string</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(string) Empty string if strings are equivalent or HTML with differences.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/wp_text_diff'/>See more</a></p>]]>
+	</description_html>
+</snippet>

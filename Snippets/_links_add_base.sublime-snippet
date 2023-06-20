@@ -1,0 +1,36 @@
+
+<snippet>
+	<content><![CDATA[_links_add_base(${1:\$m});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>_links_add_base</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Callback to add a base url to relative links in passed content.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Callback to add a base url to relative links in passed content.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$m</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(string) The processed link.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/_links_add_base'/>See more</a></p>]]>
+	</description_html>
+</snippet>

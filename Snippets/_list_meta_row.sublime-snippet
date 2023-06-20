@@ -1,0 +1,40 @@
+
+<snippet>
+	<content><![CDATA[_list_meta_row(${1:\$entry}, ${2:\$count});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>_list_meta_row</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Outputs a single row of public meta data in the Custom Fields meta box.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Outputs a single row of public meta data in the Custom Fields meta box.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$entry</p>
+(<b>array</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$count</p>
+(<b>int</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(string) 
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/_list_meta_row'/>See more</a></p>]]>
+	</description_html>
+</snippet>

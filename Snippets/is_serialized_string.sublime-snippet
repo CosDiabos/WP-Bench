@@ -1,0 +1,36 @@
+
+<snippet>
+	<content><![CDATA[is_serialized_string(${1:\$data});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>is_serialized_string</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Check whether serialized data is of string type.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Check whether serialized data is of string type.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$data</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(bool) False if not a serialized string, true if it is.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/is_serialized_string'/>See more</a></p>]]>
+	</description_html>
+</snippet>

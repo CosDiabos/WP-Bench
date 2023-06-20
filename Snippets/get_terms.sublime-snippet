@@ -1,0 +1,40 @@
+
+<snippet>
+	<content><![CDATA[get_terms(${1:\$args}, ${2:\$deprecated});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>get_terms</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Retrieve the terms in a given taxonomy or list of taxonomies.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Retrieve the terms in a given taxonomy or list of taxonomies.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$args</p>
+(<b>string</b>) <i>(Optional)</i><br>
+
+
+<p style='color:__sett-att-color__'>$deprecated</p>
+(<b>array</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(array|int|WP_Error) List of WP_Term instances and their children. Will return WP_Error, if any of $taxonomies                            do not exist.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/get_terms'/>See more</a></p>]]>
+	</description_html>
+</snippet>

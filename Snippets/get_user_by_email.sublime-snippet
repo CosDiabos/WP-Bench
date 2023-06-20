@@ -1,0 +1,36 @@
+
+<snippet>
+	<content><![CDATA[get_user_by_email(${1:\$email});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>get_user_by_email</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Retrieve user info by email.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Retrieve user info by email.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$email</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(bool|object) False on failure, User DB row object
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/get_user_by_email'/>See more</a></p>]]>
+	</description_html>
+</snippet>

@@ -1,0 +1,32 @@
+
+<snippet>
+	<content><![CDATA[media_upload_text_after();
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>media_upload_text_after</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Used to display a “After a file has been uploaded.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Used to display a “After a file has been uploaded.</p>
+
+
+------------<br>
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+None
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/media_upload_text_after'/>See more</a></p>]]>
+	</description_html>
+</snippet>

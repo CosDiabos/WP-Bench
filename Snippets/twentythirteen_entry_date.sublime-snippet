@@ -1,0 +1,36 @@
+
+<snippet>
+	<content><![CDATA[twentythirteen_entry_date(${1:\$echo});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>twentythirteen_entry_date</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Print HTML with date information for current post.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Print HTML with date information for current post.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$echo</p>
+(<b>boolean</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(string) The HTML-formatted post date.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/twentythirteen_entry_date'/>See more</a></p>]]>
+	</description_html>
+</snippet>

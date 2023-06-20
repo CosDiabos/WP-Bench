@@ -1,0 +1,44 @@
+
+<snippet>
+	<content><![CDATA[_get_last_post_time(${1:\$timezone}, ${2:\$field}, ${3:\$post_type});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>_get_last_post_time</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Get the timestamp of the last time any post was modified or published.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Get the timestamp of the last time any post was modified or published.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$timezone</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$field</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$post_type</p>
+(<b>string</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(string|false) The timestamp.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/_get_last_post_time'/>See more</a></p>]]>
+	</description_html>
+</snippet>

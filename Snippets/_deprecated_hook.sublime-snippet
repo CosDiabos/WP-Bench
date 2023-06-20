@@ -1,0 +1,49 @@
+
+<snippet>
+	<content><![CDATA[_deprecated_hook(${1:\$hook}, ${2:\$version}, ${3:\$replacement}, ${4:\$message});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>_deprecated_hook</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Marks a deprecated action or filter hook as deprecated and throws a notice.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Marks a deprecated action or filter hook as deprecated and throws a notice.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$hook</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$version</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$replacement</p>
+(<b>string</b>) <i>(Optional)</i><br>
+
+
+<p style='color:__sett-att-color__'>$message</p>
+(<b>string</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+
+			File: wp-includes/functions.php		
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/_deprecated_hook'/>See more</a></p>]]>
+	</description_html>
+</snippet>

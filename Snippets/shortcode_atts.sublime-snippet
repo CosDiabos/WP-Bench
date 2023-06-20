@@ -1,0 +1,44 @@
+
+<snippet>
+	<content><![CDATA[shortcode_atts(${1:\$pairs}, ${2:\$atts}, ${3:\$shortcode});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>shortcode_atts</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Combine user attributes with known attributes and fill in defaults when needed.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Combine user attributes with known attributes and fill in defaults when needed.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$pairs</p>
+(<b>array</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$atts</p>
+(<b>array</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$shortcode</p>
+(<b>string</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(array) Combined and filtered attribute list.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/shortcode_atts'/>See more</a></p>]]>
+	</description_html>
+</snippet>

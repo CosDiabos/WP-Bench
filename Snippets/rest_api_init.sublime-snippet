@@ -1,0 +1,32 @@
+
+<snippet>
+	<content><![CDATA[rest_api_init();
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>rest_api_init</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Registers rewrite rules for the API.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Registers rewrite rules for the API.</p>
+
+
+------------<br>
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+None
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/rest_api_init'/>See more</a></p>]]>
+	</description_html>
+</snippet>

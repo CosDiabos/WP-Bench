@@ -1,0 +1,40 @@
+
+<snippet>
+	<content><![CDATA[newblog_notify_siteadmin(${1:\$blog_id}, ${2:\$deprecated});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>newblog_notify_siteadmin</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Notifies the network admin that a new site has been activated.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Notifies the network admin that a new site has been activated.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$blog_id</p>
+(<b>int</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$deprecated</p>
+(<b>string</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(bool) 
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/newblog_notify_siteadmin'/>See more</a></p>]]>
+	</description_html>
+</snippet>

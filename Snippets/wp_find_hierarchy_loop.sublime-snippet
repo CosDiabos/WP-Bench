@@ -1,0 +1,50 @@
+
+<snippet>
+	<content><![CDATA[wp_find_hierarchy_loop(${1:\$callback}, ${2:\$start}, ${3:\$start_parent}, ${4:\$callback_args});
+
+function ${1:a} (${12:$$var=''}) {
+	${13:#Code...}
+}
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>wp_find_hierarchy_loop</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Find hierarchy loops using a callback function that maps object IDs to parent IDs.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Find hierarchy loops using a callback function that maps object IDs to parent IDs.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$callback</p>
+(<b>callable</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$start</p>
+(<b>int</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$start_parent</p>
+(<b>int</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$callback_args</p>
+(<b>array</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(array) IDs of all members of loop.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/wp_find_hierarchy_loop'/>See more</a></p>]]>
+	</description_html>
+</snippet>

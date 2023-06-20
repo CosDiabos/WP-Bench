@@ -1,0 +1,33 @@
+
+<snippet>
+	<content><![CDATA[wp_get_widget_defaults();
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>wp_get_widget_defaults</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Retrieve default registered sidebars list.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Retrieve default registered sidebars list.</p>
+
+
+------------<br>
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+
+			File: wp-includes/widgets.php		
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/wp_get_widget_defaults'/>See more</a></p>]]>
+	</description_html>
+</snippet>

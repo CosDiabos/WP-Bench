@@ -1,0 +1,36 @@
+
+<snippet>
+	<content><![CDATA[rest_ensure_response(${1:\$response});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>rest_ensure_response</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Ensures a REST response is a response object (for consistency).]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Ensures a REST response is a response object (for consistency).</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$response</p>
+(<b>WP_Error</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(WP_REST_Response|mixed) If response generated an error, WP_Error, if response                                is already an instance, WP_HTTP_Response, otherwise                                returns a new WP_REST_Response instance.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/rest_ensure_response'/>See more</a></p>]]>
+	</description_html>
+</snippet>

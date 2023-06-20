@@ -1,0 +1,40 @@
+
+<snippet>
+	<content><![CDATA[_close_comments_for_old_posts(${1:\$posts}, ${2:\$query});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>_close_comments_for_old_posts</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Close comments on old posts on the fly, without any extra DB queries. Hooked to the_posts.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Close comments on old posts on the fly, without any extra DB queries. Hooked to the_posts.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$posts</p>
+(<b>WP_Post</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$query</p>
+(<b>WP_Query</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(array) 
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/_close_comments_for_old_posts'/>See more</a></p>]]>
+	</description_html>
+</snippet>

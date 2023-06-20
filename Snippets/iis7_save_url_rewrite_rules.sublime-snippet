@@ -1,0 +1,33 @@
+
+<snippet>
+	<content><![CDATA[iis7_save_url_rewrite_rules();
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>iis7_save_url_rewrite_rules</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Updates the IIS web.config file with the current rules if it is writable.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Updates the IIS web.config file with the current rules if it is writable.</p>
+
+
+------------<br>
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+
+			File: wp-admin/includes/misc.php		
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/iis7_save_url_rewrite_rules'/>See more</a></p>]]>
+	</description_html>
+</snippet>

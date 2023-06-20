@@ -1,0 +1,40 @@
+
+<snippet>
+	<content><![CDATA[wp_sprintf(${1:\$pattern}, ${2:\$args});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>wp_sprintf</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[WordPress implementation of PHP sprintf() with filters.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>WordPress implementation of PHP sprintf() with filters.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$pattern</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$args</p>
+(<b>mixed</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(string) The formatted string.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/wp_sprintf'/>See more</a></p>]]>
+	</description_html>
+</snippet>

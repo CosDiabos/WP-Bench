@@ -1,0 +1,37 @@
+
+<snippet>
+	<content><![CDATA[the_taxonomies(${1:\$args});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>the_taxonomies</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Display the taxonomies of a post with available options.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Display the taxonomies of a post with available options.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$args</p>
+(<b>array</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+
+			File: wp-includes/taxonomy.php		
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/the_taxonomies'/>See more</a></p>]]>
+	</description_html>
+</snippet>

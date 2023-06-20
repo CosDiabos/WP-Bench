@@ -1,0 +1,32 @@
+
+<snippet>
+	<content><![CDATA[new_user_email_admin_notice();
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>new_user_email_admin_notice</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Adds an admin notice alerting the user to check for confirmation request email after email address change.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Adds an admin notice alerting the user to check for confirmation request email after email address change.</p>
+
+
+------------<br>
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+None
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/new_user_email_admin_notice'/>See more</a></p>]]>
+	</description_html>
+</snippet>

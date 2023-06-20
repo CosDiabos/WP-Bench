@@ -1,0 +1,36 @@
+
+<snippet>
+	<content><![CDATA[wp_mkdir_p(${1:\$target});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>wp_mkdir_p</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Recursive directory creation based on full path.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Recursive directory creation based on full path.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$target</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(bool) Whether the path was created. True if path already exists.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/wp_mkdir_p'/>See more</a></p>]]>
+	</description_html>
+</snippet>

@@ -1,0 +1,32 @@
+
+<snippet>
+	<content><![CDATA[signup_nonce_fields();
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>signup_nonce_fields</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Add a nonce field to the signup page.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Add a nonce field to the signup page.</p>
+
+
+------------<br>
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+None
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/signup_nonce_fields'/>See more</a></p>]]>
+	</description_html>
+</snippet>

@@ -1,0 +1,56 @@
+
+<snippet>
+	<content><![CDATA[populate_network(${1:\$network_id}, ${2:\$domain}, ${3:\$email}, ${4:\$site_name}, ${5:\$path}, ${6:\$subdomain_install});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>populate_network</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Populate network settings.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Populate network settings.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$network_id</p>
+(<b>int</b>) <i>(Optional)</i><br>
+
+
+<p style='color:__sett-att-color__'>$domain</p>
+(<b>string</b>) <i>(Optional)</i><br>
+
+
+<p style='color:__sett-att-color__'>$email</p>
+(<b>string</b>) <i>(Optional)</i><br>
+
+
+<p style='color:__sett-att-color__'>$site_name</p>
+(<b>string</b>) <i>(Optional)</i><br>
+
+
+<p style='color:__sett-att-color__'>$path</p>
+(<b>string</b>) <i>(Optional)</i><br>
+
+
+<p style='color:__sett-att-color__'>$subdomain_install</p>
+(<b>bool</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(bool|WP_Error) True on success, or WP_Error on warning (with the installation otherwise successful,                       so the error code must be checked) or failure.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/populate_network'/>See more</a></p>]]>
+	</description_html>
+</snippet>

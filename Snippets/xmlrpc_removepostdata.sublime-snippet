@@ -1,0 +1,36 @@
+
+<snippet>
+	<content><![CDATA[xmlrpc_removepostdata(${1:\$content});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>xmlrpc_removepostdata</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[XMLRPC XML content without title and category elements.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>XMLRPC XML content without title and category elements.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$content</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(string) XMLRPC XML Request content without title and category elements.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/xmlrpc_removepostdata'/>See more</a></p>]]>
+	</description_html>
+</snippet>

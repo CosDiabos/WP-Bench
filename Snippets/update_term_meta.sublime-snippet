@@ -1,0 +1,48 @@
+
+<snippet>
+	<content><![CDATA[update_term_meta(${1:\$term_id}, ${2:\$meta_key}, ${3:\$meta_value}, ${4:\$prev_value});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>update_term_meta</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Updates term metadata.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Updates term metadata.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$term_id</p>
+(<b>int</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$meta_key</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$meta_value</p>
+(<b>mixed</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$prev_value</p>
+(<b>mixed</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(int|WP_Error|bool) Meta ID if the key didn't previously exist. True on successful update.                           WP_Error when term_id is ambiguous between taxonomies. False on failure.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/update_term_meta'/>See more</a></p>]]>
+	</description_html>
+</snippet>

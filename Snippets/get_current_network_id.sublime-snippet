@@ -1,0 +1,33 @@
+
+<snippet>
+	<content><![CDATA[get_current_network_id();
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>get_current_network_id</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Retrieves the current network ID.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Retrieves the current network ID.</p>
+
+
+------------<br>
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+
+			File: wp-includes/load.php		
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/get_current_network_id'/>See more</a></p>]]>
+	</description_html>
+</snippet>

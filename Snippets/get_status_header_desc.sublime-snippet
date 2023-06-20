@@ -1,0 +1,36 @@
+
+<snippet>
+	<content><![CDATA[get_status_header_desc(${1:\$code});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>get_status_header_desc</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Retrieve the description for the HTTP status.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Retrieve the description for the HTTP status.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$code</p>
+(<b>int</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(string) Empty string if not found, or description if found.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/get_status_header_desc'/>See more</a></p>]]>
+	</description_html>
+</snippet>

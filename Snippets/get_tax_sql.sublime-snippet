@@ -1,0 +1,44 @@
+
+<snippet>
+	<content><![CDATA[get_tax_sql(${1:\$tax_query}, ${2:\$primary_table}, ${3:\$primary_id_column});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>get_tax_sql</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Given a taxonomy query, generates SQL to be appended to a main query.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Given a taxonomy query, generates SQL to be appended to a main query.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$tax_query</p>
+(<b>array</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$primary_table</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$primary_id_column</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(array) 
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/get_tax_sql'/>See more</a></p>]]>
+	</description_html>
+</snippet>

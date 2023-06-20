@@ -1,0 +1,36 @@
+
+<snippet>
+	<content><![CDATA[get_cancel_comment_reply_link(${1:\$text});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>get_cancel_comment_reply_link</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Retrieve HTML content for cancel comment reply link.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Retrieve HTML content for cancel comment reply link.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$text</p>
+(<b>string</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(string) 
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/get_cancel_comment_reply_link'/>See more</a></p>]]>
+	</description_html>
+</snippet>

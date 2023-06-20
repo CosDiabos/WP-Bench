@@ -1,0 +1,48 @@
+
+<snippet>
+	<content><![CDATA[wp_embed_handler_audio(${1:\$matches}, ${2:\$attr}, ${3:\$url}, ${4:\$rawattr});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>wp_embed_handler_audio</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Audio embed handler callback.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Audio embed handler callback.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$matches</p>
+(<b>array</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$attr</p>
+(<b>array</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$url</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$rawattr</p>
+(<b>array</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(string) The embed HTML.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/wp_embed_handler_audio'/>See more</a></p>]]>
+	</description_html>
+</snippet>

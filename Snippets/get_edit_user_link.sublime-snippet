@@ -1,0 +1,36 @@
+
+<snippet>
+	<content><![CDATA[get_edit_user_link(${1:\$user_id});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>get_edit_user_link</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Retrieves the edit user link.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Retrieves the edit user link.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$user_id</p>
+(<b>int</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(string) URL to edit user page or empty string.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/get_edit_user_link'/>See more</a></p>]]>
+	</description_html>
+</snippet>

@@ -1,0 +1,37 @@
+
+<snippet>
+	<content><![CDATA[wp_dashboard_quick_press(${1:\$error_msg});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>wp_dashboard_quick_press</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[The Quick Draft widget display and creation of drafts.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>The Quick Draft widget display and creation of drafts.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$error_msg</p>
+(<b>string</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+
+			File: wp-admin/includes/dashboard.php		
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/wp_dashboard_quick_press'/>See more</a></p>]]>
+	</description_html>
+</snippet>

@@ -1,0 +1,36 @@
+
+<snippet>
+	<content><![CDATA[get_the_category_by_ID(${1:\$cat_ID});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>get_the_category_by_ID</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Retrieve category name based on category ID.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Retrieve category name based on category ID.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$cat_ID</p>
+(<b>int</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(string|WP_Error) Category name on success, WP_Error on failure.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/get_the_category_by_ID'/>See more</a></p>]]>
+	</description_html>
+</snippet>

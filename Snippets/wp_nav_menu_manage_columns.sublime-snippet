@@ -1,0 +1,33 @@
+
+<snippet>
+	<content><![CDATA[wp_nav_menu_manage_columns();
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>wp_nav_menu_manage_columns</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Returns the columns for the nav menus page.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Returns the columns for the nav menus page.</p>
+
+
+------------<br>
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+
+			File: wp-admin/includes/nav-menu.php		
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/wp_nav_menu_manage_columns'/>See more</a></p>]]>
+	</description_html>
+</snippet>

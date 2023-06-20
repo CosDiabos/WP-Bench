@@ -1,0 +1,44 @@
+
+<snippet>
+	<content><![CDATA[wp_cache_incr(${1:\$key}, ${2:\$offset}, ${3:\$group});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>wp_cache_incr</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Increment numeric cache item’s value]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Increment numeric cache item’s value</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$key</p>
+(<b>int</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$offset</p>
+(<b>int</b>) <i>(Optional)</i><br>
+
+
+<p style='color:__sett-att-color__'>$group</p>
+(<b>string</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(false|int) False on failure, the item's new value on success.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/wp_cache_incr'/>See more</a></p>]]>
+	</description_html>
+</snippet>

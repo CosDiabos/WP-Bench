@@ -1,0 +1,32 @@
+
+<snippet>
+	<content><![CDATA[set_screen_options();
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>set_screen_options</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Saves option for number of rows when listing posts, pages, comments, etc.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Saves option for number of rows when listing posts, pages, comments, etc.</p>
+
+
+------------<br>
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+None
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/set_screen_options'/>See more</a></p>]]>
+	</description_html>
+</snippet>

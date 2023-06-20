@@ -1,0 +1,40 @@
+
+<snippet>
+	<content><![CDATA[get_avatar_data(${1:\$id_or_email}, ${2:\$args});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>get_avatar_data</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Retrieves default data about the avatar.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Retrieves default data about the avatar.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$id_or_email</p>
+(<b>mixed</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$args</p>
+(<b>array</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(array) $processed_args {     Along with the arguments passed in $args, this will contain a couple of extra arguments.     @type bool   $found_avatar True if we were able to find an avatar for this user,                                false or not set if we couldn't.     @type string $url          The URL of the avatar we found. }
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/get_avatar_data'/>See more</a></p>]]>
+	</description_html>
+</snippet>

@@ -1,0 +1,40 @@
+
+<snippet>
+	<content><![CDATA[image_hwstring(${1:\$width}, ${2:\$height});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>image_hwstring</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Retrieve width and height attributes using given width and height values.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Retrieve width and height attributes using given width and height values.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$width</p>
+(<b>int</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$height</p>
+(<b>int</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(string) HTML attributes for width and, or height.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/image_hwstring'/>See more</a></p>]]>
+	</description_html>
+</snippet>

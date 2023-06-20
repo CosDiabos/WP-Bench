@@ -1,0 +1,40 @@
+
+<snippet>
+	<content><![CDATA[set_post_type(${1:\$post_id}, ${2:\$post_type});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>set_post_type</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Update the post type for the post ID.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Update the post type for the post ID.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$post_id</p>
+(<b>int</b>) <i>(Optional)</i><br>
+
+
+<p style='color:__sett-att-color__'>$post_type</p>
+(<b>string</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(int|false) Amount of rows changed. Should be 1 for success and 0 for failure.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/set_post_type'/>See more</a></p>]]>
+	</description_html>
+</snippet>

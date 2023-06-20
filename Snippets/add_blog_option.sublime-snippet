@@ -1,0 +1,44 @@
+
+<snippet>
+	<content><![CDATA[add_blog_option(${1:\$id}, ${2:\$option}, ${3:\$value});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>add_blog_option</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Add a new option for a given blog id.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Add a new option for a given blog id.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$id</p>
+(<b>int</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$option</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$value</p>
+(<b>mixed</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(bool) False if option was not added and true if option was added.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/add_blog_option'/>See more</a></p>]]>
+	</description_html>
+</snippet>

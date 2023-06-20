@@ -1,0 +1,40 @@
+
+<snippet>
+	<content><![CDATA[sanitize_user(${1:\$username}, ${2:\$strict});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>sanitize_user</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Sanitizes a username, stripping out unsafe characters.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Sanitizes a username, stripping out unsafe characters.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$username</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$strict</p>
+(<b>bool</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(string) The sanitized username, after passing through filters.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/sanitize_user'/>See more</a></p>]]>
+	</description_html>
+</snippet>

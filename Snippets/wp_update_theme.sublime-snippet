@@ -1,0 +1,32 @@
+
+<snippet>
+	<content><![CDATA[wp_update_theme();
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>wp_update_theme</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[This was once used to kick-off the Theme Updater.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>This was once used to kick-off the Theme Updater.</p>
+
+
+------------<br>
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+None
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/wp_update_theme'/>See more</a></p>]]>
+	</description_html>
+</snippet>

@@ -1,0 +1,44 @@
+
+<snippet>
+	<content><![CDATA[wp_upload_dir(${1:\$time}, ${2:\$create_dir}, ${3:\$refresh_cache});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>wp_upload_dir</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Get an array containing the current upload directory’s path and url.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Get an array containing the current upload directory’s path and url.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$time</p>
+(<b>string</b>) <i>(Optional)</i><br>
+
+
+<p style='color:__sett-att-color__'>$create_dir</p>
+(<b>bool</b>) <i>(Optional)</i><br>
+
+
+<p style='color:__sett-att-color__'>$refresh_cache</p>
+(<b>bool</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(array) See above for description.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/wp_upload_dir'/>See more</a></p>]]>
+	</description_html>
+</snippet>

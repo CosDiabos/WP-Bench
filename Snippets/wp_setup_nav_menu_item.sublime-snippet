@@ -1,0 +1,36 @@
+
+<snippet>
+	<content><![CDATA[wp_setup_nav_menu_item(${1:\$menu_item});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>wp_setup_nav_menu_item</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Decorates a menu item object with the shared navigation menu item properties.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Decorates a menu item object with the shared navigation menu item properties.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$menu_item</p>
+(<b>object</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(object) $menu_item The menu item with standard menu item properties.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/wp_setup_nav_menu_item'/>See more</a></p>]]>
+	</description_html>
+</snippet>

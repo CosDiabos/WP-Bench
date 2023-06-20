@@ -1,0 +1,36 @@
+
+<snippet>
+	<content><![CDATA[generic_ping(${1:\$post_id});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>generic_ping</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Sends pings to all of the ping site services.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Sends pings to all of the ping site services.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$post_id</p>
+(<b>int</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(int) Same as Post ID from parameter
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/generic_ping'/>See more</a></p>]]>
+	</description_html>
+</snippet>

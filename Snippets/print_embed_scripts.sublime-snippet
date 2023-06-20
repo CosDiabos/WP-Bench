@@ -1,0 +1,32 @@
+
+<snippet>
+	<content><![CDATA[print_embed_scripts();
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>print_embed_scripts</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Prints the JavaScript in the embed iframe header.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Prints the JavaScript in the embed iframe header.</p>
+
+
+------------<br>
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+None
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/print_embed_scripts'/>See more</a></p>]]>
+	</description_html>
+</snippet>

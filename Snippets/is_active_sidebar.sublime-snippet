@@ -1,0 +1,36 @@
+
+<snippet>
+	<content><![CDATA[is_active_sidebar(${1:\$index});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>is_active_sidebar</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Whether a sidebar is in use.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Whether a sidebar is in use.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$index</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(bool) true if the sidebar is in use, false otherwise.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/is_active_sidebar'/>See more</a></p>]]>
+	</description_html>
+</snippet>

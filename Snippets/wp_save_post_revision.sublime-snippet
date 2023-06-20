@@ -1,0 +1,36 @@
+
+<snippet>
+	<content><![CDATA[wp_save_post_revision(${1:\$post_id});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>wp_save_post_revision</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Creates a revision for the current version of a post.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Creates a revision for the current version of a post.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$post_id</p>
+(<b>int</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(int|WP_Error|void) Void or 0 if error, new revision ID, if success.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/wp_save_post_revision'/>See more</a></p>]]>
+	</description_html>
+</snippet>

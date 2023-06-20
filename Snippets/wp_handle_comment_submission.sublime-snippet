@@ -1,0 +1,36 @@
+
+<snippet>
+	<content><![CDATA[wp_handle_comment_submission(${1:\$comment_data});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>wp_handle_comment_submission</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Handles the submission of a comment, usually posted to wp-comments-post.php via a comment form.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Handles the submission of a comment, usually posted to wp-comments-post.php via a comment form.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$comment_data</p>
+(<b>array</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(WP_Comment|WP_Error) A WP_Comment object on success, a WP_Error object on failure.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/wp_handle_comment_submission'/>See more</a></p>]]>
+	</description_html>
+</snippet>

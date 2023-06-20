@@ -1,0 +1,40 @@
+
+<snippet>
+	<content><![CDATA[unzip_file(${1:\$file}, ${2:\$to});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>unzip_file</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Unzips a specified ZIP file to a location on the Filesystem via the WordPress Filesystem Abstraction.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Unzips a specified ZIP file to a location on the Filesystem via the WordPress Filesystem Abstraction.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$file</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$to</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(mixed) WP_Error on failure, True on success
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/unzip_file'/>See more</a></p>]]>
+	</description_html>
+</snippet>

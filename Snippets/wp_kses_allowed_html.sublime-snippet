@@ -1,0 +1,36 @@
+
+<snippet>
+	<content><![CDATA[wp_kses_allowed_html(${1:\$context});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>wp_kses_allowed_html</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Return a list of allowed tags and attributes for a given context.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Return a list of allowed tags and attributes for a given context.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$context</p>
+(<b>string</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(array) List of allowed tags and their allowed attributes.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/wp_kses_allowed_html'/>See more</a></p>]]>
+	</description_html>
+</snippet>

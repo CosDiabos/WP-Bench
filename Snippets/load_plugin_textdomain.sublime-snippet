@@ -1,0 +1,44 @@
+
+<snippet>
+	<content><![CDATA[load_plugin_textdomain(${1:\$domain}, ${2:\$deprecated}, ${3:\$plugin_rel_path});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>load_plugin_textdomain</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Loads a plugin’s translated strings.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Loads a plugin’s translated strings.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$domain</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$deprecated</p>
+(<b>string</b>) <i>(Optional)</i><br>
+
+
+<p style='color:__sett-att-color__'>$plugin_rel_path</p>
+(<b>string</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(bool) True when textdomain is successfully loaded, false otherwise.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/load_plugin_textdomain'/>See more</a></p>]]>
+	</description_html>
+</snippet>

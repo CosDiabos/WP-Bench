@@ -1,0 +1,33 @@
+
+<snippet>
+	<content><![CDATA[send_origin_headers();
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>send_origin_headers</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Send Access-Control-Allow-Origin and related headers if the current request is from an allowed origin.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Send Access-Control-Allow-Origin and related headers if the current request is from an allowed origin.</p>
+
+
+------------<br>
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+
+			File: wp-includes/http.php		
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/send_origin_headers'/>See more</a></p>]]>
+	</description_html>
+</snippet>

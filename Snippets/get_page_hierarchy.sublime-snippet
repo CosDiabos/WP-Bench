@@ -1,0 +1,40 @@
+
+<snippet>
+	<content><![CDATA[get_page_hierarchy(${1:\$pages}, ${2:\$page_id});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>get_page_hierarchy</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Order the pages with children under parents in a flat list.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Order the pages with children under parents in a flat list.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$pages</p>
+(<b>array</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$page_id</p>
+(<b>int</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(array) A list arranged by hierarchy. Children immediately follow their parents.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/get_page_hierarchy'/>See more</a></p>]]>
+	</description_html>
+</snippet>

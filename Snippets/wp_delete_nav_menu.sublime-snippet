@@ -1,0 +1,36 @@
+
+<snippet>
+	<content><![CDATA[wp_delete_nav_menu(${1:\$menu});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>wp_delete_nav_menu</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Delete a Navigation Menu.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Delete a Navigation Menu.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$menu</p>
+(<b>int</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(bool|WP_Error) True on success, false or WP_Error object on failure.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/wp_delete_nav_menu'/>See more</a></p>]]>
+	</description_html>
+</snippet>

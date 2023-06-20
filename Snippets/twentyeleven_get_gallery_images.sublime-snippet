@@ -1,0 +1,33 @@
+
+<snippet>
+	<content><![CDATA[twentyeleven_get_gallery_images();
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>twentyeleven_get_gallery_images</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Retrieve the IDs for images in a gallery.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Retrieve the IDs for images in a gallery.</p>
+
+
+------------<br>
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+
+			File: wp-content/themes/twentyeleven/functions.php		
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/twentyeleven_get_gallery_images'/>See more</a></p>]]>
+	</description_html>
+</snippet>

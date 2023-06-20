@@ -1,0 +1,36 @@
+
+<snippet>
+	<content><![CDATA[delete_user_setting(${1:\$names});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>delete_user_setting</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Delete user interface settings.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Delete user interface settings.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$names</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(bool|null) True if deleted successfully, false if not. Null if the current user can't be established.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/delete_user_setting'/>See more</a></p>]]>
+	</description_html>
+</snippet>

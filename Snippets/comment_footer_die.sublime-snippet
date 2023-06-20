@@ -1,0 +1,37 @@
+
+<snippet>
+	<content><![CDATA[comment_footer_die(${1:\$msg});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>comment_footer_die</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Display error message at bottom of comments.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Display error message at bottom of comments.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$msg</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+
+			File: wp-admin/includes/comment.php		
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/comment_footer_die'/>See more</a></p>]]>
+	</description_html>
+</snippet>

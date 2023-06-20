@@ -1,0 +1,40 @@
+
+<snippet>
+	<content><![CDATA[wp_count_terms(${1:\$taxonomy}, ${2:\$args});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>wp_count_terms</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Count how many terms are in Taxonomy.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Count how many terms are in Taxonomy.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$taxonomy</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$args</p>
+(<b>array</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(array|int|WP_Error) Number of terms in that taxonomy or WP_Error if the taxonomy does not exist.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/wp_count_terms'/>See more</a></p>]]>
+	</description_html>
+</snippet>

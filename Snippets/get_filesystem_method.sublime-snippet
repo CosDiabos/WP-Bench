@@ -1,0 +1,44 @@
+
+<snippet>
+	<content><![CDATA[get_filesystem_method(${1:\$args}, ${2:\$context}, ${3:\$allow_relaxed_file_ownership});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>get_filesystem_method</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Determines which method to use for reading, writing, modifying, or deleting files on the filesystem.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Determines which method to use for reading, writing, modifying, or deleting files on the filesystem.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$args</p>
+(<b>array</b>) <i>(Optional)</i><br>
+
+
+<p style='color:__sett-att-color__'>$context</p>
+(<b>string</b>) <i>(Optional)</i><br>
+
+
+<p style='color:__sett-att-color__'>$allow_relaxed_file_ownership</p>
+(<b>bool</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(string) The transport to use, see description for valid return values.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/get_filesystem_method'/>See more</a></p>]]>
+	</description_html>
+</snippet>

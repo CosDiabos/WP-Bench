@@ -1,0 +1,36 @@
+
+<snippet>
+	<content><![CDATA[get_core_updates(${1:\$options});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>get_core_updates</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Get available core updates.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Get available core updates.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$options</p>
+(<b>array</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(array|false) Array of the update objects on success, false on failure.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/get_core_updates'/>See more</a></p>]]>
+	</description_html>
+</snippet>

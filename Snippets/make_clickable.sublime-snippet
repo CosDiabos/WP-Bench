@@ -1,0 +1,36 @@
+
+<snippet>
+	<content><![CDATA[make_clickable(${1:\$text});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>make_clickable</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Convert plaintext URI to HTML links.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Convert plaintext URI to HTML links.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$text</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(string) Content with converted URIs.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/make_clickable'/>See more</a></p>]]>
+	</description_html>
+</snippet>

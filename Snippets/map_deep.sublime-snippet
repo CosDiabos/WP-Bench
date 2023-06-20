@@ -1,0 +1,42 @@
+
+<snippet>
+	<content><![CDATA[map_deep(${1:\$value}, ${2:\$callback});
+
+function ${2:a} (${13:$$var=''}) {
+	${14:#Code...}
+}
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>map_deep</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Maps a function to all non-iterable elements of an array or an object.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Maps a function to all non-iterable elements of an array or an object.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$value</p>
+(<b>mixed</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$callback</p>
+(<b>callable</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(mixed) The value with the callback applied to all non-arrays and non-objects inside it.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/map_deep'/>See more</a></p>]]>
+	</description_html>
+</snippet>

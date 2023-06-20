@@ -1,0 +1,41 @@
+
+<snippet>
+	<content><![CDATA[wp_parse_str(${1:\$string}, ${2:\$array});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>wp_parse_str</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Parses a string into variables to be stored in an array.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Parses a string into variables to be stored in an array.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$string</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$array</p>
+(<b>array</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+
+			File: wp-includes/formatting.php		
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/wp_parse_str'/>See more</a></p>]]>
+	</description_html>
+</snippet>

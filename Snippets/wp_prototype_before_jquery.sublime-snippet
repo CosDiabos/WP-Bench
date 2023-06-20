@@ -1,0 +1,36 @@
+
+<snippet>
+	<content><![CDATA[wp_prototype_before_jquery(${1:\$js_array});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>wp_prototype_before_jquery</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Reorder JavaScript scripts array to place prototype before jQuery.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Reorder JavaScript scripts array to place prototype before jQuery.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$js_array</p>
+(<b>array</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(array) Reordered array, if needed.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/wp_prototype_before_jquery'/>See more</a></p>]]>
+	</description_html>
+</snippet>

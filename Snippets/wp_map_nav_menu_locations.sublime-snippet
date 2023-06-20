@@ -1,0 +1,40 @@
+
+<snippet>
+	<content><![CDATA[wp_map_nav_menu_locations(${1:\$new_nav_menu_locations}, ${2:\$old_nav_menu_locations});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>wp_map_nav_menu_locations</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Maps nav menu locations according to assignments in previously active theme.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Maps nav menu locations according to assignments in previously active theme.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$new_nav_menu_locations</p>
+(<b>array</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$old_nav_menu_locations</p>
+(<b>array</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(array) Nav menus mapped to new nav menu locations.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/wp_map_nav_menu_locations'/>See more</a></p>]]>
+	</description_html>
+</snippet>

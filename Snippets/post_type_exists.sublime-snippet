@@ -1,0 +1,36 @@
+
+<snippet>
+	<content><![CDATA[post_type_exists(${1:\$post_type});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>post_type_exists</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Check if a post type is registered.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Check if a post type is registered.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$post_type</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(bool) Whether post type is registered.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/post_type_exists'/>See more</a></p>]]>
+	</description_html>
+</snippet>

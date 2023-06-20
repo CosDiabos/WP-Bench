@@ -1,0 +1,44 @@
+
+<snippet>
+	<content><![CDATA[maybe_add_column(${1:\$table_name}, ${2:\$column_name}, ${3:\$create_ddl});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>maybe_add_column</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Adds column to a database table if it doesn’t already exist.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Adds column to a database table if it doesn’t already exist.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$table_name</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$column_name</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$create_ddl</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(bool) True if already exists or on successful completion, false on error.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/maybe_add_column'/>See more</a></p>]]>
+	</description_html>
+</snippet>

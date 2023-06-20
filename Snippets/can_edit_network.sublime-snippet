@@ -1,0 +1,36 @@
+
+<snippet>
+	<content><![CDATA[can_edit_network(${1:\$network_id});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>can_edit_network</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Whether or not we can edit this network from this page.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Whether or not we can edit this network from this page.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$network_id</p>
+(<b>int</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(bool) True if network can be edited, otherwise false.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/can_edit_network'/>See more</a></p>]]>
+	</description_html>
+</snippet>

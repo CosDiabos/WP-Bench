@@ -1,0 +1,32 @@
+
+<snippet>
+	<content><![CDATA[screen_layout();
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>screen_layout</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Returns the screen layout options.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Returns the screen layout options.</p>
+
+
+------------<br>
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+None
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/screen_layout'/>See more</a></p>]]>
+	</description_html>
+</snippet>

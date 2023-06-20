@@ -1,0 +1,49 @@
+
+<snippet>
+	<content><![CDATA[update_post_caches(${1:\$posts}, ${2:\$post_type}, ${3:\$update_term_cache}, ${4:\$update_meta_cache});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>update_post_caches</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Call major cache updating functions for list of Post objects.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Call major cache updating functions for list of Post objects.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$posts</p>
+(<b>array</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$post_type</p>
+(<b>string</b>) <i>(Optional)</i><br>
+
+
+<p style='color:__sett-att-color__'>$update_term_cache</p>
+(<b>bool</b>) <i>(Optional)</i><br>
+
+
+<p style='color:__sett-att-color__'>$update_meta_cache</p>
+(<b>bool</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+
+			File: wp-includes/post.php		
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/update_post_caches'/>See more</a></p>]]>
+	</description_html>
+</snippet>

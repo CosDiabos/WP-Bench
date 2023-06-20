@@ -1,0 +1,32 @@
+
+<snippet>
+	<content><![CDATA[save_mod_rewrite_rules();
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>save_mod_rewrite_rules</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Updates the htaccess file with the current rules if it is writable.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Updates the htaccess file with the current rules if it is writable.</p>
+
+
+------------<br>
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+None
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/save_mod_rewrite_rules'/>See more</a></p>]]>
+	</description_html>
+</snippet>

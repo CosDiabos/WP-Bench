@@ -1,0 +1,36 @@
+
+<snippet>
+	<content><![CDATA[wp_get_links(${1:\$args});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>wp_get_links</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Gets the links associated with category.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Gets the links associated with category.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$args</p>
+(<b>string</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(null|string) 
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/wp_get_links'/>See more</a></p>]]>
+	</description_html>
+</snippet>

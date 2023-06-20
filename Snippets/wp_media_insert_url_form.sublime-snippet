@@ -1,0 +1,36 @@
+
+<snippet>
+	<content><![CDATA[wp_media_insert_url_form(${1:\$default_view});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>wp_media_insert_url_form</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Creates the form for external url]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Creates the form for external url</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$default_view</p>
+(<b>string</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(string) the form html
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/wp_media_insert_url_form'/>See more</a></p>]]>
+	</description_html>
+</snippet>

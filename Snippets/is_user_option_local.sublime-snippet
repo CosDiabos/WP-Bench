@@ -1,0 +1,44 @@
+
+<snippet>
+	<content><![CDATA[is_user_option_local(${1:\$key}, ${2:\$user_id}, ${3:\$blog_id});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>is_user_option_local</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Check whether a usermeta key has to do with the current blog.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Check whether a usermeta key has to do with the current blog.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$key</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$user_id</p>
+(<b>int</b>) <i>(Optional)</i><br>
+
+
+<p style='color:__sett-att-color__'>$blog_id</p>
+(<b>int</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(bool) 
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/is_user_option_local'/>See more</a></p>]]>
+	</description_html>
+</snippet>

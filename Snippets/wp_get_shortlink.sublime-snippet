@@ -1,0 +1,44 @@
+
+<snippet>
+	<content><![CDATA[wp_get_shortlink(${1:\$id}, ${2:\$context}, ${3:\$allow_slugs});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>wp_get_shortlink</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Returns a shortlink for a post, page, attachment, or site.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Returns a shortlink for a post, page, attachment, or site.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$id</p>
+(<b>int</b>) <i>(Optional)</i><br>
+
+
+<p style='color:__sett-att-color__'>$context</p>
+(<b>string</b>) <i>(Optional)</i><br>
+
+
+<p style='color:__sett-att-color__'>$allow_slugs</p>
+(<b>bool</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(string) A shortlink or an empty string if no shortlink exists for the requested resource or if shortlinks                are not enabled.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/wp_get_shortlink'/>See more</a></p>]]>
+	</description_html>
+</snippet>

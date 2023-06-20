@@ -1,0 +1,41 @@
+
+<snippet>
+	<content><![CDATA[wp_nav_menu_item_taxonomy_meta_box(${1:\$object}, ${2:\$box});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>wp_nav_menu_item_taxonomy_meta_box</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Displays a meta box for a taxonomy menu item.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Displays a meta box for a taxonomy menu item.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$object</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$box</p>
+(<b>array</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+
+			File: wp-admin/includes/nav-menu.php		
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/wp_nav_menu_item_taxonomy_meta_box'/>See more</a></p>]]>
+	</description_html>
+</snippet>

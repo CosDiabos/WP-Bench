@@ -1,0 +1,45 @@
+
+<snippet>
+	<content><![CDATA[media_upload_type_url_form(${1:\$type}, ${2:\$errors}, ${3:\$id});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>media_upload_type_url_form</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Outputs the legacy media upload form for external media.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Outputs the legacy media upload form for external media.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$type</p>
+(<b>string</b>) <i>(Optional)</i><br>
+
+
+<p style='color:__sett-att-color__'>$errors</p>
+(<b>object</b>) <i>(Optional)</i><br>
+
+
+<p style='color:__sett-att-color__'>$id</p>
+(<b>integer</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+
+			File: wp-admin/includes/media.php		
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/media_upload_type_url_form'/>See more</a></p>]]>
+	</description_html>
+</snippet>

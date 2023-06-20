@@ -1,0 +1,40 @@
+
+<snippet>
+	<content><![CDATA[get_comment_date(${1:\$d}, ${2:\$comment_ID});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>get_comment_date</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Retrieve the comment date of the current comment.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Retrieve the comment date of the current comment.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$d</p>
+(<b>string</b>) <i>(Optional)</i><br>
+
+
+<p style='color:__sett-att-color__'>$comment_ID</p>
+(<b>int</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(string) The comment's date.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/get_comment_date'/>See more</a></p>]]>
+	</description_html>
+</snippet>

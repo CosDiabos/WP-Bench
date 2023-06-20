@@ -1,0 +1,40 @@
+
+<snippet>
+	<content><![CDATA[get_weekstartend(${1:\$mysqlstring}, ${2:\$start_of_week});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>get_weekstartend</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Get the week start and end from the datetime or date string from MySQL.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Get the week start and end from the datetime or date string from MySQL.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$mysqlstring</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$start_of_week</p>
+(<b>int</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(array) Keys are 'start' and 'end'.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/get_weekstartend'/>See more</a></p>]]>
+	</description_html>
+</snippet>

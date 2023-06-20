@@ -1,0 +1,40 @@
+
+<snippet>
+	<content><![CDATA[media_post_single_attachment_fields_to_edit(${1:\$form_fields}, ${2:\$post});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>media_post_single_attachment_fields_to_edit</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Retrieves the post non-image attachment fields to edito form fields.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Retrieves the post non-image attachment fields to edito form fields.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$form_fields</p>
+(<b>array</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$post</p>
+(<b>WP_Post</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(array) Filtered attachment form fields.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/media_post_single_attachment_fields_to_edit'/>See more</a></p>]]>
+	</description_html>
+</snippet>

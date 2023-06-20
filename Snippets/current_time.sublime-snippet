@@ -1,0 +1,40 @@
+
+<snippet>
+	<content><![CDATA[current_time(${1:\$type}, ${2:\$gmt});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>current_time</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Retrieve the current time based on specified type.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Retrieve the current time based on specified type.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$type</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$gmt</p>
+(<b>int</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(int|string) Integer if $type is 'timestamp', string otherwise.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/current_time'/>See more</a></p>]]>
+	</description_html>
+</snippet>

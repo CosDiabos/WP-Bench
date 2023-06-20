@@ -1,0 +1,33 @@
+
+<snippet>
+	<content><![CDATA[json_last_error_msg();
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>json_last_error_msg</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Retrieves the error string of the last json_encode() or json_decode() call.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Retrieves the error string of the last json_encode() or json_decode() call.</p>
+
+
+------------<br>
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+
+			File: wp-includes/compat.php		
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/json_last_error_msg'/>See more</a></p>]]>
+	</description_html>
+</snippet>

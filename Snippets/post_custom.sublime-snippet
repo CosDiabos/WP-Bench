@@ -1,0 +1,36 @@
+
+<snippet>
+	<content><![CDATA[post_custom(${1:\$key});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>post_custom</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Retrieve post custom meta data field.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Retrieve post custom meta data field.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$key</p>
+(<b>string</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(false|string|array) Array of values or single value, if only one element exists. False will be returned if key does not exist.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/post_custom'/>See more</a></p>]]>
+	</description_html>
+</snippet>

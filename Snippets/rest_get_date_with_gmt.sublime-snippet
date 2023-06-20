@@ -1,0 +1,40 @@
+
+<snippet>
+	<content><![CDATA[rest_get_date_with_gmt(${1:\$date}, ${2:\$is_utc});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>rest_get_date_with_gmt</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Parses a date into both its local and UTC equivalent, in MySQL datetime format.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Parses a date into both its local and UTC equivalent, in MySQL datetime format.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$date</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$is_utc</p>
+(<b>bool</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(array|null) Local and UTC datetime strings, in MySQL datetime format (Y-m-d H:i:s),                    null on failure.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/rest_get_date_with_gmt'/>See more</a></p>]]>
+	</description_html>
+</snippet>

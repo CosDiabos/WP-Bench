@@ -1,0 +1,52 @@
+
+<snippet>
+	<content><![CDATA[delete_metadata(${1:\$meta_type}, ${2:\$object_id}, ${3:\$meta_key}, ${4:\$meta_value}, ${5:\$delete_all});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>delete_metadata</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Delete metadata for the specified object.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Delete metadata for the specified object.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$meta_type</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$object_id</p>
+(<b>int</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$meta_key</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$meta_value</p>
+(<b>mixed</b>) <i>(Optional)</i><br>
+
+
+<p style='color:__sett-att-color__'>$delete_all</p>
+(<b>bool</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(bool) True on successful delete, false on failure.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/delete_metadata'/>See more</a></p>]]>
+	</description_html>
+</snippet>

@@ -1,0 +1,37 @@
+
+<snippet>
+	<content><![CDATA[wp_default_styles(${1:\$styles});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>wp_default_styles</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Assign default styles to $styles object.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Assign default styles to $styles object.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$styles</p>
+(<b>WP_Styles</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+
+			File: wp-includes/script-loader.php		
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/wp_default_styles'/>See more</a></p>]]>
+	</description_html>
+</snippet>

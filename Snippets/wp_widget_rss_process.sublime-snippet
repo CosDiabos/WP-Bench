@@ -1,0 +1,40 @@
+
+<snippet>
+	<content><![CDATA[wp_widget_rss_process(${1:\$widget_rss}, ${2:\$check_feed});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>wp_widget_rss_process</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Process RSS feed widget data and optionally retrieve feed items.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Process RSS feed widget data and optionally retrieve feed items.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$widget_rss</p>
+(<b>array</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$check_feed</p>
+(<b>bool</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(array) 
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/wp_widget_rss_process'/>See more</a></p>]]>
+	</description_html>
+</snippet>

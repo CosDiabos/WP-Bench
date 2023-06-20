@@ -1,0 +1,36 @@
+
+<snippet>
+	<content><![CDATA[_response_to_rss(${1:\$resp});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>_response_to_rss</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Retrieve]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Retrieve</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$resp</p>
+(<b>array</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(MagpieRSS|bool) 
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/_response_to_rss'/>See more</a></p>]]>
+	</description_html>
+</snippet>

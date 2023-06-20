@@ -1,0 +1,40 @@
+
+<snippet>
+	<content><![CDATA[register_new_user(${1:\$user_login}, ${2:\$user_email});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>register_new_user</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Handles registering a new user.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Handles registering a new user.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$user_login</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$user_email</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(int|WP_Error) Either user's ID or error on failure.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/register_new_user'/>See more</a></p>]]>
+	</description_html>
+</snippet>

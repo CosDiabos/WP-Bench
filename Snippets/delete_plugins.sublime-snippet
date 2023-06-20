@@ -1,0 +1,40 @@
+
+<snippet>
+	<content><![CDATA[delete_plugins(${1:\$plugins}, ${2:\$deprecated});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>delete_plugins</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Remove directory and files of a plugin for a list of plugins.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Remove directory and files of a plugin for a list of plugins.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$plugins</p>
+(<b>array</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$deprecated</p>
+(<b>string</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(bool|null|WP_Error) True on success, false is $plugins is empty, WP_Error on failure.                            Null if filesystem credentials are required to proceed.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/delete_plugins'/>See more</a></p>]]>
+	</description_html>
+</snippet>

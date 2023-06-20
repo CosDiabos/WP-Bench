@@ -1,0 +1,44 @@
+
+<snippet>
+	<content><![CDATA[_wp_preview_post_thumbnail_filter(${1:\$value}, ${2:\$post_id}, ${3:\$meta_key});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>_wp_preview_post_thumbnail_filter</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Filters post thumbnail lookup to set the post thumbnail.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Filters post thumbnail lookup to set the post thumbnail.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$value</p>
+(<b>null</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$post_id</p>
+(<b>int</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$meta_key</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(null|array) The default return value or the post thumbnail meta array.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/_wp_preview_post_thumbnail_filter'/>See more</a></p>]]>
+	</description_html>
+</snippet>

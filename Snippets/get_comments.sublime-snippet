@@ -1,0 +1,36 @@
+
+<snippet>
+	<content><![CDATA[get_comments(${1:\$args});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>get_comments</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Retrieve a list of comments.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Retrieve a list of comments.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$args</p>
+(<b>string</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(int|array) List of comments or number of found comments if $count argument is true.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/get_comments'/>See more</a></p>]]>
+	</description_html>
+</snippet>

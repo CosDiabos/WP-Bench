@@ -1,0 +1,32 @@
+
+<snippet>
+	<content><![CDATA[wp_localize_community_events();
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>wp_localize_community_events</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Localizes community events data that needs to be passed to dashboard.js.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Localizes community events data that needs to be passed to dashboard.js.</p>
+
+
+------------<br>
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+None
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/wp_localize_community_events'/>See more</a></p>]]>
+	</description_html>
+</snippet>

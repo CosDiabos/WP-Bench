@@ -1,0 +1,32 @@
+
+<snippet>
+	<content><![CDATA[parse_w3cdtf();
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>parse_w3cdtf</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'></p>
+
+
+------------<br>
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+None
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/parse_w3cdtf'/>See more</a></p>]]>
+	</description_html>
+</snippet>

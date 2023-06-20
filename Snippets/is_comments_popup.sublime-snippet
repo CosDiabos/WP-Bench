@@ -1,0 +1,33 @@
+
+<snippet>
+	<content><![CDATA[is_comments_popup();
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>is_comments_popup</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Whether the current URL is within the comments popup window.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Whether the current URL is within the comments popup window.</p>
+
+
+------------<br>
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+
+			File: wp-includes/deprecated.php		
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/is_comments_popup'/>See more</a></p>]]>
+	</description_html>
+</snippet>

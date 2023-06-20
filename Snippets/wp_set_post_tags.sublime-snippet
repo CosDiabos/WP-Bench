@@ -1,0 +1,44 @@
+
+<snippet>
+	<content><![CDATA[wp_set_post_tags(${1:\$post_id}, ${2:\$tags}, ${3:\$append});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>wp_set_post_tags</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Set the tags for a post.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Set the tags for a post.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$post_id</p>
+(<b>int</b>) <i>(Optional)</i><br>
+
+
+<p style='color:__sett-att-color__'>$tags</p>
+(<b>string</b>) <i>(Optional)</i><br>
+
+
+<p style='color:__sett-att-color__'>$append</p>
+(<b>bool</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(array|false|WP_Error) Array of term taxonomy IDs of affected terms. WP_Error or false on failure.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/wp_set_post_tags'/>See more</a></p>]]>
+	</description_html>
+</snippet>

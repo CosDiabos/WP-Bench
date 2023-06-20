@@ -1,0 +1,33 @@
+
+<snippet>
+	<content><![CDATA[signup_get_available_languages();
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>signup_get_available_languages</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Retrieves languages available during the site/user signup process.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Retrieves languages available during the site/user signup process.</p>
+
+
+------------<br>
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+
+			File: wp-signup.php		
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/signup_get_available_languages'/>See more</a></p>]]>
+	</description_html>
+</snippet>

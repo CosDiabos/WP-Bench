@@ -1,0 +1,36 @@
+
+<snippet>
+	<content><![CDATA[unregister_post_type(${1:\$post_type});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>unregister_post_type</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Unregisters a post type.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Unregisters a post type.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$post_type</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(bool|WP_Error) True on success, WP_Error on failure or if the post type doesn't exist.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/unregister_post_type'/>See more</a></p>]]>
+	</description_html>
+</snippet>

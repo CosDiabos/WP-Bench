@@ -1,0 +1,33 @@
+
+<snippet>
+	<content><![CDATA[is_upload_space_available();
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>is_upload_space_available</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Determines if there is any upload space left in the current blog’s quota.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Determines if there is any upload space left in the current blog’s quota.</p>
+
+
+------------<br>
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+
+			File: wp-includes/ms-functions.php		
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/is_upload_space_available'/>See more</a></p>]]>
+	</description_html>
+</snippet>

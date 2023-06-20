@@ -1,0 +1,36 @@
+
+<snippet>
+	<content><![CDATA[is_random_header_image(${1:\$type});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>is_random_header_image</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Check if random header image is in use.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Check if random header image is in use.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$type</p>
+(<b>string</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(bool) 
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/is_random_header_image'/>See more</a></p>]]>
+	</description_html>
+</snippet>

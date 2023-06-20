@@ -1,0 +1,57 @@
+
+<snippet>
+	<content><![CDATA[the_editor(${1:\$content}, ${2:\$id}, ${3:\$prev_id}, ${4:\$media_buttons}, ${5:\$tab_index}, ${6:\$extended});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>the_editor</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Displays an editor: TinyMCE, HTML, or both.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Displays an editor: TinyMCE, HTML, or both.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$content</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$id</p>
+(<b>string</b>) <i>(Optional)</i><br>
+
+
+<p style='color:__sett-att-color__'>$prev_id</p>
+(<b>string</b>) <i>(Optional)</i><br>
+
+
+<p style='color:__sett-att-color__'>$media_buttons</p>
+(<b>bool</b>) <i>(Optional)</i><br>
+
+
+<p style='color:__sett-att-color__'>$tab_index</p>
+(<b>int</b>) <i>(Optional)</i><br>
+
+
+<p style='color:__sett-att-color__'>$extended</p>
+(<b>bool</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+
+			File: wp-includes/deprecated.php		
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/the_editor'/>See more</a></p>]]>
+	</description_html>
+</snippet>

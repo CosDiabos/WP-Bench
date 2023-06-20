@@ -1,0 +1,33 @@
+
+<snippet>
+	<content><![CDATA[validate_user_form();
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>validate_user_form</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Validate user signup name and email]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Validate user signup name and email</p>
+
+
+------------<br>
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+
+			File: wp-signup.php		
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/validate_user_form'/>See more</a></p>]]>
+	</description_html>
+</snippet>

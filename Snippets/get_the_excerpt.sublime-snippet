@@ -1,0 +1,36 @@
+
+<snippet>
+	<content><![CDATA[get_the_excerpt(${1:\$post});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>get_the_excerpt</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Retrieves the post excerpt.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Retrieves the post excerpt.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$post</p>
+(<b>int</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(string) Post excerpt.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/get_the_excerpt'/>See more</a></p>]]>
+	</description_html>
+</snippet>

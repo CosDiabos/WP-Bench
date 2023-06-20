@@ -1,0 +1,40 @@
+
+<snippet>
+	<content><![CDATA[user_can(${1:\$user}, ${2:\$capability});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>user_can</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Whether a particular user has a specific capability.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Whether a particular user has a specific capability.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$user</p>
+(<b>int</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$capability</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(bool) Whether the user has the given capability.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/user_can'/>See more</a></p>]]>
+	</description_html>
+</snippet>

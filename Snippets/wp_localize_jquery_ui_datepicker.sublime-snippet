@@ -1,0 +1,32 @@
+
+<snippet>
+	<content><![CDATA[wp_localize_jquery_ui_datepicker();
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>wp_localize_jquery_ui_datepicker</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Localizes the jQuery UI datepicker.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Localizes the jQuery UI datepicker.</p>
+
+
+------------<br>
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+None
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/wp_localize_jquery_ui_datepicker'/>See more</a></p>]]>
+	</description_html>
+</snippet>

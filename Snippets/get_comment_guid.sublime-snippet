@@ -1,0 +1,36 @@
+
+<snippet>
+	<content><![CDATA[get_comment_guid(${1:\$comment_id});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>get_comment_guid</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Retrieve the feed GUID for the current comment.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Retrieve the feed GUID for the current comment.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$comment_id</p>
+(<b>int</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(false|string) false on failure or guid for comment on success.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/get_comment_guid'/>See more</a></p>]]>
+	</description_html>
+</snippet>

@@ -1,0 +1,40 @@
+
+<snippet>
+	<content><![CDATA[get_post_galleries(${1:\$post}, ${2:\$html});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>get_post_galleries</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Retrieves galleries from the passed post’s content.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Retrieves galleries from the passed post’s content.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$post</p>
+(<b>int</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$html</p>
+(<b>bool</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(array) A list of arrays, each containing gallery data and srcs parsed               from the expanded shortcode.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/get_post_galleries'/>See more</a></p>]]>
+	</description_html>
+</snippet>

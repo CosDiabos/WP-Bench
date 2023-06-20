@@ -1,0 +1,40 @@
+
+<snippet>
+	<content><![CDATA[includes_url(${1:\$path}, ${2:\$scheme});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>includes_url</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Retrieves the URL to the includes directory.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Retrieves the URL to the includes directory.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$path</p>
+(<b>string</b>) <i>(Optional)</i><br>
+
+
+<p style='color:__sett-att-color__'>$scheme</p>
+(<b>string</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(string) Includes URL link with optional path appended.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/includes_url'/>See more</a></p>]]>
+	</description_html>
+</snippet>

@@ -1,0 +1,32 @@
+
+<snippet>
+	<content><![CDATA[the_post();
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>the_post</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Iterate the post index in the loop.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Iterate the post index in the loop.</p>
+
+
+------------<br>
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+None
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/the_post'/>See more</a></p>]]>
+	</description_html>
+</snippet>

@@ -1,0 +1,44 @@
+
+<snippet>
+	<content><![CDATA[image_media_send_to_editor(${1:\$html}, ${2:\$attachment_id}, ${3:\$attachment});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>image_media_send_to_editor</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Retrieves the media element HTML to send to the editor.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Retrieves the media element HTML to send to the editor.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$html</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$attachment_id</p>
+(<b>integer</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$attachment</p>
+(<b>array</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(string) 
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/image_media_send_to_editor'/>See more</a></p>]]>
+	</description_html>
+</snippet>

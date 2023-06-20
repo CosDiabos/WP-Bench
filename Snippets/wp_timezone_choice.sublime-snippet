@@ -1,0 +1,40 @@
+
+<snippet>
+	<content><![CDATA[wp_timezone_choice(${1:\$selected_zone}, ${2:\$locale});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>wp_timezone_choice</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Gives a nicely-formatted list of timezone strings.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Gives a nicely-formatted list of timezone strings.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$selected_zone</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$locale</p>
+(<b>string</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(string) 
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/wp_timezone_choice'/>See more</a></p>]]>
+	</description_html>
+</snippet>

@@ -1,0 +1,49 @@
+
+<snippet>
+	<content><![CDATA[touch_time(${1:\$edit}, ${2:\$for_post}, ${3:\$tab_index}, ${4:\$multi});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>touch_time</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Print out HTML form date elements for editing post or comment publish date.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Print out HTML form date elements for editing post or comment publish date.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$edit</p>
+(<b>int</b>) <i>(Optional)</i><br>
+
+
+<p style='color:__sett-att-color__'>$for_post</p>
+(<b>int</b>) <i>(Optional)</i><br>
+
+
+<p style='color:__sett-att-color__'>$tab_index</p>
+(<b>int</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$multi</p>
+(<b>int</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+
+			File: wp-admin/includes/template.php		
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/touch_time'/>See more</a></p>]]>
+	</description_html>
+</snippet>

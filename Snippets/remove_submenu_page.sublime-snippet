@@ -1,0 +1,40 @@
+
+<snippet>
+	<content><![CDATA[remove_submenu_page(${1:\$menu_slug}, ${2:\$submenu_slug});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>remove_submenu_page</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Remove an admin submenu.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Remove an admin submenu.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$menu_slug</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$submenu_slug</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(array|bool) The removed submenu on success, false if not found.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/remove_submenu_page'/>See more</a></p>]]>
+	</description_html>
+</snippet>

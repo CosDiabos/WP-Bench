@@ -1,0 +1,33 @@
+
+<snippet>
+	<content><![CDATA[wp_should_upgrade_global_tables();
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>wp_should_upgrade_global_tables</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Determine if global tables should be upgraded.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Determine if global tables should be upgraded.</p>
+
+
+------------<br>
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+
+			File: wp-admin/includes/upgrade.php		
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/wp_should_upgrade_global_tables'/>See more</a></p>]]>
+	</description_html>
+</snippet>

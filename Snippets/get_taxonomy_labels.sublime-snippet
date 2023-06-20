@@ -1,0 +1,36 @@
+
+<snippet>
+	<content><![CDATA[get_taxonomy_labels(${1:\$tax});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>get_taxonomy_labels</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Builds an object with all taxonomy labels out of a taxonomy object.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Builds an object with all taxonomy labels out of a taxonomy object.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$tax</p>
+(<b>WP_Taxonomy</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(object) Taxonomy labels object. The first default value is for non-hierarchical taxonomies (like tags) and the second one is for hierarchical taxonomies (like categories). 
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/get_taxonomy_labels'/>See more</a></p>]]>
+	</description_html>
+</snippet>

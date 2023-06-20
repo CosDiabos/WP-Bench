@@ -1,0 +1,32 @@
+
+<snippet>
+	<content><![CDATA[core_upgrade_preamble();
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>core_upgrade_preamble</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Display upgrade WordPress for downloading latest or upgrading automatically form.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Display upgrade WordPress for downloading latest or upgrading automatically form.</p>
+
+
+------------<br>
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+None
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/core_upgrade_preamble'/>See more</a></p>]]>
+	</description_html>
+</snippet>

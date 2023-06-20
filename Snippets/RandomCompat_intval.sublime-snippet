@@ -1,0 +1,40 @@
+
+<snippet>
+	<content><![CDATA[RandomCompat_intval(${1:\$number}, ${2:\$fail_open});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>RandomCompat_intval</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Cast to an integer if we can, safely.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Cast to an integer if we can, safely.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$number</p>
+(<b>int</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$fail_open</p>
+(<b>boolean</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(int) (or float if $fail_open)
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/RandomCompat_intval'/>See more</a></p>]]>
+	</description_html>
+</snippet>

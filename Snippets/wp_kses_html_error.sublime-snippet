@@ -1,0 +1,36 @@
+
+<snippet>
+	<content><![CDATA[wp_kses_html_error(${1:\$string});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>wp_kses_html_error</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Handles parsing errors in wp_kses_hair().]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Handles parsing errors in wp_kses_hair().</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$string</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(string) 
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/wp_kses_html_error'/>See more</a></p>]]>
+	</description_html>
+</snippet>

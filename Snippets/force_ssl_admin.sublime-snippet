@@ -1,0 +1,36 @@
+
+<snippet>
+	<content><![CDATA[force_ssl_admin(${1:\$force});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>force_ssl_admin</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Whether to force SSL used for the Administration Screens.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Whether to force SSL used for the Administration Screens.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$force</p>
+(<b>string</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(bool) True if forced, false if not forced.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/force_ssl_admin'/>See more</a></p>]]>
+	</description_html>
+</snippet>

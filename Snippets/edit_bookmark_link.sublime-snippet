@@ -1,0 +1,49 @@
+
+<snippet>
+	<content><![CDATA[edit_bookmark_link(${1:\$link}, ${2:\$before}, ${3:\$after}, ${4:\$bookmark});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>edit_bookmark_link</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Displays the edit bookmark link anchor content.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Displays the edit bookmark link anchor content.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$link</p>
+(<b>string</b>) <i>(Optional)</i><br>
+
+
+<p style='color:__sett-att-color__'>$before</p>
+(<b>string</b>) <i>(Optional)</i><br>
+
+
+<p style='color:__sett-att-color__'>$after</p>
+(<b>string</b>) <i>(Optional)</i><br>
+
+
+<p style='color:__sett-att-color__'>$bookmark</p>
+(<b>int</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+
+			File: wp-includes/link-template.php		
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/edit_bookmark_link'/>See more</a></p>]]>
+	</description_html>
+</snippet>

@@ -1,0 +1,36 @@
+
+<snippet>
+	<content><![CDATA[has_site_icon(${1:\$blog_id});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>has_site_icon</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Whether the site has a Site Icon.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Whether the site has a Site Icon.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$blog_id</p>
+(<b>int</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(bool) Whether the site has a site icon or not.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/has_site_icon'/>See more</a></p>]]>
+	</description_html>
+</snippet>

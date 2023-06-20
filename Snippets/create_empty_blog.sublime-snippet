@@ -1,0 +1,48 @@
+
+<snippet>
+	<content><![CDATA[create_empty_blog(${1:\$domain}, ${2:\$path}, ${3:\$weblog_title}, ${4:\$site_id});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>create_empty_blog</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Create an empty blog.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Create an empty blog.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$domain</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$path</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$weblog_title</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$site_id</p>
+(<b>int</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(string|int) The ID of the newly created blog
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/create_empty_blog'/>See more</a></p>]]>
+	</description_html>
+</snippet>

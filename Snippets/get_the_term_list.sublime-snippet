@@ -1,0 +1,52 @@
+
+<snippet>
+	<content><![CDATA[get_the_term_list(${1:\$id}, ${2:\$taxonomy}, ${3:\$before}, ${4:\$sep}, ${5:\$after});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>get_the_term_list</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Retrieve a post’s terms as a list with specified format.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Retrieve a post’s terms as a list with specified format.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$id</p>
+(<b>int</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$taxonomy</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$before</p>
+(<b>string</b>) <i>(Optional)</i><br>
+
+
+<p style='color:__sett-att-color__'>$sep</p>
+(<b>string</b>) <i>(Optional)</i><br>
+
+
+<p style='color:__sett-att-color__'>$after</p>
+(<b>string</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(string|false|WP_Error) A list of terms on success, false if there are no terms, WP_Error on failure.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/get_the_term_list'/>See more</a></p>]]>
+	</description_html>
+</snippet>

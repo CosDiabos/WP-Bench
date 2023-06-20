@@ -1,0 +1,47 @@
+
+<snippet>
+	<content><![CDATA[unregister_setting(${1:\$option_group}, ${2:\$option_name}, ${3:\$deprecated});
+
+function ${3:a} (${14:$$var=''}) {
+	${15:#Code...}
+}
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>unregister_setting</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Unregister a setting.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Unregister a setting.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$option_group</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$option_name</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$deprecated</p>
+(<b>callable</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+
+			File: wp-includes/option.php		
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/unregister_setting'/>See more</a></p>]]>
+	</description_html>
+</snippet>

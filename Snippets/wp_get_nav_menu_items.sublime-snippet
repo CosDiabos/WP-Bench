@@ -1,0 +1,40 @@
+
+<snippet>
+	<content><![CDATA[wp_get_nav_menu_items(${1:\$menu}, ${2:\$args});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>wp_get_nav_menu_items</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Retrieves all menu items of a navigation menu.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Retrieves all menu items of a navigation menu.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$menu</p>
+(<b>int</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$args</p>
+(<b>array</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(false|array) $items Array of menu items, otherwise false.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/wp_get_nav_menu_items'/>See more</a></p>]]>
+	</description_html>
+</snippet>

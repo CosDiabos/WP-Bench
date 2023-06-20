@@ -1,0 +1,41 @@
+
+<snippet>
+	<content><![CDATA[do_action(${1:\$tag}, ${2:\$arg,...});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>do_action</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Execute functions hooked on a specific action hook.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Execute functions hooked on a specific action hook.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$tag</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$arg,...</p>
+(<b>mixed</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+
+			File: wp-includes/plugin.php		
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/do_action'/>See more</a></p>]]>
+	</description_html>
+</snippet>

@@ -1,0 +1,44 @@
+
+<snippet>
+	<content><![CDATA[get_post_permalink(${1:\$id}, ${2:\$leavename}, ${3:\$sample});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>get_post_permalink</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Retrieves the permalink for a post of a custom post type.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Retrieves the permalink for a post of a custom post type.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$id</p>
+(<b>int</b>) <i>(Optional)</i><br>
+
+
+<p style='color:__sett-att-color__'>$leavename</p>
+(<b>bool</b>) <i>(Optional)</i><br>
+
+
+<p style='color:__sett-att-color__'>$sample</p>
+(<b>bool</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(string|WP_Error) The post permalink.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/get_post_permalink'/>See more</a></p>]]>
+	</description_html>
+</snippet>

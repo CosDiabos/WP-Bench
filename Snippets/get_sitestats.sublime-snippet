@@ -1,0 +1,33 @@
+
+<snippet>
+	<content><![CDATA[get_sitestats();
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>get_sitestats</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Gets the network’s site and user counts.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Gets the network’s site and user counts.</p>
+
+
+------------<br>
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+
+			File: wp-includes/ms-functions.php		
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/get_sitestats'/>See more</a></p>]]>
+	</description_html>
+</snippet>

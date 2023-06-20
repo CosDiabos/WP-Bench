@@ -1,0 +1,36 @@
+
+<snippet>
+	<content><![CDATA[wp_get_link_cats(${1:\$link_id});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>wp_get_link_cats</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Retrieves the link categories associated with the link specified.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Retrieves the link categories associated with the link specified.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$link_id</p>
+(<b>int</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(array) The requested link's categories
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/wp_get_link_cats'/>See more</a></p>]]>
+	</description_html>
+</snippet>

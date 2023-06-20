@@ -1,0 +1,36 @@
+
+<snippet>
+	<content><![CDATA[get_hidden_meta_boxes(${1:\$screen});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>get_hidden_meta_boxes</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Get Hidden Meta Boxes]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Get Hidden Meta Boxes</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$screen</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(array) Hidden Meta Boxes
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/get_hidden_meta_boxes'/>See more</a></p>]]>
+	</description_html>
+</snippet>

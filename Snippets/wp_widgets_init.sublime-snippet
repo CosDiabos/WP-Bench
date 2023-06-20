@@ -1,0 +1,32 @@
+
+<snippet>
+	<content><![CDATA[wp_widgets_init();
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>wp_widgets_init</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Registers all of the default WordPress widgets on startup.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Registers all of the default WordPress widgets on startup.</p>
+
+
+------------<br>
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+None
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/wp_widgets_init'/>See more</a></p>]]>
+	</description_html>
+</snippet>

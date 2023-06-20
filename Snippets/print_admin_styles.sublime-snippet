@@ -1,0 +1,33 @@
+
+<snippet>
+	<content><![CDATA[print_admin_styles();
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>print_admin_styles</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Prints the styles queue in the HTML head on admin pages.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Prints the styles queue in the HTML head on admin pages.</p>
+
+
+------------<br>
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+
+			File: wp-includes/script-loader.php		
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/print_admin_styles'/>See more</a></p>]]>
+	</description_html>
+</snippet>

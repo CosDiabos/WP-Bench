@@ -1,0 +1,40 @@
+
+<snippet>
+	<content><![CDATA[_fetch_remote_file(${1:\$url}, ${2:\$headers});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>_fetch_remote_file</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Retrieve URL headers and content using WP HTTP Request API.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Retrieve URL headers and content using WP HTTP Request API.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$url</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$headers</p>
+(<b>array</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(Snoopy) style response
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/_fetch_remote_file'/>See more</a></p>]]>
+	</description_html>
+</snippet>

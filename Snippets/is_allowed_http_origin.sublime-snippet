@@ -1,0 +1,36 @@
+
+<snippet>
+	<content><![CDATA[is_allowed_http_origin(${1:\$origin});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>is_allowed_http_origin</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Determines if the HTTP origin is an authorized one.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Determines if the HTTP origin is an authorized one.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$origin</p>
+(<b>null</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(string) Origin URL if allowed, empty string if not.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/is_allowed_http_origin'/>See more</a></p>]]>
+	</description_html>
+</snippet>

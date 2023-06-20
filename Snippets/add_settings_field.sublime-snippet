@@ -1,0 +1,59 @@
+
+<snippet>
+	<content><![CDATA[add_settings_field(${1:\$id}, ${2:\$title}, ${3:\$callback}, ${4:\$page}, ${5:\$section}, ${6:\$args});
+
+function ${3:a} (${14:$$var=''}) {
+	${15:#Code...}
+}
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>add_settings_field</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Add a new field to a section of a settings page]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Add a new field to a section of a settings page</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$id</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$title</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$callback</p>
+(<b>callable</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$page</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$section</p>
+(<b>string</b>) <i>(Optional)</i><br>
+
+
+<p style='color:__sett-att-color__'>$args</p>
+(<b>array</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+
+			File: wp-admin/includes/template.php		
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/add_settings_field'/>See more</a></p>]]>
+	</description_html>
+</snippet>

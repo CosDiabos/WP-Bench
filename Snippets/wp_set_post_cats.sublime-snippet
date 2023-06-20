@@ -1,0 +1,44 @@
+
+<snippet>
+	<content><![CDATA[wp_set_post_cats(${1:\$blogid}, ${2:\$post_ID}, ${3:\$post_categories});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>wp_set_post_cats</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Sets the categories that the post id belongs to.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Sets the categories that the post id belongs to.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$blogid</p>
+(<b>int</b>) <i>(Optional)</i><br>
+
+
+<p style='color:__sett-att-color__'>$post_ID</p>
+(<b>int</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$post_categories</p>
+(<b>array</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(bool|mixed) 
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/wp_set_post_cats'/>See more</a></p>]]>
+	</description_html>
+</snippet>

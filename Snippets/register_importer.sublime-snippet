@@ -1,0 +1,50 @@
+
+<snippet>
+	<content><![CDATA[register_importer(${1:\$id}, ${2:\$name}, ${3:\$description}, ${4:\$callback});
+
+function ${4:a} (${15:$$var=''}) {
+	${16:#Code...}
+}
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>register_importer</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Register importer for WordPress.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Register importer for WordPress.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$id</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$name</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$description</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$callback</p>
+(<b>callable</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(WP_Error) Returns WP_Error when $callback is WP_Error.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/register_importer'/>See more</a></p>]]>
+	</description_html>
+</snippet>

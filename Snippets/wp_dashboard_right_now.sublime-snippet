@@ -1,0 +1,32 @@
+
+<snippet>
+	<content><![CDATA[wp_dashboard_right_now();
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>wp_dashboard_right_now</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Dashboard widget that displays some basic stats about the site.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Dashboard widget that displays some basic stats about the site.</p>
+
+
+------------<br>
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+None
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/wp_dashboard_right_now'/>See more</a></p>]]>
+	</description_html>
+</snippet>

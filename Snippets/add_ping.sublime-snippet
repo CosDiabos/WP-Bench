@@ -1,0 +1,40 @@
+
+<snippet>
+	<content><![CDATA[add_ping(${1:\$post_id}, ${2:\$uri});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>add_ping</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Add a URL to those already pinged.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Add a URL to those already pinged.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$post_id</p>
+(<b>int</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$uri</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(int|false) How many rows were updated.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/add_ping'/>See more</a></p>]]>
+	</description_html>
+</snippet>

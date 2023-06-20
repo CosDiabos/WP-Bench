@@ -1,0 +1,33 @@
+
+<snippet>
+	<content><![CDATA[get_post_format_strings();
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>get_post_format_strings</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Returns an array of post format slugs to their translated and pretty display versions]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Returns an array of post format slugs to their translated and pretty display versions</p>
+
+
+------------<br>
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+
+			File: wp-includes/post-formats.php		
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/get_post_format_strings'/>See more</a></p>]]>
+	</description_html>
+</snippet>

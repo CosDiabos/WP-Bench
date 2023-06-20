@@ -1,0 +1,33 @@
+
+<snippet>
+	<content><![CDATA[wp_generate_uuid4();
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>wp_generate_uuid4</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Generate a random UUID (version 4).]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Generate a random UUID (version 4).</p>
+
+
+------------<br>
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+
+			File: wp-includes/functions.php		
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/wp_generate_uuid4'/>See more</a></p>]]>
+	</description_html>
+</snippet>

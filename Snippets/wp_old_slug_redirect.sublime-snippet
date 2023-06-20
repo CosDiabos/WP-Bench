@@ -1,0 +1,32 @@
+
+<snippet>
+	<content><![CDATA[wp_old_slug_redirect();
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>wp_old_slug_redirect</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Redirect old slugs to the correct permalink.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Redirect old slugs to the correct permalink.</p>
+
+
+------------<br>
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+None
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/wp_old_slug_redirect'/>See more</a></p>]]>
+	</description_html>
+</snippet>

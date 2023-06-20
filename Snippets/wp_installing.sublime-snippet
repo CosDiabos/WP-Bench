@@ -1,0 +1,36 @@
+
+<snippet>
+	<content><![CDATA[wp_installing(${1:\$is_installing});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>wp_installing</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Check or set whether WordPress is in “installation” mode.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Check or set whether WordPress is in “installation” mode.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$is_installing</p>
+(<b>bool</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(bool) True if WP is installing, otherwise false. When a $is_installing is passed, the function will              report whether WP was in installing mode prior to the change to $is_installing.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/wp_installing'/>See more</a></p>]]>
+	</description_html>
+</snippet>

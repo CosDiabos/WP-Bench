@@ -1,0 +1,41 @@
+
+<snippet>
+	<content><![CDATA[update_network_option_new_admin_email(${1:\$old_value}, ${2:\$value});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>update_network_option_new_admin_email</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Send a confirmation request email when a change of network admin email address is attempted.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Send a confirmation request email when a change of network admin email address is attempted.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$old_value</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$value</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+
+			File: wp-includes/ms-functions.php		
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/update_network_option_new_admin_email'/>See more</a></p>]]>
+	</description_html>
+</snippet>

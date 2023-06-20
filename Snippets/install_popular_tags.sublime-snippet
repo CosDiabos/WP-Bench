@@ -1,0 +1,36 @@
+
+<snippet>
+	<content><![CDATA[install_popular_tags(${1:\$args});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>install_popular_tags</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Retrieve popular WordPress plugin tags.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Retrieve popular WordPress plugin tags.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$args</p>
+(<b>array</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(array) 
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/install_popular_tags'/>See more</a></p>]]>
+	</description_html>
+</snippet>

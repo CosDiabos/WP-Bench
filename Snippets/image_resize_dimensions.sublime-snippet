@@ -1,0 +1,52 @@
+
+<snippet>
+	<content><![CDATA[image_resize_dimensions(${1:\$orig_w}, ${2:\$orig_h}, ${3:\$dest_w}, ${4:\$dest_h}, ${5:\$crop});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>image_resize_dimensions</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Retrieves calculated resize dimensions for use in WP_Image_Editor.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Retrieves calculated resize dimensions for use in WP_Image_Editor.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$orig_w</p>
+(<b>int</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$orig_h</p>
+(<b>int</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$dest_w</p>
+(<b>int</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$dest_h</p>
+(<b>int</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$crop</p>
+(<b>bool</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(false|array) False on failure. Returned array matches parameters for imagecopyresampled().
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/image_resize_dimensions'/>See more</a></p>]]>
+	</description_html>
+</snippet>

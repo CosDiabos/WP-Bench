@@ -1,0 +1,44 @@
+
+<snippet>
+	<content><![CDATA[get_commentdata(${1:\$comment_ID}, ${2:\$no_cache}, ${3:\$include_unapproved});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>get_commentdata</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Retrieve an array of comment data about comment $comment_ID.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Retrieve an array of comment data about comment $comment_ID.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$comment_ID</p>
+(<b>int</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$no_cache</p>
+(<b>int</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$include_unapproved</p>
+(<b>bool</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(array) The comment data
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/get_commentdata'/>See more</a></p>]]>
+	</description_html>
+</snippet>

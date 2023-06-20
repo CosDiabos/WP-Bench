@@ -1,0 +1,41 @@
+
+<snippet>
+	<content><![CDATA[wp_set_comment_cookies(${1:\$comment}, ${2:\$user});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>wp_set_comment_cookies</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Sets the cookies used to store an unauthenticated commentator’s identity. Typically used to recall previous comments by this commentator that are still held in moderation.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Sets the cookies used to store an unauthenticated commentator’s identity. Typically used to recall previous comments by this commentator that are still held in moderation.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$comment</p>
+(<b>WP_Comment</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$user</p>
+(<b>object</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+
+			File: wp-includes/comment.php		
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/wp_set_comment_cookies'/>See more</a></p>]]>
+	</description_html>
+</snippet>

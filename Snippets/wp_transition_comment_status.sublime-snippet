@@ -1,0 +1,45 @@
+
+<snippet>
+	<content><![CDATA[wp_transition_comment_status(${1:\$new_status}, ${2:\$old_status}, ${3:\$comment});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>wp_transition_comment_status</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Call hooks for when a comment status transition occurs.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Call hooks for when a comment status transition occurs.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$new_status</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$old_status</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$comment</p>
+(<b>object</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+
+			File: wp-includes/comment.php		
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/wp_transition_comment_status'/>See more</a></p>]]>
+	</description_html>
+</snippet>

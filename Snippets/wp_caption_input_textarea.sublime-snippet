@@ -1,0 +1,36 @@
+
+<snippet>
+	<content><![CDATA[wp_caption_input_textarea(${1:\$edit_post});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>wp_caption_input_textarea</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Output a textarea element for inputting an attachment caption.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Output a textarea element for inputting an attachment caption.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$edit_post</p>
+(<b>WP_Post</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(string) HTML markup for the textarea element.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/wp_caption_input_textarea'/>See more</a></p>]]>
+	</description_html>
+</snippet>

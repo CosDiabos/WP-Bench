@@ -1,0 +1,32 @@
+
+<snippet>
+	<content><![CDATA[_wp_footer_scripts();
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>_wp_footer_scripts</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Private, for use in *_footer_scripts hooks]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Private, for use in *_footer_scripts hooks</p>
+
+
+------------<br>
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+None
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/_wp_footer_scripts'/>See more</a></p>]]>
+	</description_html>
+</snippet>

@@ -1,0 +1,33 @@
+
+<snippet>
+	<content><![CDATA[get_http_origin();
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>get_http_origin</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Get the HTTP Origin of the current request.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Get the HTTP Origin of the current request.</p>
+
+
+------------<br>
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+
+			File: wp-includes/http.php		
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/get_http_origin'/>See more</a></p>]]>
+	</description_html>
+</snippet>

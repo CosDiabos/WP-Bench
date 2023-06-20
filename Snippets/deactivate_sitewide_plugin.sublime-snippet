@@ -1,0 +1,32 @@
+
+<snippet>
+	<content><![CDATA[deactivate_sitewide_plugin();
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>deactivate_sitewide_plugin</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Deprecated functionality for deactivating a network-only plugin.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Deprecated functionality for deactivating a network-only plugin.</p>
+
+
+------------<br>
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+None
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/deactivate_sitewide_plugin'/>See more</a></p>]]>
+	</description_html>
+</snippet>

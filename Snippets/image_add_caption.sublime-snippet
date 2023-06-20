@@ -1,0 +1,64 @@
+
+<snippet>
+	<content><![CDATA[image_add_caption(${1:\$html}, ${2:\$id}, ${3:\$caption}, ${4:\$title}, ${5:\$align}, ${6:\$url}, ${7:\$size}, ${8:\$alt});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>image_add_caption</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Adds image shortcode with caption to editor]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Adds image shortcode with caption to editor</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$html</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$id</p>
+(<b>integer</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$caption</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$title</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$align</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$url</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$size</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$alt</p>
+(<b>string</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(string) 
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/image_add_caption'/>See more</a></p>]]>
+	</description_html>
+</snippet>

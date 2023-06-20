@@ -1,0 +1,32 @@
+
+<snippet>
+	<content><![CDATA[choose_primary_blog();
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>choose_primary_blog</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Handles the display of choosing a user’s primary site.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Handles the display of choosing a user’s primary site.</p>
+
+
+------------<br>
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+None
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/choose_primary_blog'/>See more</a></p>]]>
+	</description_html>
+</snippet>

@@ -1,0 +1,32 @@
+
+<snippet>
+	<content><![CDATA[post_form_autocomplete_off();
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>post_form_autocomplete_off</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Disables autocomplete on the ‘post’ form (Add/Edit Post screens) for WebKit browsers, as they disregard the autocomplete setting on the editor textarea. That can break the editor when the user navigates to it with the browser’s Back button. See #28037]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Disables autocomplete on the ‘post’ form (Add/Edit Post screens) for WebKit browsers, as they disregard the autocomplete setting on the editor textarea. That can break the editor when the user navigates to it with the browser’s Back button. See #28037</p>
+
+
+------------<br>
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+None
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/post_form_autocomplete_off'/>See more</a></p>]]>
+	</description_html>
+</snippet>

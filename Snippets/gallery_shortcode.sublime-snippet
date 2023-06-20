@@ -1,0 +1,36 @@
+
+<snippet>
+	<content><![CDATA[gallery_shortcode(${1:\$attr});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>gallery_shortcode</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Builds the Gallery shortcode output.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Builds the Gallery shortcode output.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$attr</p>
+(<b>array</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(string) HTML content to display gallery.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/gallery_shortcode'/>See more</a></p>]]>
+	</description_html>
+</snippet>

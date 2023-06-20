@@ -1,0 +1,44 @@
+
+<snippet>
+	<content><![CDATA[_remove_qs_args_if_not_in_url(${1:\$query_string}, ${2:\$args_to_check}, ${3:\$url});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>_remove_qs_args_if_not_in_url</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Removes arguments from a query string if they are not present in a URL DO NOT use this in plugin code.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Removes arguments from a query string if they are not present in a URL DO NOT use this in plugin code.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$query_string</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$args_to_check</p>
+(<b>array</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$url</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(string) The altered query string
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/_remove_qs_args_if_not_in_url'/>See more</a></p>]]>
+	</description_html>
+</snippet>

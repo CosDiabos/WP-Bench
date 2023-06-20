@@ -1,0 +1,53 @@
+
+<snippet>
+	<content><![CDATA[do_action_deprecated(${1:\$tag}, ${2:\$args}, ${3:\$version}, ${4:\$replacement}, ${5:\$message});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>do_action_deprecated</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Fires functions attached to a deprecated action hook.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Fires functions attached to a deprecated action hook.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$tag</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$args</p>
+(<b>array</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$version</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$replacement</p>
+(<b>string</b>) <i>(Optional)</i><br>
+
+
+<p style='color:__sett-att-color__'>$message</p>
+(<b>string</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+
+			File: wp-includes/plugin.php		
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/do_action_deprecated'/>See more</a></p>]]>
+	</description_html>
+</snippet>

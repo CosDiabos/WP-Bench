@@ -1,0 +1,40 @@
+
+<snippet>
+	<content><![CDATA[_get_template_edit_filename(${1:\$fullpath}, ${2:\$containingfolder});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>_get_template_edit_filename</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Tidies a filename for url display by the theme editor.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Tidies a filename for url display by the theme editor.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$fullpath</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$containingfolder</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(string) 
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/_get_template_edit_filename'/>See more</a></p>]]>
+	</description_html>
+</snippet>

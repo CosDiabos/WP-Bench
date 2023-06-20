@@ -1,0 +1,41 @@
+
+<snippet>
+	<content><![CDATA[wp_switch_roles_and_user(${1:\$new_site_id}, ${2:\$old_site_id});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>wp_switch_roles_and_user</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Switches the initialized roles and current user capabilities to another site.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Switches the initialized roles and current user capabilities to another site.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$new_site_id</p>
+(<b>int</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$old_site_id</p>
+(<b>int</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+
+			File: wp-includes/ms-blogs.php		
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/wp_switch_roles_and_user'/>See more</a></p>]]>
+	</description_html>
+</snippet>

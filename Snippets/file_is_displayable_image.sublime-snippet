@@ -1,0 +1,36 @@
+
+<snippet>
+	<content><![CDATA[file_is_displayable_image(${1:\$path});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>file_is_displayable_image</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Validate that file is suitable for displaying within a web page.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Validate that file is suitable for displaying within a web page.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$path</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(bool) True if suitable, false if not suitable.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/file_is_displayable_image'/>See more</a></p>]]>
+	</description_html>
+</snippet>

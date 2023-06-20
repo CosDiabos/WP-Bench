@@ -1,0 +1,36 @@
+
+<snippet>
+	<content><![CDATA[wpmu_admin_redirect_add_updated_param(${1:\$url});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>wpmu_admin_redirect_add_updated_param</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Adds an ‘updated=true’ argument to a URL.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Adds an ‘updated=true’ argument to a URL.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$url</p>
+(<b>string</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(string) 
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/wpmu_admin_redirect_add_updated_param'/>See more</a></p>]]>
+	</description_html>
+</snippet>

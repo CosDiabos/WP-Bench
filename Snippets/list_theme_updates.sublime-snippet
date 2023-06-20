@@ -1,0 +1,32 @@
+
+<snippet>
+	<content><![CDATA[list_theme_updates();
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>list_theme_updates</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'></p>
+
+
+------------<br>
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+None
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/list_theme_updates'/>See more</a></p>]]>
+	</description_html>
+</snippet>

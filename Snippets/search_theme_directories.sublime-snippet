@@ -1,0 +1,36 @@
+
+<snippet>
+	<content><![CDATA[search_theme_directories(${1:\$force});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>search_theme_directories</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Search all registered theme directories for complete and valid themes.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Search all registered theme directories for complete and valid themes.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$force</p>
+(<b>bool</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(array|false) Valid themes found
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/search_theme_directories'/>See more</a></p>]]>
+	</description_html>
+</snippet>

@@ -1,0 +1,36 @@
+
+<snippet>
+	<content><![CDATA[check_upload_mimes(${1:\$mimes});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>check_upload_mimes</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Check an array of MIME types against a whitelist.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Check an array of MIME types against a whitelist.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$mimes</p>
+(<b>array</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(array) 
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/check_upload_mimes'/>See more</a></p>]]>
+	</description_html>
+</snippet>

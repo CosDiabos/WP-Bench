@@ -1,0 +1,44 @@
+
+<snippet>
+	<content><![CDATA[wp_throttle_comment_flood(${1:\$block}, ${2:\$time_lastcomment}, ${3:\$time_newcomment});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>wp_throttle_comment_flood</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Whether a comment should be blocked because of comment flood.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Whether a comment should be blocked because of comment flood.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$block</p>
+(<b>bool</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$time_lastcomment</p>
+(<b>int</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$time_newcomment</p>
+(<b>int</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(bool) Whether comment should be blocked.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/wp_throttle_comment_flood'/>See more</a></p>]]>
+	</description_html>
+</snippet>

@@ -1,0 +1,32 @@
+
+<snippet>
+	<content><![CDATA[twentyeleven_footer_sidebar_class();
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>twentyeleven_footer_sidebar_class</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Count the number of footer sidebars to enable dynamic classes for the footer.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Count the number of footer sidebars to enable dynamic classes for the footer.</p>
+
+
+------------<br>
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+None
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/twentyeleven_footer_sidebar_class'/>See more</a></p>]]>
+	</description_html>
+</snippet>

@@ -1,0 +1,36 @@
+
+<snippet>
+	<content><![CDATA[wp_update_comment(${1:\$commentarr});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>wp_update_comment</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Updates an existing comment in the database.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Updates an existing comment in the database.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$commentarr</p>
+(<b>array</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(int) Comment was updated if value is 1, or was not updated if value is 0.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/wp_update_comment'/>See more</a></p>]]>
+	</description_html>
+</snippet>

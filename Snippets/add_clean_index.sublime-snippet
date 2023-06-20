@@ -1,0 +1,40 @@
+
+<snippet>
+	<content><![CDATA[add_clean_index(${1:\$table}, ${2:\$index});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>add_clean_index</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Adds an index to a specified table.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Adds an index to a specified table.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$table</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$index</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(true) True, when done with execution.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/add_clean_index'/>See more</a></p>]]>
+	</description_html>
+</snippet>

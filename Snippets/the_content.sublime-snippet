@@ -1,0 +1,41 @@
+
+<snippet>
+	<content><![CDATA[the_content(${1:\$more_link_text}, ${2:\$strip_teaser});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>the_content</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Display the post content.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Display the post content.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$more_link_text</p>
+(<b>string</b>) <i>(Optional)</i><br>
+
+
+<p style='color:__sett-att-color__'>$strip_teaser</p>
+(<b>bool</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+
+			File: wp-includes/post-template.php		
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/the_content'/>See more</a></p>]]>
+	</description_html>
+</snippet>

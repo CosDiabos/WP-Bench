@@ -1,0 +1,33 @@
+
+<snippet>
+	<content><![CDATA[get_intermediate_image_sizes();
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>get_intermediate_image_sizes</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Gets the available intermediate image sizes.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Gets the available intermediate image sizes.</p>
+
+
+------------<br>
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+
+			File: wp-includes/media.php		
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/get_intermediate_image_sizes'/>See more</a></p>]]>
+	</description_html>
+</snippet>

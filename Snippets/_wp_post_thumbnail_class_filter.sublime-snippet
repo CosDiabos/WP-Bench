@@ -1,0 +1,36 @@
+
+<snippet>
+	<content><![CDATA[_wp_post_thumbnail_class_filter(${1:\$attr});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>_wp_post_thumbnail_class_filter</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Adds a ‘wp-post-image’ class to post thumbnails Uses the begin_fetch_post_thumbnail_html and end_fetch_post_thumbnail_html action hooks to dynamically add/remove itself so as to only filter post thumbnails]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Adds a ‘wp-post-image’ class to post thumbnails Uses the begin_fetch_post_thumbnail_html and end_fetch_post_thumbnail_html action hooks to dynamically add/remove itself so as to only filter post thumbnails</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$attr</p>
+(<b>array</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(array) 
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/_wp_post_thumbnail_class_filter'/>See more</a></p>]]>
+	</description_html>
+</snippet>

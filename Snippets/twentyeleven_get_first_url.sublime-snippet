@@ -1,0 +1,33 @@
+
+<snippet>
+	<content><![CDATA[twentyeleven_get_first_url();
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>twentyeleven_get_first_url</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Return the first link from the post content. If none found, the post permalink is used as a fallback.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Return the first link from the post content. If none found, the post permalink is used as a fallback.</p>
+
+
+------------<br>
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+
+			File: wp-content/themes/twentyeleven/functions.php		
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/twentyeleven_get_first_url'/>See more</a></p>]]>
+	</description_html>
+</snippet>

@@ -1,0 +1,32 @@
+
+<snippet>
+	<content><![CDATA[wp_ajax_date_format();
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>wp_ajax_date_format</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Ajax handler for date formatting.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Ajax handler for date formatting.</p>
+
+
+------------<br>
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+None
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/wp_ajax_date_format'/>See more</a></p>]]>
+	</description_html>
+</snippet>

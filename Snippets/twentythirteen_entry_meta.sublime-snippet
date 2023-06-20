@@ -1,0 +1,32 @@
+
+<snippet>
+	<content><![CDATA[twentythirteen_entry_meta();
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>twentythirteen_entry_meta</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Print HTML with meta information for current post: categories, tags, permalink, author, and date.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Print HTML with meta information for current post: categories, tags, permalink, author, and date.</p>
+
+
+------------<br>
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+None
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/twentythirteen_entry_meta'/>See more</a></p>]]>
+	</description_html>
+</snippet>

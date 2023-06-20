@@ -1,0 +1,56 @@
+
+<snippet>
+	<content><![CDATA[list_authors(${1:\$optioncount}, ${2:\$exclude_admin}, ${3:\$show_fullname}, ${4:\$hide_empty}, ${5:\$feed}, ${6:\$feed_image});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>list_authors</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Lists authors.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Lists authors.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$optioncount</p>
+(<b>bool</b>) <i>(Optional)</i><br>
+
+
+<p style='color:__sett-att-color__'>$exclude_admin</p>
+(<b>bool</b>) <i>(Optional)</i><br>
+
+
+<p style='color:__sett-att-color__'>$show_fullname</p>
+(<b>bool</b>) <i>(Optional)</i><br>
+
+
+<p style='color:__sett-att-color__'>$hide_empty</p>
+(<b>bool</b>) <i>(Optional)</i><br>
+
+
+<p style='color:__sett-att-color__'>$feed</p>
+(<b>string</b>) <i>(Optional)</i><br>
+
+
+<p style='color:__sett-att-color__'>$feed_image</p>
+(<b>string</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(null|string) 
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/list_authors'/>See more</a></p>]]>
+	</description_html>
+</snippet>

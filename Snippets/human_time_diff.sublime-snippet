@@ -1,0 +1,40 @@
+
+<snippet>
+	<content><![CDATA[human_time_diff(${1:\$from}, ${2:\$to});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>human_time_diff</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Determines the difference between two timestamps.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Determines the difference between two timestamps.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$from</p>
+(<b>int</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$to</p>
+(<b>int</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(string) Human readable time difference.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/human_time_diff'/>See more</a></p>]]>
+	</description_html>
+</snippet>

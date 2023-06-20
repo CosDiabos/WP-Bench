@@ -1,0 +1,36 @@
+
+<snippet>
+	<content><![CDATA[get_extended(${1:\$post});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>get_extended</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Get extended entry info (<!--more-->).]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Get extended entry info (<!--more-->).</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$post</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(array) Post before ('main'), after ('extended'), and custom read more ('more_text').
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/get_extended'/>See more</a></p>]]>
+	</description_html>
+</snippet>

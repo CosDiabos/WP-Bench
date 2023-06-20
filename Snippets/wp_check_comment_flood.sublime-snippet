@@ -1,0 +1,52 @@
+
+<snippet>
+	<content><![CDATA[wp_check_comment_flood(${1:\$is_flood}, ${2:\$ip}, ${3:\$email}, ${4:\$date}, ${5:\$avoid_die});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>wp_check_comment_flood</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Checks whether comment flooding is occurring.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Checks whether comment flooding is occurring.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$is_flood</p>
+(<b>bool</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$ip</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$email</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$date</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$avoid_die</p>
+(<b>bool</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(bool) Whether comment flooding is occurring.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/wp_check_comment_flood'/>See more</a></p>]]>
+	</description_html>
+</snippet>

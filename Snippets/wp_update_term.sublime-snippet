@@ -1,0 +1,44 @@
+
+<snippet>
+	<content><![CDATA[wp_update_term(${1:\$term_id}, ${2:\$taxonomy}, ${3:\$args});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>wp_update_term</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Update term based on arguments provided.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Update term based on arguments provided.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$term_id</p>
+(<b>int</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$taxonomy</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$args</p>
+(<b>array</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(array|WP_Error) Returns Term ID and Taxonomy Term ID
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/wp_update_term'/>See more</a></p>]]>
+	</description_html>
+</snippet>

@@ -1,0 +1,32 @@
+
+<snippet>
+	<content><![CDATA[_custom_header_background_just_in_time();
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>_custom_header_background_just_in_time</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Registers the internal custom header and background routines.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Registers the internal custom header and background routines.</p>
+
+
+------------<br>
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+None
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/_custom_header_background_just_in_time'/>See more</a></p>]]>
+	</description_html>
+</snippet>

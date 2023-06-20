@@ -1,0 +1,40 @@
+
+<snippet>
+	<content><![CDATA[get_comment_text(${1:\$comment_ID}, ${2:\$args});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>get_comment_text</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Retrieve the text of the current comment.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Retrieve the text of the current comment.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$comment_ID</p>
+(<b>int</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$args</p>
+(<b>array</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(string) The comment content.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/get_comment_text'/>See more</a></p>]]>
+	</description_html>
+</snippet>

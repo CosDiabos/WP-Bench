@@ -1,0 +1,33 @@
+
+<snippet>
+	<content><![CDATA[has_custom_header();
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>has_custom_header</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Check whether a custom header is set or not.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Check whether a custom header is set or not.</p>
+
+
+------------<br>
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+
+			File: wp-includes/theme.php		
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/has_custom_header'/>See more</a></p>]]>
+	</description_html>
+</snippet>

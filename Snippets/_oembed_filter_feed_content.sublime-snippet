@@ -1,0 +1,36 @@
+
+<snippet>
+	<content><![CDATA[_oembed_filter_feed_content(${1:\$content});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>_oembed_filter_feed_content</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Prepare the oembed HTML to be displayed in an RSS feed.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Prepare the oembed HTML to be displayed in an RSS feed.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$content</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(string) The filtered content.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/_oembed_filter_feed_content'/>See more</a></p>]]>
+	</description_html>
+</snippet>

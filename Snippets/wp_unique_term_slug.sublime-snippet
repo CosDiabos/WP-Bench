@@ -1,0 +1,40 @@
+
+<snippet>
+	<content><![CDATA[wp_unique_term_slug(${1:\$slug}, ${2:\$term});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>wp_unique_term_slug</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Will make slug unique, if it isn’t already.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Will make slug unique, if it isn’t already.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$slug</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$term</p>
+(<b>object</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(string) Will return a true unique slug.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/wp_unique_term_slug'/>See more</a></p>]]>
+	</description_html>
+</snippet>

@@ -1,0 +1,36 @@
+
+<snippet>
+	<content><![CDATA[wxr_cdata(${1:\$str});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>wxr_cdata</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Wrap given string in XML CDATA tag.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Wrap given string in XML CDATA tag.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$str</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(string) 
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/wxr_cdata'/>See more</a></p>]]>
+	</description_html>
+</snippet>

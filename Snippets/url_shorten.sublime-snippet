@@ -1,0 +1,40 @@
+
+<snippet>
+	<content><![CDATA[url_shorten(${1:\$url}, ${2:\$length});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>url_shorten</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Shorten a URL, to be used as link text.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Shorten a URL, to be used as link text.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$url</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$length</p>
+(<b>int</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(string) Shortened URL.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/url_shorten'/>See more</a></p>]]>
+	</description_html>
+</snippet>

@@ -1,0 +1,41 @@
+
+<snippet>
+	<content><![CDATA[_wp_ajax_delete_comment_response(${1:\$comment_id}, ${2:\$delta});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>_wp_ajax_delete_comment_response</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Sends back current comment total and new page links if they need to be updated.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Sends back current comment total and new page links if they need to be updated.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$comment_id</p>
+(<b>int</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$delta</p>
+(<b>int</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+
+			File: wp-admin/includes/ajax-actions.php		
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/_wp_ajax_delete_comment_response'/>See more</a></p>]]>
+	</description_html>
+</snippet>

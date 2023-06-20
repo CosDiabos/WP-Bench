@@ -1,0 +1,36 @@
+
+<snippet>
+	<content><![CDATA[iis7_rewrite_rule_exists(${1:\$filename});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>iis7_rewrite_rule_exists</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Check if rewrite rule for WordPress already exists in the IIS 7+ configuration file]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Check if rewrite rule for WordPress already exists in the IIS 7+ configuration file</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$filename</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(bool) 
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/iis7_rewrite_rule_exists'/>See more</a></p>]]>
+	</description_html>
+</snippet>

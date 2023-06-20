@@ -1,0 +1,32 @@
+
+<snippet>
+	<content><![CDATA[wp_preload_dialogs();
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>wp_preload_dialogs</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Preloads TinyMCE dialogs.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Preloads TinyMCE dialogs.</p>
+
+
+------------<br>
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+None
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/wp_preload_dialogs'/>See more</a></p>]]>
+	</description_html>
+</snippet>

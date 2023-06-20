@@ -1,0 +1,36 @@
+
+<snippet>
+	<content><![CDATA[preview_theme_ob_filter(${1:\$content});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>preview_theme_ob_filter</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Callback function for ob_start() to capture all links in the theme.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Callback function for ob_start() to capture all links in the theme.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$content</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(string) 
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/preview_theme_ob_filter'/>See more</a></p>]]>
+	</description_html>
+</snippet>

@@ -1,0 +1,36 @@
+
+<snippet>
+	<content><![CDATA[wp_get_post_parent_id(${1:\$post_ID});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>wp_get_post_parent_id</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Return the post’s parent’s post_ID]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Return the post’s parent’s post_ID</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$post_ID</p>
+(<b>int</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(int|false) Post parent ID, otherwise false.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/wp_get_post_parent_id'/>See more</a></p>]]>
+	</description_html>
+</snippet>

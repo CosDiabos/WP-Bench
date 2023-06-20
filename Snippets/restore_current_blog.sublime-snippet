@@ -1,0 +1,33 @@
+
+<snippet>
+	<content><![CDATA[restore_current_blog();
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>restore_current_blog</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Restore the current blog, after calling switch_to_blog()]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Restore the current blog, after calling switch_to_blog()</p>
+
+
+------------<br>
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+
+			File: wp-includes/ms-blogs.php		
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/restore_current_blog'/>See more</a></p>]]>
+	</description_html>
+</snippet>

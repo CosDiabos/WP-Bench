@@ -1,0 +1,44 @@
+
+<snippet>
+	<content><![CDATA[post_exists(${1:\$title}, ${2:\$content}, ${3:\$date});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>post_exists</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Determine if a post exists based on title, content, and date]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Determine if a post exists based on title, content, and date</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$title</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$content</p>
+(<b>string</b>) <i>(Optional)</i><br>
+
+
+<p style='color:__sett-att-color__'>$date</p>
+(<b>string</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(int) Post ID if post exists, 0 otherwise.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/post_exists'/>See more</a></p>]]>
+	</description_html>
+</snippet>

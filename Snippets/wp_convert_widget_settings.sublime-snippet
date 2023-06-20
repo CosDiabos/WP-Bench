@@ -1,0 +1,44 @@
+
+<snippet>
+	<content><![CDATA[wp_convert_widget_settings(${1:\$base_name}, ${2:\$option_name}, ${3:\$settings});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>wp_convert_widget_settings</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Convert the widget settings from single to multi-widget format.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Convert the widget settings from single to multi-widget format.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$base_name</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$option_name</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$settings</p>
+(<b>array</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(array) 
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/wp_convert_widget_settings'/>See more</a></p>]]>
+	</description_html>
+</snippet>

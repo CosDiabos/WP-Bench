@@ -1,0 +1,33 @@
+
+<snippet>
+	<content><![CDATA[get_the_archive_title();
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>get_the_archive_title</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Retrieve the archive title based on the queried object.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Retrieve the archive title based on the queried object.</p>
+
+
+------------<br>
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+
+			File: wp-includes/general-template.php		
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/get_the_archive_title'/>See more</a></p>]]>
+	</description_html>
+</snippet>

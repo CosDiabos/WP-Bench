@@ -1,0 +1,44 @@
+
+<snippet>
+	<content><![CDATA[links_add_base_url(${1:\$content}, ${2:\$base}, ${3:\$attrs});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>links_add_base_url</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Add a Base url to relative links in passed content.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Add a Base url to relative links in passed content.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$content</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$base</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$attrs</p>
+(<b>array</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(string) The processed content.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/links_add_base_url'/>See more</a></p>]]>
+	</description_html>
+</snippet>

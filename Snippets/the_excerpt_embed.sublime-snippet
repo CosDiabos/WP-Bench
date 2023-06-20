@@ -1,0 +1,32 @@
+
+<snippet>
+	<content><![CDATA[the_excerpt_embed();
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>the_excerpt_embed</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Displays the post excerpt for the embed template.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Displays the post excerpt for the embed template.</p>
+
+
+------------<br>
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+None
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/the_excerpt_embed'/>See more</a></p>]]>
+	</description_html>
+</snippet>

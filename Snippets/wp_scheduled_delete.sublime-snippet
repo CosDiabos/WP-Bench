@@ -1,0 +1,32 @@
+
+<snippet>
+	<content><![CDATA[wp_scheduled_delete();
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>wp_scheduled_delete</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Permanently delete comments or posts of any type that have held a status of ‘trash’ for the number of days defined in EMPTY_TRASH_DAYS.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Permanently delete comments or posts of any type that have held a status of ‘trash’ for the number of days defined in EMPTY_TRASH_DAYS.</p>
+
+
+------------<br>
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+None
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/wp_scheduled_delete'/>See more</a></p>]]>
+	</description_html>
+</snippet>

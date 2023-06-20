@@ -1,0 +1,36 @@
+
+<snippet>
+	<content><![CDATA[wp_read_audio_metadata(${1:\$file});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>wp_read_audio_metadata</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Retrieve metadata from a audio file’s ID3 tags]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Retrieve metadata from a audio file’s ID3 tags</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$file</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(array|bool) Returns array of metadata, if found.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/wp_read_audio_metadata'/>See more</a></p>]]>
+	</description_html>
+</snippet>

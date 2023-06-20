@@ -1,0 +1,40 @@
+
+<snippet>
+	<content><![CDATA[_oembed_create_xml(${1:\$data}, ${2:\$node});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>_oembed_create_xml</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Creates an XML string from a given array.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Creates an XML string from a given array.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$data</p>
+(<b>array</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$node</p>
+(<b>SimpleXMLElement</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(string|false) XML string on success, false on error.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/_oembed_create_xml'/>See more</a></p>]]>
+	</description_html>
+</snippet>

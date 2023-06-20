@@ -1,0 +1,36 @@
+
+<snippet>
+	<content><![CDATA[get_networks(${1:\$args});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>get_networks</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Retrieves a list of networks.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Retrieves a list of networks.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$args</p>
+(<b>string</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(array|int) List of WP_Network objects, a list of network ids when 'fields' is set to 'ids',                   or the number of networks when 'count' is passed as a query var.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/get_networks'/>See more</a></p>]]>
+	</description_html>
+</snippet>

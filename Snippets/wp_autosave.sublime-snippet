@@ -1,0 +1,36 @@
+
+<snippet>
+	<content><![CDATA[wp_autosave(${1:\$post_data});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>wp_autosave</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Save a post submitted with XHR]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Save a post submitted with XHR</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$post_data</p>
+(<b>array</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(mixed) The value 0 or WP_Error on failure. The saved post ID on success.               The ID can be the draft post_id or the autosave revision post_id.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/wp_autosave'/>See more</a></p>]]>
+	</description_html>
+</snippet>

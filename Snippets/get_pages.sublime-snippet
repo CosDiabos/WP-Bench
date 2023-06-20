@@ -1,0 +1,36 @@
+
+<snippet>
+	<content><![CDATA[get_pages(${1:\$args});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>get_pages</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Retrieve a list of pages (or hierarchical post type items).]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Retrieve a list of pages (or hierarchical post type items).</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$args</p>
+(<b>array</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(array|false) List of pages matching defaults or $args.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/get_pages'/>See more</a></p>]]>
+	</description_html>
+</snippet>

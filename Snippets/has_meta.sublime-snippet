@@ -1,0 +1,36 @@
+
+<snippet>
+	<content><![CDATA[has_meta(${1:\$postid});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>has_meta</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Get meta data for the given post ID.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Get meta data for the given post ID.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$postid</p>
+(<b>int</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(mixed) 
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/has_meta'/>See more</a></p>]]>
+	</description_html>
+</snippet>

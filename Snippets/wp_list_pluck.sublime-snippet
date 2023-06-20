@@ -1,0 +1,44 @@
+
+<snippet>
+	<content><![CDATA[wp_list_pluck(${1:\$list}, ${2:\$field}, ${3:\$index_key});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>wp_list_pluck</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Pluck a certain field out of each object in a list.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Pluck a certain field out of each object in a list.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$list</p>
+(<b>array</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$field</p>
+(<b>int</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$index_key</p>
+(<b>int</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(array) Array of found values. If $index_key is set, an array of found values with keys               corresponding to $index_key. If $index_key is null, array keys from the original               $list will be preserved in the results.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/wp_list_pluck'/>See more</a></p>]]>
+	</description_html>
+</snippet>

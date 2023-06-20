@@ -1,0 +1,33 @@
+
+<snippet>
+	<content><![CDATA[get_background_image();
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>get_background_image</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Retrieve background image for custom background.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Retrieve background image for custom background.</p>
+
+
+------------<br>
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+
+			File: wp-includes/theme.php		
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/get_background_image'/>See more</a></p>]]>
+	</description_html>
+</snippet>

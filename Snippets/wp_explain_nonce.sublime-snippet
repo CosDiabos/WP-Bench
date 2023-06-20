@@ -1,0 +1,36 @@
+
+<snippet>
+	<content><![CDATA[wp_explain_nonce(${1:\$action});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>wp_explain_nonce</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Retrieve nonce action “Are you sure” message.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Retrieve nonce action “Are you sure” message.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$action</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(string) Are you sure message.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/wp_explain_nonce'/>See more</a></p>]]>
+	</description_html>
+</snippet>

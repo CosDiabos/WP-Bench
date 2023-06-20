@@ -1,0 +1,45 @@
+
+<snippet>
+	<content><![CDATA[clean_term_cache(${1:\$ids}, ${2:\$taxonomy}, ${3:\$clean_taxonomy});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>clean_term_cache</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Will remove all of the term ids from the cache.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Will remove all of the term ids from the cache.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$ids</p>
+(<b>int</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$taxonomy</p>
+(<b>string</b>) <i>(Optional)</i><br>
+
+
+<p style='color:__sett-att-color__'>$clean_taxonomy</p>
+(<b>bool</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+
+			File: wp-includes/taxonomy.php		
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/clean_term_cache'/>See more</a></p>]]>
+	</description_html>
+</snippet>

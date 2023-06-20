@@ -1,0 +1,33 @@
+
+<snippet>
+	<content><![CDATA[get_all_page_ids();
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>get_all_page_ids</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Get a list of page IDs.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Get a list of page IDs.</p>
+
+
+------------<br>
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+
+			File: wp-includes/post.php		
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/get_all_page_ids'/>See more</a></p>]]>
+	</description_html>
+</snippet>

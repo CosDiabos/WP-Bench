@@ -1,0 +1,48 @@
+
+<snippet>
+	<content><![CDATA[wp_cache_get(${1:\$key}, ${2:\$group}, ${3:\$force}, ${4:\$found});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>wp_cache_get</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Retrieves the cache contents from the cache by key and group.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Retrieves the cache contents from the cache by key and group.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$key</p>
+(<b>int</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$group</p>
+(<b>string</b>) <i>(Optional)</i><br>
+
+
+<p style='color:__sett-att-color__'>$force</p>
+(<b>bool</b>) <i>(Optional)</i><br>
+
+
+<p style='color:__sett-att-color__'>$found</p>
+(<b>bool</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(bool|mixed) False on failure to retrieve contents or the cache 	              contents on success
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/wp_cache_get'/>See more</a></p>]]>
+	</description_html>
+</snippet>

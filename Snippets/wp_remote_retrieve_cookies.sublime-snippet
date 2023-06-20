@@ -1,0 +1,36 @@
+
+<snippet>
+	<content><![CDATA[wp_remote_retrieve_cookies(${1:\$response});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>wp_remote_retrieve_cookies</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Retrieve only the cookies from the raw response.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Retrieve only the cookies from the raw response.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$response</p>
+(<b>array</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(array) An array of WP_Http_Cookie objects from the response. Empty array if there are none, or the response is a WP_Error.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/wp_remote_retrieve_cookies'/>See more</a></p>]]>
+	</description_html>
+</snippet>

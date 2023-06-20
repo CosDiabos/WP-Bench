@@ -1,0 +1,40 @@
+
+<snippet>
+	<content><![CDATA[sanitize_html_class(${1:\$class}, ${2:\$fallback});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>sanitize_html_class</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Sanitizes an HTML classname to ensure it only contains valid characters.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Sanitizes an HTML classname to ensure it only contains valid characters.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$class</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$fallback</p>
+(<b>string</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(string) The sanitized value
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/sanitize_html_class'/>See more</a></p>]]>
+	</description_html>
+</snippet>

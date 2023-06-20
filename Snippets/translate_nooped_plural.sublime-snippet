@@ -1,0 +1,44 @@
+
+<snippet>
+	<content><![CDATA[translate_nooped_plural(${1:\$nooped_plural}, ${2:\$count}, ${3:\$domain});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>translate_nooped_plural</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Translates and retrieves the singular or plural form of a string that’s been registered with _n_noop() or _nx_noop().]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Translates and retrieves the singular or plural form of a string that’s been registered with _n_noop() or _nx_noop().</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$nooped_plural</p>
+(<b>array</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$count</p>
+(<b>int</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$domain</p>
+(<b>string</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(string) Either $single or $plural translated text.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/translate_nooped_plural'/>See more</a></p>]]>
+	</description_html>
+</snippet>

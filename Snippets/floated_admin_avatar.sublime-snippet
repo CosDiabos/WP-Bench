@@ -1,0 +1,36 @@
+
+<snippet>
+	<content><![CDATA[floated_admin_avatar(${1:\$name});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>floated_admin_avatar</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Add avatars to relevant places in admin, or try to.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Add avatars to relevant places in admin, or try to.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$name</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(string) Avatar with Admin name.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/floated_admin_avatar'/>See more</a></p>]]>
+	</description_html>
+</snippet>

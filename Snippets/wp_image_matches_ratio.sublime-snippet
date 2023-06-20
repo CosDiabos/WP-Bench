@@ -1,0 +1,48 @@
+
+<snippet>
+	<content><![CDATA[wp_image_matches_ratio(${1:\$source_width}, ${2:\$source_height}, ${3:\$target_width}, ${4:\$target_height});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>wp_image_matches_ratio</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Helper function to test if aspect ratios for two images match.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Helper function to test if aspect ratios for two images match.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$source_width</p>
+(<b>int</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$source_height</p>
+(<b>int</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$target_width</p>
+(<b>int</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$target_height</p>
+(<b>int</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(bool) True if aspect ratios match within 1px. False if not.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/wp_image_matches_ratio'/>See more</a></p>]]>
+	</description_html>
+</snippet>

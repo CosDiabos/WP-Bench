@@ -1,0 +1,45 @@
+
+<snippet>
+	<content><![CDATA[set_post_thumbnail_size(${1:\$width}, ${2:\$height}, ${3:\$crop});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>set_post_thumbnail_size</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Registers an image size for the post thumbnail.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Registers an image size for the post thumbnail.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$width</p>
+(<b>int</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$height</p>
+(<b>int</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$crop</p>
+(<b>bool</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+
+			File: wp-includes/media.php		
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/set_post_thumbnail_size'/>See more</a></p>]]>
+	</description_html>
+</snippet>

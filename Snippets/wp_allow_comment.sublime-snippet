@@ -1,0 +1,40 @@
+
+<snippet>
+	<content><![CDATA[wp_allow_comment(${1:\$commentdata}, ${2:\$avoid_die});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>wp_allow_comment</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Validates whether this comment is allowed to be made.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Validates whether this comment is allowed to be made.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$commentdata</p>
+(<b>array</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$avoid_die</p>
+(<b>bool</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(int|string|WP_Error) Allowed comments return the approval status (0|1|'spam').                             If $avoid_die is true, disallowed comments return a WP_Error.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/wp_allow_comment'/>See more</a></p>]]>
+	</description_html>
+</snippet>

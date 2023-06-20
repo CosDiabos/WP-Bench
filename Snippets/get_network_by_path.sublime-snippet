@@ -1,0 +1,44 @@
+
+<snippet>
+	<content><![CDATA[get_network_by_path(${1:\$domain}, ${2:\$path}, ${3:\$segments});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>get_network_by_path</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Retrieve the closest matching network for a domain and path.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Retrieve the closest matching network for a domain and path.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$domain</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$path</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$segments</p>
+(<b>int</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(WP_Network|false) Network object if successful. False when no network is found.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/get_network_by_path'/>See more</a></p>]]>
+	</description_html>
+</snippet>

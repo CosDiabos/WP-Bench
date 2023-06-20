@@ -1,0 +1,32 @@
+
+<snippet>
+	<content><![CDATA[use_codepress();
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>use_codepress</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Determine whether to use CodePress.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Determine whether to use CodePress.</p>
+
+
+------------<br>
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+None
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/use_codepress'/>See more</a></p>]]>
+	</description_html>
+</snippet>

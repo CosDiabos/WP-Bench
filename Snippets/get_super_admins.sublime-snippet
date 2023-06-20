@@ -1,0 +1,33 @@
+
+<snippet>
+	<content><![CDATA[get_super_admins();
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>get_super_admins</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Retrieve a list of super admins.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Retrieve a list of super admins.</p>
+
+
+------------<br>
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+
+			File: wp-includes/capabilities.php		
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/get_super_admins'/>See more</a></p>]]>
+	</description_html>
+</snippet>

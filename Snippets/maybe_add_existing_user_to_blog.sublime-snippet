@@ -1,0 +1,32 @@
+
+<snippet>
+	<content><![CDATA[maybe_add_existing_user_to_blog();
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>maybe_add_existing_user_to_blog</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Add a new user to a blog by visiting /newbloguser/{key}/.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Add a new user to a blog by visiting /newbloguser/{key}/.</p>
+
+
+------------<br>
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+None
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/maybe_add_existing_user_to_blog'/>See more</a></p>]]>
+	</description_html>
+</snippet>

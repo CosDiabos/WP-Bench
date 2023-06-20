@@ -1,0 +1,45 @@
+
+<snippet>
+	<content><![CDATA[_wp_credits_add_profile_link(${1:\$display_name}, ${2:\$username}, ${3:\$profiles});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>_wp_credits_add_profile_link</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Retrieve the link to a contributor’s WordPress.org profile page.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Retrieve the link to a contributor’s WordPress.org profile page.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$display_name</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$username</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$profiles</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+
+			File: wp-admin/includes/credits.php		
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/_wp_credits_add_profile_link'/>See more</a></p>]]>
+	</description_html>
+</snippet>

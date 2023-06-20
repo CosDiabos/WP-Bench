@@ -1,0 +1,32 @@
+
+<snippet>
+	<content><![CDATA[wp_check_php_mysql_versions();
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>wp_check_php_mysql_versions</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Check for the required PHP version, and the MySQL extension or a database drop-in.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Check for the required PHP version, and the MySQL extension or a database drop-in.</p>
+
+
+------------<br>
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+None
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/wp_check_php_mysql_versions'/>See more</a></p>]]>
+	</description_html>
+</snippet>

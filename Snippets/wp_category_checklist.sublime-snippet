@@ -1,0 +1,57 @@
+
+<snippet>
+	<content><![CDATA[wp_category_checklist(${1:\$post_id}, ${2:\$descendants_and_self}, ${3:\$selected_cats}, ${4:\$popular_cats}, ${5:\$walker}, ${6:\$checked_ontop});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>wp_category_checklist</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Output an unordered list of checkbox input elements labeled with category names.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Output an unordered list of checkbox input elements labeled with category names.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$post_id</p>
+(<b>int</b>) <i>(Optional)</i><br>
+
+
+<p style='color:__sett-att-color__'>$descendants_and_self</p>
+(<b>int</b>) <i>(Optional)</i><br>
+
+
+<p style='color:__sett-att-color__'>$selected_cats</p>
+(<b>array</b>) <i>(Optional)</i><br>
+
+
+<p style='color:__sett-att-color__'>$popular_cats</p>
+(<b>array</b>) <i>(Optional)</i><br>
+
+
+<p style='color:__sett-att-color__'>$walker</p>
+(<b>object</b>) <i>(Optional)</i><br>
+
+
+<p style='color:__sett-att-color__'>$checked_ontop</p>
+(<b>bool</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+
+			File: wp-admin/includes/template.php		
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/wp_category_checklist'/>See more</a></p>]]>
+	</description_html>
+</snippet>

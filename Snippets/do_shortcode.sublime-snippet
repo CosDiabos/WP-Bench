@@ -1,0 +1,40 @@
+
+<snippet>
+	<content><![CDATA[do_shortcode(${1:\$content}, ${2:\$ignore_html});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>do_shortcode</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Search content for shortcodes and filter shortcodes through their hooks.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Search content for shortcodes and filter shortcodes through their hooks.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$content</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$ignore_html</p>
+(<b>bool</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(string) Content with shortcodes filtered out.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/do_shortcode'/>See more</a></p>]]>
+	</description_html>
+</snippet>

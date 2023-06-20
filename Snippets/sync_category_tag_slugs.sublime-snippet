@@ -1,0 +1,40 @@
+
+<snippet>
+	<content><![CDATA[sync_category_tag_slugs(${1:\$term}, ${2:\$taxonomy});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>sync_category_tag_slugs</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Synchronize category and post tag slugs when global terms are enabled.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Synchronize category and post tag slugs when global terms are enabled.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$term</p>
+(<b>object</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$taxonomy</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(object|array) Returns $term, after filtering the 'slug' field with sanitize_title()                      if $taxonomy is 'category' or 'post_tag'.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/sync_category_tag_slugs'/>See more</a></p>]]>
+	</description_html>
+</snippet>

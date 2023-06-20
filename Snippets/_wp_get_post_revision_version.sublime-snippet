@@ -1,0 +1,36 @@
+
+<snippet>
+	<content><![CDATA[_wp_get_post_revision_version(${1:\$revision});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>_wp_get_post_revision_version</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Gets the post revision version.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Gets the post revision version.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$revision</p>
+(<b>WP_Post</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(int|false) 
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/_wp_get_post_revision_version'/>See more</a></p>]]>
+	</description_html>
+</snippet>

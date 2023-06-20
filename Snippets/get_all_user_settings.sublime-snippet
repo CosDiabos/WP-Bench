@@ -1,0 +1,33 @@
+
+<snippet>
+	<content><![CDATA[get_all_user_settings();
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>get_all_user_settings</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Retrieve all user interface settings.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Retrieve all user interface settings.</p>
+
+
+------------<br>
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+
+			File: wp-includes/option.php		
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/get_all_user_settings'/>See more</a></p>]]>
+	</description_html>
+</snippet>

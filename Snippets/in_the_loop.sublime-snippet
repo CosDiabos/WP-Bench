@@ -1,0 +1,33 @@
+
+<snippet>
+	<content><![CDATA[in_the_loop();
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>in_the_loop</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Whether the caller is in the Loop.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Whether the caller is in the Loop.</p>
+
+
+------------<br>
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+
+			File: wp-includes/query.php		
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/in_the_loop'/>See more</a></p>]]>
+	</description_html>
+</snippet>

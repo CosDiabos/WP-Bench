@@ -1,0 +1,32 @@
+
+<snippet>
+	<content><![CDATA[_thickbox_path_admin_subfolder();
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>_thickbox_path_admin_subfolder</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Thickbox image paths for Network Admin.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Thickbox image paths for Network Admin.</p>
+
+
+------------<br>
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+None
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/_thickbox_path_admin_subfolder'/>See more</a></p>]]>
+	</description_html>
+</snippet>

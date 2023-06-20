@@ -1,0 +1,48 @@
+
+<snippet>
+	<content><![CDATA[activate_plugins(${1:\$plugins}, ${2:\$redirect}, ${3:\$network_wide}, ${4:\$silent});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>activate_plugins</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Activate multiple plugins.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Activate multiple plugins.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$plugins</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$redirect</p>
+(<b>string</b>) <i>(Optional)</i><br>
+
+
+<p style='color:__sett-att-color__'>$network_wide</p>
+(<b>bool</b>) <i>(Optional)</i><br>
+
+
+<p style='color:__sett-att-color__'>$silent</p>
+(<b>bool</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(bool|WP_Error) True when finished or WP_Error if there were errors during a plugin activation.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/activate_plugins'/>See more</a></p>]]>
+	</description_html>
+</snippet>

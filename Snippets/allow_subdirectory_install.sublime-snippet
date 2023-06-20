@@ -1,0 +1,33 @@
+
+<snippet>
+	<content><![CDATA[allow_subdirectory_install();
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>allow_subdirectory_install</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Allow subdirectory installation.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Allow subdirectory installation.</p>
+
+
+------------<br>
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+
+			File: wp-admin/includes/network.php		
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/allow_subdirectory_install'/>See more</a></p>]]>
+	</description_html>
+</snippet>

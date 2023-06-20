@@ -1,0 +1,32 @@
+
+<snippet>
+	<content><![CDATA[pre_schema_upgrade();
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>pre_schema_upgrade</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Runs before the schema is upgraded.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Runs before the schema is upgraded.</p>
+
+
+------------<br>
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+None
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/pre_schema_upgrade'/>See more</a></p>]]>
+	</description_html>
+</snippet>

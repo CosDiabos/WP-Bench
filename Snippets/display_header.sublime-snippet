@@ -1,0 +1,37 @@
+
+<snippet>
+	<content><![CDATA[display_header(${1:\$body_classes});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>display_header</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Display installation header.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Display installation header.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$body_classes</p>
+(<b>string</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+
+			File: wp-admin/install.php		
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/display_header'/>See more</a></p>]]>
+	</description_html>
+</snippet>

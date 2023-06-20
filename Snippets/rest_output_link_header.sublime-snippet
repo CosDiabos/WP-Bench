@@ -1,0 +1,32 @@
+
+<snippet>
+	<content><![CDATA[rest_output_link_header();
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>rest_output_link_header</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Sends a Link header for the REST API.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Sends a Link header for the REST API.</p>
+
+
+------------<br>
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+None
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/rest_output_link_header'/>See more</a></p>]]>
+	</description_html>
+</snippet>

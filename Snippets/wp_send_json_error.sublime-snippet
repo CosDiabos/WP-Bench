@@ -1,0 +1,41 @@
+
+<snippet>
+	<content><![CDATA[wp_send_json_error(${1:\$data}, ${2:\$status_code});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>wp_send_json_error</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Send a JSON response back to an Ajax request, indicating failure.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Send a JSON response back to an Ajax request, indicating failure.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$data</p>
+(<b>mixed</b>) <i>(Optional)</i><br>
+
+
+<p style='color:__sett-att-color__'>$status_code</p>
+(<b>int</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+
+			File: wp-includes/functions.php		
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/wp_send_json_error'/>See more</a></p>]]>
+	</description_html>
+</snippet>

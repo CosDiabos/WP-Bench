@@ -1,0 +1,44 @@
+
+<snippet>
+	<content><![CDATA[do_shortcodes_in_html_tags(${1:\$content}, ${2:\$ignore_html}, ${3:\$tagnames});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>do_shortcodes_in_html_tags</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Search only inside HTML elements for shortcodes and process them.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Search only inside HTML elements for shortcodes and process them.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$content</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$ignore_html</p>
+(<b>bool</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$tagnames</p>
+(<b>array</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(string) Content with shortcodes filtered out.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/do_shortcodes_in_html_tags'/>See more</a></p>]]>
+	</description_html>
+</snippet>

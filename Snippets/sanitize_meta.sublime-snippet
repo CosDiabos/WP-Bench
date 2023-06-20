@@ -1,0 +1,44 @@
+
+<snippet>
+	<content><![CDATA[sanitize_meta(${1:\$meta_key}, ${2:\$meta_value}, ${3:\$object_type});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>sanitize_meta</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Sanitize meta value.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Sanitize meta value.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$meta_key</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$meta_value</p>
+(<b>mixed</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$object_type</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(mixed) Sanitized $meta_value.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/sanitize_meta'/>See more</a></p>]]>
+	</description_html>
+</snippet>

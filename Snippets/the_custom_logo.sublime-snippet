@@ -1,0 +1,37 @@
+
+<snippet>
+	<content><![CDATA[the_custom_logo(${1:\$blog_id});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>the_custom_logo</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Displays a custom logo, linked to home.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Displays a custom logo, linked to home.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$blog_id</p>
+(<b>int</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+
+			File: wp-includes/general-template.php		
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/the_custom_logo'/>See more</a></p>]]>
+	</description_html>
+</snippet>

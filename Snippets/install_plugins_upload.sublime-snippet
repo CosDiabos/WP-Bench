@@ -1,0 +1,32 @@
+
+<snippet>
+	<content><![CDATA[install_plugins_upload();
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>install_plugins_upload</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Upload from zip]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Upload from zip</p>
+
+
+------------<br>
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+None
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/install_plugins_upload'/>See more</a></p>]]>
+	</description_html>
+</snippet>

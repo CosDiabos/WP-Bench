@@ -1,0 +1,52 @@
+
+<snippet>
+	<content><![CDATA[wp_unique_post_slug(${1:\$slug}, ${2:\$post_ID}, ${3:\$post_status}, ${4:\$post_type}, ${5:\$post_parent});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>wp_unique_post_slug</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Computes a unique slug for the post, when given the desired slug and some post details.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Computes a unique slug for the post, when given the desired slug and some post details.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$slug</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$post_ID</p>
+(<b>int</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$post_status</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$post_type</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$post_parent</p>
+(<b>int</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(string) Unique slug for the post, based on $post_name (with a -1, -2, etc. suffix)
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/wp_unique_post_slug'/>See more</a></p>]]>
+	</description_html>
+</snippet>

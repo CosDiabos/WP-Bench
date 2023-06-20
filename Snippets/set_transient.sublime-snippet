@@ -1,0 +1,44 @@
+
+<snippet>
+	<content><![CDATA[set_transient(${1:\$transient}, ${2:\$value}, ${3:\$expiration});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>set_transient</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Set/update the value of a transient.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Set/update the value of a transient.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$transient</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$value</p>
+(<b>mixed</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$expiration</p>
+(<b>int</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(bool) False if value was not set and true if value was set.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/set_transient'/>See more</a></p>]]>
+	</description_html>
+</snippet>

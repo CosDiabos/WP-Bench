@@ -1,0 +1,36 @@
+
+<snippet>
+	<content><![CDATA[wp_page_menu(${1:\$args});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>wp_page_menu</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Displays or retrieves a list of pages with an optional home link.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Displays or retrieves a list of pages with an optional home link.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$args</p>
+(<b>array</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(string|void) HTML menu
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/wp_page_menu'/>See more</a></p>]]>
+	</description_html>
+</snippet>

@@ -1,0 +1,36 @@
+
+<snippet>
+	<content><![CDATA[wp_html_split(${1:\$input});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>wp_html_split</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Separate HTML elements and comments from the text.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Separate HTML elements and comments from the text.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$input</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(array) The formatted text.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/wp_html_split'/>See more</a></p>]]>
+	</description_html>
+</snippet>

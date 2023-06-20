@@ -1,0 +1,32 @@
+
+<snippet>
+	<content><![CDATA[the_custom_header_markup();
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>the_custom_header_markup</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Print the markup for a custom header.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Print the markup for a custom header.</p>
+
+
+------------<br>
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+None
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/the_custom_header_markup'/>See more</a></p>]]>
+	</description_html>
+</snippet>

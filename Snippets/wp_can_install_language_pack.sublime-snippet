@@ -1,0 +1,33 @@
+
+<snippet>
+	<content><![CDATA[wp_can_install_language_pack();
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>wp_can_install_language_pack</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Check if WordPress has access to the filesystem without asking for credentials.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Check if WordPress has access to the filesystem without asking for credentials.</p>
+
+
+------------<br>
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+
+			File: wp-admin/includes/translation-install.php		
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/wp_can_install_language_pack'/>See more</a></p>]]>
+	</description_html>
+</snippet>

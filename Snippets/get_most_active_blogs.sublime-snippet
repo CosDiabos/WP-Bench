@@ -1,0 +1,40 @@
+
+<snippet>
+	<content><![CDATA[get_most_active_blogs(${1:\$num}, ${2:\$display});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>get_most_active_blogs</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Deprecated functionality to retrieve a list of the most active sites.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Deprecated functionality to retrieve a list of the most active sites.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$num</p>
+(<b>int</b>) <i>(Optional)</i><br>
+
+
+<p style='color:__sett-att-color__'>$display</p>
+(<b>bool</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(array) List of "most active" sites.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/get_most_active_blogs'/>See more</a></p>]]>
+	</description_html>
+</snippet>

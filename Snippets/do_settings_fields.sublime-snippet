@@ -1,0 +1,41 @@
+
+<snippet>
+	<content><![CDATA[do_settings_fields(${1:\$page}, ${2:\$section});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>do_settings_fields</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Print out the settings fields for a particular settings section]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Print out the settings fields for a particular settings section</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$page</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$section</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+
+			File: wp-admin/includes/template.php		
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/do_settings_fields'/>See more</a></p>]]>
+	</description_html>
+</snippet>

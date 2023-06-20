@@ -1,0 +1,32 @@
+
+<snippet>
+	<content><![CDATA[_admin_bar_bump_cb();
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>_admin_bar_bump_cb</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Default admin bar callback.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Default admin bar callback.</p>
+
+
+------------<br>
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+None
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/_admin_bar_bump_cb'/>See more</a></p>]]>
+	</description_html>
+</snippet>

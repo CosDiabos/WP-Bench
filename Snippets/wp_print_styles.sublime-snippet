@@ -1,0 +1,36 @@
+
+<snippet>
+	<content><![CDATA[wp_print_styles(${1:\$handles});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>wp_print_styles</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Display styles that are in the $handles queue.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Display styles that are in the $handles queue.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$handles</p>
+(<b>string</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(array) On success, a processed array of WP_Dependencies items; otherwise, an empty array.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/wp_print_styles'/>See more</a></p>]]>
+	</description_html>
+</snippet>

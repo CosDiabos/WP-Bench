@@ -1,0 +1,40 @@
+
+<snippet>
+	<content><![CDATA[network_admin_url(${1:\$path}, ${2:\$scheme});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>network_admin_url</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Retrieves the URL to the admin area for the network.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Retrieves the URL to the admin area for the network.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$path</p>
+(<b>string</b>) <i>(Optional)</i><br>
+
+
+<p style='color:__sett-att-color__'>$scheme</p>
+(<b>string</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(string) Admin URL link with optional path appended.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/network_admin_url'/>See more</a></p>]]>
+	</description_html>
+</snippet>

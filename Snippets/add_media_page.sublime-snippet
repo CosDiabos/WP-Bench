@@ -1,0 +1,54 @@
+
+<snippet>
+	<content><![CDATA[add_media_page(${1:\$page_title}, ${2:\$menu_title}, ${3:\$capability}, ${4:\$menu_slug}, ${5:\$function});
+
+function ${5:a} (${16:$$var=''}) {
+	${17:#Code...}
+}
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>add_media_page</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Add submenu page to the Media main menu.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Add submenu page to the Media main menu.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$page_title</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$menu_title</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$capability</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$menu_slug</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$function</p>
+(<b>callable</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(false|string) The resulting page's hook_suffix, or false if the user does not have the capability required.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/add_media_page'/>See more</a></p>]]>
+	</description_html>
+</snippet>

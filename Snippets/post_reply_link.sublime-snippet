@@ -1,0 +1,40 @@
+
+<snippet>
+	<content><![CDATA[post_reply_link(${1:\$args}, ${2:\$post});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>post_reply_link</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Displays the HTML content for reply to post link.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Displays the HTML content for reply to post link.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$args</p>
+(<b>array</b>) <i>(Optional)</i><br>
+
+
+<p style='color:__sett-att-color__'>$post</p>
+(<b>int</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(string|bool|null) Link to show comment form, if successful. False, if comments are closed.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/post_reply_link'/>See more</a></p>]]>
+	</description_html>
+</snippet>

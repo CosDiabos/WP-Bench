@@ -1,0 +1,52 @@
+
+<snippet>
+	<content><![CDATA[get_image_tag(${1:\$id}, ${2:\$alt}, ${3:\$title}, ${4:\$align}, ${5:\$size});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>get_image_tag</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Gets an img tag for an image attachment, scaling it down if requested.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Gets an img tag for an image attachment, scaling it down if requested.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$id</p>
+(<b>int</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$alt</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$title</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$align</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$size</p>
+(<b>string</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(string) HTML IMG element for given image attachment
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/get_image_tag'/>See more</a></p>]]>
+	</description_html>
+</snippet>

@@ -1,0 +1,48 @@
+
+<snippet>
+	<content><![CDATA[trackback(${1:\$trackback_url}, ${2:\$title}, ${3:\$excerpt}, ${4:\$ID});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>trackback</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Send a Trackback.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Send a Trackback.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$trackback_url</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$title</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$excerpt</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$ID</p>
+(<b>int</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(int|false|void) Database query from update.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/trackback'/>See more</a></p>]]>
+	</description_html>
+</snippet>

@@ -1,0 +1,40 @@
+
+<snippet>
+	<content><![CDATA[wp_plugin_update_row(${1:\$file}, ${2:\$plugin_data});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>wp_plugin_update_row</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Displays update information for a plugin.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Displays update information for a plugin.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$file</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$plugin_data</p>
+(<b>array</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(false|void) 
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/wp_plugin_update_row'/>See more</a></p>]]>
+	</description_html>
+</snippet>

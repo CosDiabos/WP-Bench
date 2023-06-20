@@ -1,0 +1,36 @@
+
+<snippet>
+	<content><![CDATA[_post_format_request(${1:\$qvs});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>_post_format_request</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Filters the request to allow for the format prefix.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Filters the request to allow for the format prefix.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$qvs</p>
+(<b>array</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(array) 
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/_post_format_request'/>See more</a></p>]]>
+	</description_html>
+</snippet>

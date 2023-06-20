@@ -1,0 +1,40 @@
+
+<snippet>
+	<content><![CDATA[image_attachment_fields_to_save(${1:\$post}, ${2:\$attachment});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>image_attachment_fields_to_save</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Filters input from media_upload_form_handler() and assigns a default post_title from the file name if none supplied.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Filters input from media_upload_form_handler() and assigns a default post_title from the file name if none supplied.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$post</p>
+(<b>array</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$attachment</p>
+(<b>array</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(array) Filtered attachment post object.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/image_attachment_fields_to_save'/>See more</a></p>]]>
+	</description_html>
+</snippet>

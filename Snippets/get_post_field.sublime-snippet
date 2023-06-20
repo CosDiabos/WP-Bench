@@ -1,0 +1,44 @@
+
+<snippet>
+	<content><![CDATA[get_post_field(${1:\$field}, ${2:\$post}, ${3:\$context});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>get_post_field</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Retrieve data from a post field based on Post ID.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Retrieve data from a post field based on Post ID.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$field</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$post</p>
+(<b>int</b>) <i>(Optional)</i><br>
+
+
+<p style='color:__sett-att-color__'>$context</p>
+(<b>string</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(string) The value of the post field on success, empty string on failure.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/get_post_field'/>See more</a></p>]]>
+	</description_html>
+</snippet>

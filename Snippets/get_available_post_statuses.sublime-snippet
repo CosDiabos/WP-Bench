@@ -1,0 +1,36 @@
+
+<snippet>
+	<content><![CDATA[get_available_post_statuses(${1:\$type});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>get_available_post_statuses</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Get all the possible statuses for a post_type]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Get all the possible statuses for a post_type</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$type</p>
+(<b>string</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(array) As array of all the statuses for the supplied post type
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/get_available_post_statuses'/>See more</a></p>]]>
+	</description_html>
+</snippet>

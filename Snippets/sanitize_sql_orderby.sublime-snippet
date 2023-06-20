@@ -1,0 +1,36 @@
+
+<snippet>
+	<content><![CDATA[sanitize_sql_orderby(${1:\$orderby});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>sanitize_sql_orderby</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Ensures a string is a valid SQL ‘order by’ clause.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Ensures a string is a valid SQL ‘order by’ clause.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$orderby</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(string|false) Returns $orderby if valid, false otherwise.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/sanitize_sql_orderby'/>See more</a></p>]]>
+	</description_html>
+</snippet>

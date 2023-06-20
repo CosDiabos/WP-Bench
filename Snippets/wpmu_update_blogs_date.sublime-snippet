@@ -1,0 +1,32 @@
+
+<snippet>
+	<content><![CDATA[wpmu_update_blogs_date();
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>wpmu_update_blogs_date</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Update the last_updated field for the current site.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Update the last_updated field for the current site.</p>
+
+
+------------<br>
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+None
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/wpmu_update_blogs_date'/>See more</a></p>]]>
+	</description_html>
+</snippet>

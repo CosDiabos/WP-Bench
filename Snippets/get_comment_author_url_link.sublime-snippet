@@ -1,0 +1,48 @@
+
+<snippet>
+	<content><![CDATA[get_comment_author_url_link(${1:\$linktext}, ${2:\$before}, ${3:\$after}, ${4:\$comment});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>get_comment_author_url_link</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Retrieves the HTML link of the url of the author of the current comment.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Retrieves the HTML link of the url of the author of the current comment.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$linktext</p>
+(<b>string</b>) <i>(Optional)</i><br>
+
+
+<p style='color:__sett-att-color__'>$before</p>
+(<b>string</b>) <i>(Optional)</i><br>
+
+
+<p style='color:__sett-att-color__'>$after</p>
+(<b>string</b>) <i>(Optional)</i><br>
+
+
+<p style='color:__sett-att-color__'>$comment</p>
+(<b>int</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(string) The HTML link between the $before and $after parameters.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/get_comment_author_url_link'/>See more</a></p>]]>
+	</description_html>
+</snippet>

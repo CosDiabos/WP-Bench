@@ -1,0 +1,36 @@
+
+<snippet>
+	<content><![CDATA[is_post_type_viewable(${1:\$post_type});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>is_post_type_viewable</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Determines whether a post type is considered “viewable”.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Determines whether a post type is considered “viewable”.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$post_type</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(bool) Whether the post type should be considered viewable.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/is_post_type_viewable'/>See more</a></p>]]>
+	</description_html>
+</snippet>

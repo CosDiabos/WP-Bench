@@ -1,0 +1,32 @@
+
+<snippet>
+	<content><![CDATA[_media_button();
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>_media_button</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[This was once used to display a media button.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>This was once used to display a media button.</p>
+
+
+------------<br>
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+None
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/_media_button'/>See more</a></p>]]>
+	</description_html>
+</snippet>

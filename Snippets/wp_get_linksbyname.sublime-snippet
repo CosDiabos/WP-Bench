@@ -1,0 +1,40 @@
+
+<snippet>
+	<content><![CDATA[wp_get_linksbyname(${1:\$category}, ${2:\$args});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>wp_get_linksbyname</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Gets the links associated with the named category.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Gets the links associated with the named category.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$category</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$args</p>
+(<b>string</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(string|null) 
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/wp_get_linksbyname'/>See more</a></p>]]>
+	</description_html>
+</snippet>

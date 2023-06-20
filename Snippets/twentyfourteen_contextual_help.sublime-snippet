@@ -1,0 +1,32 @@
+
+<snippet>
+	<content><![CDATA[twentyfourteen_contextual_help();
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>twentyfourteen_contextual_help</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Add contextual help to the Themes and Post edit screens.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Add contextual help to the Themes and Post edit screens.</p>
+
+
+------------<br>
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+None
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/twentyfourteen_contextual_help'/>See more</a></p>]]>
+	</description_html>
+</snippet>

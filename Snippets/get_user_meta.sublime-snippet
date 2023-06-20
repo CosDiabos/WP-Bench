@@ -1,0 +1,44 @@
+
+<snippet>
+	<content><![CDATA[get_user_meta(${1:\$user_id}, ${2:\$key}, ${3:\$single});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>get_user_meta</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Retrieve user meta field for a user.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Retrieve user meta field for a user.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$user_id</p>
+(<b>int</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$key</p>
+(<b>string</b>) <i>(Optional)</i><br>
+
+
+<p style='color:__sett-att-color__'>$single</p>
+(<b>bool</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(mixed) Will be an array if $single is false. Will be value of meta data field if $single is true.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/get_user_meta'/>See more</a></p>]]>
+	</description_html>
+</snippet>

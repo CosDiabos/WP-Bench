@@ -1,0 +1,40 @@
+
+<snippet>
+	<content><![CDATA[get_calendar(${1:\$initial}, ${2:\$echo});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>get_calendar</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Display calendar with days that have posts as links.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Display calendar with days that have posts as links.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$initial</p>
+(<b>bool</b>) <i>(Optional)</i><br>
+
+
+<p style='color:__sett-att-color__'>$echo</p>
+(<b>bool</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(string|void) String when retrieving.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/get_calendar'/>See more</a></p>]]>
+	</description_html>
+</snippet>

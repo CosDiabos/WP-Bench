@@ -1,0 +1,33 @@
+
+<snippet>
+	<content><![CDATA[wp_import_handle_upload();
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>wp_import_handle_upload</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Handle importer uploading and add attachment.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Handle importer uploading and add attachment.</p>
+
+
+------------<br>
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+
+			File: wp-admin/includes/import.php		
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/wp_import_handle_upload'/>See more</a></p>]]>
+	</description_html>
+</snippet>

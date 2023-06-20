@@ -1,0 +1,33 @@
+
+<snippet>
+	<content><![CDATA[wp_removable_query_args();
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>wp_removable_query_args</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Returns an array of single-use query variable names that can be removed from a URL.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Returns an array of single-use query variable names that can be removed from a URL.</p>
+
+
+------------<br>
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+
+			File: wp-includes/functions.php		
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/wp_removable_query_args'/>See more</a></p>]]>
+	</description_html>
+</snippet>

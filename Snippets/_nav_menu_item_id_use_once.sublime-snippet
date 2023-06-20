@@ -1,0 +1,40 @@
+
+<snippet>
+	<content><![CDATA[_nav_menu_item_id_use_once(${1:\$id}, ${2:\$item});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>_nav_menu_item_id_use_once</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Prevents a menu item ID from being used more than once.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Prevents a menu item ID from being used more than once.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$id</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$item</p>
+(<b>object</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(string) 
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/_nav_menu_item_id_use_once'/>See more</a></p>]]>
+	</description_html>
+</snippet>

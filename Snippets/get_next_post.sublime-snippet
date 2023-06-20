@@ -1,0 +1,44 @@
+
+<snippet>
+	<content><![CDATA[get_next_post(${1:\$in_same_term}, ${2:\$excluded_terms}, ${3:\$taxonomy});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>get_next_post</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Retrieves the next post that is adjacent to the current post.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Retrieves the next post that is adjacent to the current post.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$in_same_term</p>
+(<b>bool</b>) <i>(Optional)</i><br>
+
+
+<p style='color:__sett-att-color__'>$excluded_terms</p>
+(<b>array</b>) <i>(Optional)</i><br>
+
+
+<p style='color:__sett-att-color__'>$taxonomy</p>
+(<b>string</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(null|string|WP_Post) Post object if successful. Null if global $post is not set. Empty string if no                             corresponding post exists.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/get_next_post'/>See more</a></p>]]>
+	</description_html>
+</snippet>

@@ -1,0 +1,36 @@
+
+<snippet>
+	<content><![CDATA[_draft_or_post_title(${1:\$post});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>_draft_or_post_title</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Get the post title.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Get the post title.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$post</p>
+(<b>int</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(string) The post title if set.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/_draft_or_post_title'/>See more</a></p>]]>
+	</description_html>
+</snippet>

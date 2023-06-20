@@ -1,0 +1,33 @@
+
+<snippet>
+	<content><![CDATA[walk_page_dropdown_tree();
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>walk_page_dropdown_tree</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Retrieve HTML dropdown (select) content for page list.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Retrieve HTML dropdown (select) content for page list.</p>
+
+
+------------<br>
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+
+			File: wp-includes/post-template.php		
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/walk_page_dropdown_tree'/>See more</a></p>]]>
+	</description_html>
+</snippet>

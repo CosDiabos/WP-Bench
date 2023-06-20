@@ -1,0 +1,37 @@
+
+<snippet>
+	<content><![CDATA[language_attributes(${1:\$doctype});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>language_attributes</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Displays the language attributes for the html tag.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Displays the language attributes for the html tag.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$doctype</p>
+(<b>string</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+
+			File: wp-includes/general-template.php		
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/language_attributes'/>See more</a></p>]]>
+	</description_html>
+</snippet>

@@ -1,0 +1,32 @@
+
+<snippet>
+	<content><![CDATA[wp_maybe_auto_update();
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>wp_maybe_auto_update</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Performs WordPress automatic background updates.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Performs WordPress automatic background updates.</p>
+
+
+------------<br>
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+None
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/wp_maybe_auto_update'/>See more</a></p>]]>
+	</description_html>
+</snippet>

@@ -1,0 +1,33 @@
+
+<snippet>
+	<content><![CDATA[get_the_post_type_description();
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>get_the_post_type_description</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Retrieves the description for a post type archive.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Retrieves the description for a post type archive.</p>
+
+
+------------<br>
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+
+			File: wp-includes/general-template.php		
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/get_the_post_type_description'/>See more</a></p>]]>
+	</description_html>
+</snippet>

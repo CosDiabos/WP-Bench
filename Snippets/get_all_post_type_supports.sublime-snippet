@@ -1,0 +1,36 @@
+
+<snippet>
+	<content><![CDATA[get_all_post_type_supports(${1:\$post_type});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>get_all_post_type_supports</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Get all the post type features]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Get all the post type features</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$post_type</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(array) Post type supports list.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/get_all_post_type_supports'/>See more</a></p>]]>
+	</description_html>
+</snippet>

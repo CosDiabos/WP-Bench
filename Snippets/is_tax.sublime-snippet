@@ -1,0 +1,40 @@
+
+<snippet>
+	<content><![CDATA[is_tax(${1:\$taxonomy}, ${2:\$term});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>is_tax</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Is the query for an existing custom taxonomy archive page?]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Is the query for an existing custom taxonomy archive page?</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$taxonomy</p>
+(<b>string</b>) <i>(Optional)</i><br>
+
+
+<p style='color:__sett-att-color__'>$term</p>
+(<b>int</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(bool) True for custom taxonomy archive pages, false for built-in taxonomies (category and tag archives).
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/is_tax'/>See more</a></p>]]>
+	</description_html>
+</snippet>

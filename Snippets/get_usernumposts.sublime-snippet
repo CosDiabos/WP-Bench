@@ -1,0 +1,36 @@
+
+<snippet>
+	<content><![CDATA[get_usernumposts(${1:\$userid});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>get_usernumposts</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Retrieves the number of posts a user has written.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Retrieves the number of posts a user has written.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$userid</p>
+(<b>int</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(int) Number of posts the given user has written.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/get_usernumposts'/>See more</a></p>]]>
+	</description_html>
+</snippet>

@@ -1,0 +1,44 @@
+
+<snippet>
+	<content><![CDATA[domain_exists(${1:\$domain}, ${2:\$path}, ${3:\$network_id});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>domain_exists</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Checks whether a site name is already taken.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Checks whether a site name is already taken.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$domain</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$path</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$network_id</p>
+(<b>int</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(int|null) The site ID if the site name exists, null otherwise.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/domain_exists'/>See more</a></p>]]>
+	</description_html>
+</snippet>

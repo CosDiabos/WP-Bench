@@ -1,0 +1,44 @@
+
+<snippet>
+	<content><![CDATA[comment_exists(${1:\$comment_author}, ${2:\$comment_date}, ${3:\$timezone});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>comment_exists</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Determine if a comment exists based on author and date.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Determine if a comment exists based on author and date.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$comment_author</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$comment_date</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$timezone</p>
+(<b>string</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(mixed) Comment post ID on success.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/comment_exists'/>See more</a></p>]]>
+	</description_html>
+</snippet>

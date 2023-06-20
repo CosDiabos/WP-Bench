@@ -1,0 +1,44 @@
+
+<snippet>
+	<content><![CDATA[esc_url(${1:\$url}, ${2:\$protocols}, ${3:\$_context});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>esc_url</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Checks and cleans a URL.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Checks and cleans a URL.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$url</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$protocols</p>
+(<b>array</b>) <i>(Optional)</i><br>
+
+
+<p style='color:__sett-att-color__'>$_context</p>
+(<b>string</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(string) The cleaned $url after the 'clean_url' filter is applied.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/esc_url'/>See more</a></p>]]>
+	</description_html>
+</snippet>

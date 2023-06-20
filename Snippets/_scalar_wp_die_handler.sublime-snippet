@@ -1,0 +1,37 @@
+
+<snippet>
+	<content><![CDATA[_scalar_wp_die_handler(${1:\$message});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>_scalar_wp_die_handler</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Kill WordPress execution.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Kill WordPress execution.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$message</p>
+(<b>string</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+
+			File: wp-includes/functions.php		
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/_scalar_wp_die_handler'/>See more</a></p>]]>
+	</description_html>
+</snippet>

@@ -1,0 +1,36 @@
+
+<snippet>
+	<content><![CDATA[wp_htmledit_pre(${1:\$output});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>wp_htmledit_pre</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Formats text for the HTML editor.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Formats text for the HTML editor.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$output</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(string) Formatted text after filter applied.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/wp_htmledit_pre'/>See more</a></p>]]>
+	</description_html>
+</snippet>

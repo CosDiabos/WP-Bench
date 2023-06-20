@@ -1,0 +1,36 @@
+
+<snippet>
+	<content><![CDATA[update_gallery_tab(${1:\$tabs});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>update_gallery_tab</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Adds the gallery tab back to the tabs array if post has image attachments]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Adds the gallery tab back to the tabs array if post has image attachments</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$tabs</p>
+(<b>array</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(array) $tabs with gallery if post has image attachment
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/update_gallery_tab'/>See more</a></p>]]>
+	</description_html>
+</snippet>

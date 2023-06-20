@@ -1,0 +1,37 @@
+
+<snippet>
+	<content><![CDATA[post_excerpt_meta_box(${1:\$post});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>post_excerpt_meta_box</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Display post excerpt form fields.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Display post excerpt form fields.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$post</p>
+(<b>object</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+
+			File: wp-admin/includes/meta-boxes.php		
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/post_excerpt_meta_box'/>See more</a></p>]]>
+	</description_html>
+</snippet>

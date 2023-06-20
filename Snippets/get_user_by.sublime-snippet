@@ -1,0 +1,40 @@
+
+<snippet>
+	<content><![CDATA[get_user_by(${1:\$field}, ${2:\$value});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>get_user_by</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Retrieve user info by a given field]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Retrieve user info by a given field</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$field</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$value</p>
+(<b>int</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(WP_User|false) WP_User object on success, false on failure.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/get_user_by'/>See more</a></p>]]>
+	</description_html>
+</snippet>

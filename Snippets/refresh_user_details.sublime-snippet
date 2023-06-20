@@ -1,0 +1,36 @@
+
+<snippet>
+	<content><![CDATA[refresh_user_details(${1:\$id});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>refresh_user_details</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Cleans the user cache for a specific user.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Cleans the user cache for a specific user.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$id</p>
+(<b>int</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(bool|int) The ID of the refreshed user or false if the user does not exist.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/refresh_user_details'/>See more</a></p>]]>
+	</description_html>
+</snippet>

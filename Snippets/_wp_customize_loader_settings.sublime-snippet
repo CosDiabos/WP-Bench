@@ -1,0 +1,32 @@
+
+<snippet>
+	<content><![CDATA[_wp_customize_loader_settings();
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>_wp_customize_loader_settings</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Adds settings for the customize-loader script.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Adds settings for the customize-loader script.</p>
+
+
+------------<br>
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+None
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/_wp_customize_loader_settings'/>See more</a></p>]]>
+	</description_html>
+</snippet>

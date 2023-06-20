@@ -1,0 +1,36 @@
+
+<snippet>
+	<content><![CDATA[filter_SSL(${1:\$url});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>filter_SSL</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Formats a URL to use https.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Formats a URL to use https.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$url</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(string) URL with https as the scheme
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/filter_SSL'/>See more</a></p>]]>
+	</description_html>
+</snippet>

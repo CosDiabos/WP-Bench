@@ -1,0 +1,44 @@
+
+<snippet>
+	<content><![CDATA[wp_insert_term(${1:\$term}, ${2:\$taxonomy}, ${3:\$args});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>wp_insert_term</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Add a new term to the database.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Add a new term to the database.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$term</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$taxonomy</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$args</p>
+(<b>array</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(array|WP_Error) An array containing the term_id and term_taxonomy_id,                        WP_Error otherwise.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/wp_insert_term'/>See more</a></p>]]>
+	</description_html>
+</snippet>

@@ -1,0 +1,36 @@
+
+<snippet>
+	<content><![CDATA[wp_http_validate_url(${1:\$url});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>wp_http_validate_url</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Validate a URL for safe use in the HTTP API.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Validate a URL for safe use in the HTTP API.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$url</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(false|string) URL or false on failure.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/wp_http_validate_url'/>See more</a></p>]]>
+	</description_html>
+</snippet>

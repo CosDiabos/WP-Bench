@@ -1,0 +1,40 @@
+
+<snippet>
+	<content><![CDATA[_wp_translate_postdata(${1:\$update}, ${2:\$post_data});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>_wp_translate_postdata</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Rename $_POST data from form names to DB post columns.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Rename $_POST data from form names to DB post columns.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$update</p>
+(<b>bool</b>) <i>(Optional)</i><br>
+
+
+<p style='color:__sett-att-color__'>$post_data</p>
+(<b>array</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(object|bool) WP_Error on failure, true on success.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/_wp_translate_postdata'/>See more</a></p>]]>
+	</description_html>
+</snippet>

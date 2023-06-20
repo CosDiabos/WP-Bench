@@ -1,0 +1,36 @@
+
+<snippet>
+	<content><![CDATA[wp_get_image_mime(${1:\$file});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>wp_get_image_mime</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Returns the real mime type of an image file.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Returns the real mime type of an image file.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$file</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(string|false) The actual mime type or false if the type cannot be determined.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/wp_get_image_mime'/>See more</a></p>]]>
+	</description_html>
+</snippet>

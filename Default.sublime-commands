@@ -1,0 +1,10 @@
+[
+    {
+        "caption": "WP-Bench: test",
+        "command": "Example"
+    },
+    {
+        "caption": "WP-Bench: folder",
+        "command": "create_base_plugin"
+    },
+]

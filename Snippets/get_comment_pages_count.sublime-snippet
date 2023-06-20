@@ -1,0 +1,44 @@
+
+<snippet>
+	<content><![CDATA[get_comment_pages_count(${1:\$comments}, ${2:\$per_page}, ${3:\$threaded});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>get_comment_pages_count</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Calculate the total number of comment pages.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Calculate the total number of comment pages.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$comments</p>
+(<b>array</b>) <i>(Optional)</i><br>
+
+
+<p style='color:__sett-att-color__'>$per_page</p>
+(<b>int</b>) <i>(Optional)</i><br>
+
+
+<p style='color:__sett-att-color__'>$threaded</p>
+(<b>bool</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(int) Number of comment pages.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/get_comment_pages_count'/>See more</a></p>]]>
+	</description_html>
+</snippet>

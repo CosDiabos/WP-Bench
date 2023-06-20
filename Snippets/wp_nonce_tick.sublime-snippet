@@ -1,0 +1,33 @@
+
+<snippet>
+	<content><![CDATA[wp_nonce_tick();
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>wp_nonce_tick</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Get the time-dependent variable for nonce creation.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Get the time-dependent variable for nonce creation.</p>
+
+
+------------<br>
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+
+			File: wp-includes/pluggable.php		
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/wp_nonce_tick'/>See more</a></p>]]>
+	</description_html>
+</snippet>

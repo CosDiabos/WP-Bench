@@ -1,0 +1,40 @@
+
+<snippet>
+	<content><![CDATA[register_taxonomy_for_object_type(${1:\$taxonomy}, ${2:\$object_type});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>register_taxonomy_for_object_type</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Add an already registered taxonomy to an object type.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Add an already registered taxonomy to an object type.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$taxonomy</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$object_type</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(bool) True if successful, false if not.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/register_taxonomy_for_object_type'/>See more</a></p>]]>
+	</description_html>
+</snippet>

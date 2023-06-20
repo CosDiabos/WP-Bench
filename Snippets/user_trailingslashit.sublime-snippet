@@ -1,0 +1,40 @@
+
+<snippet>
+	<content><![CDATA[user_trailingslashit(${1:\$string}, ${2:\$type_of_url});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>user_trailingslashit</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Retrieves a trailing-slashed string if the site is set for adding trailing slashes.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Retrieves a trailing-slashed string if the site is set for adding trailing slashes.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$string</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$type_of_url</p>
+(<b>string</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(string) The URL with the trailing slash appended or stripped.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/user_trailingslashit'/>See more</a></p>]]>
+	</description_html>
+</snippet>

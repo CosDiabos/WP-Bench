@@ -1,0 +1,44 @@
+
+<snippet>
+	<content><![CDATA[wp_filter_oembed_result(${1:\$result}, ${2:\$data}, ${3:\$url});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>wp_filter_oembed_result</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Filters the given oEmbed HTML.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Filters the given oEmbed HTML.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$result</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$data</p>
+(<b>object</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$url</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(string) The filtered and sanitized oEmbed result.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/wp_filter_oembed_result'/>See more</a></p>]]>
+	</description_html>
+</snippet>

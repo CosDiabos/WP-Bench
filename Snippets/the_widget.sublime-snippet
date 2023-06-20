@@ -1,0 +1,45 @@
+
+<snippet>
+	<content><![CDATA[the_widget(${1:\$widget}, ${2:\$instance}, ${3:\$args});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>the_widget</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Output an arbitrary widget as a template tag.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Output an arbitrary widget as a template tag.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$widget</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$instance</p>
+(<b>array</b>) <i>(Optional)</i><br>
+
+
+<p style='color:__sett-att-color__'>$args</p>
+(<b>array</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+
+			File: wp-includes/widgets.php		
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/the_widget'/>See more</a></p>]]>
+	</description_html>
+</snippet>

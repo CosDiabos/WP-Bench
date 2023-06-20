@@ -1,0 +1,40 @@
+
+<snippet>
+	<content><![CDATA[_wp_upgrade_revisions_of_post(${1:\$post}, ${2:\$revisions});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>_wp_upgrade_revisions_of_post</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Upgrade the revisions author, add the current post as a revision and set the revisions version to 1]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Upgrade the revisions author, add the current post as a revision and set the revisions version to 1</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$post</p>
+(<b>WP_Post</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$revisions</p>
+(<b>array</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(bool) true if the revisions were upgraded, false if problems
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/_wp_upgrade_revisions_of_post'/>See more</a></p>]]>
+	</description_html>
+</snippet>

@@ -1,0 +1,36 @@
+
+<snippet>
+	<content><![CDATA[wp_mediaelement_fallback(${1:\$url});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>wp_mediaelement_fallback</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Provides a No-JS Flash fallback as a last resort for audio / video.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Provides a No-JS Flash fallback as a last resort for audio / video.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$url</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(string) Fallback HTML.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/wp_mediaelement_fallback'/>See more</a></p>]]>
+	</description_html>
+</snippet>

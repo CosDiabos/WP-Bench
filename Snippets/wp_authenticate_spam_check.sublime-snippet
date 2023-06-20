@@ -1,0 +1,36 @@
+
+<snippet>
+	<content><![CDATA[wp_authenticate_spam_check(${1:\$user});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>wp_authenticate_spam_check</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[For Multisite blogs, check if the authenticated user has been marked as a spammer, or if the user’s primary blog has been marked as spam.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>For Multisite blogs, check if the authenticated user has been marked as a spammer, or if the user’s primary blog has been marked as spam.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$user</p>
+(<b>WP_User</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(WP_User|WP_Error) WP_User on success, WP_Error if the user is considered a spammer.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/wp_authenticate_spam_check'/>See more</a></p>]]>
+	</description_html>
+</snippet>

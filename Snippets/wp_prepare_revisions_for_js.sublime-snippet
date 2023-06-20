@@ -1,0 +1,44 @@
+
+<snippet>
+	<content><![CDATA[wp_prepare_revisions_for_js(${1:\$post}, ${2:\$selected_revision_id}, ${3:\$from});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>wp_prepare_revisions_for_js</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Prepare revisions for JavaScript.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Prepare revisions for JavaScript.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$post</p>
+(<b>object</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$selected_revision_id</p>
+(<b>int</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$from</p>
+(<b>int</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(array) An associative array of revision data and related settings.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/wp_prepare_revisions_for_js'/>See more</a></p>]]>
+	</description_html>
+</snippet>

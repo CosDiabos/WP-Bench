@@ -1,0 +1,36 @@
+
+<snippet>
+	<content><![CDATA[twentyeleven_body_classes(${1:\$classes});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>twentyeleven_body_classes</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Add two classes to the array of body classes.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Add two classes to the array of body classes.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$classes</p>
+(<b>array</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(array) The filtered array of body classes.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/twentyeleven_body_classes'/>See more</a></p>]]>
+	</description_html>
+</snippet>

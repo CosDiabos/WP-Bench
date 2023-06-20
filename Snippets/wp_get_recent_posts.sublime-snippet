@@ -1,0 +1,40 @@
+
+<snippet>
+	<content><![CDATA[wp_get_recent_posts(${1:\$args}, ${2:\$output});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>wp_get_recent_posts</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Retrieve a number of recent posts.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Retrieve a number of recent posts.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$args</p>
+(<b>array</b>) <i>(Optional)</i><br>
+
+
+<p style='color:__sett-att-color__'>$output</p>
+(<b>string</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(array|false) Array of recent posts, where the type of each element is determined by $output parameter.                     Empty array on failure.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/wp_get_recent_posts'/>See more</a></p>]]>
+	</description_html>
+</snippet>

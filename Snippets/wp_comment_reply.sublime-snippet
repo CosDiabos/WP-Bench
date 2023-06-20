@@ -1,0 +1,49 @@
+
+<snippet>
+	<content><![CDATA[wp_comment_reply(${1:\$position}, ${2:\$checkbox}, ${3:\$mode}, ${4:\$table_row});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>wp_comment_reply</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Outputs the in-line comment reply-to form in the Comments list table.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Outputs the in-line comment reply-to form in the Comments list table.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$position</p>
+(<b>int</b>) <i>(Optional)</i><br>
+
+
+<p style='color:__sett-att-color__'>$checkbox</p>
+(<b>bool</b>) <i>(Optional)</i><br>
+
+
+<p style='color:__sett-att-color__'>$mode</p>
+(<b>string</b>) <i>(Optional)</i><br>
+
+
+<p style='color:__sett-att-color__'>$table_row</p>
+(<b>bool</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+
+			File: wp-admin/includes/template.php		
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/wp_comment_reply'/>See more</a></p>]]>
+	</description_html>
+</snippet>

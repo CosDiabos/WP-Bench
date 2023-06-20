@@ -1,0 +1,36 @@
+
+<snippet>
+	<content><![CDATA[attachment_url_to_postid(${1:\$url});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>attachment_url_to_postid</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Tries to convert an attachment URL into a post ID.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Tries to convert an attachment URL into a post ID.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$url</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(int) The found post ID, or 0 on failure.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/attachment_url_to_postid'/>See more</a></p>]]>
+	</description_html>
+</snippet>

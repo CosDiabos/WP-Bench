@@ -1,0 +1,45 @@
+
+<snippet>
+	<content><![CDATA[get_comments_number_text(${1:\$zero}, ${2:\$one}, ${3:\$more});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>get_comments_number_text</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Display the language string for the number of comments the current post has.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Display the language string for the number of comments the current post has.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$zero</p>
+(<b>string</b>) <i>(Optional)</i><br>
+
+
+<p style='color:__sett-att-color__'>$one</p>
+(<b>string</b>) <i>(Optional)</i><br>
+
+
+<p style='color:__sett-att-color__'>$more</p>
+(<b>string</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+
+			File: wp-includes/comment-template.php		
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/get_comments_number_text'/>See more</a></p>]]>
+	</description_html>
+</snippet>

@@ -1,0 +1,40 @@
+
+<snippet>
+	<content><![CDATA[avoid_blog_page_permalink_collision(${1:\$data}, ${2:\$postarr});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>avoid_blog_page_permalink_collision</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Avoids a collision between a site slug and a permalink slug.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Avoids a collision between a site slug and a permalink slug.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$data</p>
+(<b>array</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$postarr</p>
+(<b>array</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(array) The new array of post data after checking for collisions.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/avoid_blog_page_permalink_collision'/>See more</a></p>]]>
+	</description_html>
+</snippet>

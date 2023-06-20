@@ -1,0 +1,37 @@
+
+<snippet>
+	<content><![CDATA[clean_network_cache(${1:\$ids});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>clean_network_cache</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Removes a network from the object cache.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Removes a network from the object cache.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$ids</p>
+(<b>int</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+
+			File: wp-includes/ms-blogs.php		
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/clean_network_cache'/>See more</a></p>]]>
+	</description_html>
+</snippet>

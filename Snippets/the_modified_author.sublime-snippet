@@ -1,0 +1,32 @@
+
+<snippet>
+	<content><![CDATA[the_modified_author();
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>the_modified_author</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Display the name of the author who last edited the current post, if the author’s ID is available.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Display the name of the author who last edited the current post, if the author’s ID is available.</p>
+
+
+------------<br>
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+None
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/the_modified_author'/>See more</a></p>]]>
+	</description_html>
+</snippet>

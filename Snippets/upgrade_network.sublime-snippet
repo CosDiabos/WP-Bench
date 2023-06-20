@@ -1,0 +1,32 @@
+
+<snippet>
+	<content><![CDATA[upgrade_network();
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>upgrade_network</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Executes network-level upgrade routines.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Executes network-level upgrade routines.</p>
+
+
+------------<br>
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+None
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/upgrade_network'/>See more</a></p>]]>
+	</description_html>
+</snippet>

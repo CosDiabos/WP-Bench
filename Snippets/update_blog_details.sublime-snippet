@@ -1,0 +1,40 @@
+
+<snippet>
+	<content><![CDATA[update_blog_details(${1:\$blog_id}, ${2:\$details});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>update_blog_details</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Update the details for a blog. Updates the blogs table for a given blog id.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Update the details for a blog. Updates the blogs table for a given blog id.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$blog_id</p>
+(<b>int</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$details</p>
+(<b>array</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(bool) True if update succeeds, false otherwise.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/update_blog_details'/>See more</a></p>]]>
+	</description_html>
+</snippet>

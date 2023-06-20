@@ -1,0 +1,37 @@
+
+<snippet>
+	<content><![CDATA[register_default_headers(${1:\$headers});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>register_default_headers</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Register a selection of default headers to be displayed by the custom header admin UI.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Register a selection of default headers to be displayed by the custom header admin UI.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$headers</p>
+(<b>array</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+
+			File: wp-includes/theme.php		
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/register_default_headers'/>See more</a></p>]]>
+	</description_html>
+</snippet>

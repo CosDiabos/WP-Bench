@@ -1,0 +1,33 @@
+
+<snippet>
+	<content><![CDATA[get_singular_template();
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>get_singular_template</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Retrieves the path of the singular template in current or parent template.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Retrieves the path of the singular template in current or parent template.</p>
+
+
+------------<br>
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+
+			File: wp-includes/template.php		
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/get_singular_template'/>See more</a></p>]]>
+	</description_html>
+</snippet>

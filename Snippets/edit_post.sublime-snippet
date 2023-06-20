@@ -1,0 +1,36 @@
+
+<snippet>
+	<content><![CDATA[edit_post(${1:\$post_data});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>edit_post</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Update an existing post with values provided in $_POST.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Update an existing post with values provided in $_POST.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$post_data</p>
+(<b>array</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(int) Post ID.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/edit_post'/>See more</a></p>]]>
+	</description_html>
+</snippet>

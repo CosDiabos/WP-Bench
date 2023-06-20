@@ -1,0 +1,40 @@
+
+<snippet>
+	<content><![CDATA[wp_get_image_editor(${1:\$path}, ${2:\$args});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>wp_get_image_editor</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Returns a WP_Image_Editor instance and loads file into it.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Returns a WP_Image_Editor instance and loads file into it.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$path</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$args</p>
+(<b>array</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(WP_Image_Editor|WP_Error) The WP_Image_Editor object if successful, an WP_Error                                  object otherwise.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/wp_get_image_editor'/>See more</a></p>]]>
+	</description_html>
+</snippet>

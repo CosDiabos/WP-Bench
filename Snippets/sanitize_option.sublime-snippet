@@ -1,0 +1,40 @@
+
+<snippet>
+	<content><![CDATA[sanitize_option(${1:\$option}, ${2:\$value});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>sanitize_option</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Sanitises various option values based on the nature of the option.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Sanitises various option values based on the nature of the option.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$option</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$value</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(string) Sanitized value.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/sanitize_option'/>See more</a></p>]]>
+	</description_html>
+</snippet>

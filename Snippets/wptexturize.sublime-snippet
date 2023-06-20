@@ -1,0 +1,40 @@
+
+<snippet>
+	<content><![CDATA[wptexturize(${1:\$text}, ${2:\$reset});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>wptexturize</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Replaces common plain text characters into formatted entities]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Replaces common plain text characters into formatted entities</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$text</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$reset</p>
+(<b>bool</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(string) The string replaced with html entities
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/wptexturize'/>See more</a></p>]]>
+	</description_html>
+</snippet>

@@ -1,0 +1,32 @@
+
+<snippet>
+	<content><![CDATA[delete_all_user_settings();
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>delete_all_user_settings</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Delete the user settings of the current user.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Delete the user settings of the current user.</p>
+
+
+------------<br>
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+None
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/delete_all_user_settings'/>See more</a></p>]]>
+	</description_html>
+</snippet>

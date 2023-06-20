@@ -1,0 +1,48 @@
+
+<snippet>
+	<content><![CDATA[wp_specialchars(${1:\$string}, ${2:\$quote_style}, ${3:\$charset}, ${4:\$double_encode});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>wp_specialchars</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Legacy escaping for HTML blocks.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Legacy escaping for HTML blocks.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$string</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$quote_style</p>
+(<b>string</b>) <i>(Optional)</i><br>
+
+
+<p style='color:__sett-att-color__'>$charset</p>
+(<b>false</b>) <i>(Optional)</i><br>
+
+
+<p style='color:__sett-att-color__'>$double_encode</p>
+(<b>false</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(string) Escaped $string.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/wp_specialchars'/>See more</a></p>]]>
+	</description_html>
+</snippet>

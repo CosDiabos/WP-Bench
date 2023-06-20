@@ -1,0 +1,36 @@
+
+<snippet>
+	<content><![CDATA[wp_unslash(${1:\$value});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>wp_unslash</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Remove slashes from a string or array of strings.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Remove slashes from a string or array of strings.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$value</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(string|array) Unslashed $value
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/wp_unslash'/>See more</a></p>]]>
+	</description_html>
+</snippet>

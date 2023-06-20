@@ -1,0 +1,48 @@
+
+<snippet>
+	<content><![CDATA[get_term(${1:\$term}, ${2:\$taxonomy}, ${3:\$output}, ${4:\$filter});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>get_term</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Get all Term data from database by Term ID.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Get all Term data from database by Term ID.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$term</p>
+(<b>int</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$taxonomy</p>
+(<b>string</b>) <i>(Optional)</i><br>
+
+
+<p style='color:__sett-att-color__'>$output</p>
+(<b>string</b>) <i>(Optional)</i><br>
+
+
+<p style='color:__sett-att-color__'>$filter</p>
+(<b>string</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(array|WP_Term|WP_Error|null) Object of the type specified by $output on success. When $output is 'OBJECT',                                     a WP_Term instance is returned. If taxonomy does not exist, a WP_Error is                                     returned. Returns null for miscellaneous failure.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/get_term'/>See more</a></p>]]>
+	</description_html>
+</snippet>

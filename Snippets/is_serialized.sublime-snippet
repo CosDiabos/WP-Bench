@@ -1,0 +1,40 @@
+
+<snippet>
+	<content><![CDATA[is_serialized(${1:\$data}, ${2:\$strict});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>is_serialized</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Check value to find if it was serialized.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Check value to find if it was serialized.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$data</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$strict</p>
+(<b>bool</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(bool) False if not serialized and true if it was.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/is_serialized'/>See more</a></p>]]>
+	</description_html>
+</snippet>

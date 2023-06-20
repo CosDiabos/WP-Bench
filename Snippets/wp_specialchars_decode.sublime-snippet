@@ -1,0 +1,40 @@
+
+<snippet>
+	<content><![CDATA[wp_specialchars_decode(${1:\$string}, ${2:\$quote_style});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>wp_specialchars_decode</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Converts a number of HTML entities into their special characters.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Converts a number of HTML entities into their special characters.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$string</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$quote_style</p>
+(<b>string</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(string) The decoded text without HTML entities.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/wp_specialchars_decode'/>See more</a></p>]]>
+	</description_html>
+</snippet>

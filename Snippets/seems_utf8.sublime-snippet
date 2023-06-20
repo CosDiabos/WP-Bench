@@ -1,0 +1,36 @@
+
+<snippet>
+	<content><![CDATA[seems_utf8(${1:\$str});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>seems_utf8</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Checks to see if a string is utf8 encoded.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Checks to see if a string is utf8 encoded.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$str</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(bool) True if $str fits a UTF-8 model, false otherwise.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/seems_utf8'/>See more</a></p>]]>
+	</description_html>
+</snippet>

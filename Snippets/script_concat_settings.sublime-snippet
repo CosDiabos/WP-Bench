@@ -1,0 +1,32 @@
+
+<snippet>
+	<content><![CDATA[script_concat_settings();
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>script_concat_settings</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Determine the concatenation and compression settings for scripts and styles.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Determine the concatenation and compression settings for scripts and styles.</p>
+
+
+------------<br>
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+None
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/script_concat_settings'/>See more</a></p>]]>
+	</description_html>
+</snippet>

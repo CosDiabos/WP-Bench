@@ -1,0 +1,36 @@
+
+<snippet>
+	<content><![CDATA[doing_filter(${1:\$filter});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>doing_filter</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Retrieve the name of a filter currently being processed.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Retrieve the name of a filter currently being processed.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$filter</p>
+(<b>null</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(bool) Whether the filter is currently in the stack.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/doing_filter'/>See more</a></p>]]>
+	</description_html>
+</snippet>

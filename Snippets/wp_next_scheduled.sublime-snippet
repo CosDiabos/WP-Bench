@@ -1,0 +1,40 @@
+
+<snippet>
+	<content><![CDATA[wp_next_scheduled(${1:\$hook}, ${2:\$args});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>wp_next_scheduled</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Retrieve the next timestamp for an event.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Retrieve the next timestamp for an event.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$hook</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$args</p>
+(<b>array</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(false|int) The Unix timestamp of the next time the scheduled event will occur.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/wp_next_scheduled'/>See more</a></p>]]>
+	</description_html>
+</snippet>

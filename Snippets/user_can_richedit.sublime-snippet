@@ -1,0 +1,33 @@
+
+<snippet>
+	<content><![CDATA[user_can_richedit();
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>user_can_richedit</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Whether the user can access the visual editor.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Whether the user can access the visual editor.</p>
+
+
+------------<br>
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+
+			File: wp-includes/general-template.php		
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/user_can_richedit'/>See more</a></p>]]>
+	</description_html>
+</snippet>

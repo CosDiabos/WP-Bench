@@ -1,0 +1,33 @@
+
+<snippet>
+	<content><![CDATA[get_the_title_rss();
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>get_the_title_rss</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Retrieve the current post title for the feed.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Retrieve the current post title for the feed.</p>
+
+
+------------<br>
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+
+			File: wp-includes/feed.php		
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/get_the_title_rss'/>See more</a></p>]]>
+	</description_html>
+</snippet>

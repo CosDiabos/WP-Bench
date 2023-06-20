@@ -1,0 +1,45 @@
+
+<snippet>
+	<content><![CDATA[comment_form_title(${1:\$noreplytext}, ${2:\$replytext}, ${3:\$linktoparent});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>comment_form_title</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Display text based on comment reply status.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Display text based on comment reply status.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$noreplytext</p>
+(<b>string</b>) <i>(Optional)</i><br>
+
+
+<p style='color:__sett-att-color__'>$replytext</p>
+(<b>string</b>) <i>(Optional)</i><br>
+
+
+<p style='color:__sett-att-color__'>$linktoparent</p>
+(<b>string</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+
+			File: wp-includes/comment-template.php		
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/comment_form_title'/>See more</a></p>]]>
+	</description_html>
+</snippet>

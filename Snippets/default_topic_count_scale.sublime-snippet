@@ -1,0 +1,36 @@
+
+<snippet>
+	<content><![CDATA[default_topic_count_scale(${1:\$count});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>default_topic_count_scale</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Default topic count scaling for tag links.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Default topic count scaling for tag links.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$count</p>
+(<b>int</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(int) Scaled count.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/default_topic_count_scale'/>See more</a></p>]]>
+	</description_html>
+</snippet>

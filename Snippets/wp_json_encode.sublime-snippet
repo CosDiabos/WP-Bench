@@ -1,0 +1,44 @@
+
+<snippet>
+	<content><![CDATA[wp_json_encode(${1:\$data}, ${2:\$options}, ${3:\$depth});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>wp_json_encode</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Encode a variable into JSON, with some sanity checks.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Encode a variable into JSON, with some sanity checks.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$data</p>
+(<b>mixed</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$options</p>
+(<b>int</b>) <i>(Optional)</i><br>
+
+
+<p style='color:__sett-att-color__'>$depth</p>
+(<b>int</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(string|false) The JSON encoded string, or false if it cannot be encoded.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/wp_json_encode'/>See more</a></p>]]>
+	</description_html>
+</snippet>

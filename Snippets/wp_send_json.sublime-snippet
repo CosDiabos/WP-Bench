@@ -1,0 +1,41 @@
+
+<snippet>
+	<content><![CDATA[wp_send_json(${1:\$response}, ${2:\$status_code});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>wp_send_json</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Send a JSON response back to an Ajax request.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Send a JSON response back to an Ajax request.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$response</p>
+(<b>mixed</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$status_code</p>
+(<b>int</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+
+			File: wp-includes/functions.php		
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/wp_send_json'/>See more</a></p>]]>
+	</description_html>
+</snippet>

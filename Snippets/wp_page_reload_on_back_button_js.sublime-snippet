@@ -1,0 +1,32 @@
+
+<snippet>
+	<content><![CDATA[wp_page_reload_on_back_button_js();
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>wp_page_reload_on_back_button_js</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Outputs JS that reloads the page if the user navigated to it with the Back or Forward button.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Outputs JS that reloads the page if the user navigated to it with the Back or Forward button.</p>
+
+
+------------<br>
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+None
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/wp_page_reload_on_back_button_js'/>See more</a></p>]]>
+	</description_html>
+</snippet>

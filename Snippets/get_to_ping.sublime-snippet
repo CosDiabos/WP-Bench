@@ -1,0 +1,36 @@
+
+<snippet>
+	<content><![CDATA[get_to_ping(${1:\$post_id});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>get_to_ping</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Retrieve URLs that need to be pinged.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Retrieve URLs that need to be pinged.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$post_id</p>
+(<b>int</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(array) 
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/get_to_ping'/>See more</a></p>]]>
+	</description_html>
+</snippet>

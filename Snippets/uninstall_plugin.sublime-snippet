@@ -1,0 +1,36 @@
+
+<snippet>
+	<content><![CDATA[uninstall_plugin(${1:\$plugin});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>uninstall_plugin</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Uninstall a single plugin.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Uninstall a single plugin.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$plugin</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(true) True if a plugin's uninstall.php file has been found and included.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/uninstall_plugin'/>See more</a></p>]]>
+	</description_html>
+</snippet>

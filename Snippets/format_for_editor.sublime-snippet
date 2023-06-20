@@ -1,0 +1,40 @@
+
+<snippet>
+	<content><![CDATA[format_for_editor(${1:\$text}, ${2:\$default_editor});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>format_for_editor</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Formats text for the editor.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Formats text for the editor.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$text</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$default_editor</p>
+(<b>string</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(string) The formatted text after filter is applied.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/format_for_editor'/>See more</a></p>]]>
+	</description_html>
+</snippet>

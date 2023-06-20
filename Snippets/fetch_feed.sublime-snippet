@@ -1,0 +1,36 @@
+
+<snippet>
+	<content><![CDATA[fetch_feed(${1:\$url});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>fetch_feed</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Build SimplePie object based on RSS or Atom feed from URL.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Build SimplePie object based on RSS or Atom feed from URL.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$url</p>
+(<b>mixed</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(WP_Error|SimplePie) WP_Error object on failure or SimplePie object on success
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/fetch_feed'/>See more</a></p>]]>
+	</description_html>
+</snippet>

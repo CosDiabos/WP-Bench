@@ -1,0 +1,37 @@
+
+<snippet>
+	<content><![CDATA[setup_userdata(${1:\$for_user_id});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>setup_userdata</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Set up global user vars.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Set up global user vars.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$for_user_id</p>
+(<b>int</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+
+			File: wp-includes/user.php		
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/setup_userdata'/>See more</a></p>]]>
+	</description_html>
+</snippet>

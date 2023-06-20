@@ -1,0 +1,69 @@
+
+<snippet>
+	<content><![CDATA[get_links_withrating(${1:\$category}, ${2:\$before}, ${3:\$after}, ${4:\$between}, ${5:\$show_images}, ${6:\$orderby}, ${7:\$show_description}, ${8:\$limit}, ${9:\$show_updated});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>get_links_withrating</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Gets the links associated with category n and display rating stars/chars.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Gets the links associated with category n and display rating stars/chars.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$category</p>
+(<b>int</b>) <i>(Optional)</i><br>
+
+
+<p style='color:__sett-att-color__'>$before</p>
+(<b>string</b>) <i>(Optional)</i><br>
+
+
+<p style='color:__sett-att-color__'>$after</p>
+(<b>string</b>) <i>(Optional)</i><br>
+
+
+<p style='color:__sett-att-color__'>$between</p>
+(<b>string</b>) <i>(Optional)</i><br>
+
+
+<p style='color:__sett-att-color__'>$show_images</p>
+(<b>bool</b>) <i>(Optional)</i><br>
+
+
+<p style='color:__sett-att-color__'>$orderby</p>
+(<b>string</b>) <i>(Optional)</i><br>
+
+
+<p style='color:__sett-att-color__'>$show_description</p>
+(<b>bool</b>) <i>(Optional)</i><br>
+
+
+<p style='color:__sett-att-color__'>$limit</p>
+(<b>int</b>) <i>(Optional)</i><br>
+
+
+<p style='color:__sett-att-color__'>$show_updated</p>
+(<b>int</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+
+			File: wp-includes/deprecated.php		
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/get_links_withrating'/>See more</a></p>]]>
+	</description_html>
+</snippet>

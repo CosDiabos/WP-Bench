@@ -1,0 +1,36 @@
+
+<snippet>
+	<content><![CDATA[clean_pre(${1:\$matches});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>clean_pre</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Accepts matches array from preg_replace_callback in wpautop() or a string.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Accepts matches array from preg_replace_callback in wpautop() or a string.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$matches</p>
+(<b>array</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(string) The pre block without paragraph/line-break conversion.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/clean_pre'/>See more</a></p>]]>
+	</description_html>
+</snippet>

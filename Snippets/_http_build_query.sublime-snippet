@@ -1,0 +1,52 @@
+
+<snippet>
+	<content><![CDATA[_http_build_query(${1:\$data}, ${2:\$prefix}, ${3:\$sep}, ${4:\$key}, ${5:\$urlencode});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>_http_build_query</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[From php.net (modified by Mark Jaquith to behave like the native PHP5 function).]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>From php.net (modified by Mark Jaquith to behave like the native PHP5 function).</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$data</p>
+(<b>array</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$prefix</p>
+(<b>string</b>) <i>(Optional)</i><br>
+
+
+<p style='color:__sett-att-color__'>$sep</p>
+(<b>string</b>) <i>(Optional)</i><br>
+
+
+<p style='color:__sett-att-color__'>$key</p>
+(<b>string</b>) <i>(Optional)</i><br>
+
+
+<p style='color:__sett-att-color__'>$urlencode</p>
+(<b>bool</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(string) The query string.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/_http_build_query'/>See more</a></p>]]>
+	</description_html>
+</snippet>

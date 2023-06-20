@@ -1,0 +1,36 @@
+
+<snippet>
+	<content><![CDATA[upload_is_file_too_big(${1:\$upload});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>upload_is_file_too_big</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Check whether an upload is too big.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Check whether an upload is too big.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$upload</p>
+(<b>array</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(string|array) If the upload is under the size limit, $upload is returned. Otherwise returns an error message.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/upload_is_file_too_big'/>See more</a></p>]]>
+	</description_html>
+</snippet>

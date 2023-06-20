@@ -1,0 +1,40 @@
+
+<snippet>
+	<content><![CDATA[update_meta_cache(${1:\$meta_type}, ${2:\$object_ids});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>update_meta_cache</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Update the metadata cache for the specified objects.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Update the metadata cache for the specified objects.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$meta_type</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$object_ids</p>
+(<b>int</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(array|false) Metadata cache for the specified objects, or false on failure.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/update_meta_cache'/>See more</a></p>]]>
+	</description_html>
+</snippet>

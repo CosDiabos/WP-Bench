@@ -1,0 +1,32 @@
+
+<snippet>
+	<content><![CDATA[options_discussion_add_js();
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>options_discussion_add_js</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Output JavaScript to toggle display of additional settings if avatars are disabled.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Output JavaScript to toggle display of additional settings if avatars are disabled.</p>
+
+
+------------<br>
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+None
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/options_discussion_add_js'/>See more</a></p>]]>
+	</description_html>
+</snippet>

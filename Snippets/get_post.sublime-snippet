@@ -1,0 +1,44 @@
+
+<snippet>
+	<content><![CDATA[get_post(${1:\$post}, ${2:\$output}, ${3:\$filter});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>get_post</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Retrieves post data given a post ID or post object.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Retrieves post data given a post ID or post object.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$post</p>
+(<b>int</b>) <i>(Optional)</i><br>
+
+
+<p style='color:__sett-att-color__'>$output</p>
+(<b>string</b>) <i>(Optional)</i><br>
+
+
+<p style='color:__sett-att-color__'>$filter</p>
+(<b>string</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(WP_Post|array|null) Type corresponding to $output on success or null on failure.                            When $output is OBJECT, a WP_Post instance is returned.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/get_post'/>See more</a></p>]]>
+	</description_html>
+</snippet>

@@ -1,0 +1,41 @@
+
+<snippet>
+	<content><![CDATA[previous_image_link(${1:\$size}, ${2:\$text});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>previous_image_link</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Displays previous image link that has the same post parent.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Displays previous image link that has the same post parent.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$size</p>
+(<b>string</b>) <i>(Optional)</i><br>
+
+
+<p style='color:__sett-att-color__'>$text</p>
+(<b>string</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+
+			File: wp-includes/media.php		
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/previous_image_link'/>See more</a></p>]]>
+	</description_html>
+</snippet>

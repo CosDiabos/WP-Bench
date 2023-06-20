@@ -1,0 +1,40 @@
+
+<snippet>
+	<content><![CDATA[get_settings_errors(${1:\$setting}, ${2:\$sanitize});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>get_settings_errors</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Fetch settings errors registered by add_settings_error()]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Fetch settings errors registered by add_settings_error()</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$setting</p>
+(<b>string</b>) <i>(Optional)</i><br>
+
+
+<p style='color:__sett-att-color__'>$sanitize</p>
+(<b>boolean</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(array) Array of settings errors
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/get_settings_errors'/>See more</a></p>]]>
+	</description_html>
+</snippet>

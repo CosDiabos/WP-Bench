@@ -1,0 +1,45 @@
+
+<snippet>
+	<content><![CDATA[_deprecated_constructor(${1:\$class}, ${2:\$version}, ${3:\$parent_class});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>_deprecated_constructor</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Marks a constructor as deprecated and informs when it has been used.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Marks a constructor as deprecated and informs when it has been used.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$class</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$version</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$parent_class</p>
+(<b>string</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+
+			File: wp-includes/functions.php		
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/_deprecated_constructor'/>See more</a></p>]]>
+	</description_html>
+</snippet>

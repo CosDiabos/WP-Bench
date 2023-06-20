@@ -1,0 +1,45 @@
+
+<snippet>
+	<content><![CDATA[wp_site_admin_email_change_notification(${1:\$old_email}, ${2:\$new_email}, ${3:\$option_name});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>wp_site_admin_email_change_notification</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Send an email to the old site admin email address when the site admin email address changes.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Send an email to the old site admin email address when the site admin email address changes.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$old_email</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$new_email</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$option_name</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+
+			File: wp-includes/functions.php		
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/wp_site_admin_email_change_notification'/>See more</a></p>]]>
+	</description_html>
+</snippet>

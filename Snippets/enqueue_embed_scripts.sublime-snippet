@@ -1,0 +1,32 @@
+
+<snippet>
+	<content><![CDATA[enqueue_embed_scripts();
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>enqueue_embed_scripts</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Enqueue embed iframe default CSS and JS & fire do_action(‘enqueue_embed_scripts’)]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Enqueue embed iframe default CSS and JS & fire do_action(‘enqueue_embed_scripts’)</p>
+
+
+------------<br>
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+None
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/enqueue_embed_scripts'/>See more</a></p>]]>
+	</description_html>
+</snippet>

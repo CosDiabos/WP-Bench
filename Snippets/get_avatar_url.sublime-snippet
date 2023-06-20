@@ -1,0 +1,40 @@
+
+<snippet>
+	<content><![CDATA[get_avatar_url(${1:\$id_or_email}, ${2:\$args});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>get_avatar_url</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Retrieves the avatar URL.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Retrieves the avatar URL.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$id_or_email</p>
+(<b>mixed</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$args</p>
+(<b>array</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(false|string) The URL of the avatar we found, or false if we couldn't find an avatar.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/get_avatar_url'/>See more</a></p>]]>
+	</description_html>
+</snippet>

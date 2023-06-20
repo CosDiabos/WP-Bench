@@ -1,0 +1,36 @@
+
+<snippet>
+	<content><![CDATA[rest_get_avatar_urls(${1:\$email});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>rest_get_avatar_urls</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Retrieves the avatar urls in various sizes based on a given email address.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Retrieves the avatar urls in various sizes based on a given email address.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$email</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(array) $urls Gravatar url for each size.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/rest_get_avatar_urls'/>See more</a></p>]]>
+	</description_html>
+</snippet>

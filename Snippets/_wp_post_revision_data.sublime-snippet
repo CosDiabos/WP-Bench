@@ -1,0 +1,40 @@
+
+<snippet>
+	<content><![CDATA[_wp_post_revision_data(${1:\$post}, ${2:\$autosave});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>_wp_post_revision_data</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Returns a post array ready to be inserted into the posts table as a post revision.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Returns a post array ready to be inserted into the posts table as a post revision.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$post</p>
+(<b>array</b>) <i>(Optional)</i><br>
+
+
+<p style='color:__sett-att-color__'>$autosave</p>
+(<b>bool</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(array) Post array ready to be inserted as a post revision.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/_wp_post_revision_data'/>See more</a></p>]]>
+	</description_html>
+</snippet>

@@ -1,0 +1,37 @@
+
+<snippet>
+	<content><![CDATA[wp_dashboard_recent_drafts(${1:\$drafts});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>wp_dashboard_recent_drafts</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Show recent drafts of the user on the dashboard.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Show recent drafts of the user on the dashboard.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$drafts</p>
+(<b>array</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+
+			File: wp-admin/includes/dashboard.php		
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/wp_dashboard_recent_drafts'/>See more</a></p>]]>
+	</description_html>
+</snippet>

@@ -1,0 +1,36 @@
+
+<snippet>
+	<content><![CDATA[wp_nav_menu_disabled_check(${1:\$nav_menu_selected_id});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>wp_nav_menu_disabled_check</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Check whether to disable the Menu Locations meta box submit button]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Check whether to disable the Menu Locations meta box submit button</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$nav_menu_selected_id</p>
+(<b>int</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(string) Disabled attribute if at least one menu exists, false if not
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/wp_nav_menu_disabled_check'/>See more</a></p>]]>
+	</description_html>
+</snippet>

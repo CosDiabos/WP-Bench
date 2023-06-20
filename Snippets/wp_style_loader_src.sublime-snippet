@@ -1,0 +1,40 @@
+
+<snippet>
+	<content><![CDATA[wp_style_loader_src(${1:\$src}, ${2:\$handle});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>wp_style_loader_src</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Administration Screen CSS for changing the styles.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Administration Screen CSS for changing the styles.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$src</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$handle</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(string|false) URL path to CSS stylesheet for Administration Screens.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/wp_style_loader_src'/>See more</a></p>]]>
+	</description_html>
+</snippet>

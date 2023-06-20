@@ -1,0 +1,33 @@
+
+<snippet>
+	<content><![CDATA[wp_default_editor();
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>wp_default_editor</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Find out which editor should be displayed by default.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Find out which editor should be displayed by default.</p>
+
+
+------------<br>
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+
+			File: wp-includes/general-template.php		
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/wp_default_editor'/>See more</a></p>]]>
+	</description_html>
+</snippet>

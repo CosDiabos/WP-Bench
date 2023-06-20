@@ -1,0 +1,32 @@
+
+<snippet>
+	<content><![CDATA[twentythirteen_admin_header_style();
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>twentythirteen_admin_header_style</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Style the header image displayed on the Appearance > Header admin panel.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Style the header image displayed on the Appearance > Header admin panel.</p>
+
+
+------------<br>
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+None
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/twentythirteen_admin_header_style'/>See more</a></p>]]>
+	</description_html>
+</snippet>

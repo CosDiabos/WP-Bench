@@ -1,0 +1,36 @@
+
+<snippet>
+	<content><![CDATA[_copy_image_file(${1:\$attachment_id});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>_copy_image_file</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Copy an existing image file.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Copy an existing image file.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$attachment_id</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(string|false) New file path on success, false on failure.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/_copy_image_file'/>See more</a></p>]]>
+	</description_html>
+</snippet>

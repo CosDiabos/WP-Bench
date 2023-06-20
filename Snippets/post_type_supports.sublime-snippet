@@ -1,0 +1,40 @@
+
+<snippet>
+	<content><![CDATA[post_type_supports(${1:\$post_type}, ${2:\$feature});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>post_type_supports</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Check a post type’s support for a given feature.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Check a post type’s support for a given feature.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$post_type</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$feature</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(bool) Whether the post type supports the given feature.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/post_type_supports'/>See more</a></p>]]>
+	</description_html>
+</snippet>

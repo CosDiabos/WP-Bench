@@ -1,0 +1,33 @@
+
+<snippet>
+	<content><![CDATA[is_robots();
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>is_robots</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Is the query for the robots file?]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Is the query for the robots file?</p>
+
+
+------------<br>
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+
+			File: wp-includes/query.php		
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/is_robots'/>See more</a></p>]]>
+	</description_html>
+</snippet>

@@ -1,0 +1,48 @@
+
+<snippet>
+	<content><![CDATA[get_term_field(${1:\$field}, ${2:\$term}, ${3:\$taxonomy}, ${4:\$context});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>get_term_field</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Get sanitized Term field.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Get sanitized Term field.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$field</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$term</p>
+(<b>int</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$taxonomy</p>
+(<b>string</b>) <i>(Optional)</i><br>
+
+
+<p style='color:__sett-att-color__'>$context</p>
+(<b>string</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(string|int|null|WP_Error) Will return an empty string if $term is not an object or if $field is not set in $term.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/get_term_field'/>See more</a></p>]]>
+	</description_html>
+</snippet>

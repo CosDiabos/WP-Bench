@@ -1,0 +1,44 @@
+
+<snippet>
+	<content><![CDATA[wp_debug_backtrace_summary(${1:\$ignore_class}, ${2:\$skip_frames}, ${3:\$pretty});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>wp_debug_backtrace_summary</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Return a comma-separated string of functions that have been called to get to the current point in code.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Return a comma-separated string of functions that have been called to get to the current point in code.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$ignore_class</p>
+(<b>string</b>) <i>(Optional)</i><br>
+
+
+<p style='color:__sett-att-color__'>$skip_frames</p>
+(<b>int</b>) <i>(Optional)</i><br>
+
+
+<p style='color:__sett-att-color__'>$pretty</p>
+(<b>bool</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(string|array) Either a string containing a reversed comma separated trace or an array                      of individual calls.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/wp_debug_backtrace_summary'/>See more</a></p>]]>
+	</description_html>
+</snippet>

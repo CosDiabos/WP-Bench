@@ -1,0 +1,36 @@
+
+<snippet>
+	<content><![CDATA[backslashit(${1:\$string});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>backslashit</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Adds backslashes before letters and before a number at the start of a string.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Adds backslashes before letters and before a number at the start of a string.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$string</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(string) String with backslashes inserted.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/backslashit'/>See more</a></p>]]>
+	</description_html>
+</snippet>

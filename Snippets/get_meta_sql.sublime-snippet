@@ -1,0 +1,52 @@
+
+<snippet>
+	<content><![CDATA[get_meta_sql(${1:\$meta_query}, ${2:\$type}, ${3:\$primary_table}, ${4:\$primary_id_column}, ${5:\$context});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>get_meta_sql</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Given a meta query, generates SQL clauses to be appended to a main query.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Given a meta query, generates SQL clauses to be appended to a main query.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$meta_query</p>
+(<b>array</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$type</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$primary_table</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$primary_id_column</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$context</p>
+(<b>object</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(array) Associative array of JOIN and WHERE SQL.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/get_meta_sql'/>See more</a></p>]]>
+	</description_html>
+</snippet>

@@ -1,0 +1,63 @@
+
+<snippet>
+	<content><![CDATA[add_meta_box(${1:\$id}, ${2:\$title}, ${3:\$callback}, ${4:\$screen}, ${5:\$context}, ${6:\$priority}, ${7:\$callback_args});
+
+function ${3:a} (${14:$$var=''}) {
+	${15:#Code...}
+}
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>add_meta_box</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Adds a meta box to one or more screens.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Adds a meta box to one or more screens.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$id</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$title</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$callback</p>
+(<b>callable</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$screen</p>
+(<b>string</b>) <i>(Optional)</i><br>
+
+
+<p style='color:__sett-att-color__'>$context</p>
+(<b>string</b>) <i>(Optional)</i><br>
+
+
+<p style='color:__sett-att-color__'>$priority</p>
+(<b>string</b>) <i>(Optional)</i><br>
+
+
+<p style='color:__sett-att-color__'>$callback_args</p>
+(<b>array</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+
+			File: wp-admin/includes/template.php		
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/add_meta_box'/>See more</a></p>]]>
+	</description_html>
+</snippet>

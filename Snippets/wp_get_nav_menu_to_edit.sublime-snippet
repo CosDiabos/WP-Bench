@@ -1,0 +1,36 @@
+
+<snippet>
+	<content><![CDATA[wp_get_nav_menu_to_edit(${1:\$menu_id});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>wp_get_nav_menu_to_edit</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Returns the menu formatted to edit.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Returns the menu formatted to edit.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$menu_id</p>
+(<b>int</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(string|WP_Error) $output The menu formatted to edit or error object on failure.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/wp_get_nav_menu_to_edit'/>See more</a></p>]]>
+	</description_html>
+</snippet>

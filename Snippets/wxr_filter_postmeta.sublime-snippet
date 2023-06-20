@@ -1,0 +1,40 @@
+
+<snippet>
+	<content><![CDATA[wxr_filter_postmeta(${1:\$return_me}, ${2:\$meta_key});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>wxr_filter_postmeta</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'></p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$return_me</p>
+(<b>bool</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$meta_key</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(bool) 
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/wxr_filter_postmeta'/>See more</a></p>]]>
+	</description_html>
+</snippet>

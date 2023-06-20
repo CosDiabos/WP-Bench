@@ -1,0 +1,36 @@
+
+<snippet>
+	<content><![CDATA[get_theme_feature_list(${1:\$api});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>get_theme_feature_list</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Retrieve list of WordPress theme features (aka theme tags)]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Retrieve list of WordPress theme features (aka theme tags)</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$api</p>
+(<b>bool</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(array) Array of features keyed by category with translations keyed by slug.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/get_theme_feature_list'/>See more</a></p>]]>
+	</description_html>
+</snippet>

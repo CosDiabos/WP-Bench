@@ -1,0 +1,36 @@
+
+<snippet>
+	<content><![CDATA[untrailingslashit(${1:\$string});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>untrailingslashit</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Removes trailing forward slashes and backslashes if they exist.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Removes trailing forward slashes and backslashes if they exist.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$string</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(string) String without the trailing slashes.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/untrailingslashit'/>See more</a></p>]]>
+	</description_html>
+</snippet>

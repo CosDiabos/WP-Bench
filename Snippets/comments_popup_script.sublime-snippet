@@ -1,0 +1,32 @@
+
+<snippet>
+	<content><![CDATA[comments_popup_script();
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>comments_popup_script</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Display the JS popup script to show a comment.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Display the JS popup script to show a comment.</p>
+
+
+------------<br>
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+None
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/comments_popup_script'/>See more</a></p>]]>
+	</description_html>
+</snippet>

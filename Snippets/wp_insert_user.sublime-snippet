@@ -1,0 +1,36 @@
+
+<snippet>
+	<content><![CDATA[wp_insert_user(${1:\$userdata});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>wp_insert_user</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Insert a user into the database.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Insert a user into the database.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$userdata</p>
+(<b>array</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(int|WP_Error) The newly created user's ID or a WP_Error object if the user could not                      be created.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/wp_insert_user'/>See more</a></p>]]>
+	</description_html>
+</snippet>

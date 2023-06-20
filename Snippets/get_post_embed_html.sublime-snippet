@@ -1,0 +1,44 @@
+
+<snippet>
+	<content><![CDATA[get_post_embed_html(${1:\$width}, ${2:\$height}, ${3:\$post});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>get_post_embed_html</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Retrieves the embed code for a specific post.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Retrieves the embed code for a specific post.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$width</p>
+(<b>int</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$height</p>
+(<b>int</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$post</p>
+(<b>int</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(string|false) Embed code on success, false if post doesn't exist.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/get_post_embed_html'/>See more</a></p>]]>
+	</description_html>
+</snippet>

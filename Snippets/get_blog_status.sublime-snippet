@@ -1,0 +1,40 @@
+
+<snippet>
+	<content><![CDATA[get_blog_status(${1:\$id}, ${2:\$pref});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>get_blog_status</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Get a blog details field.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Get a blog details field.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$id</p>
+(<b>int</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$pref</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(bool|string|null) $value
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/get_blog_status'/>See more</a></p>]]>
+	</description_html>
+</snippet>

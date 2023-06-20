@@ -1,0 +1,33 @@
+
+<snippet>
+	<content><![CDATA[network_edit_site_nav(${1:\$args});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>network_edit_site_nav</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Outputs the HTML for a network’s “Edit Site” tabular interface.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Outputs the HTML for a network’s “Edit Site” tabular interface.</p>
+
+
+------------<br>
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+
+			File: wp-admin/includes/ms.php		
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/network_edit_site_nav'/>See more</a></p>]]>
+	</description_html>
+</snippet>

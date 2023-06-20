@@ -1,0 +1,40 @@
+
+<snippet>
+	<content><![CDATA[current_user_can(${1:\$capability}, ${2:\$object_id});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>current_user_can</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Whether the current user has a specific capability.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Whether the current user has a specific capability.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$capability</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$object_id</p>
+(<b>int</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(bool) Whether the current user has the given capability. If $capability is a meta cap and $object_id is              passed, whether the current user has the given meta capability for the given object.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/current_user_can'/>See more</a></p>]]>
+	</description_html>
+</snippet>

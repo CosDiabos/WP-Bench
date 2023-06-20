@@ -1,0 +1,36 @@
+
+<snippet>
+	<content><![CDATA[switch_to_locale(${1:\$locale});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>switch_to_locale</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Switches the translations according to the given locale.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Switches the translations according to the given locale.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$locale</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(bool) True on success, false on failure.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/switch_to_locale'/>See more</a></p>]]>
+	</description_html>
+</snippet>

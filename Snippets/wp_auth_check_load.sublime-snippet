@@ -1,0 +1,32 @@
+
+<snippet>
+	<content><![CDATA[wp_auth_check_load();
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>wp_auth_check_load</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Load the auth check for monitoring whether the user is still logged in.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Load the auth check for monitoring whether the user is still logged in.</p>
+
+
+------------<br>
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+None
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/wp_auth_check_load'/>See more</a></p>]]>
+	</description_html>
+</snippet>

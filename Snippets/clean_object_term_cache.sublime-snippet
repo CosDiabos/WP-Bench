@@ -1,0 +1,41 @@
+
+<snippet>
+	<content><![CDATA[clean_object_term_cache(${1:\$object_ids}, ${2:\$object_type});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>clean_object_term_cache</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Removes the taxonomy relationship to terms from the cache.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Removes the taxonomy relationship to terms from the cache.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$object_ids</p>
+(<b>int</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$object_type</p>
+(<b>array</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+
+			File: wp-includes/taxonomy.php		
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/clean_object_term_cache'/>See more</a></p>]]>
+	</description_html>
+</snippet>

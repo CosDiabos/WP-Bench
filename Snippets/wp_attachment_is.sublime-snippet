@@ -1,0 +1,40 @@
+
+<snippet>
+	<content><![CDATA[wp_attachment_is(${1:\$type}, ${2:\$post});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>wp_attachment_is</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Verifies an attachment is of a given type.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Verifies an attachment is of a given type.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$type</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$post</p>
+(<b>int</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(bool) True if one of the accepted types, false otherwise.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/wp_attachment_is'/>See more</a></p>]]>
+	</description_html>
+</snippet>

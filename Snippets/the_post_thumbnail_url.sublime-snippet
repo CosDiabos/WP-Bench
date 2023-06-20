@@ -1,0 +1,37 @@
+
+<snippet>
+	<content><![CDATA[the_post_thumbnail_url(${1:\$size});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>the_post_thumbnail_url</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Display the post thumbnail URL.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Display the post thumbnail URL.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$size</p>
+(<b>string</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+
+			File: wp-includes/post-thumbnail-template.php		
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/the_post_thumbnail_url'/>See more</a></p>]]>
+	</description_html>
+</snippet>

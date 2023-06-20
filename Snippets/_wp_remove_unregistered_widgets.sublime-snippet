@@ -1,0 +1,40 @@
+
+<snippet>
+	<content><![CDATA[_wp_remove_unregistered_widgets(${1:\$sidebars_widgets}, ${2:\$whitelist});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>_wp_remove_unregistered_widgets</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Compares a list of sidebars with their widgets against a whitelist.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Compares a list of sidebars with their widgets against a whitelist.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$sidebars_widgets</p>
+(<b>array</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$whitelist</p>
+(<b>array</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(array) Sidebars with whitelisted widgets.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/_wp_remove_unregistered_widgets'/>See more</a></p>]]>
+	</description_html>
+</snippet>

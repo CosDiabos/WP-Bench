@@ -1,0 +1,40 @@
+
+<snippet>
+	<content><![CDATA[get_pagenum_link(${1:\$pagenum}, ${2:\$escape});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>get_pagenum_link</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Retrieves the link for a page number.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Retrieves the link for a page number.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$pagenum</p>
+(<b>int</b>) <i>(Optional)</i><br>
+
+
+<p style='color:__sett-att-color__'>$escape</p>
+(<b>bool</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(string) The link URL for the given page number.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/get_pagenum_link'/>See more</a></p>]]>
+	</description_html>
+</snippet>

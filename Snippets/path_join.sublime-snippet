@@ -1,0 +1,40 @@
+
+<snippet>
+	<content><![CDATA[path_join(${1:\$base}, ${2:\$path});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>path_join</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Join two filesystem paths together.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Join two filesystem paths together.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$base</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$path</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(string) The path with the base or absolute path.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/path_join'/>See more</a></p>]]>
+	</description_html>
+</snippet>

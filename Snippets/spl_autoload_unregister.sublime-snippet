@@ -1,0 +1,38 @@
+
+<snippet>
+	<content><![CDATA[spl_autoload_unregister(${1:\$function});
+
+function ${1:a} (${12:$$var=''}) {
+	${13:#Code...}
+}
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>spl_autoload_unregister</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Unregisters an autoloader function.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Unregisters an autoloader function.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$function</p>
+(<b>callable</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(bool) True if the function was unregistered, false if it could not be.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/spl_autoload_unregister'/>See more</a></p>]]>
+	</description_html>
+</snippet>

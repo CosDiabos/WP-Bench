@@ -1,0 +1,48 @@
+
+<snippet>
+	<content><![CDATA[_nx_noop(${1:\$singular}, ${2:\$plural}, ${3:\$context}, ${4:\$domain});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>_nx_noop</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Registers plural strings with gettext context in POT file, but does not translate them.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Registers plural strings with gettext context in POT file, but does not translate them.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$singular</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$plural</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$context</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$domain</p>
+(<b>string</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(array) Array of translation information for the strings. 
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/_nx_noop'/>See more</a></p>]]>
+	</description_html>
+</snippet>

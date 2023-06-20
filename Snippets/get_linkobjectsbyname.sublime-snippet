@@ -1,0 +1,44 @@
+
+<snippet>
+	<content><![CDATA[get_linkobjectsbyname(${1:\$cat_name}, ${2:\$orderby}, ${3:\$limit});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>get_linkobjectsbyname</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Gets an array of link objects associated with category $cat_name.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Gets an array of link objects associated with category $cat_name.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$cat_name</p>
+(<b>string</b>) <i>(Optional)</i><br>
+
+
+<p style='color:__sett-att-color__'>$orderby</p>
+(<b>string</b>) <i>(Optional)</i><br>
+
+
+<p style='color:__sett-att-color__'>$limit</p>
+(<b>int</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(array) 
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/get_linkobjectsbyname'/>See more</a></p>]]>
+	</description_html>
+</snippet>

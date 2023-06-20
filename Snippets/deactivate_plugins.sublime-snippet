@@ -1,0 +1,45 @@
+
+<snippet>
+	<content><![CDATA[deactivate_plugins(${1:\$plugins}, ${2:\$silent}, ${3:\$network_wide});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>deactivate_plugins</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Deactivate a single plugin or multiple plugins.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Deactivate a single plugin or multiple plugins.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$plugins</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$silent</p>
+(<b>bool</b>) <i>(Optional)</i><br>
+
+
+<p style='color:__sett-att-color__'>$network_wide</p>
+(<b>mixed</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+
+			File: wp-admin/includes/plugin.php		
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/deactivate_plugins'/>See more</a></p>]]>
+	</description_html>
+</snippet>

@@ -1,0 +1,32 @@
+
+<snippet>
+	<content><![CDATA[nocache_headers();
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>nocache_headers</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Set the headers to prevent caching for the different browsers.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Set the headers to prevent caching for the different browsers.</p>
+
+
+------------<br>
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+None
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/nocache_headers'/>See more</a></p>]]>
+	</description_html>
+</snippet>

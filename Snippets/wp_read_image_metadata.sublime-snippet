@@ -1,0 +1,36 @@
+
+<snippet>
+	<content><![CDATA[wp_read_image_metadata(${1:\$file});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>wp_read_image_metadata</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Get extended image metadata, exif or iptc as available.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Get extended image metadata, exif or iptc as available.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$file</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(bool|array) False on failure. Image metadata array on success.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/wp_read_image_metadata'/>See more</a></p>]]>
+	</description_html>
+</snippet>

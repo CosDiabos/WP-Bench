@@ -1,0 +1,37 @@
+
+<snippet>
+	<content><![CDATA[twentyeleven_theme_options_validate(${1:\$input});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>twentyeleven_theme_options_validate</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Sanitize and validate form input.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Sanitize and validate form input.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$input</p>
+(<b>array</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+
+			File: wp-content/themes/twentyeleven/inc/theme-options.php		
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/twentyeleven_theme_options_validate'/>See more</a></p>]]>
+	</description_html>
+</snippet>

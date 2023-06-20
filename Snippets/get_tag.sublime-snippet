@@ -1,0 +1,44 @@
+
+<snippet>
+	<content><![CDATA[get_tag(${1:\$tag}, ${2:\$output}, ${3:\$filter});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>get_tag</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Retrieve post tag by tag ID or tag object.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Retrieve post tag by tag ID or tag object.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$tag</p>
+(<b>int</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$output</p>
+(<b>string</b>) <i>(Optional)</i><br>
+
+
+<p style='color:__sett-att-color__'>$filter</p>
+(<b>string</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(WP_Term|array|WP_Error|null) Tag data in type defined by $output parameter. WP_Error if $tag is empty, null if it does not exist.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/get_tag'/>See more</a></p>]]>
+	</description_html>
+</snippet>

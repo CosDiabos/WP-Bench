@@ -1,0 +1,44 @@
+
+<snippet>
+	<content><![CDATA[sanitize_title(${1:\$title}, ${2:\$fallback_title}, ${3:\$context});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>sanitize_title</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Sanitizes a title, or returns a fallback title.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Sanitizes a title, or returns a fallback title.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$title</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$fallback_title</p>
+(<b>string</b>) <i>(Optional)</i><br>
+
+
+<p style='color:__sett-att-color__'>$context</p>
+(<b>string</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(string) The sanitized string.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/sanitize_title'/>See more</a></p>]]>
+	</description_html>
+</snippet>

@@ -1,0 +1,36 @@
+
+<snippet>
+	<content><![CDATA[edit_link(${1:\$link_id});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>edit_link</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Updates or inserts a link using values provided in $_POST.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Updates or inserts a link using values provided in $_POST.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$link_id</p>
+(<b>int</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(int|WP_Error) Value 0 or WP_Error on failure. The link ID on success.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/edit_link'/>See more</a></p>]]>
+	</description_html>
+</snippet>

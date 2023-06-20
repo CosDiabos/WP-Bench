@@ -1,0 +1,36 @@
+
+<snippet>
+	<content><![CDATA[_wp_link_page(${1:\$i});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>_wp_link_page</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Helper function for wp_link_pages().]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Helper function for wp_link_pages().</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$i</p>
+(<b>int</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(string) Link.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/_wp_link_page'/>See more</a></p>]]>
+	</description_html>
+</snippet>

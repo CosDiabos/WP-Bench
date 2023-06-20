@@ -1,0 +1,41 @@
+
+<snippet>
+	<content><![CDATA[trackback_response(${1:\$error}, ${2:\$error_message});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>trackback_response</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Response to a trackback.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Response to a trackback.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$error</p>
+(<b>mixed</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$error_message</p>
+(<b>string</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+
+			File: wp-trackback.php		
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/trackback_response'/>See more</a></p>]]>
+	</description_html>
+</snippet>

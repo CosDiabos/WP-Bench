@@ -1,0 +1,41 @@
+
+<snippet>
+	<content><![CDATA[_pad_term_counts(${1:\$terms}, ${2:\$taxonomy});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>_pad_term_counts</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Add count of children to parent count.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Add count of children to parent count.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$terms</p>
+(<b>array</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$taxonomy</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+
+			File: wp-includes/taxonomy.php		
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/_pad_term_counts'/>See more</a></p>]]>
+	</description_html>
+</snippet>

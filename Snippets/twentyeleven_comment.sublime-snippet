@@ -1,0 +1,45 @@
+
+<snippet>
+	<content><![CDATA[twentyeleven_comment(${1:\$comment}, ${2:\$args}, ${3:\$depth});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>twentyeleven_comment</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Template for comments and pingbacks.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Template for comments and pingbacks.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$comment</p>
+(<b>object</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$args</p>
+(<b>array</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$depth</p>
+(<b>int</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+
+			File: wp-content/themes/twentyeleven/functions.php		
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/twentyeleven_comment'/>See more</a></p>]]>
+	</description_html>
+</snippet>

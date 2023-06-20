@@ -1,0 +1,36 @@
+
+<snippet>
+	<content><![CDATA[plugin_dir_url(${1:\$file});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>plugin_dir_url</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Get the URL directory path (with trailing slash) for the plugin __FILE__ passed in.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Get the URL directory path (with trailing slash) for the plugin __FILE__ passed in.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$file</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(string) the URL path of the directory that contains the plugin.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/plugin_dir_url'/>See more</a></p>]]>
+	</description_html>
+</snippet>

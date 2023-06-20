@@ -1,0 +1,40 @@
+
+<snippet>
+	<content><![CDATA[wp_get_split_term(${1:\$old_term_id}, ${2:\$taxonomy});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>wp_get_split_term</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Get the new term ID corresponding to a previously split term.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Get the new term ID corresponding to a previously split term.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$old_term_id</p>
+(<b>int</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$taxonomy</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(int|false) If a previously split term is found corresponding to the old term_id and taxonomy,                   the new term_id will be returned. If no previously split term is found matching                   the parameters, returns false.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/wp_get_split_term'/>See more</a></p>]]>
+	</description_html>
+</snippet>

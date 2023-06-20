@@ -1,0 +1,133 @@
+{
+  "path": "",
+  "name": "%plugin-name",
+  "type": "directory",
+  "children": [
+    {
+      "path": "admin",
+      "name": "admin",
+      "type": "directory",
+      "children": [
+        {
+          "path": "admin/js",
+          "name": "js",
+          "type": "directory",
+          "children": [
+            {
+              "path": "admin/js/index.php",
+              "name": "index.php",
+              "type": "file"
+            }
+          ]
+        },
+        {
+          "path": "admin/css",
+          "name": "css",
+          "type": "directory",
+          "children": [
+            {
+              "path": "admin/css/index.php",
+              "name": "index.php",
+              "type": "file"
+            }
+          ]
+        },
+        {
+          "path": "admin/images",
+          "name": "images",
+          "type": "directory",
+          "children": [
+            {
+              "path": "admin/images/index.php",
+              "name": "index.php",
+              "type": "file"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "public",
+      "name": "public",
+      "type": "directory",
+      "children": [
+        {
+          "path": "public/js",
+          "name": "js",
+          "type": "directory",
+          "children": [
+            {
+              "path": "public/js/index.php",
+              "name": "index.php",
+              "type": "file"
+            }
+          ]
+        },
+        {
+          "path": "public/css",
+          "name": "css",
+          "type": "directory",
+          "children": [
+            {
+              "path": "public/css/index.php",
+              "name": "index.php",
+              "type": "file"
+            }
+          ]
+        },
+        {
+          "path": "public/images",
+          "name": "images",
+          "type": "directory",
+          "children": [
+            {
+              "path": "public/images/index.php",
+              "name": "index.php",
+              "type": "file"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "languages",
+      "name": "languages",
+      "type": "directory",
+      "children": [
+            {
+              "path": "public/languages/index.php",
+              "name": "index.php",
+              "type": "file"
+            }
+          ]
+        },
+        {
+      "path": "includes",
+      "name": "languages",
+      "type": "directory",
+      "children": [
+            {
+              "path": "public/includes/index.php",
+              "name": "index.php",
+              "type": "file"
+            }
+          ]
+        },
+    
+    {
+      "path": "%plugin-name.php",
+      "name": "%plugin-name.php",
+      "type": "file"
+    },
+    {
+      "path": "uninstall.php",
+      "name": "uninstall.php",
+      "type": "file"
+    },
+    {
+      "path": "index.php",
+      "name": "index.php",
+      "type": "file"
+    }
+  ]
+}

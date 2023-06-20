@@ -1,0 +1,32 @@
+
+<snippet>
+	<content><![CDATA[do_feed_rss();
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>do_feed_rss</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Load the RSS 1.0 Feed Template.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Load the RSS 1.0 Feed Template.</p>
+
+
+------------<br>
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+None
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/do_feed_rss'/>See more</a></p>]]>
+	</description_html>
+</snippet>

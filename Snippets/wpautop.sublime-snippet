@@ -1,0 +1,40 @@
+
+<snippet>
+	<content><![CDATA[wpautop(${1:\$pee}, ${2:\$br});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>wpautop</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Replaces double line-breaks with paragraph elements.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Replaces double line-breaks with paragraph elements.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$pee</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$br</p>
+(<b>bool</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(string) Text which has been converted into correct paragraph tags.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/wpautop'/>See more</a></p>]]>
+	</description_html>
+</snippet>

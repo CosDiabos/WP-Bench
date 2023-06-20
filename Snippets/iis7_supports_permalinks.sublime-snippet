@@ -1,0 +1,33 @@
+
+<snippet>
+	<content><![CDATA[iis7_supports_permalinks();
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>iis7_supports_permalinks</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Check if IIS 7+ supports pretty permalinks.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Check if IIS 7+ supports pretty permalinks.</p>
+
+
+------------<br>
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+
+			File: wp-includes/functions.php		
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/iis7_supports_permalinks'/>See more</a></p>]]>
+	</description_html>
+</snippet>

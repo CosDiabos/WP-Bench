@@ -1,0 +1,40 @@
+
+<snippet>
+	<content><![CDATA[rest_sanitize_value_from_schema(${1:\$value}, ${2:\$args});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>rest_sanitize_value_from_schema</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Sanitize a value based on a schema.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Sanitize a value based on a schema.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$value</p>
+(<b>mixed</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$args</p>
+(<b>array</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(true|WP_Error) 
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/rest_sanitize_value_from_schema'/>See more</a></p>]]>
+	</description_html>
+</snippet>

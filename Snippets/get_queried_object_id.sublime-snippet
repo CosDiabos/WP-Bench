@@ -1,0 +1,33 @@
+
+<snippet>
+	<content><![CDATA[get_queried_object_id();
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>get_queried_object_id</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Retrieve ID of the current queried object.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Retrieve ID of the current queried object.</p>
+
+
+------------<br>
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+
+			File: wp-includes/query.php		
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/get_queried_object_id'/>See more</a></p>]]>
+	</description_html>
+</snippet>

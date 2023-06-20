@@ -1,0 +1,36 @@
+
+<snippet>
+	<content><![CDATA[twentyeleven_excerpt_length(${1:\$length});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>twentyeleven_excerpt_length</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Set the post excerpt length to 40 words.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Set the post excerpt length to 40 words.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$length</p>
+(<b>int</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(int) The filtered number of characters.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/twentyeleven_excerpt_length'/>See more</a></p>]]>
+	</description_html>
+</snippet>

@@ -1,0 +1,41 @@
+
+<snippet>
+	<content><![CDATA[confirm_user_signup(${1:\$user_name}, ${2:\$user_email});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>confirm_user_signup</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[New user signup confirmation]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>New user signup confirmation</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$user_name</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$user_email</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+
+			File: wp-signup.php		
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/confirm_user_signup'/>See more</a></p>]]>
+	</description_html>
+</snippet>

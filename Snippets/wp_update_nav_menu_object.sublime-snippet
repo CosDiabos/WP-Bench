@@ -1,0 +1,40 @@
+
+<snippet>
+	<content><![CDATA[wp_update_nav_menu_object(${1:\$menu_id}, ${2:\$menu_data});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>wp_update_nav_menu_object</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Save the properties of a menu or create a new menu with those properties.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Save the properties of a menu or create a new menu with those properties.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$menu_id</p>
+(<b>int</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$menu_data</p>
+(<b>array</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(int|WP_Error) Menu ID on success, WP_Error object on failure.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/wp_update_nav_menu_object'/>See more</a></p>]]>
+	</description_html>
+</snippet>

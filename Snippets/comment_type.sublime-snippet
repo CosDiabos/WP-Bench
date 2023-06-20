@@ -1,0 +1,45 @@
+
+<snippet>
+	<content><![CDATA[comment_type(${1:\$commenttxt}, ${2:\$trackbacktxt}, ${3:\$pingbacktxt});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>comment_type</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Display the comment type of the current comment.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Display the comment type of the current comment.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$commenttxt</p>
+(<b>string</b>) <i>(Optional)</i><br>
+
+
+<p style='color:__sett-att-color__'>$trackbacktxt</p>
+(<b>string</b>) <i>(Optional)</i><br>
+
+
+<p style='color:__sett-att-color__'>$pingbacktxt</p>
+(<b>string</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+
+			File: wp-includes/comment-template.php		
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/comment_type'/>See more</a></p>]]>
+	</description_html>
+</snippet>

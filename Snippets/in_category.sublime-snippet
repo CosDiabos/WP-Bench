@@ -1,0 +1,40 @@
+
+<snippet>
+	<content><![CDATA[in_category(${1:\$category}, ${2:\$post});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>in_category</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Check if the current post is within any of the given categories.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Check if the current post is within any of the given categories.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$category</p>
+(<b>int</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$post</p>
+(<b>int</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(bool) True if the current post is in any of the given categories.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/in_category'/>See more</a></p>]]>
+	</description_html>
+</snippet>

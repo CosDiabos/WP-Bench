@@ -1,0 +1,40 @@
+
+<snippet>
+	<content><![CDATA[wp_post_mime_type_where(${1:\$post_mime_types}, ${2:\$table_alias});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>wp_post_mime_type_where</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Convert MIME types into SQL.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Convert MIME types into SQL.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$post_mime_types</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$table_alias</p>
+(<b>string</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(string) The SQL AND clause for mime searching.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/wp_post_mime_type_where'/>See more</a></p>]]>
+	</description_html>
+</snippet>

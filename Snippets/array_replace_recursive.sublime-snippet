@@ -1,0 +1,40 @@
+
+<snippet>
+	<content><![CDATA[array_replace_recursive(${1:\$base}, ${2:\$replacements});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>array_replace_recursive</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[PHP-agnostic version of {@link array_replace_recursive()}.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>PHP-agnostic version of {@link array_replace_recursive()}.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$base</p>
+(<b>array</b>) <i>(Optional)</i><br>
+
+
+<p style='color:__sett-att-color__'>$replacements</p>
+(<b>array</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(array) 
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/array_replace_recursive'/>See more</a></p>]]>
+	</description_html>
+</snippet>

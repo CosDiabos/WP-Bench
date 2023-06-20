@@ -1,0 +1,36 @@
+
+<snippet>
+	<content><![CDATA[rawurlencode_deep(${1:\$value});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>rawurlencode_deep</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Navigates through an array, object, or scalar, and raw-encodes the values to be used in a URL.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Navigates through an array, object, or scalar, and raw-encodes the values to be used in a URL.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$value</p>
+(<b>mixed</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(mixed) $value The encoded value.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/rawurlencode_deep'/>See more</a></p>]]>
+	</description_html>
+</snippet>

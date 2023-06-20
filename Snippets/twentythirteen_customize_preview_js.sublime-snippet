@@ -1,0 +1,32 @@
+
+<snippet>
+	<content><![CDATA[twentythirteen_customize_preview_js();
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>twentythirteen_customize_preview_js</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Enqueue Javascript postMessage handlers for the Customizer.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Enqueue Javascript postMessage handlers for the Customizer.</p>
+
+
+------------<br>
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+None
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/twentythirteen_customize_preview_js'/>See more</a></p>]]>
+	</description_html>
+</snippet>

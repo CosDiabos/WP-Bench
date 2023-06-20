@@ -1,0 +1,40 @@
+
+<snippet>
+	<content><![CDATA[is_object_in_taxonomy(${1:\$object_type}, ${2:\$taxonomy});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>is_object_in_taxonomy</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Determine if the given object type is associated with the given taxonomy.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Determine if the given object type is associated with the given taxonomy.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$object_type</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$taxonomy</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(bool) True if object is associated with the taxonomy, otherwise false.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/is_object_in_taxonomy'/>See more</a></p>]]>
+	</description_html>
+</snippet>

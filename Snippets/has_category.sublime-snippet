@@ -1,0 +1,40 @@
+
+<snippet>
+	<content><![CDATA[has_category(${1:\$category}, ${2:\$post});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>has_category</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Check if the current post has any of given category.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Check if the current post has any of given category.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$category</p>
+(<b>string</b>) <i>(Optional)</i><br>
+
+
+<p style='color:__sett-att-color__'>$post</p>
+(<b>int</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(bool) True if the current post has any of the given categories (or any category, if no category specified).
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/has_category'/>See more</a></p>]]>
+	</description_html>
+</snippet>

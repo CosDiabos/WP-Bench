@@ -1,0 +1,33 @@
+
+<snippet>
+	<content><![CDATA[get_404_template();
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>get_404_template</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Retrieve path of 404 template in current or parent template.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Retrieve path of 404 template in current or parent template.</p>
+
+
+------------<br>
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+
+			File: wp-includes/template.php		
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/get_404_template'/>See more</a></p>]]>
+	</description_html>
+</snippet>

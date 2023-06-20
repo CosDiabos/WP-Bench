@@ -1,0 +1,36 @@
+
+<snippet>
+	<content><![CDATA[convert_smilies(${1:\$text});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>convert_smilies</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Convert text equivalent of smilies to images.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Convert text equivalent of smilies to images.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$text</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(string) Converted content with text smilies replaced with images.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/convert_smilies'/>See more</a></p>]]>
+	</description_html>
+</snippet>

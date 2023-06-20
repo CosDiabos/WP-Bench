@@ -1,0 +1,40 @@
+
+<snippet>
+	<content><![CDATA[wp_create_category(${1:\$cat_name}, ${2:\$parent});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>wp_create_category</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Add a new category to the database if it does not already exist.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Add a new category to the database if it does not already exist.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$cat_name</p>
+(<b>int</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$parent</p>
+(<b>int</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(int|WP_Error) 
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/wp_create_category'/>See more</a></p>]]>
+	</description_html>
+</snippet>

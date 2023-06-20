@@ -1,0 +1,32 @@
+
+<snippet>
+	<content><![CDATA[twentyeleven_print_link_color_style();
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>twentyeleven_print_link_color_style</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Add a style block to the theme for the current link color.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Add a style block to the theme for the current link color.</p>
+
+
+------------<br>
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+None
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/twentyeleven_print_link_color_style'/>See more</a></p>]]>
+	</description_html>
+</snippet>

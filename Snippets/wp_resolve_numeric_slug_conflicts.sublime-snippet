@@ -1,0 +1,36 @@
+
+<snippet>
+	<content><![CDATA[wp_resolve_numeric_slug_conflicts(${1:\$query_vars});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>wp_resolve_numeric_slug_conflicts</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Resolve numeric slugs that collide with date permalinks.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Resolve numeric slugs that collide with date permalinks.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$query_vars</p>
+(<b>array</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(array) Returns the original array of query vars, with date/post conflicts resolved.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/wp_resolve_numeric_slug_conflicts'/>See more</a></p>]]>
+	</description_html>
+</snippet>

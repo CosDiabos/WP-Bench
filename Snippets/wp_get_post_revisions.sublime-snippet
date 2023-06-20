@@ -1,0 +1,40 @@
+
+<snippet>
+	<content><![CDATA[wp_get_post_revisions(${1:\$post_id}, ${2:\$args});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>wp_get_post_revisions</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Returns all revisions of specified post.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Returns all revisions of specified post.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$post_id</p>
+(<b>int</b>) <i>(Optional)</i><br>
+
+
+<p style='color:__sett-att-color__'>$args</p>
+(<b>array</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(array) An array of revisions, or an empty array if none.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/wp_get_post_revisions'/>See more</a></p>]]>
+	</description_html>
+</snippet>

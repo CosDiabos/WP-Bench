@@ -1,0 +1,41 @@
+
+<snippet>
+	<content><![CDATA[load_template(${1:\$_template_file}, ${2:\$require_once});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>load_template</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Require the template file with WordPress environment.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Require the template file with WordPress environment.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$_template_file</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$require_once</p>
+(<b>bool</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+
+			File: wp-includes/template.php		
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/load_template'/>See more</a></p>]]>
+	</description_html>
+</snippet>

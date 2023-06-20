@@ -1,0 +1,40 @@
+
+<snippet>
+	<content><![CDATA[wp_notify_postauthor(${1:\$comment_id}, ${2:\$deprecated});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>wp_notify_postauthor</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Notify an author (and/or others) of a comment/trackback/pingback on a post.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Notify an author (and/or others) of a comment/trackback/pingback on a post.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$comment_id</p>
+(<b>int</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$deprecated</p>
+(<b>string</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(bool) True on completion. False if no email addresses were specified.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/wp_notify_postauthor'/>See more</a></p>]]>
+	</description_html>
+</snippet>

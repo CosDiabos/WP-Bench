@@ -1,0 +1,40 @@
+
+<snippet>
+	<content><![CDATA[get_author_posts_url(${1:\$author_id}, ${2:\$author_nicename});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>get_author_posts_url</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Retrieve the URL to the author page for the user with the ID provided.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Retrieve the URL to the author page for the user with the ID provided.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$author_id</p>
+(<b>int</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$author_nicename</p>
+(<b>string</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(string) The URL to the author's page.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/get_author_posts_url'/>See more</a></p>]]>
+	</description_html>
+</snippet>

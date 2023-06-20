@@ -1,0 +1,36 @@
+
+<snippet>
+	<content><![CDATA[before_last_bar(${1:\$string});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>before_last_bar</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Remove last item on a pipe-delimited string.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Remove last item on a pipe-delimited string.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$string</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(string) Either $string or everything before the last pipe.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/before_last_bar'/>See more</a></p>]]>
+	</description_html>
+</snippet>

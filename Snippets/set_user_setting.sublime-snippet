@@ -1,0 +1,40 @@
+
+<snippet>
+	<content><![CDATA[set_user_setting(${1:\$name}, ${2:\$value});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>set_user_setting</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Add or update user interface setting.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Add or update user interface setting.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$name</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$value</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(bool|null) True if set successfully, false if not. Null if the current user can't be established.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/set_user_setting'/>See more</a></p>]]>
+	</description_html>
+</snippet>

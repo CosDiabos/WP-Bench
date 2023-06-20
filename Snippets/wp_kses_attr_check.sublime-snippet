@@ -1,0 +1,56 @@
+
+<snippet>
+	<content><![CDATA[wp_kses_attr_check(${1:\$name}, ${2:\$value}, ${3:\$whole}, ${4:\$vless}, ${5:\$element}, ${6:\$allowed_html});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>wp_kses_attr_check</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Determine whether an attribute is allowed.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Determine whether an attribute is allowed.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$name</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$value</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$whole</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$vless</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$element</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$allowed_html</p>
+(<b>array</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(bool) Is the attribute allowed?
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/wp_kses_attr_check'/>See more</a></p>]]>
+	</description_html>
+</snippet>

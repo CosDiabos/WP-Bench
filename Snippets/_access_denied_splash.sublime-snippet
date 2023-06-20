@@ -1,0 +1,32 @@
+
+<snippet>
+	<content><![CDATA[_access_denied_splash();
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>_access_denied_splash</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Displays an access denied message when a user tries to view a site’s dashboard they do not have access to.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Displays an access denied message when a user tries to view a site’s dashboard they do not have access to.</p>
+
+
+------------<br>
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+None
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/_access_denied_splash'/>See more</a></p>]]>
+	</description_html>
+</snippet>

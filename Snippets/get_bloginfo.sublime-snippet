@@ -1,0 +1,40 @@
+
+<snippet>
+	<content><![CDATA[get_bloginfo(${1:\$show}, ${2:\$filter});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>get_bloginfo</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Retrieves information about the current site.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Retrieves information about the current site.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$show</p>
+(<b>string</b>) <i>(Optional)</i><br>
+
+
+<p style='color:__sett-att-color__'>$filter</p>
+(<b>string</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(string) Mostly string values, might be empty.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/get_bloginfo'/>See more</a></p>]]>
+	</description_html>
+</snippet>

@@ -1,0 +1,52 @@
+
+<snippet>
+	<content><![CDATA[_crop_image_resource(${1:\$img}, ${2:\$x}, ${3:\$y}, ${4:\$w}, ${5:\$h});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>_crop_image_resource</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'></p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$img</p>
+(<b>GD_Resource</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$x</p>
+(<b>float</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$y</p>
+(<b>float</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$w</p>
+(<b>float</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$h</p>
+(<b>float</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(GD_Resource) 
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/_crop_image_resource'/>See more</a></p>]]>
+	</description_html>
+</snippet>

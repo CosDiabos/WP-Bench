@@ -1,0 +1,36 @@
+
+<snippet>
+	<content><![CDATA[remove_image_size(${1:\$name});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>remove_image_size</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Remove a new image size.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Remove a new image size.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$name</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(bool) True if the image size was successfully removed, false on failure.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/remove_image_size'/>See more</a></p>]]>
+	</description_html>
+</snippet>

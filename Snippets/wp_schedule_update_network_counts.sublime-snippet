@@ -1,0 +1,32 @@
+
+<snippet>
+	<content><![CDATA[wp_schedule_update_network_counts();
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>wp_schedule_update_network_counts</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Schedule update of the network-wide counts for the current network.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Schedule update of the network-wide counts for the current network.</p>
+
+
+------------<br>
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+None
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/wp_schedule_update_network_counts'/>See more</a></p>]]>
+	</description_html>
+</snippet>

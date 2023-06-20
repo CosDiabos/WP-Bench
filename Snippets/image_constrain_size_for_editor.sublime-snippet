@@ -1,0 +1,48 @@
+
+<snippet>
+	<content><![CDATA[image_constrain_size_for_editor(${1:\$width}, ${2:\$height}, ${3:\$size}, ${4:\$context});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>image_constrain_size_for_editor</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Scale down the default size of an image.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Scale down the default size of an image.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$width</p>
+(<b>int</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$height</p>
+(<b>int</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$size</p>
+(<b>string</b>) <i>(Optional)</i><br>
+
+
+<p style='color:__sett-att-color__'>$context</p>
+(<b>string</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(array) Width and height of what the result image should resize to.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/image_constrain_size_for_editor'/>See more</a></p>]]>
+	</description_html>
+</snippet>

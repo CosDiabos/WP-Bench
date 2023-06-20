@@ -1,0 +1,36 @@
+
+<snippet>
+	<content><![CDATA[username_exists(${1:\$username});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>username_exists</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Checks whether the given username exists.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Checks whether the given username exists.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$username</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(int|false) The user's ID on success, and false on failure.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/username_exists'/>See more</a></p>]]>
+	</description_html>
+</snippet>

@@ -1,0 +1,40 @@
+
+<snippet>
+	<content><![CDATA[get_blog_post(${1:\$blog_id}, ${2:\$post_id});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>get_blog_post</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Get a blog post from any site on the network.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Get a blog post from any site on the network.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$blog_id</p>
+(<b>int</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$post_id</p>
+(<b>int</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(WP_Post|null) WP_Post on success or null on failure
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/get_blog_post'/>See more</a></p>]]>
+	</description_html>
+</snippet>

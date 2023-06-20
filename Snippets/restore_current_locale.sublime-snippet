@@ -1,0 +1,33 @@
+
+<snippet>
+	<content><![CDATA[restore_current_locale();
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>restore_current_locale</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Restores the translations according to the original locale.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Restores the translations according to the original locale.</p>
+
+
+------------<br>
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+
+			File: wp-includes/l10n.php		
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/restore_current_locale'/>See more</a></p>]]>
+	</description_html>
+</snippet>

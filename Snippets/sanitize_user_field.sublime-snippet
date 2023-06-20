@@ -1,0 +1,48 @@
+
+<snippet>
+	<content><![CDATA[sanitize_user_field(${1:\$field}, ${2:\$value}, ${3:\$user_id}, ${4:\$context});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>sanitize_user_field</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Sanitize user field based on context.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Sanitize user field based on context.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$field</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$value</p>
+(<b>mixed</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$user_id</p>
+(<b>int</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$context</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(mixed) Sanitized value.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/sanitize_user_field'/>See more</a></p>]]>
+	</description_html>
+</snippet>

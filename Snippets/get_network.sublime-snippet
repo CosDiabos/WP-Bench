@@ -1,0 +1,36 @@
+
+<snippet>
+	<content><![CDATA[get_network(${1:\$network});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>get_network</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Retrieves network data given a network ID or network object.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Retrieves network data given a network ID or network object.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$network</p>
+(<b>WP_Network</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(WP_Network|null) The network object or null if not found.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/get_network'/>See more</a></p>]]>
+	</description_html>
+</snippet>

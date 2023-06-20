@@ -1,0 +1,40 @@
+
+<snippet>
+	<content><![CDATA[number_format_i18n(${1:\$number}, ${2:\$decimals});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>number_format_i18n</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Convert float number to format based on the locale.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Convert float number to format based on the locale.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$number</p>
+(<b>float</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$decimals</p>
+(<b>int</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(string) Converted number in string format.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/number_format_i18n'/>See more</a></p>]]>
+	</description_html>
+</snippet>

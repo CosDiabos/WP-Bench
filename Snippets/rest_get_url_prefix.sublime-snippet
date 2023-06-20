@@ -1,0 +1,33 @@
+
+<snippet>
+	<content><![CDATA[rest_get_url_prefix();
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>rest_get_url_prefix</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Retrieves the URL prefix for any API resource.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Retrieves the URL prefix for any API resource.</p>
+
+
+------------<br>
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+
+			File: wp-includes/rest-api.php		
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/rest_get_url_prefix'/>See more</a></p>]]>
+	</description_html>
+</snippet>

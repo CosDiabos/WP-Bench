@@ -1,0 +1,40 @@
+
+<snippet>
+	<content><![CDATA[wp_verify_nonce(${1:\$nonce}, ${2:\$action});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>wp_verify_nonce</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Verify that correct nonce was used with time limit.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Verify that correct nonce was used with time limit.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$nonce</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$action</p>
+(<b>string</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(false|int) False if the nonce is invalid, 1 if the nonce is valid and generated between                   0-12 hours ago, 2 if the nonce is valid and generated between 12-24 hours ago.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/wp_verify_nonce'/>See more</a></p>]]>
+	</description_html>
+</snippet>

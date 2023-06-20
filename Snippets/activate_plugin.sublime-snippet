@@ -1,0 +1,48 @@
+
+<snippet>
+	<content><![CDATA[activate_plugin(${1:\$plugin}, ${2:\$redirect}, ${3:\$network_wide}, ${4:\$silent});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>activate_plugin</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Attempts activation of plugin in a “sandbox” and redirects on success.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Attempts activation of plugin in a “sandbox” and redirects on success.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$plugin</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$redirect</p>
+(<b>string</b>) <i>(Optional)</i><br>
+
+
+<p style='color:__sett-att-color__'>$network_wide</p>
+(<b>bool</b>) <i>(Optional)</i><br>
+
+
+<p style='color:__sett-att-color__'>$silent</p>
+(<b>bool</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(WP_Error|null) WP_Error on invalid file or null on success.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/activate_plugin'/>See more</a></p>]]>
+	</description_html>
+</snippet>

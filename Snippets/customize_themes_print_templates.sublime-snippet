@@ -1,0 +1,32 @@
+
+<snippet>
+	<content><![CDATA[customize_themes_print_templates();
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>customize_themes_print_templates</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Print JS templates for the theme-browsing UI in the Customizer.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Print JS templates for the theme-browsing UI in the Customizer.</p>
+
+
+------------<br>
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+None
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/customize_themes_print_templates'/>See more</a></p>]]>
+	</description_html>
+</snippet>

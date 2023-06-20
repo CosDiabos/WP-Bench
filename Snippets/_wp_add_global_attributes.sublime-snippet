@@ -1,0 +1,36 @@
+
+<snippet>
+	<content><![CDATA[_wp_add_global_attributes(${1:\$value});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>_wp_add_global_attributes</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Helper function to add global attributes to a tag in the allowed html list.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Helper function to add global attributes to a tag in the allowed html list.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$value</p>
+(<b>array</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(array) The array of attributes with global attributes added.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/_wp_add_global_attributes'/>See more</a></p>]]>
+	</description_html>
+</snippet>

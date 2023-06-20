@@ -1,0 +1,40 @@
+
+<snippet>
+	<content><![CDATA[convert_chars(${1:\$content}, ${2:\$deprecated});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>convert_chars</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Converts lone & characters into &#038; (a.k.a. &amp;)]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Converts lone & characters into &#038; (a.k.a. &amp;)</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$content</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$deprecated</p>
+(<b>string</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(string) Converted string.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/convert_chars'/>See more</a></p>]]>
+	</description_html>
+</snippet>

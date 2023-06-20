@@ -1,0 +1,36 @@
+
+<snippet>
+	<content><![CDATA[tag_description(${1:\$tag});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>tag_description</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Retrieve tag description.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Retrieve tag description.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$tag</p>
+(<b>int</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(string) Tag description, available.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/tag_description'/>See more</a></p>]]>
+	</description_html>
+</snippet>

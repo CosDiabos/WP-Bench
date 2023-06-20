@@ -1,0 +1,36 @@
+
+<snippet>
+	<content><![CDATA[prep_atom_text_construct(${1:\$data});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>prep_atom_text_construct</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Determine the type of a string of data with the data formatted.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Determine the type of a string of data with the data formatted.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$data</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(array) array(type, value)
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/prep_atom_text_construct'/>See more</a></p>]]>
+	</description_html>
+</snippet>

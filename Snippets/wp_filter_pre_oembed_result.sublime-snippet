@@ -1,0 +1,44 @@
+
+<snippet>
+	<content><![CDATA[wp_filter_pre_oembed_result(${1:\$result}, ${2:\$url}, ${3:\$args});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>wp_filter_pre_oembed_result</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Filters the oEmbed result before any HTTP requests are made.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Filters the oEmbed result before any HTTP requests are made.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$result</p>
+(<b>null</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$url</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$args</p>
+(<b>array</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(null|string) The UNSANITIZED (and potentially unsafe) HTML that should be used to embed.                     Null if the URL does not belong to the current site.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/wp_filter_pre_oembed_result'/>See more</a></p>]]>
+	</description_html>
+</snippet>

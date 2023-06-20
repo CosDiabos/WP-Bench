@@ -1,0 +1,36 @@
+
+<snippet>
+	<content><![CDATA[iso8601_timezone_to_offset(${1:\$timezone});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>iso8601_timezone_to_offset</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Computes an offset in seconds from an iso8601 timezone.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Computes an offset in seconds from an iso8601 timezone.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$timezone</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(int|float) The offset in seconds.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/iso8601_timezone_to_offset'/>See more</a></p>]]>
+	</description_html>
+</snippet>

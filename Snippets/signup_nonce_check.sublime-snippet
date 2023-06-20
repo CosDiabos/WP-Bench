@@ -1,0 +1,36 @@
+
+<snippet>
+	<content><![CDATA[signup_nonce_check(${1:\$result});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>signup_nonce_check</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Process the signup nonce created in signup_nonce_fields().]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Process the signup nonce created in signup_nonce_fields().</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$result</p>
+(<b>array</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(array) 
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/signup_nonce_check'/>See more</a></p>]]>
+	</description_html>
+</snippet>

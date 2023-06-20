@@ -1,0 +1,41 @@
+
+<snippet>
+	<content><![CDATA[next_posts_link(${1:\$label}, ${2:\$max_page});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>next_posts_link</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Displays the next posts page link.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Displays the next posts page link.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$label</p>
+(<b>string</b>) <i>(Optional)</i><br>
+
+
+<p style='color:__sett-att-color__'>$max_page</p>
+(<b>int</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+
+			File: wp-includes/link-template.php		
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/next_posts_link'/>See more</a></p>]]>
+	</description_html>
+</snippet>

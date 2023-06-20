@@ -1,0 +1,36 @@
+
+<snippet>
+	<content><![CDATA[wp_maybe_grant_install_languages_cap(${1:\$allcaps});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>wp_maybe_grant_install_languages_cap</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Filters the user capabilities to grant the ‘install_languages’ capability as necessary.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Filters the user capabilities to grant the ‘install_languages’ capability as necessary.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$allcaps</p>
+(<b>array</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(array) Filtered array of the user's capabilities.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/wp_maybe_grant_install_languages_cap'/>See more</a></p>]]>
+	</description_html>
+</snippet>

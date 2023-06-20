@@ -1,0 +1,33 @@
+
+<snippet>
+	<content><![CDATA[get_clean_basedomain();
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>get_clean_basedomain</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Get base domain of network.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Get base domain of network.</p>
+
+
+------------<br>
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+
+			File: wp-admin/includes/network.php		
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/get_clean_basedomain'/>See more</a></p>]]>
+	</description_html>
+</snippet>

@@ -1,0 +1,36 @@
+
+<snippet>
+	<content><![CDATA[_config_wp_siteurl(${1:\$url});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>_config_wp_siteurl</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Retrieve the WordPress site URL.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Retrieve the WordPress site URL.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$url</p>
+(<b>string</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(string) The WordPress Site URL.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/_config_wp_siteurl'/>See more</a></p>]]>
+	</description_html>
+</snippet>

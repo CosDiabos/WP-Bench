@@ -1,0 +1,40 @@
+
+<snippet>
+	<content><![CDATA[wp_create_categories(${1:\$categories}, ${2:\$post_id});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>wp_create_categories</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Create categories for the given post.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Create categories for the given post.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$categories</p>
+(<b>array</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$post_id</p>
+(<b>int</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(array) List of categories to create for the given post.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/wp_create_categories'/>See more</a></p>]]>
+	</description_html>
+</snippet>

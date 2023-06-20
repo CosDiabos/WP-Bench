@@ -1,0 +1,36 @@
+
+<snippet>
+	<content><![CDATA[strip_shortcode_tag(${1:\$m});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>strip_shortcode_tag</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Strips a shortcode tag based on RegEx matches against post content.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Strips a shortcode tag based on RegEx matches against post content.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$m</p>
+(<b>array</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(string|false) The content stripped of the tag, otherwise false.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/strip_shortcode_tag'/>See more</a></p>]]>
+	</description_html>
+</snippet>

@@ -1,0 +1,52 @@
+
+<snippet>
+	<content><![CDATA[wp_dropdown_cats(${1:\$currentcat}, ${2:\$currentparent}, ${3:\$parent}, ${4:\$level}, ${5:\$categories});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>wp_dropdown_cats</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Legacy function used for generating a categories drop-down control.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Legacy function used for generating a categories drop-down control.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$currentcat</p>
+(<b>int</b>) <i>(Optional)</i><br>
+
+
+<p style='color:__sett-att-color__'>$currentparent</p>
+(<b>int</b>) <i>(Optional)</i><br>
+
+
+<p style='color:__sett-att-color__'>$parent</p>
+(<b>int</b>) <i>(Optional)</i><br>
+
+
+<p style='color:__sett-att-color__'>$level</p>
+(<b>int</b>) <i>(Optional)</i><br>
+
+
+<p style='color:__sett-att-color__'>$categories</p>
+(<b>array</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(bool|null) False if no categories were found.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/wp_dropdown_cats'/>See more</a></p>]]>
+	</description_html>
+</snippet>

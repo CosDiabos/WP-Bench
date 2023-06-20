@@ -1,0 +1,32 @@
+
+<snippet>
+	<content><![CDATA[install_plugin_information();
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>install_plugin_information</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Display plugin information in dialog box form.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Display plugin information in dialog box form.</p>
+
+
+------------<br>
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+None
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/install_plugin_information'/>See more</a></p>]]>
+	</description_html>
+</snippet>

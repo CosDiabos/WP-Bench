@@ -1,0 +1,44 @@
+
+<snippet>
+	<content><![CDATA[wp_get_object_terms(${1:\$object_ids}, ${2:\$taxonomies}, ${3:\$args});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>wp_get_object_terms</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Retrieves the terms associated with the given object(s), in the supplied taxonomies.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Retrieves the terms associated with the given object(s), in the supplied taxonomies.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$object_ids</p>
+(<b>int</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$taxonomies</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$args</p>
+(<b>array</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(array|WP_Error) The requested term data or empty array if no terms found.                        WP_Error if any of the $taxonomies don't exist.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/wp_get_object_terms'/>See more</a></p>]]>
+	</description_html>
+</snippet>

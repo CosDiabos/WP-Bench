@@ -1,0 +1,36 @@
+
+<snippet>
+	<content><![CDATA[get_pending_comments_num(${1:\$post_id});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>get_pending_comments_num</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Get the number of pending comments on a post or posts]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Get the number of pending comments on a post or posts</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$post_id</p>
+(<b>int</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(int|array) Either a single Posts pending comments as an int or an array of ints keyed on the Post IDs
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/get_pending_comments_num'/>See more</a></p>]]>
+	</description_html>
+</snippet>

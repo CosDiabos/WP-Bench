@@ -1,0 +1,36 @@
+
+<snippet>
+	<content><![CDATA[wp_get_plugin_file_editable_extensions(${1:\$plugin});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>wp_get_plugin_file_editable_extensions</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Get list of file extensions that are editable in plugins.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Get list of file extensions that are editable in plugins.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$plugin</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(array) File extensions.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/wp_get_plugin_file_editable_extensions'/>See more</a></p>]]>
+	</description_html>
+</snippet>

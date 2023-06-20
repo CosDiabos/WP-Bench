@@ -1,0 +1,32 @@
+
+<snippet>
+	<content><![CDATA[install_themes_dashboard();
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>install_themes_dashboard</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Display tags filter for themes.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Display tags filter for themes.</p>
+
+
+------------<br>
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+None
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/install_themes_dashboard'/>See more</a></p>]]>
+	</description_html>
+</snippet>

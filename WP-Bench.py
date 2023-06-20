@@ -1,45 +1,80 @@
 import sublime
 import sublime_plugin
+import os.path
+import xml.etree.ElementTree
+import os
+import webbrowser
 
-class ExampleCommand(sublime_plugin.TextCommand):
-	def run(self, edit):
-		self.view.insert(edit, 0, "Hello, World!")
+dirname = os.path.dirname(__file__)
+settingsEvents = False
 
-class create_base_pluginCommand(sublime_plugin.TextCommand):
-	def run(self, edit):
-		sublime.error_message(str(self))
+settings = {
+	'popup_colors': '',
+	'ShowOnHover': 0
+}
 
-class create_base_themeCommand(sublime_plugin.TextCommand):
-	def run(self, edit):
-		console.log("LPOL")
+def getSettings():
+	history_filename = 'WP-Bench.sublime-settings'
+	history = sublime.load_settings(history_filename)
+	settings['ShowOnHover'] = history.get("ShowOnHover")
+	settings['popup_colors'] = history.get("popup_colors")
 
-class UnwebifyCommand(sublime_plugin.TextCommand):  #Unwebify command
-	def run(self, edit):
-		for region in self.view.sel():
-			if not region.empty():
-				s = self.view.substr(region)
-				news = s.replace('&lt;', '<')  #reversed from Webify
-				news = news.replace('&gt;', '>')  #reversed from Webify
-				self.view.replace(edit, region, news)
+	global settingsEvents
+	if settingsEvents == False :
+		history.add_on_change('ShowOnHover', getSettings)
+		settingsEvents = True
 
-class WebifyCommand(sublime_plugin.TextCommand): #create Webify Text Command
-	def run(self, edit):   #implement run method
-		for region in self.view.sel():  #get user selection
-			if not region.empty():  #if selection not empty then
-				s = self.view.substr(region)  #assign s variable the selected region
-				news = s.replace('<', '&lt;')
-				news = news.replace('>', '&gt;')
-				self.view.replace(edit, region, news) #replace content in view
+def showPop(selff, msg):
+	self.view.show_popup(selff, "a", None, -1, 400, 200)
+	#sublime.View.show_popup(selff, msg, None, -1, 400, 200)
 
-class popupTextCommand(sublime_plugin.WindowCommand):
-	def run(self):
-		view.show_popup_menu(['a','b'], 'lol')
-
-	def lol(index):
-		sublime.status_message("?! " + index)
+def goToDocURL(view, text):
+	sublime.status_message("Opening Documentation Link...")
+	webbrowser.open(text, new=0, autoraise=True)
 
 
 class wordOnHover(sublime_plugin.EventListener):
-    def on_hover(self, view, point, hover_zone):
-    	if (hover_zone == 1) :
-    		sublime.status_message(view.substr(view.word(point)))
+	def on_hover(self, view, point, hover_zone):
+		if (hover_zone == 1 & settings['ShowOnHover'] == 1) :
+			args = view.substr(view.word(point))
+			sublime.status_message(view.substr(view.sel()[0]))
+			view.run_command('w_pb_get_doc', {'keyword':args, 'point':point})
+			#sublime.status_message(view.substr(view.word(point)))
+# add_action
+
+
+
+class WPbGetDocCommand(sublime_plugin.TextCommand):
+	import sys
+	def run(self, edit, **args):
+
+		func_name = args.get('keyword');
+		if func_name == None:
+			func_name = self.view.substr(self.view.word(self.view.sel()[0]))
+			
+		sublime.status_message(str(func_name))
+
+		filename = os.path.join(dirname  + "/Snippets", str(func_name) + ".sublime-snippet")
+		if (os.path.exists(filename)) :
+				# GO!
+				rootNode = xml.etree.ElementTree.parse(filename).getroot().find('description_html')
+				desc_html = rootNode.text
+				
+				#sublime.save_settings(history_filename)
+				desc_html = desc_html.replace('__sett-att-color__', settings['popup_colors'][0]['ArgColor'])
+				desc_html = desc_html.replace('__sett-footer-color__', settings['popup_colors'][0]['FooterLinkColor'])
+
+				#print view.filename(), rootNode
+				#self.view.insert(edit, 0, rootNode.text)
+				#self.view.show_popup(self, "a", None, -1, 400, 200)
+				loc = args.get('point');
+				if loc == None:
+					loc = -1
+
+				self.view.show_popup(desc_html, location=loc, max_width=400, on_navigate=lambda x: goToDocURL(self.view, x))
+
+			#showPop(self, rootNode.text)
+
+
+
+getSettings()

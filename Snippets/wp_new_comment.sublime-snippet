@@ -1,0 +1,40 @@
+
+<snippet>
+	<content><![CDATA[wp_new_comment(${1:\$commentdata}, ${2:\$avoid_die});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>wp_new_comment</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Adds a new comment to the database.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Adds a new comment to the database.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$commentdata</p>
+(<b>array</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$avoid_die</p>
+(<b>bool</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(int|false|WP_Error) The ID of the comment on success, false or WP_Error on failure.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/wp_new_comment'/>See more</a></p>]]>
+	</description_html>
+</snippet>

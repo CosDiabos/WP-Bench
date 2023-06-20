@@ -1,0 +1,32 @@
+
+<snippet>
+	<content><![CDATA[wp_ajax_time_format();
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>wp_ajax_time_format</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Ajax handler for time formatting.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Ajax handler for time formatting.</p>
+
+
+------------<br>
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+None
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/wp_ajax_time_format'/>See more</a></p>]]>
+	</description_html>
+</snippet>

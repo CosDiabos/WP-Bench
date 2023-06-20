@@ -1,0 +1,40 @@
+
+<snippet>
+	<content><![CDATA[get_media_embedded_in_content(${1:\$content}, ${2:\$types});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>get_media_embedded_in_content</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Check the content blob for an audio, video, object, embed, or iframe tags.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Check the content blob for an audio, video, object, embed, or iframe tags.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$content</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$types</p>
+(<b>array</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(array) A list of found HTML media embeds.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/get_media_embedded_in_content'/>See more</a></p>]]>
+	</description_html>
+</snippet>

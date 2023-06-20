@@ -1,0 +1,32 @@
+
+<snippet>
+	<content><![CDATA[twentythirteen_widgets_init();
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>twentythirteen_widgets_init</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Register two widget areas.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Register two widget areas.</p>
+
+
+------------<br>
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+None
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/twentythirteen_widgets_init'/>See more</a></p>]]>
+	</description_html>
+</snippet>

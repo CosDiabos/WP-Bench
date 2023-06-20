@@ -1,0 +1,40 @@
+
+<snippet>
+	<content><![CDATA[set_post_thumbnail(${1:\$post}, ${2:\$thumbnail_id});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>set_post_thumbnail</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Set a post thumbnail.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Set a post thumbnail.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$post</p>
+(<b>int</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$thumbnail_id</p>
+(<b>int</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(int|bool) True on success, false on failure.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/set_post_thumbnail'/>See more</a></p>]]>
+	</description_html>
+</snippet>

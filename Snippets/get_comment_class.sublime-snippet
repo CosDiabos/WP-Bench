@@ -1,0 +1,44 @@
+
+<snippet>
+	<content><![CDATA[get_comment_class(${1:\$class}, ${2:\$comment_id}, ${3:\$post_id});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>get_comment_class</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Returns the classes for the comment div as an array.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Returns the classes for the comment div as an array.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$class</p>
+(<b>string</b>) <i>(Optional)</i><br>
+
+
+<p style='color:__sett-att-color__'>$comment_id</p>
+(<b>int</b>) <i>(Optional)</i><br>
+
+
+<p style='color:__sett-att-color__'>$post_id</p>
+(<b>int</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(array) An array of classes.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/get_comment_class'/>See more</a></p>]]>
+	</description_html>
+</snippet>

@@ -1,0 +1,36 @@
+
+<snippet>
+	<content><![CDATA[funky_javascript_fix(${1:\$text});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>funky_javascript_fix</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Fixes JavaScript bugs in browsers.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Fixes JavaScript bugs in browsers.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$text</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(string) Fixed text.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/funky_javascript_fix'/>See more</a></p>]]>
+	</description_html>
+</snippet>

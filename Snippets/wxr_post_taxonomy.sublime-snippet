@@ -1,0 +1,32 @@
+
+<snippet>
+	<content><![CDATA[wxr_post_taxonomy();
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>wxr_post_taxonomy</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Output list of taxonomy terms, in XML tag format, associated with a post]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Output list of taxonomy terms, in XML tag format, associated with a post</p>
+
+
+------------<br>
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+None
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/wxr_post_taxonomy'/>See more</a></p>]]>
+	</description_html>
+</snippet>

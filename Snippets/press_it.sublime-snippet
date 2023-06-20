@@ -1,0 +1,33 @@
+
+<snippet>
+	<content><![CDATA[press_it();
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>press_it</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Press It form handler.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Press It form handler.</p>
+
+
+------------<br>
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+
+			File: wp-admin/press-this.php		
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/press_it'/>See more</a></p>]]>
+	</description_html>
+</snippet>

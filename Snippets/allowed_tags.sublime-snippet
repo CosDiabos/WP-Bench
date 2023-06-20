@@ -1,0 +1,33 @@
+
+<snippet>
+	<content><![CDATA[allowed_tags();
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>allowed_tags</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Display all of the allowed tags in HTML format with attributes.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Display all of the allowed tags in HTML format with attributes.</p>
+
+
+------------<br>
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+
+			File: wp-includes/general-template.php		
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/allowed_tags'/>See more</a></p>]]>
+	</description_html>
+</snippet>

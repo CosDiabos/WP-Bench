@@ -1,0 +1,41 @@
+
+<snippet>
+	<content><![CDATA[status_header(${1:\$code}, ${2:\$description});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>status_header</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Set HTTP status header.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Set HTTP status header.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$code</p>
+(<b>int</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$description</p>
+(<b>string</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+
+			File: wp-includes/functions.php		
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/status_header'/>See more</a></p>]]>
+	</description_html>
+</snippet>

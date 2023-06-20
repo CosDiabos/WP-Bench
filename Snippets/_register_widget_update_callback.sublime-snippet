@@ -1,0 +1,47 @@
+
+<snippet>
+	<content><![CDATA[_register_widget_update_callback(${1:\$id_base}, ${2:\$update_callback}, ${3:\$options});
+
+function ${2:a} (${13:$$var=''}) {
+	${14:#Code...}
+}
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>_register_widget_update_callback</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Registers the update callback for a widget.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Registers the update callback for a widget.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$id_base</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$update_callback</p>
+(<b>callable</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$options</p>
+(<b>array</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+
+			File: wp-includes/widgets.php		
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/_register_widget_update_callback'/>See more</a></p>]]>
+	</description_html>
+</snippet>

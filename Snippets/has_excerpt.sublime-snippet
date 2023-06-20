@@ -1,0 +1,36 @@
+
+<snippet>
+	<content><![CDATA[has_excerpt(${1:\$post});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>has_excerpt</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Whether the post has a custom excerpt.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Whether the post has a custom excerpt.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$post</p>
+(<b>int</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(bool) True if the post has a custom excerpt, false otherwise.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/has_excerpt'/>See more</a></p>]]>
+	</description_html>
+</snippet>

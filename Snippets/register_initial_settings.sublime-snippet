@@ -1,0 +1,32 @@
+
+<snippet>
+	<content><![CDATA[register_initial_settings();
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>register_initial_settings</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Register default settings available in WordPress.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Register default settings available in WordPress.</p>
+
+
+------------<br>
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+None
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/register_initial_settings'/>See more</a></p>]]>
+	</description_html>
+</snippet>

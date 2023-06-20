@@ -1,0 +1,36 @@
+
+<snippet>
+	<content><![CDATA[get_plugin_files(${1:\$plugin});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>get_plugin_files</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Get a list of a plugin’s files.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Get a list of a plugin’s files.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$plugin</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(array) List of files relative to the plugin root.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/get_plugin_files'/>See more</a></p>]]>
+	</description_html>
+</snippet>

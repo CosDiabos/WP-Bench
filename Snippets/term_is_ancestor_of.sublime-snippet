@@ -1,0 +1,44 @@
+
+<snippet>
+	<content><![CDATA[term_is_ancestor_of(${1:\$term1}, ${2:\$term2}, ${3:\$taxonomy});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>term_is_ancestor_of</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Check if a term is an ancestor of another term.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Check if a term is an ancestor of another term.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$term1</p>
+(<b>int</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$term2</p>
+(<b>int</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$taxonomy</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(bool) Whether $term2 is a child of $term1.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/term_is_ancestor_of'/>See more</a></p>]]>
+	</description_html>
+</snippet>

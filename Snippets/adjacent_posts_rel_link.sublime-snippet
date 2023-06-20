@@ -1,0 +1,49 @@
+
+<snippet>
+	<content><![CDATA[adjacent_posts_rel_link(${1:\$title}, ${2:\$in_same_term}, ${3:\$excluded_terms}, ${4:\$taxonomy});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>adjacent_posts_rel_link</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Displays the relational links for the posts adjacent to the current post.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Displays the relational links for the posts adjacent to the current post.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$title</p>
+(<b>string</b>) <i>(Optional)</i><br>
+
+
+<p style='color:__sett-att-color__'>$in_same_term</p>
+(<b>bool</b>) <i>(Optional)</i><br>
+
+
+<p style='color:__sett-att-color__'>$excluded_terms</p>
+(<b>array</b>) <i>(Optional)</i><br>
+
+
+<p style='color:__sett-att-color__'>$taxonomy</p>
+(<b>string</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+
+			File: wp-includes/link-template.php		
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/adjacent_posts_rel_link'/>See more</a></p>]]>
+	</description_html>
+</snippet>

@@ -1,0 +1,40 @@
+
+<snippet>
+	<content><![CDATA[_c(${1:\$text}, ${2:\$domain});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>_c</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Retrieve translated string with vertical bar context]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Retrieve translated string with vertical bar context</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$text</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$domain</p>
+(<b>string</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(string) Translated context string without pipe
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/_c'/>See more</a></p>]]>
+	</description_html>
+</snippet>

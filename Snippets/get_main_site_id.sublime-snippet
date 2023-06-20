@@ -1,0 +1,36 @@
+
+<snippet>
+	<content><![CDATA[get_main_site_id(${1:\$network_id});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>get_main_site_id</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Gets the main site ID.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Gets the main site ID.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$network_id</p>
+(<b>int</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(int) The ID of the main site.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/get_main_site_id'/>See more</a></p>]]>
+	</description_html>
+</snippet>

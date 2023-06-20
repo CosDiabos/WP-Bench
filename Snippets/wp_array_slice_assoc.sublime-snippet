@@ -1,0 +1,40 @@
+
+<snippet>
+	<content><![CDATA[wp_array_slice_assoc(${1:\$array}, ${2:\$keys});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>wp_array_slice_assoc</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Extract a slice of an array, given a list of keys.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Extract a slice of an array, given a list of keys.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$array</p>
+(<b>array</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$keys</p>
+(<b>array</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(array) The array slice.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/wp_array_slice_assoc'/>See more</a></p>]]>
+	</description_html>
+</snippet>

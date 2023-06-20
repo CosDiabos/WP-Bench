@@ -1,0 +1,33 @@
+
+<snippet>
+	<content><![CDATA[twentyten_remove_gallery_css();
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>twentyten_remove_gallery_css</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Deprecated way to remove inline styles printed when the gallery shortcode is used.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Deprecated way to remove inline styles printed when the gallery shortcode is used.</p>
+
+
+------------<br>
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+
+			File: wp-content/themes/twentyten/functions.php		
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/twentyten_remove_gallery_css'/>See more</a></p>]]>
+	</description_html>
+</snippet>

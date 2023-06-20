@@ -1,0 +1,40 @@
+
+<snippet>
+	<content><![CDATA[wp_restore_post_revision(${1:\$revision_id}, ${2:\$fields});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>wp_restore_post_revision</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Restores a post to the specified revision.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Restores a post to the specified revision.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$revision_id</p>
+(<b>int</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$fields</p>
+(<b>array</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(int|false|null) Null if error, false if no fields to restore, (int) post ID if success.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/wp_restore_post_revision'/>See more</a></p>]]>
+	</description_html>
+</snippet>

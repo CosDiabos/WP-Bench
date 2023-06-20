@@ -1,0 +1,36 @@
+
+<snippet>
+	<content><![CDATA[__get_option(${1:\$setting});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>__get_option</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Version of get_option that is private to install/upgrade.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Version of get_option that is private to install/upgrade.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$setting</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(mixed) 
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/__get_option'/>See more</a></p>]]>
+	</description_html>
+</snippet>

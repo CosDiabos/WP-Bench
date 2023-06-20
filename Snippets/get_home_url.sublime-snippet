@@ -1,0 +1,44 @@
+
+<snippet>
+	<content><![CDATA[get_home_url(${1:\$blog_id}, ${2:\$path}, ${3:\$scheme});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>get_home_url</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Retrieves the URL for a given site where the front end is accessible.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Retrieves the URL for a given site where the front end is accessible.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$blog_id</p>
+(<b>int</b>) <i>(Optional)</i><br>
+
+
+<p style='color:__sett-att-color__'>$path</p>
+(<b>string</b>) <i>(Optional)</i><br>
+
+
+<p style='color:__sett-att-color__'>$scheme</p>
+(<b>string</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(string) Home URL link with optional path appended.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/get_home_url'/>See more</a></p>]]>
+	</description_html>
+</snippet>

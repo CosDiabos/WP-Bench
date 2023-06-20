@@ -1,0 +1,33 @@
+
+<snippet>
+	<content><![CDATA[twentyfourteen_has_featured_posts();
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>twentyfourteen_has_featured_posts</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[A helper conditional function that returns a boolean value.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>A helper conditional function that returns a boolean value.</p>
+
+
+------------<br>
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+
+			File: wp-content/themes/twentyfourteen/functions.php		
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/twentyfourteen_has_featured_posts'/>See more</a></p>]]>
+	</description_html>
+</snippet>

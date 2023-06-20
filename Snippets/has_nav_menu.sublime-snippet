@@ -1,0 +1,36 @@
+
+<snippet>
+	<content><![CDATA[has_nav_menu(${1:\$location});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>has_nav_menu</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Determines whether a registered nav menu location has a menu assigned to it.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Determines whether a registered nav menu location has a menu assigned to it.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$location</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(bool) Whether location has a menu.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/has_nav_menu'/>See more</a></p>]]>
+	</description_html>
+</snippet>

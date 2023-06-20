@@ -1,0 +1,40 @@
+
+<snippet>
+	<content><![CDATA[delete_metadata_by_mid(${1:\$meta_type}, ${2:\$meta_id});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>delete_metadata_by_mid</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Delete meta data by meta ID]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Delete meta data by meta ID</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$meta_type</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$meta_id</p>
+(<b>int</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(bool) True on successful delete, false on failure.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/delete_metadata_by_mid'/>See more</a></p>]]>
+	</description_html>
+</snippet>

@@ -1,0 +1,36 @@
+
+<snippet>
+	<content><![CDATA[get_search_query(${1:\$escaped});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>get_search_query</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Retrieves the contents of the search WordPress query variable.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Retrieves the contents of the search WordPress query variable.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$escaped</p>
+(<b>bool</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(string) 
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/get_search_query'/>See more</a></p>]]>
+	</description_html>
+</snippet>

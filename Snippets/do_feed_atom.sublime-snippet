@@ -1,0 +1,37 @@
+
+<snippet>
+	<content><![CDATA[do_feed_atom(${1:\$for_comments});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>do_feed_atom</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Load either Atom comment feed or Atom posts feed.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Load either Atom comment feed or Atom posts feed.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$for_comments</p>
+(<b>bool</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+
+			File: wp-includes/functions.php		
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/do_feed_atom'/>See more</a></p>]]>
+	</description_html>
+</snippet>

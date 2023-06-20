@@ -1,0 +1,44 @@
+
+<snippet>
+	<content><![CDATA[links_add_target(${1:\$content}, ${2:\$target}, ${3:\$tags});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>links_add_target</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Adds a Target attribute to all links in passed content.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Adds a Target attribute to all links in passed content.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$content</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$target</p>
+(<b>string</b>) <i>(Optional)</i><br>
+
+
+<p style='color:__sett-att-color__'>$tags</p>
+(<b>array</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(string) The processed content.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/links_add_target'/>See more</a></p>]]>
+	</description_html>
+</snippet>

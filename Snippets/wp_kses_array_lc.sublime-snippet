@@ -1,0 +1,36 @@
+
+<snippet>
+	<content><![CDATA[wp_kses_array_lc(${1:\$inarray});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>wp_kses_array_lc</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Goes through an array and changes the keys to all lower case.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Goes through an array and changes the keys to all lower case.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$inarray</p>
+(<b>array</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(array) Fixed array with all lowercase keys
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/wp_kses_array_lc'/>See more</a></p>]]>
+	</description_html>
+</snippet>

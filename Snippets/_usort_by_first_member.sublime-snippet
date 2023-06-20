@@ -1,0 +1,40 @@
+
+<snippet>
+	<content><![CDATA[_usort_by_first_member(${1:\$a}, ${2:\$b});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>_usort_by_first_member</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Sorts a multidimensional array by first member of each top level member]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Sorts a multidimensional array by first member of each top level member</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$a</p>
+(<b>array</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$b</p>
+(<b>array</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(int) 
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/_usort_by_first_member'/>See more</a></p>]]>
+	</description_html>
+</snippet>

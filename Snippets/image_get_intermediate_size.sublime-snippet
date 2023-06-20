@@ -1,0 +1,40 @@
+
+<snippet>
+	<content><![CDATA[image_get_intermediate_size(${1:\$post_id}, ${2:\$size});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>image_get_intermediate_size</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Retrieves the image’s intermediate size (resized) path, width, and height.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Retrieves the image’s intermediate size (resized) path, width, and height.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$post_id</p>
+(<b>int</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$size</p>
+(<b>array</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(false|array) $data {     Array of file relative path, width, and height on success. Additionally includes absolute     path and URL if registered size is passed to $size parameter. False on failure.     @type string $file   Image's path relative to uploads directory     @type int    $width  Width of image     @type int    $height Height of image     @type string $path   Image's absolute filesystem path.     @type string $url    Image's URL. }
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/image_get_intermediate_size'/>See more</a></p>]]>
+	</description_html>
+</snippet>

@@ -1,0 +1,36 @@
+
+<snippet>
+	<content><![CDATA[wp_make_plugin_file_tree(${1:\$plugin_editable_files});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>wp_make_plugin_file_tree</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Makes a tree structure for the Plugin Editor’s file list.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Makes a tree structure for the Plugin Editor’s file list.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$plugin_editable_files</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(array) Tree structure for listing plugin files.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/wp_make_plugin_file_tree'/>See more</a></p>]]>
+	</description_html>
+</snippet>

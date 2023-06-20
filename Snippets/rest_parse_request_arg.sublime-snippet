@@ -1,0 +1,44 @@
+
+<snippet>
+	<content><![CDATA[rest_parse_request_arg(${1:\$value}, ${2:\$request}, ${3:\$param});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>rest_parse_request_arg</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Parse a request argument based on details registered to the route.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Parse a request argument based on details registered to the route.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$value</p>
+(<b>mixed</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$request</p>
+(<b>WP_REST_Request</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$param</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(mixed) 
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/rest_parse_request_arg'/>See more</a></p>]]>
+	</description_html>
+</snippet>

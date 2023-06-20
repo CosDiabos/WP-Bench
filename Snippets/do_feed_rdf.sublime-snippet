@@ -1,0 +1,32 @@
+
+<snippet>
+	<content><![CDATA[do_feed_rdf();
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>do_feed_rdf</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Load the RDF RSS 0.91 Feed template.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Load the RDF RSS 0.91 Feed template.</p>
+
+
+------------<br>
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+None
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/do_feed_rdf'/>See more</a></p>]]>
+	</description_html>
+</snippet>

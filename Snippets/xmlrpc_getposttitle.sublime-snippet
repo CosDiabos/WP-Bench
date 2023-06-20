@@ -1,0 +1,36 @@
+
+<snippet>
+	<content><![CDATA[xmlrpc_getposttitle(${1:\$content});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>xmlrpc_getposttitle</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Retrieve post title from XMLRPC XML.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Retrieve post title from XMLRPC XML.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$content</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(string) Post title
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/xmlrpc_getposttitle'/>See more</a></p>]]>
+	</description_html>
+</snippet>

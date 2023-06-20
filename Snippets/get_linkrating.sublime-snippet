@@ -1,0 +1,36 @@
+
+<snippet>
+	<content><![CDATA[get_linkrating(${1:\$link});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>get_linkrating</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Legacy function that retrieved the value of a link’s link_rating field.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Legacy function that retrieved the value of a link’s link_rating field.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$link</p>
+(<b>object</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(mixed) Value of the 'link_rating' field, false otherwise.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/get_linkrating'/>See more</a></p>]]>
+	</description_html>
+</snippet>

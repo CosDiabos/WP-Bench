@@ -1,0 +1,44 @@
+
+<snippet>
+	<content><![CDATA[get_the_category_list(${1:\$separator}, ${2:\$parents}, ${3:\$post_id});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>get_the_category_list</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Retrieve category list for a post in either HTML list or custom format.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Retrieve category list for a post in either HTML list or custom format.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$separator</p>
+(<b>string</b>) <i>(Optional)</i><br>
+
+
+<p style='color:__sett-att-color__'>$parents</p>
+(<b>string</b>) <i>(Optional)</i><br>
+
+
+<p style='color:__sett-att-color__'>$post_id</p>
+(<b>int</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(string) 
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/get_the_category_list'/>See more</a></p>]]>
+	</description_html>
+</snippet>

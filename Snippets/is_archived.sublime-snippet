@@ -1,0 +1,36 @@
+
+<snippet>
+	<content><![CDATA[is_archived(${1:\$id});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>is_archived</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Check if a particular blog is archived.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Check if a particular blog is archived.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$id</p>
+(<b>int</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(string) Whether the blog is archived or not
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/is_archived'/>See more</a></p>]]>
+	</description_html>
+</snippet>

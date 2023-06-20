@@ -1,0 +1,33 @@
+
+<snippet>
+	<content><![CDATA[get_alloptions_110();
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>get_alloptions_110</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Retrieve all options as it was for 1.2.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Retrieve all options as it was for 1.2.</p>
+
+
+------------<br>
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+
+			File: wp-admin/includes/upgrade.php		
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/get_alloptions_110'/>See more</a></p>]]>
+	</description_html>
+</snippet>

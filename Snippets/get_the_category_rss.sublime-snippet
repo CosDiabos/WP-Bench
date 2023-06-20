@@ -1,0 +1,36 @@
+
+<snippet>
+	<content><![CDATA[get_the_category_rss(${1:\$type});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>get_the_category_rss</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Retrieve all of the post categories, formatted for use in feeds.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Retrieve all of the post categories, formatted for use in feeds.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$type</p>
+(<b>string</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(string) All of the post categories for displaying in the feed.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/get_the_category_rss'/>See more</a></p>]]>
+	</description_html>
+</snippet>

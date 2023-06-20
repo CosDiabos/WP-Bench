@@ -1,0 +1,40 @@
+
+<snippet>
+	<content><![CDATA[get_admin_users_for_domain(${1:\$domain}, ${2:\$path});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>get_admin_users_for_domain</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Get the admin for a domain/path combination.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Get the admin for a domain/path combination.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$domain</p>
+(<b>string</b>) <i>(Optional)</i><br>
+
+
+<p style='color:__sett-att-color__'>$path</p>
+(<b>string</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(array|false) The network admins.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/get_admin_users_for_domain'/>See more</a></p>]]>
+	</description_html>
+</snippet>

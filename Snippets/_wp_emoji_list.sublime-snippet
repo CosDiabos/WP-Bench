@@ -1,0 +1,36 @@
+
+<snippet>
+	<content><![CDATA[_wp_emoji_list(${1:\$type});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>_wp_emoji_list</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Returns a arrays of emoji data.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Returns a arrays of emoji data.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$type</p>
+(<b>string</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(array) An array to match all emoji that WordPress recognises.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/_wp_emoji_list'/>See more</a></p>]]>
+	</description_html>
+</snippet>

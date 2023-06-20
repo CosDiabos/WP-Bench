@@ -1,0 +1,36 @@
+
+<snippet>
+	<content><![CDATA[win_is_writable(${1:\$path});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>win_is_writable</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Workaround for Windows bug in is_writable() function]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Workaround for Windows bug in is_writable() function</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$path</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(bool) Whether the path is writable.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/win_is_writable'/>See more</a></p>]]>
+	</description_html>
+</snippet>

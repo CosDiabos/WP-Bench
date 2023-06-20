@@ -1,0 +1,32 @@
+
+<snippet>
+	<content><![CDATA[twentyeleven_posted_on();
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>twentyeleven_posted_on</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Print HTML with meta information for the current post-date/time and author.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Print HTML with meta information for the current post-date/time and author.</p>
+
+
+------------<br>
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+None
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/twentyeleven_posted_on'/>See more</a></p>]]>
+	</description_html>
+</snippet>

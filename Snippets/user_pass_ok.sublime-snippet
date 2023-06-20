@@ -1,0 +1,40 @@
+
+<snippet>
+	<content><![CDATA[user_pass_ok(${1:\$user_login}, ${2:\$user_pass});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>user_pass_ok</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Check that the user login name and password is correct.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Check that the user login name and password is correct.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$user_login</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$user_pass</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(bool) False if does not authenticate, true if username and password authenticates.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/user_pass_ok'/>See more</a></p>]]>
+	</description_html>
+</snippet>

@@ -1,0 +1,40 @@
+
+<snippet>
+	<content><![CDATA[_get_component_from_parsed_url_array(${1:\$url_parts}, ${2:\$component});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>_get_component_from_parsed_url_array</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Retrieve a specific component from a parsed URL array.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Retrieve a specific component from a parsed URL array.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$url_parts</p>
+(<b>array</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$component</p>
+(<b>int</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(mixed) False on parse failure; Array of URL components on success;               When a specific component has been requested: null if the component               doesn't exist in the given URL; a string or - in the case of               PHP_URL_PORT - integer when it does. See parse_url()'s return values.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/_get_component_from_parsed_url_array'/>See more</a></p>]]>
+	</description_html>
+</snippet>

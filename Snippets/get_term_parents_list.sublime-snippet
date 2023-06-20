@@ -1,0 +1,44 @@
+
+<snippet>
+	<content><![CDATA[get_term_parents_list(${1:\$term_id}, ${2:\$taxonomy}, ${3:\$args});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>get_term_parents_list</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Retrieve term parents with separator.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Retrieve term parents with separator.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$term_id</p>
+(<b>int</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$taxonomy</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$args</p>
+(<b>string</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(string|WP_Error) A list of term parents on success, WP_Error or empty string on failure.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/get_term_parents_list'/>See more</a></p>]]>
+	</description_html>
+</snippet>

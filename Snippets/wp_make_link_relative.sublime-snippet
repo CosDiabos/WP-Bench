@@ -1,0 +1,36 @@
+
+<snippet>
+	<content><![CDATA[wp_make_link_relative(${1:\$link});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>wp_make_link_relative</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Convert full URL paths to absolute paths.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Convert full URL paths to absolute paths.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$link</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(string) Absolute path.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/wp_make_link_relative'/>See more</a></p>]]>
+	</description_html>
+</snippet>

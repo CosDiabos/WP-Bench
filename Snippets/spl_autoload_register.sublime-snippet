@@ -1,0 +1,47 @@
+
+<snippet>
+	<content><![CDATA[spl_autoload_register(${1:\$autoload_function}, ${2:\$throw}, ${3:\$prepend});
+
+function ${1:a} (${12:$$var=''}) {
+	${13:#Code...}
+}
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>spl_autoload_register</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Registers a function to be autoloaded.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Registers a function to be autoloaded.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$autoload_function</p>
+(<b>callable</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$throw</p>
+(<b>bool</b>) <i>(Optional)</i><br>
+
+
+<p style='color:__sett-att-color__'>$prepend</p>
+(<b>bool</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+
+			File: wp-includes/spl-autoload-compat.php		
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/spl_autoload_register'/>See more</a></p>]]>
+	</description_html>
+</snippet>

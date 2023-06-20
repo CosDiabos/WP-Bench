@@ -1,0 +1,32 @@
+
+<snippet>
+	<content><![CDATA[options_reading_blog_charset();
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>options_reading_blog_charset</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Render the site charset setting.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Render the site charset setting.</p>
+
+
+------------<br>
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+None
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/options_reading_blog_charset'/>See more</a></p>]]>
+	</description_html>
+</snippet>

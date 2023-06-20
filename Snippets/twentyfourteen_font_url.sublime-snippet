@@ -1,0 +1,33 @@
+
+<snippet>
+	<content><![CDATA[twentyfourteen_font_url();
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>twentyfourteen_font_url</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Register Lato Google font for Twenty Fourteen.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Register Lato Google font for Twenty Fourteen.</p>
+
+
+------------<br>
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+
+			File: wp-content/themes/twentyfourteen/functions.php		
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/twentyfourteen_font_url'/>See more</a></p>]]>
+	</description_html>
+</snippet>

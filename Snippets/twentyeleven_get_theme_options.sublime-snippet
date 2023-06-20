@@ -1,0 +1,32 @@
+
+<snippet>
+	<content><![CDATA[twentyeleven_get_theme_options();
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>twentyeleven_get_theme_options</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Return the options array for Twenty Eleven.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Return the options array for Twenty Eleven.</p>
+
+
+------------<br>
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+None
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/twentyeleven_get_theme_options'/>See more</a></p>]]>
+	</description_html>
+</snippet>

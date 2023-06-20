@@ -1,0 +1,32 @@
+
+<snippet>
+	<content><![CDATA[print_emoji_styles();
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>print_emoji_styles</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Print the important emoji-related styles.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Print the important emoji-related styles.</p>
+
+
+------------<br>
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+None
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/print_emoji_styles'/>See more</a></p>]]>
+	</description_html>
+</snippet>

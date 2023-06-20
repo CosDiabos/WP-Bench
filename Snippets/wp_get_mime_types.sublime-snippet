@@ -1,0 +1,33 @@
+
+<snippet>
+	<content><![CDATA[wp_get_mime_types();
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>wp_get_mime_types</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Retrieve list of mime types and file extensions.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Retrieve list of mime types and file extensions.</p>
+
+
+------------<br>
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+
+			File: wp-includes/functions.php		
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/wp_get_mime_types'/>See more</a></p>]]>
+	</description_html>
+</snippet>

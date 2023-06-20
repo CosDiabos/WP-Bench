@@ -1,0 +1,40 @@
+
+<snippet>
+	<content><![CDATA[wp_http_supports(${1:\$capabilities}, ${2:\$url});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>wp_http_supports</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Determines if there is an HTTP Transport that can process this request.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Determines if there is an HTTP Transport that can process this request.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$capabilities</p>
+(<b>array</b>) <i>(Optional)</i><br>
+
+
+<p style='color:__sett-att-color__'>$url</p>
+(<b>string</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(bool) 
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/wp_http_supports'/>See more</a></p>]]>
+	</description_html>
+</snippet>

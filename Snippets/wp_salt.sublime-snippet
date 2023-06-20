@@ -1,0 +1,36 @@
+
+<snippet>
+	<content><![CDATA[wp_salt(${1:\$scheme});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>wp_salt</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Get salt to add to hashes.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Get salt to add to hashes.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$scheme</p>
+(<b>string</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(string) Salt value
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/wp_salt'/>See more</a></p>]]>
+	</description_html>
+</snippet>

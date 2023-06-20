@@ -1,0 +1,45 @@
+
+<snippet>
+	<content><![CDATA[_wp_auto_add_pages_to_menu(${1:\$new_status}, ${2:\$old_status}, ${3:\$post});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>_wp_auto_add_pages_to_menu</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Automatically add newly published page objects to menus with that as an option.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Automatically add newly published page objects to menus with that as an option.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$new_status</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$old_status</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$post</p>
+(<b>object</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+
+			File: wp-includes/nav-menu.php		
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/_wp_auto_add_pages_to_menu'/>See more</a></p>]]>
+	</description_html>
+</snippet>

@@ -1,0 +1,40 @@
+
+<snippet>
+	<content><![CDATA[wp_count_posts(${1:\$type}, ${2:\$perm});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>wp_count_posts</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Count number of posts of a post type and if user has permissions to view.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Count number of posts of a post type and if user has permissions to view.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$type</p>
+(<b>string</b>) <i>(Optional)</i><br>
+
+
+<p style='color:__sett-att-color__'>$perm</p>
+(<b>string</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(object) Number of posts for each status.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/wp_count_posts'/>See more</a></p>]]>
+	</description_html>
+</snippet>

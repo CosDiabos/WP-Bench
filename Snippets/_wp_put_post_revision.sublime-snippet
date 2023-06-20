@@ -1,0 +1,40 @@
+
+<snippet>
+	<content><![CDATA[_wp_put_post_revision(${1:\$post}, ${2:\$autosave});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>_wp_put_post_revision</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Inserts post data into the posts table as a post revision.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Inserts post data into the posts table as a post revision.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$post</p>
+(<b>int</b>) <i>(Optional)</i><br>
+
+
+<p style='color:__sett-att-color__'>$autosave</p>
+(<b>bool</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(int|WP_Error) WP_Error or 0 if error, new revision ID if success.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/_wp_put_post_revision'/>See more</a></p>]]>
+	</description_html>
+</snippet>

@@ -1,0 +1,40 @@
+
+<snippet>
+	<content><![CDATA[maybe_create_table(${1:\$table_name}, ${2:\$create_ddl});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>maybe_create_table</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Creates a table in the database if it doesn’t already exist.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Creates a table in the database if it doesn’t already exist.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$table_name</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$create_ddl</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(bool) If table already exists or was created by function.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/maybe_create_table'/>See more</a></p>]]>
+	</description_html>
+</snippet>

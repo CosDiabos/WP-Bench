@@ -1,0 +1,45 @@
+
+<snippet>
+	<content><![CDATA[wpmu_signup_user(${1:\$user}, ${2:\$user_email}, ${3:\$meta});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>wpmu_signup_user</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Record user signup information for future activation.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Record user signup information for future activation.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$user</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$user_email</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$meta</p>
+(<b>array</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+
+			File: wp-includes/ms-functions.php		
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/wpmu_signup_user'/>See more</a></p>]]>
+	</description_html>
+</snippet>

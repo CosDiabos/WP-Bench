@@ -1,0 +1,40 @@
+
+<snippet>
+	<content><![CDATA[get_theme_root_uri(${1:\$stylesheet_or_template}, ${2:\$theme_root});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>get_theme_root_uri</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Retrieve URI for themes directory.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Retrieve URI for themes directory.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$stylesheet_or_template</p>
+(<b>string</b>) <i>(Optional)</i><br>
+
+
+<p style='color:__sett-att-color__'>$theme_root</p>
+(<b>string</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(string) Themes URI.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/get_theme_root_uri'/>See more</a></p>]]>
+	</description_html>
+</snippet>

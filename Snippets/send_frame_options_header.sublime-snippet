@@ -1,0 +1,32 @@
+
+<snippet>
+	<content><![CDATA[send_frame_options_header();
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>send_frame_options_header</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Send a HTTP header to limit rendering of pages to same origin iframes.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Send a HTTP header to limit rendering of pages to same origin iframes.</p>
+
+
+------------<br>
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+None
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/send_frame_options_header'/>See more</a></p>]]>
+	</description_html>
+</snippet>

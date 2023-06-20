@@ -1,0 +1,45 @@
+
+<snippet>
+	<content><![CDATA[_wp_menu_output(${1:\$menu}, ${2:\$submenu}, ${3:\$submenu_as_parent});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>_wp_menu_output</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Display menu.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Display menu.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$menu</p>
+(<b>array</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$submenu</p>
+(<b>array</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$submenu_as_parent</p>
+(<b>bool</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+
+			File: wp-admin/menu-header.php		
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/_wp_menu_output'/>See more</a></p>]]>
+	</description_html>
+</snippet>

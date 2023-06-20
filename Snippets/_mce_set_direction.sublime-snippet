@@ -1,0 +1,36 @@
+
+<snippet>
+	<content><![CDATA[_mce_set_direction(${1:\$mce_init});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>_mce_set_direction</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Set the localized direction for MCE plugin.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Set the localized direction for MCE plugin.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$mce_init</p>
+(<b>array</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(array) Direction set for 'rtl', if needed by locale.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/_mce_set_direction'/>See more</a></p>]]>
+	</description_html>
+</snippet>

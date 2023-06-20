@@ -1,0 +1,36 @@
+
+<snippet>
+	<content><![CDATA[get_dirsize(${1:\$directory});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>get_dirsize</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Get the size of a directory.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Get the size of a directory.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$directory</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(int) Size of the directory in MB.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/get_dirsize'/>See more</a></p>]]>
+	</description_html>
+</snippet>

@@ -1,0 +1,32 @@
+
+<snippet>
+	<content><![CDATA[wpmu_get_blog_allowedthemes();
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>wpmu_get_blog_allowedthemes</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Deprecated functionality for getting themes allowed on a specific site.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Deprecated functionality for getting themes allowed on a specific site.</p>
+
+
+------------<br>
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+None
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/wpmu_get_blog_allowedthemes'/>See more</a></p>]]>
+	</description_html>
+</snippet>

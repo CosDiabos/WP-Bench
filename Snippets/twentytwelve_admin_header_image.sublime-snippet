@@ -1,0 +1,32 @@
+
+<snippet>
+	<content><![CDATA[twentytwelve_admin_header_image();
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>twentytwelve_admin_header_image</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Output markup to be displayed on the Appearance > Header admin panel.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Output markup to be displayed on the Appearance > Header admin panel.</p>
+
+
+------------<br>
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+None
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/twentytwelve_admin_header_image'/>See more</a></p>]]>
+	</description_html>
+</snippet>

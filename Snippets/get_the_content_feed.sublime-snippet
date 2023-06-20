@@ -1,0 +1,36 @@
+
+<snippet>
+	<content><![CDATA[get_the_content_feed(${1:\$feed_type});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>get_the_content_feed</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Retrieve the post content for feeds.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Retrieve the post content for feeds.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$feed_type</p>
+(<b>string</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(string) The filtered content.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/get_the_content_feed'/>See more</a></p>]]>
+	</description_html>
+</snippet>

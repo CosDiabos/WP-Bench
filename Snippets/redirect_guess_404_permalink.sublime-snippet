@@ -1,0 +1,33 @@
+
+<snippet>
+	<content><![CDATA[redirect_guess_404_permalink();
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>redirect_guess_404_permalink</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Attempts to guess the correct URL based on query vars]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Attempts to guess the correct URL based on query vars</p>
+
+
+------------<br>
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+
+			File: wp-includes/canonical.php		
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/redirect_guess_404_permalink'/>See more</a></p>]]>
+	</description_html>
+</snippet>

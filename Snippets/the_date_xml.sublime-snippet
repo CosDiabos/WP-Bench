@@ -1,0 +1,32 @@
+
+<snippet>
+	<content><![CDATA[the_date_xml();
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>the_date_xml</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Outputs the date in iso8601 format for xml files.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Outputs the date in iso8601 format for xml files.</p>
+
+
+------------<br>
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+None
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/the_date_xml'/>See more</a></p>]]>
+	</description_html>
+</snippet>

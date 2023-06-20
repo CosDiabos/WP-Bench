@@ -1,0 +1,40 @@
+
+<snippet>
+	<content><![CDATA[wp_get_db_schema(${1:\$scope}, ${2:\$blog_id});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>wp_get_db_schema</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Retrieve the SQL for creating database tables.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Retrieve the SQL for creating database tables.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$scope</p>
+(<b>string</b>) <i>(Optional)</i><br>
+
+
+<p style='color:__sett-att-color__'>$blog_id</p>
+(<b>int</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(string) The SQL needed to create the requested tables.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/wp_get_db_schema'/>See more</a></p>]]>
+	</description_html>
+</snippet>

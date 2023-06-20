@@ -1,0 +1,48 @@
+
+<snippet>
+	<content><![CDATA[register_meta(${1:\$object_type}, ${2:\$meta_key}, ${3:\$args}, ${4:\$deprecated});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>register_meta</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Registers a meta key.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Registers a meta key.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$object_type</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$meta_key</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$args</p>
+(<b>array</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$deprecated</p>
+(<b>string</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(bool) True if the meta key was successfully registered in the global array, false if not.                       Registering a meta key with distinct sanitize and auth callbacks will fire those                       callbacks, but will not add to the global registry.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/register_meta'/>See more</a></p>]]>
+	</description_html>
+</snippet>

@@ -1,0 +1,44 @@
+
+<snippet>
+	<content><![CDATA[locate_template(${1:\$template_names}, ${2:\$load}, ${3:\$require_once});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>locate_template</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Retrieve the name of the highest priority template file that exists.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Retrieve the name of the highest priority template file that exists.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$template_names</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$load</p>
+(<b>bool</b>) <i>(Optional)</i><br>
+
+
+<p style='color:__sett-att-color__'>$require_once</p>
+(<b>bool</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(string) The template filename if one is located.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/locate_template'/>See more</a></p>]]>
+	</description_html>
+</snippet>

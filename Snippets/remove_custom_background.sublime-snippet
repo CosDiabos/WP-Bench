@@ -1,0 +1,33 @@
+
+<snippet>
+	<content><![CDATA[remove_custom_background();
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>remove_custom_background</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Remove custom background support.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Remove custom background support.</p>
+
+
+------------<br>
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+
+			File: wp-includes/deprecated.php		
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/remove_custom_background'/>See more</a></p>]]>
+	</description_html>
+</snippet>

@@ -1,0 +1,36 @@
+
+<snippet>
+	<content><![CDATA[get_user_count(${1:\$network_id});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>get_user_count</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[The number of active users in your installation.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>The number of active users in your installation.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$network_id</p>
+(<b>int</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(int) Number of active users on the network.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/get_user_count'/>See more</a></p>]]>
+	</description_html>
+</snippet>

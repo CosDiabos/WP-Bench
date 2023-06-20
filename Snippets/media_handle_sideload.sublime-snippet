@@ -1,0 +1,48 @@
+
+<snippet>
+	<content><![CDATA[media_handle_sideload(${1:\$file_array}, ${2:\$post_id}, ${3:\$desc}, ${4:\$post_data});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>media_handle_sideload</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Handles a side-loaded file in the same way as an uploaded file is handled by media_handle_upload().]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Handles a side-loaded file in the same way as an uploaded file is handled by media_handle_upload().</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$file_array</p>
+(<b>array</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$post_id</p>
+(<b>int</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$desc</p>
+(<b>string</b>) <i>(Optional)</i><br>
+
+
+<p style='color:__sett-att-color__'>$post_data</p>
+(<b>array</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(int|object) The ID of the attachment or a WP_Error on failure.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/media_handle_sideload'/>See more</a></p>]]>
+	</description_html>
+</snippet>

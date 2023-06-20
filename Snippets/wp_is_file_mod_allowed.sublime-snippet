@@ -1,0 +1,36 @@
+
+<snippet>
+	<content><![CDATA[wp_is_file_mod_allowed(${1:\$context});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>wp_is_file_mod_allowed</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Determines whether file modifications are allowed.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Determines whether file modifications are allowed.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$context</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(bool) True if file modification is allowed, false otherwise.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/wp_is_file_mod_allowed'/>See more</a></p>]]>
+	</description_html>
+</snippet>

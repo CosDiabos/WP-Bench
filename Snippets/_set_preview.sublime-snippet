@@ -1,0 +1,36 @@
+
+<snippet>
+	<content><![CDATA[_set_preview(${1:\$post});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>_set_preview</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Sets up the post object for preview based on the post autosave.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Sets up the post object for preview based on the post autosave.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$post</p>
+(<b>WP_Post</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(WP_Post|false) 
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/_set_preview'/>See more</a></p>]]>
+	</description_html>
+</snippet>

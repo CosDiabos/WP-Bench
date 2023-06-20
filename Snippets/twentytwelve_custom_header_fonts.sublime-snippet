@@ -1,0 +1,32 @@
+
+<snippet>
+	<content><![CDATA[twentytwelve_custom_header_fonts();
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>twentytwelve_custom_header_fonts</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Load our special font CSS file.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Load our special font CSS file.</p>
+
+
+------------<br>
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+None
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/twentytwelve_custom_header_fonts'/>See more</a></p>]]>
+	</description_html>
+</snippet>

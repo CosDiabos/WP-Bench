@@ -1,0 +1,44 @@
+
+<snippet>
+	<content><![CDATA[insert_with_markers(${1:\$filename}, ${2:\$marker}, ${3:\$insertion});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>insert_with_markers</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Inserts an array of strings into a file (.htaccess ), placing it between BEGIN and END markers.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Inserts an array of strings into a file (.htaccess ), placing it between BEGIN and END markers.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$filename</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$marker</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$insertion</p>
+(<b>array</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(bool) True on write success, false on failure.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/insert_with_markers'/>See more</a></p>]]>
+	</description_html>
+</snippet>

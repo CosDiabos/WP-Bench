@@ -1,0 +1,44 @@
+
+<snippet>
+	<content><![CDATA[_flip_image_resource(${1:\$img}, ${2:\$horz}, ${3:\$vert});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>_flip_image_resource</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'></p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$img</p>
+(<b>GD_Resource</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$horz</p>
+(<b>boolean</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$vert</p>
+(<b>boolean</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(GD_Resource) 
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/_flip_image_resource'/>See more</a></p>]]>
+	</description_html>
+</snippet>

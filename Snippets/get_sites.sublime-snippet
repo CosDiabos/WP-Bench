@@ -1,0 +1,36 @@
+
+<snippet>
+	<content><![CDATA[get_sites(${1:\$args});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>get_sites</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Retrieves a list of sites matching requested arguments.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Retrieves a list of sites matching requested arguments.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$args</p>
+(<b>string</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(array|int) List of WP_Site objects, a list of site ids when 'fields' is set to 'ids',                   or the number of sites when 'count' is passed as a query var.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/get_sites'/>See more</a></p>]]>
+	</description_html>
+</snippet>

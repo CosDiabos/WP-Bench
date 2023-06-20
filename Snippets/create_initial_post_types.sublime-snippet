@@ -1,0 +1,32 @@
+
+<snippet>
+	<content><![CDATA[create_initial_post_types();
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>create_initial_post_types</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Creates the initial post types when ‘init’ action is fired.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Creates the initial post types when ‘init’ action is fired.</p>
+
+
+------------<br>
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+None
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/create_initial_post_types'/>See more</a></p>]]>
+	</description_html>
+</snippet>

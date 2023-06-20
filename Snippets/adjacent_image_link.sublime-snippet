@@ -1,0 +1,45 @@
+
+<snippet>
+	<content><![CDATA[adjacent_image_link(${1:\$prev}, ${2:\$size}, ${3:\$text});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>adjacent_image_link</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Displays next or previous image link that has the same post parent.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Displays next or previous image link that has the same post parent.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$prev</p>
+(<b>bool</b>) <i>(Optional)</i><br>
+
+
+<p style='color:__sett-att-color__'>$size</p>
+(<b>string</b>) <i>(Optional)</i><br>
+
+
+<p style='color:__sett-att-color__'>$text</p>
+(<b>bool</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+
+			File: wp-includes/media.php		
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/adjacent_image_link'/>See more</a></p>]]>
+	</description_html>
+</snippet>

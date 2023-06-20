@@ -1,0 +1,32 @@
+
+<snippet>
+	<content><![CDATA[install_plugins_favorites_form();
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>install_plugins_favorites_form</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Show a username form for the favorites page]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Show a username form for the favorites page</p>
+
+
+------------<br>
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+None
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/install_plugins_favorites_form'/>See more</a></p>]]>
+	</description_html>
+</snippet>

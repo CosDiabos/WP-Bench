@@ -1,0 +1,48 @@
+
+<snippet>
+	<content><![CDATA[media_handle_upload(${1:\$file_id}, ${2:\$post_id}, ${3:\$post_data}, ${4:\$overrides});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>media_handle_upload</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Save a file submitted from a POST request and create an attachment post for it.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Save a file submitted from a POST request and create an attachment post for it.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$file_id</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$post_id</p>
+(<b>int</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$post_data</p>
+(<b>array</b>) <i>(Optional)</i><br>
+
+
+<p style='color:__sett-att-color__'>$overrides</p>
+(<b>array</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(int|WP_Error) ID of the attachment or a WP_Error object on failure.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/media_handle_upload'/>See more</a></p>]]>
+	</description_html>
+</snippet>

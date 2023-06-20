@@ -1,0 +1,32 @@
+
+<snippet>
+	<content><![CDATA[permalink_link();
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>permalink_link</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Print the permalink of the current post in the loop.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Print the permalink of the current post in the loop.</p>
+
+
+------------<br>
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+None
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/permalink_link'/>See more</a></p>]]>
+	</description_html>
+</snippet>

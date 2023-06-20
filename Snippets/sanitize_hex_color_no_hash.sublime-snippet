@@ -1,0 +1,36 @@
+
+<snippet>
+	<content><![CDATA[sanitize_hex_color_no_hash(${1:\$color});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>sanitize_hex_color_no_hash</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Sanitizes a hex color without a hash. Use sanitize_hex_color() when possible.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Sanitizes a hex color without a hash. Use sanitize_hex_color() when possible.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$color</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(string|null) 
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/sanitize_hex_color_no_hash'/>See more</a></p>]]>
+	</description_html>
+</snippet>

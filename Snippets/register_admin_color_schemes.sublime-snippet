@@ -1,0 +1,32 @@
+
+<snippet>
+	<content><![CDATA[register_admin_color_schemes();
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>register_admin_color_schemes</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Registers the default Admin color schemes]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Registers the default Admin color schemes</p>
+
+
+------------<br>
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+None
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/register_admin_color_schemes'/>See more</a></p>]]>
+	</description_html>
+</snippet>

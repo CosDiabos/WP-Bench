@@ -1,0 +1,36 @@
+
+<snippet>
+	<content><![CDATA[get_the_generator(${1:\$type});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>get_the_generator</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Creates the generator XML or Comment for RSS, ATOM, etc.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Creates the generator XML or Comment for RSS, ATOM, etc.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$type</p>
+(<b>string</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(string|void) The HTML content for the generator.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/get_the_generator'/>See more</a></p>]]>
+	</description_html>
+</snippet>

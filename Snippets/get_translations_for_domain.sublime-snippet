@@ -1,0 +1,36 @@
+
+<snippet>
+	<content><![CDATA[get_translations_for_domain(${1:\$domain});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>get_translations_for_domain</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Return the Translations instance for a text domain.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Return the Translations instance for a text domain.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$domain</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(Translations|NOOP_Translations) A Translations instance.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/get_translations_for_domain'/>See more</a></p>]]>
+	</description_html>
+</snippet>

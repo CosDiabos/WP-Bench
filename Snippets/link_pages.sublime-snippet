@@ -1,0 +1,60 @@
+
+<snippet>
+	<content><![CDATA[link_pages(${1:\$before}, ${2:\$after}, ${3:\$next_or_number}, ${4:\$nextpagelink}, ${5:\$previouspagelink}, ${6:\$pagelink}, ${7:\$more_file});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>link_pages</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Print list of pages based on arguments.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Print list of pages based on arguments.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$before</p>
+(<b>string</b>) <i>(Optional)</i><br>
+
+
+<p style='color:__sett-att-color__'>$after</p>
+(<b>string</b>) <i>(Optional)</i><br>
+
+
+<p style='color:__sett-att-color__'>$next_or_number</p>
+(<b>string</b>) <i>(Optional)</i><br>
+
+
+<p style='color:__sett-att-color__'>$nextpagelink</p>
+(<b>string</b>) <i>(Optional)</i><br>
+
+
+<p style='color:__sett-att-color__'>$previouspagelink</p>
+(<b>string</b>) <i>(Optional)</i><br>
+
+
+<p style='color:__sett-att-color__'>$pagelink</p>
+(<b>string</b>) <i>(Optional)</i><br>
+
+
+<p style='color:__sett-att-color__'>$more_file</p>
+(<b>string</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(string) 
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/link_pages'/>See more</a></p>]]>
+	</description_html>
+</snippet>

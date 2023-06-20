@@ -1,0 +1,36 @@
+
+<snippet>
+	<content><![CDATA[wp_encode_emoji(${1:\$content});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>wp_encode_emoji</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Convert emoji characters to their equivalent HTML entity.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Convert emoji characters to their equivalent HTML entity.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$content</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(string) The encoded content.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/wp_encode_emoji'/>See more</a></p>]]>
+	</description_html>
+</snippet>

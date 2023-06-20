@@ -1,0 +1,33 @@
+
+<snippet>
+	<content><![CDATA[get_alloptions();
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>get_alloptions</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Retrieve all autoload options, or all options if no autoloaded ones exist.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Retrieve all autoload options, or all options if no autoloaded ones exist.</p>
+
+
+------------<br>
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+
+			File: wp-includes/deprecated.php		
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/get_alloptions'/>See more</a></p>]]>
+	</description_html>
+</snippet>

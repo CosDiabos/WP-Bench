@@ -1,0 +1,32 @@
+
+<snippet>
+	<content><![CDATA[wp_destroy_all_sessions();
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>wp_destroy_all_sessions</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Remove all session tokens for the current user from the database.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Remove all session tokens for the current user from the database.</p>
+
+
+------------<br>
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+None
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/wp_destroy_all_sessions'/>See more</a></p>]]>
+	</description_html>
+</snippet>

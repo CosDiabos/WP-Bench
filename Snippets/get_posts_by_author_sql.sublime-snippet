@@ -1,0 +1,48 @@
+
+<snippet>
+	<content><![CDATA[get_posts_by_author_sql(${1:\$post_type}, ${2:\$full}, ${3:\$post_author}, ${4:\$public_only});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>get_posts_by_author_sql</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Retrieve the post SQL based on capability, author, and type.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Retrieve the post SQL based on capability, author, and type.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$post_type</p>
+(<b>array</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$full</p>
+(<b>bool</b>) <i>(Optional)</i><br>
+
+
+<p style='color:__sett-att-color__'>$post_author</p>
+(<b>int</b>) <i>(Optional)</i><br>
+
+
+<p style='color:__sett-att-color__'>$public_only</p>
+(<b>bool</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(string) SQL WHERE code that can be added to a query.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/get_posts_by_author_sql'/>See more</a></p>]]>
+	</description_html>
+</snippet>

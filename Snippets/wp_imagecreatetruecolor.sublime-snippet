@@ -1,0 +1,40 @@
+
+<snippet>
+	<content><![CDATA[wp_imagecreatetruecolor(${1:\$width}, ${2:\$height});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>wp_imagecreatetruecolor</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Create new GD image resource with transparency support]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Create new GD image resource with transparency support</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$width</p>
+(<b>int</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$height</p>
+(<b>int</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(resource) The GD image resource.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/wp_imagecreatetruecolor'/>See more</a></p>]]>
+	</description_html>
+</snippet>

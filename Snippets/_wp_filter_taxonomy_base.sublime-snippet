@@ -1,0 +1,36 @@
+
+<snippet>
+	<content><![CDATA[_wp_filter_taxonomy_base(${1:\$base});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>_wp_filter_taxonomy_base</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Filters the URL base for taxonomies.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Filters the URL base for taxonomies.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$base</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(string) 
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/_wp_filter_taxonomy_base'/>See more</a></p>]]>
+	</description_html>
+</snippet>

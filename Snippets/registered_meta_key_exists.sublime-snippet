@@ -1,0 +1,40 @@
+
+<snippet>
+	<content><![CDATA[registered_meta_key_exists(${1:\$object_type}, ${2:\$meta_key});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>registered_meta_key_exists</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Checks if a meta key is registered.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Checks if a meta key is registered.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$object_type</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$meta_key</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(bool) True if the meta key is registered to the object type. False if not.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/registered_meta_key_exists'/>See more</a></p>]]>
+	</description_html>
+</snippet>

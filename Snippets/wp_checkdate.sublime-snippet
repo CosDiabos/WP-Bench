@@ -1,0 +1,48 @@
+
+<snippet>
+	<content><![CDATA[wp_checkdate(${1:\$month}, ${2:\$day}, ${3:\$year}, ${4:\$source_date});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>wp_checkdate</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Test if the supplied date is valid for the Gregorian calendar.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Test if the supplied date is valid for the Gregorian calendar.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$month</p>
+(<b>int</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$day</p>
+(<b>int</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$year</p>
+(<b>int</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$source_date</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(bool) True if valid date, false if not valid date.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/wp_checkdate'/>See more</a></p>]]>
+	</description_html>
+</snippet>

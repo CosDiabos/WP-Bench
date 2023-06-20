@@ -1,0 +1,36 @@
+
+<snippet>
+	<content><![CDATA[get_the_category(${1:\$id});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>get_the_category</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Retrieve post categories.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Retrieve post categories.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$id</p>
+(<b>int</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(array) Array of WP_Term objects, one for each category assigned to the post.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/get_the_category'/>See more</a></p>]]>
+	</description_html>
+</snippet>

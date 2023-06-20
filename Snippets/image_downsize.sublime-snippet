@@ -1,0 +1,40 @@
+
+<snippet>
+	<content><![CDATA[image_downsize(${1:\$id}, ${2:\$size});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>image_downsize</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Scale an image to fit a particular size (such as ‘thumb’ or ‘medium’).]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Scale an image to fit a particular size (such as ‘thumb’ or ‘medium’).</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$id</p>
+(<b>int</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$size</p>
+(<b>array</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(false|array) Array containing the image URL, width, height, and boolean for whether                     the image is an intermediate size. False on failure.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/image_downsize'/>See more</a></p>]]>
+	</description_html>
+</snippet>

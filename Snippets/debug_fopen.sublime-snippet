@@ -1,0 +1,40 @@
+
+<snippet>
+	<content><![CDATA[debug_fopen(${1:\$filename}, ${2:\$mode});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>debug_fopen</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Open the file handle for debugging.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Open the file handle for debugging.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$filename</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$mode</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(false) Always false.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/debug_fopen'/>See more</a></p>]]>
+	</description_html>
+</snippet>

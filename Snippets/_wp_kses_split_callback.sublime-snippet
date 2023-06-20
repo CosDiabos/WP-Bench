@@ -1,0 +1,33 @@
+
+<snippet>
+	<content><![CDATA[_wp_kses_split_callback();
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>_wp_kses_split_callback</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Callback for wp_kses_split.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Callback for wp_kses_split.</p>
+
+
+------------<br>
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+
+			File: wp-includes/kses.php		
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/_wp_kses_split_callback'/>See more</a></p>]]>
+	</description_html>
+</snippet>

@@ -1,0 +1,37 @@
+
+<snippet>
+	<content><![CDATA[_remove_theme_support(${1:\$feature});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>_remove_theme_support</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Do not use. Removes theme support internally, ignorant of the blacklist.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Do not use. Removes theme support internally, ignorant of the blacklist.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$feature</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+
+			File: wp-includes/theme.php		
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/_remove_theme_support'/>See more</a></p>]]>
+	</description_html>
+</snippet>

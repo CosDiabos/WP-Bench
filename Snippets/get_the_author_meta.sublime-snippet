@@ -1,0 +1,40 @@
+
+<snippet>
+	<content><![CDATA[get_the_author_meta(${1:\$field}, ${2:\$user_id});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>get_the_author_meta</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Retrieves the requested data of the author of the current post.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Retrieves the requested data of the author of the current post.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$field</p>
+(<b>string</b>) <i>(Optional)</i><br>
+
+
+<p style='color:__sett-att-color__'>$user_id</p>
+(<b>int</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(string) The author's field from the current author's DB object, otherwise an empty string.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/get_the_author_meta'/>See more</a></p>]]>
+	</description_html>
+</snippet>

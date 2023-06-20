@@ -1,0 +1,32 @@
+
+<snippet>
+	<content><![CDATA[twentyeleven_theme_options_add_page();
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>twentyeleven_theme_options_add_page</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Add a theme options page to the admin menu, including some help documentation.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Add a theme options page to the admin menu, including some help documentation.</p>
+
+
+------------<br>
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+None
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/twentyeleven_theme_options_add_page'/>See more</a></p>]]>
+	</description_html>
+</snippet>

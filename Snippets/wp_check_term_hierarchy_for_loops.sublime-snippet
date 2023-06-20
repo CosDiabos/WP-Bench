@@ -1,0 +1,44 @@
+
+<snippet>
+	<content><![CDATA[wp_check_term_hierarchy_for_loops(${1:\$parent}, ${2:\$term_id}, ${3:\$taxonomy});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>wp_check_term_hierarchy_for_loops</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Checks the given subset of the term hierarchy for hierarchy loops.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Checks the given subset of the term hierarchy for hierarchy loops.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$parent</p>
+(<b>int</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$term_id</p>
+(<b>int</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$taxonomy</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(int) The new parent for the term.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/wp_check_term_hierarchy_for_loops'/>See more</a></p>]]>
+	</description_html>
+</snippet>

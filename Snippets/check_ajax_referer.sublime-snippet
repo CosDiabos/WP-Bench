@@ -1,0 +1,44 @@
+
+<snippet>
+	<content><![CDATA[check_ajax_referer(${1:\$action}, ${2:\$query_arg}, ${3:\$die});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>check_ajax_referer</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Verifies the Ajax request to prevent processing requests external of the blog.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Verifies the Ajax request to prevent processing requests external of the blog.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$action</p>
+(<b>int</b>) <i>(Optional)</i><br>
+
+
+<p style='color:__sett-att-color__'>$query_arg</p>
+(<b>false</b>) <i>(Optional)</i><br>
+
+
+<p style='color:__sett-att-color__'>$die</p>
+(<b>bool</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(false|int) False if the nonce is invalid, 1 if the nonce is valid and generated between                   0-12 hours ago, 2 if the nonce is valid and generated between 12-24 hours ago.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/check_ajax_referer'/>See more</a></p>]]>
+	</description_html>
+</snippet>

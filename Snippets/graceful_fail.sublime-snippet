@@ -1,0 +1,32 @@
+
+<snippet>
+	<content><![CDATA[graceful_fail();
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>graceful_fail</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Deprecated functionality to gracefully fail.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Deprecated functionality to gracefully fail.</p>
+
+
+------------<br>
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+None
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/graceful_fail'/>See more</a></p>]]>
+	</description_html>
+</snippet>

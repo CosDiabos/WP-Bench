@@ -1,0 +1,36 @@
+
+<snippet>
+	<content><![CDATA[addslashes_gpc(${1:\$gpc});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>addslashes_gpc</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Adds slashes to escape strings.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Adds slashes to escape strings.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$gpc</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(string) Returns a string escaped with slashes.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/addslashes_gpc'/>See more</a></p>]]>
+	</description_html>
+</snippet>

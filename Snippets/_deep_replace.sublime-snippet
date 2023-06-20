@@ -1,0 +1,40 @@
+
+<snippet>
+	<content><![CDATA[_deep_replace(${1:\$search}, ${2:\$subject});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>_deep_replace</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Perform a deep string replace operation to ensure the values in $search are no longer present]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Perform a deep string replace operation to ensure the values in $search are no longer present</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$search</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$subject</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(string) The string with the replaced svalues.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/_deep_replace'/>See more</a></p>]]>
+	</description_html>
+</snippet>

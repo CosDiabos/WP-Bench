@@ -1,0 +1,32 @@
+
+<snippet>
+	<content><![CDATA[upgrade_280();
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>upgrade_280</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Execute changes made in WordPress 2.8.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Execute changes made in WordPress 2.8.</p>
+
+
+------------<br>
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+None
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/upgrade_280'/>See more</a></p>]]>
+	</description_html>
+</snippet>

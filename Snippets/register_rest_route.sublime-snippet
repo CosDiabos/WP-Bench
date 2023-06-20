@@ -1,0 +1,48 @@
+
+<snippet>
+	<content><![CDATA[register_rest_route(${1:\$namespace}, ${2:\$route}, ${3:\$args}, ${4:\$override});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>register_rest_route</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Registers a REST API route.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Registers a REST API route.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$namespace</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$route</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$args</p>
+(<b>array</b>) <i>(Optional)</i><br>
+
+
+<p style='color:__sett-att-color__'>$override</p>
+(<b>bool</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(bool) True on success, false on error.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/register_rest_route'/>See more</a></p>]]>
+	</description_html>
+</snippet>

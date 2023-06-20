@@ -1,0 +1,32 @@
+
+<snippet>
+	<content><![CDATA[remove_theme_mods();
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>remove_theme_mods</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Remove theme modifications option for current theme.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Remove theme modifications option for current theme.</p>
+
+
+------------<br>
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+None
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/remove_theme_mods'/>See more</a></p>]]>
+	</description_html>
+</snippet>

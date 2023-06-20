@@ -1,0 +1,40 @@
+
+<snippet>
+	<content><![CDATA[wp_rand(${1:\$min}, ${2:\$max});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>wp_rand</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Generates a random number]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Generates a random number</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$min</p>
+(<b>int</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$max</p>
+(<b>int</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(int) A random number between min and max
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/wp_rand'/>See more</a></p>]]>
+	</description_html>
+</snippet>

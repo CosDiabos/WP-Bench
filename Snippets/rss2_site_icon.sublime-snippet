@@ -1,0 +1,32 @@
+
+<snippet>
+	<content><![CDATA[rss2_site_icon();
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>rss2_site_icon</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Displays Site Icon in RSS2.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Displays Site Icon in RSS2.</p>
+
+
+------------<br>
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+None
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/rss2_site_icon'/>See more</a></p>]]>
+	</description_html>
+</snippet>

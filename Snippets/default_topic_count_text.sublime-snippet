@@ -1,0 +1,36 @@
+
+<snippet>
+	<content><![CDATA[default_topic_count_text(${1:\$count});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>default_topic_count_text</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Old callback for tag link tooltips.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Old callback for tag link tooltips.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$count</p>
+(<b>int</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(int) Number of topics.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/default_topic_count_text'/>See more</a></p>]]>
+	</description_html>
+</snippet>

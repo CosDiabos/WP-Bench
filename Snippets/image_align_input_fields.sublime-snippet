@@ -1,0 +1,40 @@
+
+<snippet>
+	<content><![CDATA[image_align_input_fields(${1:\$post}, ${2:\$checked});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>image_align_input_fields</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Retrieve HTML for the image alignment radio buttons with the specified one checked.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Retrieve HTML for the image alignment radio buttons with the specified one checked.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$post</p>
+(<b>WP_Post</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$checked</p>
+(<b>string</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(string) 
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/image_align_input_fields'/>See more</a></p>]]>
+	</description_html>
+</snippet>

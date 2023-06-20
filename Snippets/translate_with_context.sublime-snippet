@@ -1,0 +1,40 @@
+
+<snippet>
+	<content><![CDATA[translate_with_context(${1:\$text}, ${2:\$domain});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>translate_with_context</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Translates $text like translate(), but assumes that the text contains a context after its last vertical bar.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Translates $text like translate(), but assumes that the text contains a context after its last vertical bar.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$text</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$domain</p>
+(<b>string</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(string) Translated text
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/translate_with_context'/>See more</a></p>]]>
+	</description_html>
+</snippet>

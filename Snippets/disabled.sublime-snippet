@@ -1,0 +1,44 @@
+
+<snippet>
+	<content><![CDATA[disabled(${1:\$disabled}, ${2:\$current}, ${3:\$echo});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>disabled</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Outputs the html disabled attribute.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Outputs the html disabled attribute.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$disabled</p>
+(<b>mixed</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$current</p>
+(<b>mixed</b>) <i>(Optional)</i><br>
+
+
+<p style='color:__sett-att-color__'>$echo</p>
+(<b>bool</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(string) html attribute or empty string
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/disabled'/>See more</a></p>]]>
+	</description_html>
+</snippet>

@@ -1,0 +1,51 @@
+
+<snippet>
+	<content><![CDATA[add_custom_image_header(${1:\$wp_head_callback}, ${2:\$admin_head_callback}, ${3:\$admin_preview_callback});
+
+function ${1:a} (${12:$$var=''}) {
+	${13:#Code...}
+}function ${2:a} (${13:$$var=''}) {
+	${14:#Code...}
+}function ${3:a} (${14:$$var=''}) {
+	${15:#Code...}
+}
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>add_custom_image_header</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Add callbacks for image header display.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Add callbacks for image header display.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$wp_head_callback</p>
+(<b>callable</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$admin_head_callback</p>
+(<b>callable</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$admin_preview_callback</p>
+(<b>callable</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+
+			File: wp-includes/deprecated.php		
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/add_custom_image_header'/>See more</a></p>]]>
+	</description_html>
+</snippet>

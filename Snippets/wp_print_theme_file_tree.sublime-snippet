@@ -1,0 +1,49 @@
+
+<snippet>
+	<content><![CDATA[wp_print_theme_file_tree(${1:\$tree}, ${2:\$level}, ${3:\$size}, ${4:\$index});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>wp_print_theme_file_tree</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Outputs the formatted file list for the Theme Editor.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Outputs the formatted file list for the Theme Editor.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$tree</p>
+(<b>array</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$level</p>
+(<b>int</b>) <i>(Optional)</i><br>
+
+
+<p style='color:__sett-att-color__'>$size</p>
+(<b>int</b>) <i>(Optional)</i><br>
+
+
+<p style='color:__sett-att-color__'>$index</p>
+(<b>int</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+
+			File: wp-admin/includes/misc.php		
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/wp_print_theme_file_tree'/>See more</a></p>]]>
+	</description_html>
+</snippet>

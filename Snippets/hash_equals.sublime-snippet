@@ -1,0 +1,40 @@
+
+<snippet>
+	<content><![CDATA[hash_equals(${1:\$a}, ${2:\$b});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>hash_equals</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Timing attack safe string comparison]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Timing attack safe string comparison</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$a</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$b</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(bool) Whether strings are equal.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/hash_equals'/>See more</a></p>]]>
+	</description_html>
+</snippet>

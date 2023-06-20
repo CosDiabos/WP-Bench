@@ -1,0 +1,36 @@
+
+<snippet>
+	<content><![CDATA[sanitize_title_for_query(${1:\$title});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>sanitize_title_for_query</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Sanitizes a title with the ‘query’ context.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Sanitizes a title with the ‘query’ context.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$title</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(string) The sanitized string.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/sanitize_title_for_query'/>See more</a></p>]]>
+	</description_html>
+</snippet>

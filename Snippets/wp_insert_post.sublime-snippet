@@ -1,0 +1,40 @@
+
+<snippet>
+	<content><![CDATA[wp_insert_post(${1:\$postarr}, ${2:\$wp_error});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>wp_insert_post</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Insert or update a post.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Insert or update a post.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$postarr</p>
+(<b>array</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$wp_error</p>
+(<b>bool</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(int|WP_Error) The post ID on success. The value 0 or WP_Error on failure.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/wp_insert_post'/>See more</a></p>]]>
+	</description_html>
+</snippet>

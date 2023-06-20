@@ -1,0 +1,32 @@
+
+<snippet>
+	<content><![CDATA[__clear_multi_author_cache();
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>__clear_multi_author_cache</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Helper function to clear the cache for number of authors.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Helper function to clear the cache for number of authors.</p>
+
+
+------------<br>
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+None
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/__clear_multi_author_cache'/>See more</a></p>]]>
+	</description_html>
+</snippet>

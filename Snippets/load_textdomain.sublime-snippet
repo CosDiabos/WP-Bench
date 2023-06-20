@@ -1,0 +1,40 @@
+
+<snippet>
+	<content><![CDATA[load_textdomain(${1:\$domain}, ${2:\$mofile});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>load_textdomain</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Load a .mo file into the text domain $domain.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Load a .mo file into the text domain $domain.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$domain</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$mofile</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(bool) True on success, false on failure.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/load_textdomain'/>See more</a></p>]]>
+	</description_html>
+</snippet>

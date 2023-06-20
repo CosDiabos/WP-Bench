@@ -1,0 +1,52 @@
+
+<snippet>
+	<content><![CDATA[wp_register_script(${1:\$handle}, ${2:\$src}, ${3:\$deps}, ${4:\$ver}, ${5:\$in_footer});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>wp_register_script</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Register a new script.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Register a new script.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$handle</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$src</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$deps</p>
+(<b>array</b>) <i>(Optional)</i><br>
+
+
+<p style='color:__sett-att-color__'>$ver</p>
+(<b>string</b>) <i>(Optional)</i><br>
+
+
+<p style='color:__sett-att-color__'>$in_footer</p>
+(<b>bool</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(bool) Whether the script has been registered. True on success, false on failure.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/wp_register_script'/>See more</a></p>]]>
+	</description_html>
+</snippet>

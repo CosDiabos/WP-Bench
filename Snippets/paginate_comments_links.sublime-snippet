@@ -1,0 +1,36 @@
+
+<snippet>
+	<content><![CDATA[paginate_comments_links(${1:\$args});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>paginate_comments_links</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Displays or retrieves pagination links for the comments on the current post.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Displays or retrieves pagination links for the comments on the current post.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$args</p>
+(<b>string</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(string|void) Markup for pagination links.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/paginate_comments_links'/>See more</a></p>]]>
+	</description_html>
+</snippet>

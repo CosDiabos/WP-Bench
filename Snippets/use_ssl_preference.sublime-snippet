@@ -1,0 +1,37 @@
+
+<snippet>
+	<content><![CDATA[use_ssl_preference(${1:\$user});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>use_ssl_preference</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Optional SSL preference that can be turned on by hooking to the ‘personal_options’ action.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Optional SSL preference that can be turned on by hooking to the ‘personal_options’ action.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$user</p>
+(<b>object</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+
+			File: wp-admin/includes/user.php		
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/use_ssl_preference'/>See more</a></p>]]>
+	</description_html>
+</snippet>

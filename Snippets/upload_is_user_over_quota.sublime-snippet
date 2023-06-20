@@ -1,0 +1,36 @@
+
+<snippet>
+	<content><![CDATA[upload_is_user_over_quota(${1:\$echo});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>upload_is_user_over_quota</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Check whether a site has used its allotted upload space.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Check whether a site has used its allotted upload space.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$echo</p>
+(<b>bool</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(bool) True if user is over upload space quota, otherwise false.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/upload_is_user_over_quota'/>See more</a></p>]]>
+	</description_html>
+</snippet>

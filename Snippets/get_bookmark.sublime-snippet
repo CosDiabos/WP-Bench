@@ -1,0 +1,44 @@
+
+<snippet>
+	<content><![CDATA[get_bookmark(${1:\$bookmark}, ${2:\$output}, ${3:\$filter});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>get_bookmark</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Retrieve Bookmark data]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Retrieve Bookmark data</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$bookmark</p>
+(<b>int</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$output</p>
+(<b>string</b>) <i>(Optional)</i><br>
+
+
+<p style='color:__sett-att-color__'>$filter</p>
+(<b>string</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(array|object|null) Type returned depends on $output value.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/get_bookmark'/>See more</a></p>]]>
+	</description_html>
+</snippet>

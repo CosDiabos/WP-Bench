@@ -1,0 +1,44 @@
+
+<snippet>
+	<content><![CDATA[RandomCompat_substr(${1:\$binary_string}, ${2:\$start}, ${3:\$length});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>RandomCompat_substr</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[substr() implementation that isn’t brittle to mbstring.func_overload]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>substr() implementation that isn’t brittle to mbstring.func_overload</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$binary_string</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$start</p>
+(<b>int</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$length</p>
+(<b>int</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(string) 
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/RandomCompat_substr'/>See more</a></p>]]>
+	</description_html>
+</snippet>

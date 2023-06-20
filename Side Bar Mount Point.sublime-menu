@@ -1,0 +1,8 @@
+[{
+	"id": "WPB-sidemenu",
+	"caption": "WP-Bench",
+	"children": [
+		{ "id": "WPB-plugin", "caption": "Create Plugin Structure", "command": "create_base_plugin", "args":{"dirs":[]} },
+		{ "id": "WPB-theme", "caption": "Create Theme Structure", "command": "create_base_theme", "args":{"dirs":[]} }
+	]
+}]

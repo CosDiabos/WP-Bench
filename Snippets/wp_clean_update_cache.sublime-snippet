@@ -1,0 +1,32 @@
+
+<snippet>
+	<content><![CDATA[wp_clean_update_cache();
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>wp_clean_update_cache</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Clear existing update caches for plugins, themes, and core.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Clear existing update caches for plugins, themes, and core.</p>
+
+
+------------<br>
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+None
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/wp_clean_update_cache'/>See more</a></p>]]>
+	</description_html>
+</snippet>

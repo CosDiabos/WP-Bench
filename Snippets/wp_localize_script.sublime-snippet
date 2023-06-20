@@ -1,0 +1,44 @@
+
+<snippet>
+	<content><![CDATA[wp_localize_script(${1:\$handle}, ${2:\$object_name}, ${3:\$l10n});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>wp_localize_script</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Localize a script.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Localize a script.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$handle</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$object_name</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$l10n</p>
+(<b>array</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(bool) True if the script was successfully localized, false otherwise.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/wp_localize_script'/>See more</a></p>]]>
+	</description_html>
+</snippet>

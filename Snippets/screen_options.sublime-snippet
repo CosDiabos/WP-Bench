@@ -1,0 +1,32 @@
+
+<snippet>
+	<content><![CDATA[screen_options();
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>screen_options</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Returns the screen’s per-page options.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Returns the screen’s per-page options.</p>
+
+
+------------<br>
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+None
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/screen_options'/>See more</a></p>]]>
+	</description_html>
+</snippet>

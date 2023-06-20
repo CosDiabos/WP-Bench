@@ -1,0 +1,44 @@
+
+<snippet>
+	<content><![CDATA[wp_register(${1:\$before}, ${2:\$after}, ${3:\$echo});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>wp_register</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Display the Registration or Admin link.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Display the Registration or Admin link.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$before</p>
+(<b>string</b>) <i>(Optional)</i><br>
+
+
+<p style='color:__sett-att-color__'>$after</p>
+(<b>string</b>) <i>(Optional)</i><br>
+
+
+<p style='color:__sett-att-color__'>$echo</p>
+(<b>bool</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(string|void) String when retrieving.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/wp_register'/>See more</a></p>]]>
+	</description_html>
+</snippet>

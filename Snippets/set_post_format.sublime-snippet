@@ -1,0 +1,40 @@
+
+<snippet>
+	<content><![CDATA[set_post_format(${1:\$post}, ${2:\$format});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>set_post_format</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Assign a format to a post]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Assign a format to a post</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$post</p>
+(<b>int</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$format</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(array|WP_Error|false) WP_Error on error. Array of affected term IDs on success.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/set_post_format'/>See more</a></p>]]>
+	</description_html>
+</snippet>

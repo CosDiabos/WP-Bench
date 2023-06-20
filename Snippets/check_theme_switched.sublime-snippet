@@ -1,0 +1,32 @@
+
+<snippet>
+	<content><![CDATA[check_theme_switched();
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>check_theme_switched</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Checks if a theme has been changed and runs ‘after_switch_theme’ hook on the next WP load.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Checks if a theme has been changed and runs ‘after_switch_theme’ hook on the next WP load.</p>
+
+
+------------<br>
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+None
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/check_theme_switched'/>See more</a></p>]]>
+	</description_html>
+</snippet>

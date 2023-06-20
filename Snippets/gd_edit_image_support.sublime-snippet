@@ -1,0 +1,36 @@
+
+<snippet>
+	<content><![CDATA[gd_edit_image_support(${1:\$mime_type});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>gd_edit_image_support</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Check if the installed version of GD supports particular image type]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Check if the installed version of GD supports particular image type</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$mime_type</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(bool) 
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/gd_edit_image_support'/>See more</a></p>]]>
+	</description_html>
+</snippet>

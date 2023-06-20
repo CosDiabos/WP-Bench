@@ -1,0 +1,40 @@
+
+<snippet>
+	<content><![CDATA[timer_stop(${1:\$display}, ${2:\$precision});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>timer_stop</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Retrieve or display the time from the page start to when function is called.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Retrieve or display the time from the page start to when function is called.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$display</p>
+(<b>int</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$precision</p>
+(<b>int</b>) <i>(Optional)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(string) The "second.microsecond" finished time calculation. The number is formatted                for human consumption, both localized and rounded.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/timer_stop'/>See more</a></p>]]>
+	</description_html>
+</snippet>

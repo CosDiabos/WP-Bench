@@ -1,0 +1,36 @@
+
+<snippet>
+	<content><![CDATA[check_import_new_users(${1:\$permission});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>check_import_new_users</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Checks if the current user has permissions to import new users.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Checks if the current user has permissions to import new users.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$permission</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(bool) True if the user has proper permissions, false if they do not.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/check_import_new_users'/>See more</a></p>]]>
+	</description_html>
+</snippet>

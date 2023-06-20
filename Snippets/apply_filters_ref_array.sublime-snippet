@@ -1,0 +1,40 @@
+
+<snippet>
+	<content><![CDATA[apply_filters_ref_array(${1:\$tag}, ${2:\$args});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>apply_filters_ref_array</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Execute functions hooked on a specific filter hook, specifying arguments in an array.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Execute functions hooked on a specific filter hook, specifying arguments in an array.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$tag</p>
+(<b>string</b>) <i>(Required)</i><br>
+
+
+<p style='color:__sett-att-color__'>$args</p>
+(<b>array</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(mixed) The filtered value after all hooked functions are applied to it.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/apply_filters_ref_array'/>See more</a></p>]]>
+	</description_html>
+</snippet>

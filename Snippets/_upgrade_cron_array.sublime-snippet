@@ -1,0 +1,36 @@
+
+<snippet>
+	<content><![CDATA[_upgrade_cron_array(${1:\$cron});
+
+
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>_upgrade_cron_array</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>
+	<![CDATA[Upgrade a Cron info array.]]>
+	</description>
+	<description_html>
+	<![CDATA[<p class='desc'>Upgrade a Cron info array.</p>
+
+
+------------<br>
+<p style='color:__sett-att-color__'>$cron</p>
+(<b>array</b>) <i>(Required)</i><br>
+
+
+
+
+<br><br>------------<br><br>
+
+
+Returns: <br>
+(array) An upgraded Cron info array.
+
+
+ <p class='footer'><a style='color:__sett-footer-color__' href='https://developer.wordpress.org/reference/functions/_upgrade_cron_array'/>See more</a></p>]]>
+	</description_html>
+</snippet>
