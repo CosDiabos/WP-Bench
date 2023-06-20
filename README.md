@@ -38,7 +38,10 @@ Clone the repository into your Package folder inside ST3 folder. To find your ST
 - Customizable structure by JSON;
 - Scrappes WP reference documentation to keep snippets up-to-date.
 
+
 ## Folder Structure
+
+```
 .
 ├── Snippets/
 │   └── [...].sublime-snippet      # All generated snippets
@@ -47,6 +50,7 @@ Clone the repository into your Package folder inside ST3 folder. To find your ST
 │   ├── scrapper.py      # Info scrapper for each function, generates each 'function.sublime-snippet'
 │   └── wp_all_funcs.txt      # Collection of all codex functions, CSV style.
 └── WP--bench.py
+```
 
 ## Settings
 
