@@ -70,6 +70,62 @@ To change the default snippets folder, edit ```snippets_dirname``` var on [WP-Be
 
 Edit ThemeBase.json or PluginBase.json to add or remove files from the default structure.
 
+ThemeBase.json
+```
+.
+├── assets (dir)/
+│   ├── css (dir)/
+│   │   └── index.php
+│   ├── images (dir)/
+│   │   └── index.php
+│   └── js (dir)/
+│       └── index.php
+├── inc (dir)/
+│   └── index.php
+├── template-parts (dir)/
+│   └── index.php
+├── 404.php
+├── archive.php
+├── comments.php
+├── footer.php
+├── front-page.php
+├── functions.php
+├── header.php
+├── index.php
+├── page.php
+├── README.txt
+├── rtl.css
+├── screenshot.png
+├── search.php
+├── searchform.php
+├── sidebar.php
+├── single.php
+└── style.css
+```
+
+PluginBase.json
+```
+.
+└── plugin-name/
+    ├── /languages/
+    │   └── index.php
+    ├── /includes/
+    │   └── index.php
+    ├── /admin/
+    │   ├── /js/
+    │   │   └── index.php
+    │   ├── /css/
+    │   │   └── index.php
+    │   └── /images/
+    │       └── index.php
+    ├── /public/
+    │   ├── /js
+    │   ├── /css
+    │   └── /images
+    ├── plugin-name.php
+    └── uninstall.php
+```
+
 ## Documentation
 
 None at the moment.
