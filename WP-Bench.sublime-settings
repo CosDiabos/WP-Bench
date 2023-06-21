@@ -6,5 +6,7 @@
 			"ArgColor": "Orange",
 			"FooterLinkColor": ""
 		},
-	]
+	],
+	"PluginOverwriteFiles":0,
+	"ThemeOverwriteFiles":0,
 }

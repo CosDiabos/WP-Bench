@@ -95,24 +95,24 @@
       "type": "directory",
       "children": [
             {
-              "path": "public/languages/index.php",
+              "path": "languages/index.php",
               "name": "index.php",
               "type": "file"
             }
           ]
         },
-        {
+    {
       "path": "includes",
-      "name": "languages",
+      "name": "includes",
       "type": "directory",
       "children": [
-            {
-              "path": "public/includes/index.php",
-              "name": "index.php",
-              "type": "file"
-            }
-          ]
-        },
+        {
+          "path": "includes/index.php",
+          "name": "index.php",
+          "type": "file"
+        }
+      ]
+    },
     
     {
       "path": "%plugin-name.php",

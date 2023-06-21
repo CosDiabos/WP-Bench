@@ -24,6 +24,7 @@ The file [scrapper-funcs.py](scrapper-funcs.py) takes a first pass to get all th
 
 Scrappers require Python 3 + [lxml](https://pypi.org/project/lxml/) installed to properly work.
 
+
 ## Install
 
 Clone the repository into your Package folder inside ST3 folder. To find your ST3 folder go to “Preferences -> Browse Packages”.
@@ -34,8 +35,8 @@ Clone the repository into your Package folder inside ST3 folder. To find your ST
 - Functions auto-complete;
 - Functions snippets;
 - Popup with function documentation based on WP Codex;
-- Basic folder structure and files generation for themes and plugins;
-- Customizable structure by JSON;
+- Creates basic folder and file scaffold for themes and plugins;
+- Customizable scaffold by JSON;
 - Scrappes WP reference documentation to keep snippets up-to-date.
 
 
@@ -58,9 +59,12 @@ Clone the repository into your Package folder inside ST3 folder. To find your ST
 
 ShowOnOver = 1\*\|0 :: On hover tooltip
 
-PluginOverwriteFiles = 1|0\* :: Overwrite existing files when creating file structure
+PluginOverwriteFiles = 1|0\* :: Overwrite existing files when creating folder/file structure
 
-ThemeOverwriteFiles = 1|0\* :: Overwrite existing files when creating file structure
+ThemeOverwriteFiles = 1|0\* :: Overwrite existing files when creating folder/file structure
+
+
+To change the default snippets folder, edit ```snippets_dirname``` var on [WP-Bench.py](WP-Bench.py)
 
 ## Customize the default theme or plugin structure
 

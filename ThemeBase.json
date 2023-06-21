@@ -52,7 +52,7 @@
       "type": "directory",
       "children": [
             {
-              "path": "public/inc/index.php",
+              "path": "inc/index.php",
               "name": "index.php",
               "type": "file"
             }
